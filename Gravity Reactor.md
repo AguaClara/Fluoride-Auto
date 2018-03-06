@@ -57,7 +57,7 @@ print(hfModel)
 Qpacl=.00475*(u.milliliter)/(u.second)
 Qpacl.to(u.m*u.m*u.m/u.s)
 Dpacl=.000508*(u.m)
-#Use microbore inner diameter of 1/50 inches 
+#Use microbore inner diameter of 1/50 inches
 Apacl=np.pi*Dpacl*Dpacl/4
 print(Apacl)
 vpacl=Qpacl/Apacl
