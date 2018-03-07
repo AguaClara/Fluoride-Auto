@@ -52,6 +52,20 @@ shearG = fm.g_coil(Q,D,R_c,T)
 print(shearG)
 hfModel=((shearG**2)*vis*L/v/g).to(u.m)
 print(hfModel)
+
+
+Qpacl=.00475*(u.milliliter)/(u.second)
+Qpacl.to(u.m*u.m*u.m/u.s)
+Dpacl=.000508*(u.m)
+#Use microbore inner diameter of 1/50 inches
+Apacl=np.pi*Dpacl*Dpacl/4
+print(Apacl)
+vpacl=Qpacl/Apacl
+print(vpacl)
+headP=.05*(u.meter)
+Lpacl=headP*g*Dpacl*Dpacl/32/vis/vpacl
+Lpacl.to(u.m)
+print(Lpacl)
 #fricfactor=(64*vis.to(u.m*u.m/u.s))/(v.to(u.m/u.s)*D.to(u.m))
 #print(fricfactor)
 #h2 = fricfactor * (8/(g*np.pi*np.pi))*(L*Q.to(u.m*u.m*u.m/u.s)**2)/(D.to(u.m)**5)
