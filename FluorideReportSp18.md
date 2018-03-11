@@ -94,6 +94,9 @@ Explain your apparatus setup using enough detail such that future teams can recr
 ## Future Work
 Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
+The team is currently still in the process of calculating all the parameters necessary for the design of the lab scale, gravity powered fluoride removal system. More specifically, there are a few additional details with respect to where the height of coagulant stock tanks are placed in order to get the desired concentration of coagulant into the system. In order to do this calculation, the team has been working on python code employing functions in the aide_design package. However, the values calculated by the aide_design functions currently do not directly coincide with the old Mathcad functions, and it is not known where the inconsistencies lie between the two programs.
+The team is also working on trying to use Fusion 360 to create a drawing of the designed process. In the coming weeks, the team will continue to work on the Fusion 360 drawings as well as continue to work on the python code and calculations. Following this, the team will build the designed set up in the lab space and begin testing.
+
 ## Bibliography
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
 Health, 1(2).
