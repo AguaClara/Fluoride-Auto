@@ -1,23 +1,17 @@
 # Fluoride, Spring 2018
-#### Victoria Zhang, Philip Akpan, Tigran Mehrabyan, and Desiree Sausele
+#### Philip Akpan, Tigran Mehrabyan, Desiree Sausele, and Victoria Zhang
 #### February 20, 2018
 
 
 ## Abstract
-(need to make 100 words)
-
-The Fluoride subteam seeks to develop a sustainable, inexpensive fluoride removal system for implementation in upcoming AguaClara plants located in India. After earning an EPA Phase II grant for the Spring 2016 fluoride removal reactor, the subteam continued to improve fluoride purification by testing lab-scale systems consisting of either a single reactor or two reactors in series. During the experimentation process, clay was incorporated into the influent stream to abate PACl buildup at the bottom of the reactors. As the subteam seeks to transplant their setup to India, it is currently working to optimize fluoride removal by minimizing use of resources. Thus, the team is currently trying to eliminate the use of clay and lower PACl dosages by increasing upflow velocity and further redesigning its reactor. Initial tests suggested insufficient fluoride removal for potable effluent, but the team is looking to repeat its previous experiments using the summer 2017 High Rate Sedimentation subteam's reactor design.
+The Fluoride subteam seeks to develop a sustainable, inexpensive fluoride removal system for implementation in upcoming AguaClara plants located in India. Using the apparatus developed by previous semesters, the team continued running experiments testing how various concentrations of PACl affect fluoride removal. However, complications with calibrating the fluoride probe required the team to shift its goals to designing a lab scale, gravity-powered system.  The team is now working to finalize a design and to begin construction of the new, electricity-free apparatus.  Once the system is functional, the team plans on running experiments to test its fluoride removal capabilities.
 
 ## Introduction
 With 85% of its drinking water sourced from groundwater, India is the largest user of groundwater in the world. In stark contrast to tap water sources in the United States that are supplemented with fluoride, India’s groundwater sources often display excess levels of fluoride due to rocks in aquifers that leak large amounts of fluoride into the water. Consequently, villagers  who rely on these well sources for water are at a high risk of overexposure to fluoride. The prevalence of dental fluorosis, an indicator of excessive fluoride concentrations, differs across India, but has been shown to range from 13-91 percent depending on the age group in question and the water source supplying the state or municipality [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf).
 
-In accordance with AguaClara's mission to create affordable, reliable, and sustainable water treatment solutions, the goal of the subteam is to treat groundwater with excessive fluoride concentrations. Teams from previous semesters analyzed the efficiency of fluoride removal by passing a coagulant, polyaluminum chloride (PACl), and a solution of fluoride through a sand filter. However, the sand filter was an inefficient method of removal because of the buildup of headloss from particles deposited in the sand filter that eventually prevented water from flowing through [(Dao et el., 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Thus, instead of using a traditional sand filter, the team researched a similar relationship between PACl and fluoride via a floc blanket reactor. In the floc blanket reactor, flocs of PACl and clay adsorbed the fluoride from the influent water. The flocs then overflowed into a floc weir as the floc blanket grew and the purified water flowed out the top of the reactor. This reactor was modeled after the floc blanket, floc weir, and plate settlers setup in the sedimentation tank of a typical AguaClara water treatment plant as shown in figure below.
+In accordance with AguaClara's mission to create affordable, reliable, and sustainable water treatment solutions, the goal of the subteam is to treat groundwater with excessive fluoride concentrations. Teams from previous semesters analyzed the efficiency of fluoride removal by passing a coagulant, polyaluminum chloride (PACl), and a solution of fluoride through a sand filter. However, the sand filter was an inefficient method of removal because of the buildup of headloss from particles deposited in the sand filter that eventually prevented water from flowing through [(Dao et el., 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Thus, instead of using a traditional sand filter, the team researched a similar relationship between PACl and fluoride via a floc blanket reactor. In the floc blanket reactor, flocs of PACl and clay adsorbed the fluoride from the influent water. The flocs then overflowed into a floc weir as the floc blanket grew and the purified water flowed out the top of the reactor. This reactor was modeled after the floc blanket, floc weir, and plate settlers setup in the sedimentation tank of a typical AguaClara water treatment plant. The team expected that the floc blanket reactor would be able to remove fluoride with a significantly higher efficiency than the sand filter from previous semesters and could run for extended periods of time due to the absence of headloss buildup in the reactor. The flocs in the floc blanket could exit the floc weir while the fluoride in the sand filter would build up and saturate the sand in a short amount of time [(Longo et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) [(Cheng et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
-<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactors.jpg?raw=true">
-
-The team expected that the floc blanket reactor would be able to remove fluoride with a significantly higher efficiency than the sand filter from previous semesters and could run for extended periods of time due to the absence of headloss buildup in the reactor. The flocs in the floc blanket could exit the floc weir while the fluoride in the sand filter would build up and saturate the sand in a short amount of time [(Longo et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) [(Cheng et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
-
-Last semester, the subteam continued the research performed from the summer of 2017, hoping to achieve high fluoride removal with the addition of clay. After switching to a new reactor designed by the High Rate Sedimentation team, the Fluoride subteam is testing different concentrations of PACl and different upflow velocities with the goal of lowering the fluoride concentration to 1.5 $mg/L$.
+Last semester, the subteam continued the research performed from the summer of 2017, hoping to achieve high fluoride removal with the addition of clay. After switching to a new reactor designed by the High Rate Sedimentation team, the Fluoride subteam tested different concentrations of PACl and different upflow velocities with the goal of lowering the fluoride concentration to 1.5 $mg/L$ [(Longo et al., 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). This semester's team was hoping to continue these tests and recreate the adsorption model developed last semester using tap water as opposed to deionized water standards. After discovering issues with the fluoride probe, the team altered its direction and began to design a gravity-powered system. If possible, a fluoride removal system that does not require electricity would be very beneficial to the communities in India that AguaClara plans to serve. Once this system has been constructed, the team can begin testing its ability to remove fluoride.
 
 ##Literature Review
 ####*Fluoride Limitations and Hazards*
@@ -38,7 +32,8 @@ In regards to other filtration methods, a study by Inganiella achieved 33.3% rem
 ####*Floc Blankets*
 Floc blankets develop when vertical flow sedimentation tanks form a fluidized bed of particles like the one in the figure below that then facilitates particle removal by “increasing particle-particle interactions that lead to flocculation and filtration occurring in the floc blanket” [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
 
-<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Flocs_in_Reactor.jpg?raw=true">
+<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
+
 
 The process of forming flocs requires both the precipitation of aluminum hydroxide from the coagulant and the contact with raw water colloidal particles [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf). Once the combination of precipitation and mixing forms small particles, these new flocs collide to form larger, more porous flocs that can then be used for clarification [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
 
@@ -56,7 +51,7 @@ The use of countercurrent flow for separation of clean and dirty water is a majo
 ## Previous Work
 In the spring of 2016, the team analyzed data that suggested that the sand filter system was inefficient and decided to move towards the idea of a single floc blanket reactor [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) Although the sand filter provided cheaper, more adequate removal of fluoride per milligram of PACl used, a key issue that arose with the sand filter was the system run time. The sand filter became saturated with PACl and fluoride too quickly and the head loss built up rapidly. In a matter of a couple of hours, the floc blanket was completely saturated to the point where it was no longer efficient or providing adequate removal of fluoride. Consequently, the system had to be backwashed too frequently to be an effective process (about every couple hours). On a much larger scale, such as a full size plant, a reduction in time to failure would require more maintenance than is feasible. In order to address this, the team fabricated a new reactor as seen in the figure below mirroring that of the floc blanket and plate settlers in the current AguaClara plants. The team set up a new apparatus fit with stock tanks, a reactor, a turbidimeter, a flocculator, and stock and waste pumps, referencing research  previously conducted on the relationship between the amount of coagulant added and head loss accumulation [(Dao, 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
-<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Old_Setup.jpg?raw=true">
+<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Old_Setup.jpg?raw=true" height=300, width=400>
 
 The team then developed a MathCad file to calculate flow rates of pumps from a given set of parameters including upflow velocity, tubing diameters, and reactor concentrations. The team also created a ProCoDA method file to turn the flow rates into RPMs for the pumps so that the process of changing PACl and fluoride concentrations within the reactor was more user-friendly.
 
@@ -66,15 +61,18 @@ In an effort to improve reactor efficiency, the team fabricated an entirely tran
 
 In the fall of 2016, the team fabricated a new bottom insert to prevent the accumulation of flocs that clogged the bottom of the reactor. The newly fabricated geometry with a smooth sloped bottom allowed for gradual flow expansion and the recirculation of the flocs that would have settled to the bottom of the reactor with the old bottom geometry as shown in the figure below.
 
-<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactor_Bottom.png?raw=true">
+<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
 
 Various concentrations of dye were tested (from 25 $\mathrm{\frac{mg}{L}}$ to 100 $\mathrm{\frac{mg}{L}}$) using a 1:1 PACl to dye ratio to see whether higher concentrations of dye would clog the reactor. However, even though increasing the concentration of dye increased the density of the floc blanket, the reactor did not clog and the bottom insert proved to be successful for these tests [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm,  the reactor failed in the long term as flocs built up and went through the tube settler to the turbidimeter in the long term. This suggested that there was a minimum height that a floc blanket would reach; thus the shorter reactor system was not feasible. [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
-During the final portion of the semester, the subteam performed 24-hour experiments with the longer reactor in order to compare its results with those of the CSFBR subteam. The CSFBR subteam had hypothesized that a species removal system composed of two reactors in series could lead to cleaner water than the Fluoride team's single reactor system. During each iteration, the two teams ran each system for approximately twenty four hours with the same red dye and PACl concentrations. However, the results of these experiments were inconclusive because the CSFBR team found that PACl would clog their system midway through each experiment; rendering the reactors incapable of further purification [(Dokko, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Countercurrent+Stacked+Floc+Blanket+Reactor?preview=%2F327614518%2F340898600%2FCSFBRFinalReportFall2016.pdf). Thus, the current subteam seeks to reexamine the benefits of reactors in series versus a single reactor and conclude which system yields the lowest effluent concentrations of red dye and fluoride.
+During the final portion of the semester, the subteam performed 24-hour experiments with the longer reactor in order to compare its results with those of the CSFBR subteam. The CSFBR subteam had hypothesized that a species removal system composed of two reactors in series could lead to cleaner water than the Fluoride team's single reactor system. During each iteration, the two teams ran each system for approximately twenty four hours with the same red dye and PACl concentrations. However, the results of these experiments were inconclusive because the CSFBR team found that PACl would clog their system midway through each experiment; rendering the reactors incapable of further purification [(Dokko, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Countercurrent+Stacked+Floc+Blanket+Reactor?preview=%2F327614518%2F340898600%2FCSFBRFinalReportFall2016.pdf). Thus, past semesters' subteams sought to reexamine the benefits of reactors in series versus a single reactor and to conclude which system yields the lowest effluent concentrations of red dye and fluoride.
 
-Over the summer of 2017, tests performed during the previous semester were repeated in order to finally determine whether the second reactor in series made enough significant improvements to be implemented on a larger scale. A new fluoride probe was purchased, and experiments conducted on this probe showed that a plant using last semester's parameters could produce effluent water with as low as 0.05 mg/L, significantly below the WHO's standards. However, clay that remained in the effluent caused turbidity to often rise above 5 NTU. In consideration of this turbidity and as an effort to lower the number of resources needed to implement the reactor, it was determined that clay needed to be eliminated from the system. Additionally, the unusually high PACl dosage of 25 g/L needed to be lowered. While no data was collected that definitively pointed to using one or two reactors, the team tentatively hypothesized that the second reactor would not justify the added expenses when built on a larger scale. However, once the reagent parameters were optimized, further tests and a cost analysis could be conducted to verify this.
+Over the summer of 2017, tests performed during the previous semester were repeated in order to finally determine whether the second reactor in series made enough significant improvements to be implemented on a larger scale. A new fluoride probe was purchased, and experiments conducted on this probe showed that a plant using Spring 2017's parameters could produce effluent water with as low as 0.05 mg/L, significantly below the WHO's standards. However, clay that remained in the effluent caused turbidity to often rise above 5 NTU. In consideration of this turbidity and as an effort to lower the number of resources needed to implement the reactor, it was determined that clay needed to be eliminated from the system. Additionally, the unusually high PACl dosage of 25 g/L needed to be lowered. While no data was collected that definitively pointed to using one or two reactors, the team tentatively hypothesized that the second reactor would not justify the added expenses when built on a larger scale. However, once the reagent parameters were optimized, further tests and a cost analysis could be conducted to verify this.
+
+As research conducted over summer 2017 suggested, last semester's team removed the addition of clay to the system and sought to determine the optimal PACl concentration for high fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Initial tests showed that the reactors would fail within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to a new reactor designed by the summer 2017 High Rate Sedimentation team. The new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined an upflow velocity of 1.5 mm/s was the best way to reduce sludge buildup. The team then ran experiments looking at  the effects of increasing PACl concentration on removal rates. Data collected from these experiments was used to create an adsorption model that could be used to calculate the necessary PACl dosage for a desired effluent fluoride concentration. After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team decided the adsorption model was incorrect and should be remade taking this discrepancy into consideration.
+
 
 ## Design Considerations
 
@@ -97,6 +95,67 @@ Explain your apparatus setup using enough detail such that future teams can recr
 Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
 ## Bibliography
+Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
+Health, 1(2).
+
+Bailey, K. and Fawell, J. (2004). Fluoride in Drinking-water.
+
+Cheng, M., Longo, A., and Vidal, B. (2016). Fluoride, Fall 2016.
+
+Dahi, E., Mtalo, F., Njau, B., and Bregnhj, H. (1996). Defluoridation using the Nalgonda Technique in
+Tanzania. In Reaching the Unreached: Challenges for the 21st Century, New Delhi, India.
+
+Dao, K., Desai, P., and Longo, A. (2015). Fluoride, Fall 2015.
+
+Dokko, J. and Espada Fraile, J. (2016). Countercurrent Stacked Floc Blanket Reactor, Fall 2016.
+
+EPA (2016). Water Treatability Database.
+
+Gebbie, P. (2001). Using Polyaluminum Coagulants in Water Treatment.
+
+Golob, V., Vinder, A., and Simoniˇc, M. (2005). Efficiency of the coagulation/flocculation method for
+the treatment of dyebath effluents. Dyes and pigments, 67(2):93–97.
+
+Gregory, R., Head, R. J. M., and Graham, N. J. D. (1996). The Relevance of Blanket Solids Concentration
+in Understanding the Performance of Floc Blanket Clarifiers in Water Treatment. Chemical Water
+and Wastewater Treament, IV.
+
+Hurst, M. W. (2010). Evaluation of Parameters Affecting Steady-State Floc Blanket Performance. Degree
+of Master of Science, Cornell University, Ithaca, New York.
+
+Ingallinella, A. M. and Pacini, V. A. (2001). Simultaneous removal of arsenic and fluoride from groundwater
+by coagulation-adsorption with polyaluminum chloride. Journal of Environmental Science and
+Health, Part A.
+
+Kokko, J. P. and Rector, F. C. (1972). Countercurrent multiplication system without active transport
+in inner medulla. Kidney international, 2(4):214–223.
+
+Kumbhar, V. S. and Salkar, V. D. (2014). Use of PAC as a Substitute for Alum in Nalgonda Technique.
+International Journal of Emerging Technology and Advanced Engineering, 4(10).
+
+LeChevallier, M. W. and Au, K.-K. (2004). Water Treatment and Pathogen Control.
+
+Lin, W., Chen, L. C., Chung, H. Y., Wang, C. C., Wu, R. M., Lee, D. J., Huang, C., Juang, R. S.,
+Peng, X. F., and Chang, H.-L. (2004). Treating High Turbidity Water Using Full-Scale Floc Blanket
+Clarifiers. Journal of Environmental Engineering, 130(12):1481–1487.
+
+Longo, A., Desai, P., and Dao, K. (2016). Fluoride, Spring 2016.
+
+Longo, A., Zhang, V., and Cheng, M. (2017). Fluoride, Fall 2017
+
+NJ Department of Health (2010). Sodium Fluoride.
+
+Roholm, K. (1937). Fluorine Intoxication: A Clinical-Hygienic Study. Copenhagen, Denmark.
+
+Sun, S. F. (2004). Sedimentation. In Physical Chemistry of Macromolecules: Basic Principles and Issues,
+Second Edition, pages 243–266. John Wiley & Sons, Inc.
+
+Yang, Z. L., Gao, B. Y., Yue, Q. Y., and Wang, Y. (2010). Effect of pH on the coagulation performance
+of Al-based coagulants and residual aluminum speciation during the treatment of humic acid–kaolin
+synthetic water. Journal of Hazardous Materials, 178(1):596–603.
+
+Zonoozi, M. H., Moghaddam, M. A., and Arami, M. (2009). Coagulation/flocculation of dye-containing
+solutions using polyaluminium chloride and alum. water science and technology, 59(7):1343–1351.
 
 
 # Manual
