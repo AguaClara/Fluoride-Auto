@@ -76,78 +76,7 @@ During the final portion of the semester, the subteam performed 24-hour experime
 
 Over the summer of 2017, tests performed during the previous semester were repeated in order to finally determine whether the second reactor in series made enough significant improvements to be implemented on a larger scale. A new fluoride probe was purchased, and experiments conducted on this probe showed that a plant using last semester's parameters could produce effluent water with as low as 0.05 mg/L, significantly below the WHO's standards. However, clay that remained in the effluent caused turbidity to often rise above 5 NTU. In consideration of this turbidity and as an effort to lower the number of resources needed to implement the reactor, it was determined that clay needed to be eliminated from the system. Additionally, the unusually high PACl dosage of 25 g/L needed to be lowered. While no data was collected that definitively pointed to using one or two reactors, the team tentatively hypothesized that the second reactor would not justify the added expenses when built on a larger scale. However, once the reagent parameters were optimized, further tests and a cost analysis could be conducted to verify this.
 
-## Methods
-### Experimental Apparatus
-The construction of this apparatus and the fabrication of the reactor was completed last semester. The list below references materials used to make the apparatus and Table 1 lists the necessary constraints on the reactor for it to perform as designed. To view complete instructions for apparatus construction and a more in-depth discussion of design and calculations, please refer to the spring 2016 AguaClara report [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).For information on how to run an experiment, refer to the manual at the end of this report.
-
-The reactor system was setup in such a way that it had the ability to be used as either a one reactor system or a two reactor system by turning several valves. The effective setup of the one-reactor system can be seen in the figure below and the effective setup of the two-reactor system can be seen in the figure below. When running a one-reactor test, Reactor 2 (on the right in the two-reactor system) is used. The entire apparatus at the lab bench is shown in the figure below.
-
-#####Water Flow Through Reactor
-1. Fluoride and tap water were mixed by pumping them with the Raw Water Pump
-2.  was pumped through the Floc Pump and mixed with the diluted fluoride stream , which proceeded into the flocculator to make flocs
-3. The PACl-fluoride floc mixture flowed through the floc blanket and tube settler with flocs settling out through the floc weir
-4. The effluent of the tube settler went through the turbidimeter and fluoride probe tester to waste.
-
-##Materials
-1. Two 600 RPM pumps and one 100 RPM pump
-2. Transparent 2.54 cm (1") PVC piping
-3. Flexible and hard 0.635 cm (1/4") tubing and microtubing
-4. Turbidimeter
-5. Polyaluminum Chloride (PACl), 10,000 ppm fluoride Solution
-6. Various connectors and buckets for stocks
-7. Two stir plates with stir bars
-8. Push-to-Connects and Valves
-
-
-#Results and Analysis
-
-The initial tests that were run in the beginning of the semester attempted to achieve high removal rates without the addition of clay since research in summer 2017 reported that clay remained in effluent water, which created complications with settling in stocks. The team tested concentrations of 12.5, 25, and 50 mg/L of PACl with an upflow velocity of 1 mm/s. The team's goal was to produce effluent water with a concentration of 1.5 mg/L to meet WHO standards from an initial fluoride concentration of 10 mg/L.  
-
-As shown in the figure below, the increase in PACl concentration from 12.5 mg/L to 25 mg/L dramatically improved fluoride removal as the effluent fluoride concentration dropped from 4.4 mg/L to 2.2 mg/L (all tests began with influent fluoride concentrations of 10 mg/L). However, the increase in PACl concentration from 25 mg/L to 50 mg/L only reduced effluent concentrations from 2.2 mg/L to 1.8 mg/L, which is not as significant of an improvement. In the field, this would equate to adding a significant amount of reagent and operating cost without achieving the same fluoride removal that the reagent provided in the first two-fold concentration increase. As the concentration of PACl increased, the removal efficiency of fluoride began to level off. Moreover, all three tests  did not produce concentrations below the WHO standard. During these tests, the flocs in the floc blanket looked similar to the two figures below. These flocs were generally larger than those from the Spring 2017 system that utilized clay. Additionally, since clay was no longer added, the flocs were also transparent so a flashlight was needed to see them. A summary of the results of this test are shown in the table below.
-
-In addition, the reactors continuously failed regardless of different concentrations of PACl as flocs were seen in the tube settler exiting with the effluent water.  Failure is defined either as a spike in effluent turbidity due to entrainment of flocs by fast flow or a buildup of flocs that do not exit the weir and eventually reach the turbidimeter. In these experiments, there was no recirculating floc blanket present and the current floc weir proved to be inept at removing the necessary flocs from the effluent water. As seen in the figure below, the failure of this test occurred around only 10 hours when the turbidity shot up. As seen in the table below, the time to failure decreases when the PACl dosage increases. This means that a higher PACl concentration in the influent causes larger and more adsorbent flocs. These flocs cause the system to clog and prevent recirculation. Ideally, the reactor should not fail over the course of its lifetime, so a new reactor and higher upflow velocity were chosen to prevent the reactor from failing.
-
-Consequently, the team decided to switch to another reactor built by the High Rate Sedimentation team in the summer of 2017, shown in the figure below. After performing several tests, the team concluded that the new reactor not only created denser, recirculating floc blankets, but also dramatically increased time to failure. The old reactor failed after 5 hours whereas the new reactor failed after 15 hours. However, the fluoride removal was about the same between both reactors, as shown in the figure below. The new reactor could also run at higher upflow velocities while maintaining the floc blanket. Thus, the team sought to optimize reagent concentrations and upflow velocities with the new reactor in hopes of achieving a sustainable system that never fails as explained later on in the report.  A summary of the results is listed in the table below.
-
-Testing new reactors focused on finding the optimal upflow velocity; therefore, the upflow velocity had to be high enough to prevent the buildup of PACl sludge but low enough to prevent flocs from being entrained by the flow of water. The team ran tests at upflow velocities of 1, 1.5, 2, and 3 mm/s with 1.5 mm/s proving to be the optimal upflow velocity. However, similar to earlier tests, each of these 4 tests yielded effluent fluoride concentrations higher than the desired concentration of 1.5 mg/L. The team first tested a PACl dosage of 25 mg/L with an upflow velocity of 1 mm/s, which failed after 15 hours due to sludge buildup. The upflow velocity was not high enough to allow for a recirculating floc blanket. Instead, clumps of sludge built up in the reactor until they exited out the effluent stream and reached the turbidimeter, yielding a sudden increase in turbidity that sustained itself for the remainder of the test. When the upflow velocity was increased to 3 mm/s for the same PACl concentration, flocs were observed in the tube settler since the high upflow velocity pumped flocs out of the reactor. Thus, the effluent fluoride concentration was much higher than desired since it was contaminated by flocs. This was also observed for the 2 mm/s test. At an upflow velocity of 1.5 mm/s, the team observed no turbidity spike and thus no failure. A summary of these tests are shown in the figure below.
-
-In order to test a large variety of PACl concentrations, the team performed tests at an upflow velocity of 1.5 mm/s and different values of influent fluoride concentration while varying the concentration of PACl throughout the test. The team checked on the test at two to three hour intervals and increased the PACl flow rate, which would increase the concentration of PACl in the reactor, when the fluoride concentration reached a steady state. For example, the team first performed a test with a 8 mg/L initial fluoride concentration in which the PACl concentration varied from 15 mg/L to 25 mg/L to 50 mg/L. A PACl concentration of 25 mg/L was found to provide adequate fluoride removal in all previous tests and was thus used for the baseline of predicting PACl concentrations in future tests. The values of PACl concentration for each test were chosen by either doubling or halving the baseline 25 mg/L to provide an easy comparison between tests. Therefore 6.25 mg/L and 12.5 mg/L PACl concentrations were used for the lower initial fluoride concentrations to find a minimum PACl dosage necessary to reach the 1.5 mg/L fluoride WHO limit. Additionally, the 50 mg/L PACl dosage was used for higher initial fluoride concentrations to reach the WHO limit. The table below details the fluoride removal for different concentrations of fluoride obtained from three tests.
-
-The figure below shows different models for interactions between various adsorbates and adsorbents. The model developed for fluoride and PACl compares to the favorable reaction in the figure below as more fluoride tends to adsorb to the PACl instead of remain in the water.
-
-The adsorption model can be used to calculate a PACl concentration needed to achieve a certain fluoride effluent concentration given an initial fluoride concentration.  Since the desired fluoride level set by the WHO is 1.5 mg/L, this is the desired effluent fluoride concentration. However, the target effluent fluoride concentration is around 0.75 - 1 mg/L to account for error in the adsorption model. Therefore, the model will calculate a range of W values that will result in the target effluent concentration. Additionally, the model will calculate the PACl dosage necessary to treat an initial fluoride concentration given the range of W values.
-
-At a certain maximum PACl dosage, the reactor will clog due to insufficient shear to break down the PACl flocs, thereby causing the bed to fluidize. The maximum PACl dosage has not yet been determined. However, if the adsorption model calculates an excessive PACl dosage, a second reactor may be necessary to decrease the max concentration of PACl necessary to run the system. Adding a second reactor decreases the PACl dosage for each reactor since less removal is required for each individual reactor to achieve the desired effluent fluoride concentration. A multiple reactor system can use the solver function on excel or a model to vary the intermediate effluent concentration between the reactors and thus calculate the minimum overall amount of PACl necessary given an initial fluoride concentration and desired effluent concentration.
-
-Towards the end of the semester, the team discovered that the voltage read by the fluoride probe in tap water differed significantly from the voltage reading using deionized, (DI), water. The results are shown in the table below for a test measuring the concentration of a 20 mg/L solution of fluoride prepared using tap water and DI water.
-The difference in the perceived fluoride concentration is thought to be due to ions in tap water, such as calcium or hydroxide ions, that may react with fluoride ions to form various compounds. Since the probe is selective to fluoride ions, it will not register the fluoride present in other forms; therefore, the fluoride concentration reading in tap water will be lower than the actual concentration of fluoride present. This means that our current adsorption model may be incorrect and needs to be remade. A brief method for remaking the model is described in the future work.
-###Fluoride Probe Calibration Procedure
-1. Make the stock calibration concentrations of .1 mg/L, 1 mg/L, 10 mg/L, and 20 mg/L in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
-2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing strip provided and rinse with DI water again.
-3. Insert the probe into one of the calibration solutions.
-4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
-5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again).
-6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
-7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
-8. If R squared value is not 0.99, rinse let settle in TSIAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
-
-##ProCoDA Method File
-
-ProCoDA is a process control system that was developed by Monroe Weber-Shirk in order to set process parameters through a computerized system. It can be adjusted to different system states that control the system pumps depending on what flow rates are desired. Additionally, ProCoDA collects the data from probes, allowing for compilation of dye concentration data.
-
-To begin the ProCoDA method file, three states were made: ON and OFF and Just Water. In the OFF state, all the valves were closed and no pumps were on. In the ON state, all the pumps were ON and all valves were opened, in the Just Water state, only the water valve was open. ProCoDA turned this pump on and off via a normal valve control, so long as the pump was already set to a proper flow rate. The system was set to run on Manual setting, as a proper run time had not yet been determined.
-
-The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and dye pump heads, inputs of ml/rev and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
-
-
-## Literature Review and Previous Work
-Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
-
-
-## Methods
-Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
-
-Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
+## Design Considerations
 
 ### Experimental Apparatus
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
@@ -163,53 +92,18 @@ Explain your apparatus setup using enough detail such that future teams can recr
 * Complications in construction
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
-### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
-
-## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
-
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
-```
-![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
-Figure 1: Captions are very important for figures. Captions go below figures.
-
-After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
-* Why did you get those results/data?
-* Did these results line up with expectations?
-* What went wrong?
-* If the data do not support your hypothesis, is there another hypothesis that describes your new data?
-
-## Conclusions
-Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
-
-Make sure that you defend your conclusions with facts and results.
 
 ## Future Work
 Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
 ## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+
 
 # Manual
 The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
 
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
-
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
 
 ## Experimental Methods
 ### Set-up
@@ -227,17 +121,6 @@ Step 1.
 ## Experimental Checklist
 Another potential section could include a list of things that you need to check before running an experiment.
 
-## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
-
-### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
-
-### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
 
 ## Python Code
 
@@ -255,9 +138,7 @@ $P$: pressure
 $F$: force
 $u$, $w$: x-velocity, z-velocity components
 
-```python
-# Comment
-```
+
 
 $$ P_1 + \rho g \Delta h_1+ \frac{1}{2}\rho {v_1}^2 = P_2 + \rho g \Delta h_2+ \frac{1}{2}\rho {v_2}^2+ h_f $$
 
@@ -320,17 +201,4 @@ print(hfModel)
 
 deltah2=((v**2)/2/g+hf).to(u.m)
 print(deltah2)
-```
-# To convert the document from markdown to pdf
-pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
-# Fluorosis in india arlappa_fluorosis_2013 http://www.ijrdh.com/files/11.Fluorosis.pdf
-#Fluoride in Drinking Water bailey_fluoride_2004 http://apps.who.int/iris/handle/10665/43514
-#dehi_deflouridation_using_Nalgonda_2013 https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf
-#epa_water_2016 https://iaspub.epa.gov/tdb/pages/general/home.do
-#debbie_using_polyaluminum_chloride_as_coagulant_2001
-http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf
-
-#Efficiency_of_coagulation/flocculation_techniques_in_dye_removal_2005 https://www.sciencedirect.com/science/article/pii/S0143720804002724
-#understanding_concentration_on_floc_blanket_clarifiers_1996 https://link.springer.com/chapter/10.1007/978-3-642-61196-4_2
-
 ```
