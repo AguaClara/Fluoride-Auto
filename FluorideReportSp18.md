@@ -79,13 +79,12 @@ Due to complications with the fluoride probe, the team had to delay testing and 
 The team is currently still in the process of calculating all the parameters necessary for the design of the lab scale system.
 ### Experimental Apparatus
 
+Powering a water treatment plant with electrical pumps is at times impossible with countries that have intermittent access to electricity. Nevertheless drinking water treatment must still be accomplished. The team's experimental design seeks to drive water through the flocculator and sedimentation tube using the power of gravity. The flow of water through the team's apparatus is primarily driven by the height difference between the untreated water constant head tank and the outlet containing the treated effluent. Water, with a given concentration of fluoride, will be supplied to the constant head tank from a reservoir controlled by a float valve allowing a constant height of water to remain in the tank. A similar setup will be used with the coagulant reservoir to guarantee a constant flow rate through the system. Before entering the flocculator, the coagulant and the untreated influent will meet and mix. The water and coagulant will flow through the coiled flocculator, colliding and forming flocs comprised of coagulant and any particles in the water along with the fluoride in the water. These flocs will then continue on with the flow of water into the sedimentation tube, where they will settle out and be captured by the angled portion of the tube. These captured flocs will roll down into the floc weir, removing it from the flow of water. The remaining water will flow out from the top of the sedimentation tube as the treated effluent.
 
-* Schematic
+#### Schematic
 
-  - Sketch of gravity-powered apparatus
+  - The figure below depicts a sketch of the team's current design idea for the gravity-powered apparatus.
  <img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor.jpg?raw=true">
-
-
 
   - Isometric view of in progress Fusion 360 assembly
 <img src = "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Orthographic_Screenshot.png?raw=true">
@@ -94,16 +93,16 @@ The team is currently still in the process of calculating all the parameters nec
 <img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Screenshot_from_Front.png?raw=true">
 
 
-* Design
+#### Design
 
-    Using the steady state energy equation, the team began calculating the various height constraints that would allow for the desired flow through the system.
+  Using the steady state energy equation, the team began calculating the various height constraints that would allow for the desired flow through the system.
 
   $$ P_1 + \rho g \Delta h_1+ \frac{1}{2}\rho {v_1}^2 = P_2 + \rho g \Delta h_2+ \frac{1}{2}\rho {v_2}^2+ h_f $$
 
-  In the above equation, point 1 refers to the level of the water in the Fluoride constant head tank. The pressure terms can be cancelled out since the inflow and outflow are both open to the atmosphere The velocity at point 1 can also be eliminated since the constant head valve guarantees no change in velocity in this tank. Therefore the Bernoulli equation becomes the following:
+  In the above equation, point 1 refers to the level of the water in the Fluoride constant head tank. Point 2 refers to the outlet point of the treated effluent, which is modeled to be a jet exit open to the atmosphere. The pressure terms can be cancelled out since the inflow and outflow are both open to the atmosphere. The velocity at point 1 can also be eliminated since the constant head valve guarantees no change in velocity in this tank. Therefore the Bernoulli equation becomes the following:
   $$ \rho g \Delta h_1 = \rho g \Delta h_2+ \frac{1}{2}\rho {v_2}^2+ h_f
   $$
-  The team can input known variables for Volumetric Flow (Q), Area of tubes (A), the gravitational constant (g), and $h_1$ as the reference point making it zero.
+  The team input known values for Volumetric Flow (Q), Area of tubes (A), the gravitational constant (g), and $h_1$ as the reference point making it zero.
   $$ Q= .76 * {10}^-6 \frac{{m}^3}{s}$$
   $$ g = 9.8 \frac{m}{{s}^2} $$
   $$ d = \frac {3}{16} in * 2.54 \frac {cm}{in} * \frac {1 m}{100 cm} $$
@@ -124,20 +123,23 @@ The team is currently still in the process of calculating all the parameters nec
   Using the same principle as the water flow, the team can calculate the height difference the team would need for a correct flow of coagulant.
   For these calculations, the team set the height difference necessary and solved for the length of microbore tubing necessary for enough major head loss to result in the correct flow rate.
   $$ h_{f2} = \frac {32\nu Lu}{g^2d}$$
-  $$ L = \frac {h_{f2}gd^2}{32 \nu u} $$
-  We calculated the length necessary for our smallest flow rate given .03" microbore tubing.
-  $$ L = \frac {.05m*9.8\frac{m}{s^2}* (.000762m)^2}{32*8.9861*10^-7 \frac{m^2}{s}* .00475 \frac {m}{s}}$$
-  $$ L = .19m $$
-  The other flow rates are all multiples of this flow rate and can be generated by multiplying the height difference by the multiple necessary.
+  $$ L_2 = \frac {h_{f2}gd^2}{32 \nu u} $$
+  The length necessary for the smallest coagulant flow rate desired given .03" microbore tubing was calculated.
+  $$ L_2 = \frac {.05m*9.8\frac{m}{s^2}* (.000762m)^2}{32*8.9861*10^-7 \frac{m^2}{s}* .00475 \frac {m}{s}}$$
+  $$ L_2 = .19m $$
+  The other flow rates are all multiples of this flow rate and can be generated by multiplying the height difference by the factor necessary.
 
-* Image
-* Materials
+  The height differences necessary to create the desired flow rates through the reactor have been calculated, however other constraints, like horizontal distance and orientation are largely undecided. Since these variables will negligibly affect the flow rate through the reactor, they can be altered for the most convenient setup. The tubing from the PACl stock was chosen to be .03" in diameter and .18m in length to generate the necessary major head loss and result in the concentration of PACl desired in the reactor. With these specifications the team can generate the following range of concentrations of PACl for experimentation:
 
-    The height differences necessary to create the desired flow rates through the reactor have been calculated, however other constraints, like horizontal distance and orientation are largely undecided. Since these variables will not affect the flow rate through the reactor, they can be altered for the most convenient setup. The tubing from the PACl stock was chosen to be .03" in diameter and .18m in length to generate the necessary major head loss and result in the concentration of PACl desired in the reactor. With these specifications the team can generate the following range of concentrations of PACl for experimentation:
-    $$ .00475 \frac {mL}{s}, .0095 \frac{mL}{s}, .019 \frac{mL}{s}, .038 \frac {mL}{s}$$
-* Complications in construction
+  $$ .00475 \frac {mL}{s}, .0095 \frac{mL}{s}, .019 \frac{mL}{s}, .038 \frac {mL}{s} $$
 
-    At this point the team is still modeling the experimental design and confirming the calculations are correct. It is evident that the team's current workspace will not be able to house the apparatus as has been designed, so a new workspace will need to be found or implementation of a new design must be done.
+<!--#### Materials-->
+
+
+
+#### Complications in construction
+
+  At this point the team is still modeling the experimental design and confirming the calculations are correct. It is evident that the team's current workspace will not be able to house the apparatus as has been designed, so a new workspace will need to be found or implementation of a new design must be done.
 
 
 ## Future Work
@@ -279,7 +281,7 @@ The method file was set to control the revolutions per minute (RPM) of the PACl/
 
 ## Python Code
 
-### Variables
+<!-- ### Variables
 $g$: gravity
 $\sigma$: dispersion
 $a$: amplitude
@@ -292,6 +294,7 @@ $c_p$: celerity (wave phase speed)
 $P$: pressure
 $F$: force
 $u$, $w$: x-velocity, z-velocity components
+-->
 
 
 
