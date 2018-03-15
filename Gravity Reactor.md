@@ -32,9 +32,9 @@ from aide_design.play import*
 import aide_design.floc_model as fm
 
 Q=.76*(u.milliliter)/(u.second)
-Q.to(u.m*u.m*u.m/u.s)
+# Q.to(u.m*u.m*u.m/u.s)
 D=(1/8)*u.inch
-D.to(u.m)
+# D.to(u.m)
 A=np.pi*(D**2)/4
 print(A)
 v=(Q/A).to(u.m/u.s)
@@ -63,13 +63,18 @@ print(Apacl)
 vpacl=Qpacl/Apacl
 print(vpacl)
 headP=.05*(u.meter)
+# I believe that the headP should be the difference between where the coagulant line meets the water and fluoride line, because that gives us the input velocity into the "system". This is based on an understanding of plug flow reactors and how we deal with the inputs of secondary flows into the system. However, this may raise an issue because of the fact that the entire system is connected. I believe that we can model the additional inputs into the plug flow system (like a river, for example) with additive flows because it is acting like a sort of drip system. Is there some sort of "ghost pressure" or something that would inhibit our flow into the system in the T-joint connecting the water and the coagulant lines? Also, what is driving the flow of coagulant? How can we assume the input as being relative to the T-joint when it is likely relative to the effluent just like the water constant head tank is? Is the solution instead to model the flows in our system as constant and relative to the effluent, similar to that of how we modeled the water flow?
+
 Lpacl=headP*g*Dpacl*Dpacl/32/vis/vpacl
-Lpacl.to(u.m)
-print(Lpacl)
+# Lpacl.to(u.m)
+print(Lpacl.to(u.m))
 #fricfactor=(64*vis.to(u.m*u.m/u.s))/(v.to(u.m/u.s)*D.to(u.m))
 #print(fricfactor)
 #h2 = fricfactor * (8/(g*np.pi*np.pi))*(L*Q.to(u.m*u.m*u.m/u.s)**2)/(D.to(u.m)**5)
 #print(h2)
+Q_pacl_arr = [0.00475, 0.0095, 0.019, 0.038]*u.mL/u.s
+v_pacl_arr = Q_pacl_arr/Apacl
+
 
 deltah2=((v**2)/2/g+hf).to(u.m)
 print(deltah2)
