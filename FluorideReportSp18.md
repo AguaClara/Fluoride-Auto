@@ -1,4 +1,4 @@
-# Fluoride, Spring 2018
+terminal# Fluoride, Spring 2018
 #### Philip Akpan, Tigran Mehrabyan, Desiree Sausele, and Victoria Zhang
 #### April 20, 2018
 
@@ -7,24 +7,27 @@ Please do not delete my comments. Address them in the report and I will check th
 </div>
 
 ## Abstract
-The Fluoride subteam seeks to develop a sustainable, inexpensive fluoride removal system for implementation in upcoming AguaClara plants located in India. Using the apparatus developed by previous semesters, the team continued running experiments testing how various concentrations of PACl affect fluoride removal. However, complications with the ability to measure fluoride concentrations required the team to shift its goals to designing a lab scale, gravity-powered system.  The team is now working to finalize a design and to begin construction of the new, electricity-free apparatus.  Once the system is functional, the team plans on running experiments to test its fluoride removal capabilities.
+The Fluoride subteam seeks to develop a sustainable, inexpensive fluoride removal system for implementation in upcoming AguaClara plants located in India. Using the apparatus developed by previous semesters, the team continued running experiments testing how various concentrations of PACl affect fluoride removal. However, complications with the probe prevented the team from performing further tests with the current reactor system so the team shifted its goals to designing a lab scale, gravity-powered system.  The team is now working to finalize a design and to begin construction of the new, electricity-free apparatus.  Once the system is functional, the team plans on running experiments to test its fluoride removal capabilities.
 
 <div class="alert alert-block alert-danger">
-Unclear how problems calibrating the flouride probe caused team to shift to creating a new, gravity-powered apparatus.
+Unclear how problems calibrating the fluoride probe caused team to shift to creating a new, gravity-powered apparatus.
 
 Was the probe critical to flouride removal or was it used to track flouride removal? What apparatus were you using to test flouride removal before?
+
 </div>
 
 ## Introduction
 With 85% of its drinking water sourced from groundwater, India is the largest user of groundwater in the world. In stark contrast to tap water sources in the United States that are supplemented with fluoride, India’s groundwater sources often display excess levels of fluoride due to rocks in aquifers that leak large amounts of fluoride into the water. Consequently, villagers  who rely on these well sources for water are at a high risk of overexposure to fluoride. The prevalence of dental fluorosis, an indicator of excessive fluoride concentrations, differs across India, but has been shown to range from 13-91 percent depending on the age group in question and the water source supplying the state or municipality [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf).
 
-In accordance with AguaClara's mission to create affordable, reliable, and sustainable water treatment solutions, the goal of the subteam is to treat groundwater with excessive fluoride concentrations. Teams from previous semesters analyzed the efficiency of fluoride removal by passing a coagulant, polyaluminum chloride (PACl), and a solution of fluoride through a sand filter. However, the sand filter was an inefficient method of removal because of the buildup of headloss from particles deposited in the sand filter that eventually prevented water from flowing through [(Dao et el., 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Thus, instead of using a traditional sand filter, the team researched a similar relationship between PACl and fluoride via a floc blanket reactor. Flocs are aggregates of particles that are created through collision and precipitate out into the water. In the floc blanket reactor, flocs of PACl and clay adsorbed the fluoride from the influent water. The flocs then overflowed into a floc weir as the floc blanket grew and the purified water flowed out the top of the reactor. This reactor was modeled after the floc blanket, floc weir, and plate settlers setup in the sedimentation tank of a typical AguaClara water treatment plant. The team expected that the floc blanket reactor would be able to remove fluoride with a significantly higher efficiency than the sand filter from previous semesters due to the adsorption occuring between molecules of PACl and fluoride and could run for extended periods of time due to the absence of headloss buildup in the reactor. The adsorption is the mechanism that allows the molecules of PACl to begin to aggregate into flocs with molecules of fluoride included in these larger flocs, which make up the floc blanket. The flocs in the floc blanket could exit the floc weir while the fluoride in the sand filter would build up and saturate the sand in a short amount of time [(Longo et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) [(Cheng et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
+In accordance with AguaClara's mission to create affordable, reliable, and sustainable water treatment solutions, the goal of the subteam is to treat groundwater with excessive fluoride concentrations. Teams from previous semesters analyzed the efficiency of fluoride removal by passing a coagulant, polyaluminum chloride (PACl), and a solution of fluoride through a sand filter. However, the sand filter was an inefficient method of removal because of the buildup of headloss from particles deposited in the sand filter that eventually prevented water from flowing through [(Dao et el., 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Thus, instead of using a traditional sand filter, the team researched a similar relationship between PACl and fluoride via a floc blanket reactor. Flocs are aggregates of particles that are created through collision and precipitate out into the water. In the floc blanket reactor, flocs of PACl and clay adsorbed the fluoride from the influent water. The flocs then overflowed into a floc weir as the floc blanket grew and the purified water flowed out the top of the reactor. This reactor was modeled after the floc blanket, floc weir, and plate settlers setup in the sedimentation tank of a typical AguaClara water treatment plant. The team expected that the floc blanket reactor would be able to remove fluoride with a significantly higher efficiency than the sand filter from previous semesters and could run for extended periods of time due to the absence of headloss buildup in the reactor. The flocs in the floc blanket could exit the floc weir while the fluoride in the sand filter would build up and saturate the sand in a short amount of time [(Longo et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) [(Cheng et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 <div class="alert alert-block alert-danger">
 Consider defining adsorption, floc, floc blanket (ask new members on your team if they would be able to understand them when they first joined.)
+
+-Adressed
 </div>
 
-Last semester, the subteam continued the research performed from the summer of 2017, hoping to achieve high fluoride removal with the addition of clay. After switching to a new reactor designed by the High Rate Sedimentation team, the Fluoride subteam tested different concentrations of PACl and different upflow velocities with the goal of lowering the fluoride concentration to 1.5 $mg/L$ [(Longo et al., 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). This semester's team was hoping to continue these tests and recreate the adsorption model developed last semester using tap water as opposed to deionized water standards. However, the team could not accurately measure fluoride levels in the effluent, so the team altered its direction and began to design a gravity-powered system. If possible, a fluoride removal system that does not require electricity would be very beneficial to the communities in India that AguaClara plans to serve. Once this system has been constructed, the team can begin testing its ability to remove fluoride.
+Last semester, the subteam continued the research performed from the summer of 2017, hoping to achieve high fluoride removal with the addition of clay. After switching to a new reactor designed by the High Rate Sedimentation team, the Fluoride subteam tested different concentrations of PACl and different upflow velocities with the goal of lowering the fluoride concentration to 1.5 $mg/L$ [(Longo et al., 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). This semester's team was hoping to continue these tests and recreate the adsorption model developed last semester using tap water as opposed to deionized water standards. After discovering issues with the fluoride probe, the team altered its direction and began to design a gravity-powered system. If possible, a fluoride removal system that does not require electricity would be very beneficial to the communities in India that AguaClara plans to serve. Once this system has been constructed, the team can begin testing its ability to remove fluoride.
 
 <div class="alert alert-block alert-danger">
 See comment about importance of flouride probe above.
@@ -39,6 +42,8 @@ Over-consumption of fluoride can lead to arthritis, dental fluorosis, crippling 
 delete"as" from "Though there isn't an established "average" level of flouride in India, as literation suggests..."
 
 Also consider removing quotes around the word average.
+
+-Addressed
 </div>
 
 According to the National Research Council (NRC), the maximum contaminant level (MCL) of fluoride in drinking water is 4 $\mathrm{\frac{mg}{L}}$. However, a secondary limit of 2 $\mathrm{\frac{mg}{L}}$ has been established by the EPA to avoid potential cosmetic effects such as tooth and skin discoloration. The World Health Organization (WHO) established a safe upper limit of 1.5 $\mathrm{\frac{mg}{L}}$ to avoid all potential risks of fluoride consumption. The team will be striving towards the WHO guideline of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride this semester by designing and experimenting with the floc blanket reactor and manipulating the ratios and concentrations of PACl and clay in the system.
@@ -54,7 +59,7 @@ In regards to other filtration methods, a study by Inganiella achieved 33.3% rem
 
 
 ####*Floc Blankets*
-Floc blankets develop when vertical flow sedimentation tanks form a fluidized bed of particles like the one in Figure 1 below that then facilitates particle removal by “increasing particle-particle interactions that lead to flocculation and filtration occurring in the floc blanket” [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
+Floc blankets develop when vertical flow sedimentation tanks form a fluidized bed of particles like the one in the figure below that then facilitates particle removal by “increasing particle-particle interactions that lead to flocculation and filtration occurring in the floc blanket” [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
 
 <div style = "text-align:center">
 <img
@@ -70,39 +75,49 @@ Label all figures with numbers and captions and use the figure number to refer t
 
 The process of forming flocs requires both the precipitation of aluminum hydroxide from the coagulant and the contact with raw water colloidal particles [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf). Once the combination of precipitation and mixing forms small particles, these new flocs collide to form larger, more porous flocs that can then be used for clarification [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
 
-This floc blanket clarification is considered hindered settling, which is a form of sedimentation [(Gregory et al., 1996)](https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2). Sedimentation processes are characterized by the removal of suspended particles, e.g. flocs, sand, and clay, from water. Removal is possible due to the differences in density between water and the suspended particles, but is also dependent on the size of the suspended particles, water temperature, turbulence, stability of flow, bottom scour, and flocculation [(Sun, 2004)](http://onlinelibrary.wiley.com/doi/10.1002/0471623571.ch11/summary). Floc blanket clarification, however, is primarily governed by upflow velocity of the water and by floc concentration [(Gregory et al., 1996)](https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2). The relationship between upflow velocity, concentration and water quality can be combined into the mass rate of settling, which is equal to the product of upflow velocity and concentration. Within a range of mass fluxes, a distinct interface is established between clear water and the floc blanket and thus one can deduce appropriate values of velocity and floc concentration.  At concentrations above that ideal mass flux range, the aggregation of flocs becomes thick enough that compression settling occurs. At concentrations below that appropriate range, flocs are not inhibited by other particles and a suspension with different settling velocities is formed [(Gregory et al., 1996)](https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2).
+This floc blanket clarification is considered hindered settling, which is a form of sedimentation [(Gregory et al., 1996)](https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2). Sedimentation processes are characterized by the removal of suspended particles, e.g. flocs, sand, and clay, from water. Removal is possible due to the differences in density between water and the suspended particles, but is also dependent on the size of the suspended particles, water temperature, turbulence, stability of flow, bottom scour, and flocculation [(Sun, 2004)](http://onlinelibrary.wiley.com/doi/10.1002/0471623571.ch11/summary). Floc blanket clarification, however, is primarily driven by upflow velocity of the water and by floc concentration, while the other parameters show a weaker correlation with the creation of the floc blanket. [(Gregory et al., 1996)](https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2). The relationship between upflow velocity, concentration and water quality can be combined into the mass rate of settling, which is equal to the product of upflow velocity and concentration. Within a range of mass fluxes, a distinct interface is established between clear water and the floc blanket and thus one can deduce appropriate values of velocity and floc concentration.  At concentrations above that ideal mass flux range, the aggregation of flocs becomes thick enough that compression settling occurs, which refers to when over a quarter of the volume of the coagulant will enter the floc blanket within an hour. At concentrations below that appropriate range, flocs are not inhibited by other particles and a suspension with different settling velocities is formed [(Gregory et al., 1996)](https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2).
 
 <div class="alert alert-block alert-danger">
 In the third sentence, it lists how removal is dependent on many things. Then the next sentence says this is what floc blanket clarification is dependent on. Is floc blanket clarification also minorly dependent on the things listed in the third sentence or does the thirs sentence refer to a different removal method?
 
 What is compression settling
+
+-Addressed
 </div>
 
+
+Examples of floc blanket clarification are shown throughout the world as further proof of its potential in water purification. In Taiwan, a process of pre-sedimentation, floc blanket clarification, and sand filtration is used to reduce 100 NTU water down to potable levels [(Lin et al., 2004)](https://ascelibrary-org.proxy.library.cornell.edu/doi/abs/10.1061/(ASCE)0733-9372(2004)130:12(1481)). Floc blankets have also been used extensively to purify water of algae, protozoa and specific virus strains [(LeChavallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/). Therefore, it is believed that the adaptability of this method in conjunction with the use of PACl would allow for effective fluoride removal.
 
 <div class="alert alert-block alert-danger">
 Consider if this last paragraph is necessary. I think you have shown thst floc blanket removal can be efficient for water treatment through the other paragraphs.
+
+-Addressed
 </div>
 
 ####*Coagulation*
-Many sources have shown that PACl seems to be the optimal coagulant for the purposes of removing arsenic and fluoride from influent water. [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). PACl has been and continues to be used as the most common form of dye removal at the industrial scale. Despite its cost, a main reason as to why PACl is so popular as opposed to other coagulants is that PACl does not cause any leeching of hazardous chemicals into the water from dye decomposition [(Golob et al, 2005)](https://www.sciencedirect.com/science/article/pii/S0143720804002724). A drawback of PACl is that once its coagulation capabilities are saturated, the dye coagulation drops drastically while other coagulants are able to reach a maximum capacity and plateau. The team has been using PACl as the coagulant since the start of the project. Thus, for the sake of consistency in results, PACl will be used until the reactor design can be optimized. Only once the reactor is optimized can coagulant experimentation be considered.
+Many sources have shown that PACl seems to be the optimal coagulant for the purposes of removing  fluoride from influent water. [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). PACl has been and continues to be used as the most common form of dye removal at the industrial scale. Despite its cost, a main reason as to why PACl is so popular as opposed to other coagulants is that PACl does not cause any leeching of hazardous chemicals into the water from dye decomposition [(Golob et al, 2005)](https://www.sciencedirect.com/science/article/pii/S0143720804002724). A drawback of PACl is that once its coagulation capabilities are saturated, the dye coagulation drops drastically while other coagulants are able to reach a maximum capacity and plateau. The team has been using PACl as the coagulant since the start of the project. Therefore the reasons listed above the team will continue to use PACl as its choice of coagulant for experiments. A future experiment may be to optimize choice of coagulant in order to maximize flouride removal, but other more important parameters must be optimized before approaching this issue.
 
 <div class="alert alert-block alert-danger">
 Can this section be combined with the earlier section describing PACl? It seems to reiterate similar themes and may be more impactful there.
 
 Is arsenic similar to flouride? Why include it here?
+
+-Addressed
 </div>
 
 ####*Countercurrent Flow Theory*
-The use of countercurrent flow for separation of clean and dirty water is a major component of the Countercurrent Stacked Floc Blanket Reactor (CSFBR) system. Countercurrent flow is a common concept that can be observed in biological systems such as the kidneys. Countercurrent parallel vessels exchange NaCl through passive diffusion to remove excess NaCl from fluid that would be circulated throughout the body [(Kokko and Rector, 1972)](https://www.researchgate.net/publication/18508204_Kokko_JP_Rector_FC_Jr_Countercurrent_multiplication_system_without_active_transport_in_inner_medulla_Kidney_Int_2_214-223). The CSFBR utilized the concept of countercurrent flow to decrease the concentration of dissolved species in reactor 1 by moving flocs from an area of low concentration of dissolved species (reactor 2) to a high concentration of dissolved species (reactor 1). This is accomplished by removing the flocs from reactor 2 using the floc hopper and directing them to the influent stream of reactor 1. Consequently, the effluent flocs from reactor 1 will be more concentrated with the dissolved species and the system will produce less waste per mass of contaminant removed.
+The use of countercurrent flow for separation of clean and dirty water is a major component of the Countercurrent Stacked Floc Blanket Reactor (CSFBR) system. The CSFBR utilized the concept of countercurrent flow to decrease the concentration of dissolved species in reactor 1 by moving flocs from an area of low concentration of dissolved species (reactor 2) to a high concentration of dissolved species (reactor 1). This is accomplished by removing the flocs from reactor 2 using the floc hopper and directing them to the influent stream of reactor 1. Consequently, the effluent flocs from reactor 1 will be more concentrated with the dissolved species and the system will produce less flocs per mass of contaminant removed.
 
 <div class="alert alert-block alert-danger">
 Kidney example is interesting, but maybe unnecessary? All the writing is very clear and logical so far, so for next submission focus on concise writing.
 
 In the last sentence, is the waste referring to the flocs or wasted water?
+
+-Addressed
 </div>
 
 ## Previous Work
-In the spring of 2016, the team analyzed data that suggested that the sand filter system was inefficient and decided to move towards the idea of a single floc blanket reactor [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) Although the sand filter provided cheaper, more adequate removal of fluoride per milligram of PACl used, a key issue that arose with the sand filter was the system run time. The sand filter became saturated with PACl and fluoride too quickly and the head loss built up rapidly. In a matter of a couple of hours, the floc blanket was completely saturated to the point where it was no longer efficient or providing adequate removal of fluoride. Consequently, the system had to be backwashed too frequently to be an effective process (about every couple hours). On a much larger scale, such as a full size plant, a reduction in time to failure would require more maintenance than is feasible. In order to address this, the team fabricated a new reactor as seen in the figure below mirroring that of the floc blanket and plate settlers in the current AguaClara plants. The team set up a new apparatus fit with stock tanks, a reactor, a turbidimeter, a flocculator, and stock and waste pumps, referencing research  previously conducted on the relationship between the amount of coagulant added and head loss accumulation [(Dao, 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
+In the Spring of 2016, the team analyzed data that suggested that the sand filter system was inefficient and decided to move towards the idea of a single floc blanket reactor. [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) Although the sand filter provided cheaper, more adequate removal of fluoride per milligram of PACl used, a key issue that arose with the sand filter was the system run time. The sand filter became saturated with PACl and fluoride too quickly and the head loss built up rapidly. In a matter of a couple of hours, the floc blanket was completely saturated to the point where it was no longer efficient or providing adequate removal of fluoride. Consequently, the system had to be backwashed too frequently to be an effective process (about every couple hours). On a much larger scale, such as a full size plant, the level of maintenance required to backwash each sand filter would be infeasible. In order to address this, the team fabricated a new reactor as seen in the figure below mirroring that of the floc blanket and plate settlers in the current AguaClara plants. The team set up a new apparatus fit with stock tanks, a reactor, a turbidimeter, a flocculator, and stock and waste pumps, referencing research  previously conducted on the relationship between the amount of coagulant added and head loss accumulation [(Dao, 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 <div class="alert alert-block alert-danger">
 Consider capitalizing spring
@@ -111,45 +126,67 @@ First sentence - forgotten punctuation, consider "the team determined that the s
 
 Consider revising sentence starting "Consequently, the system had to be backwashed too frequently..." and the sentence after it (I am confused by the phrase "a reduction in time to failure would require more maintenance than is feasible...")
 
+-The failure time is low so it fails quickly and often so the maintenance required would be a burden
+
 Label figure with number and use that number to refer the reader to it (address this throughout report.)
 </div>
 
-<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Old_Setup.jpg?raw=true" height=300, width=400>
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Old_Setup.jpg?raw=true" height=300, width=400>
 
-The team then developed a MathCad file to calculate flow rates of pumps from a given set of parameters including upflow velocity, tubing diameters, and reactor concentrations. The team also created a ProCoDA method file to turn the flow rates into RPMs for the pumps so that the process of changing PACl and fluoride concentrations within the reactor was more user-friendly.
+Figure 2: Pump Powered Setup
+</div>
+
+The team then developed a MathCad file to calculate flow rates of pumps from a given set of parameters including upflow velocity, tubing diameters, and reactor concentrations. The team also created a ProCoDA method file to turn the flow rates into RPMs for the pumps so that the process of changing PACl and fluoride concentrations within the reactor was more user-friendly. Transitioning the MathCad file completely to Python is still underway, but might not be necessary if our gravity powered setup is successful.
 
 <div class="alert alert-block alert-danger">
 Have you switched this MathCAD file over to python yet?
 
 Avoid passive voice when possible
+
+-Addressed
 </div>
 
-After the calculations and fabrication were completed, the team was able to successfully create a floc blanket composed of clay and PACl. When the floc blanket had stabilized, the team tested the system with fluoride. By performing short term, 10 hours tests, the team was able to remove around 85\% of the initial concentration of fluoride. The final concentration of fluoride in the effluent was lower than the WHO regulation, indicating that the floc blanket reactor was a viable method to remove fluoride [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
+After the calculations and fabrication were completed, the Spring 2016 team was able to successfully create a floc blanket composed of clay and PACl. When the floc blanket had stabilized, the Spring 2016 team tested the system with fluoride. By performing short term, 10 hours tests, the Spring 2016 team was able to remove around 85% of the initial concentration of fluoride. The final concentration of fluoride in the effluent was lower than the WHO regulation, indicating that the floc blanket reactor was a viable method to remove fluoride [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 <div class="alert alert-block alert-danger">
 Consider using "Spring 2016 team" throughout the remind reader than this is past work. (I know this is in the previous work section, but it can be easy to confuse the word team with your team and not the past team.)
+
+-Addressed
 </div>
 
-In an effort to improve reactor efficiency, the team fabricated an entirely transparent version of the reactor, where the important contact points (the floc weir and the bend to the tube settler) were visible so that interactions occurring in those areas could be analyzed. The team then used this reactor at an EPA competition to analyze red dye in place of fluoride and found that it was a successful dye removal apparatus. Finally, the team performed some initial jar tests which suggested that the use of clay may not be necessary for the removal of fluoride [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). These tests included putting PACl and fluoride into a beaker to mix for 5 minutes then settle for 15 minutes. Then, the surface water was tested for fluoride to reveal low levels of fluoride. If this was experimentally verified, then the elimination of clay from the system design could reduce the operating cost needed for fluoride removal.
+In an effort to visualize the formation of floc blankets, the Spring 2016 team fabricated an entirely transparent version of the reactor, where the important contact points (the floc weir and the bend to the tube settler) were visible so that interactions occurring in those areas could be analyzed. The Spring 2016 team then used this reactor at an EPA competition to analyze red dye in place of fluoride and found that it was a successful dye removal apparatus. Red dye was used in place of fluoride for the majority of testing since red dye is cheaper and easier to see in the reactor and red dye and fluoride have similar properties in how they are removed and adsorbed to PACl. Once satisfactory removal efficiency was achieved, the Spring 2016 team switched to using fluoride to determine more accurate conclusions. Finally, the Spring 2016 team performed some initial jar tests which suggested that the use of clay may not be necessary for the removal of fluoride [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). These tests included putting PACl and fluoride into a beaker to mix for 5 minutes then settle for 15 minutes. Then, the surface water was tested for fluoride to reveal low levels of fluoride. If this was experimentally verified, then the elimination of clay from the system design could reduce the operating cost needed for fluoride removal.
 
 <div class="alert alert-block alert-danger">
 Saying that the transparency of the reactor improves reactor efficiency is a bit misleading. Consider removing the part of the sentence that says that.
-
-Since this is past work, was the elimination of clay from the system verified?
+Done.
 </div>
 
-In the fall of 2016, the team fabricated a new bottom insert to prevent the accumulation of flocs that clogged the bottom of the reactor. The newly fabricated geometry with a smooth sloped bottom allowed for gradual flow expansion and the recirculation of the flocs that would have settled to the bottom of the reactor with the old bottom geometry as shown in the figure below.
+In the Fall of 2016, the team fabricated a new bottom insert to prevent the accumulation of flocs that clogged the bottom of the reactor. The newly fabricated geometry with a smooth sloped bottom allowed for gradual flow expansion and the recirculation of the flocs that would have settled to the bottom of the reactor with the old bottom geometry as shown in the figure below.
 
-<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
+
+Figure 3: Reactor geometry that led to aggregation of flocs
+</div>
 
 <div class="alert alert-block alert-danger">
 Is this the new or old design?
+
+-Now it's old but it was new at the time.
+Addressed
 </div>
 
 Various concentrations of dye were tested (from 25 $\mathrm{\frac{mg}{L}}$ to 100 $\mathrm{\frac{mg}{L}}$) using a 1:1 PACl to dye ratio to see whether higher concentrations of dye would clog the reactor. However, even though increasing the concentration of dye increased the density of the floc blanket, the reactor did not clog and the bottom insert proved to be successful for these tests [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 <div class="alert alert-block alert-danger">
 Why is dye being used instead of flouride?
+
+Done.
 </div>
 
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm,  the reactor failed in the long term as flocs built up and went through the tube settler to the turbidimeter in the long term. This suggested that there was a minimum height that a floc blanket would reach; thus the shorter reactor system was not feasible. [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
@@ -158,6 +195,8 @@ During the final portion of the semester, the subteam performed 24-hour experime
 
 <div class="alert alert-block alert-danger">
 Hmm I got confused somewhere down the line. Is the CSFBR subteam separate from flouride? Were they also working on flouride removal? This may have been included above, but double check.
+
+-Included. They are separate but working on similar goals so it made sense to collaborate.
 
 Which previous subteams reexamined the benefits of the reactors?
 </div>
@@ -184,8 +223,17 @@ The final section of this paragraph is very interesting.
 The lit review and previous work sections are extremely comprehensive and give a very in depth overview of the history of this project. But it is a lot of information to take in at once and it might not be all important to the general understanding of your design. Read through it again and try to prioritize important information or less important info.
 </div>
 
+## Results
+Experiments were conducted with the new fluoride probe, which measured the effluent concentrations of fluoride after treatment with different concentrations of PACl. The results are summarized in the table below.
+
+<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=150>
+
+However, the results are inconclusive. For example, influent concentrations of 10 mg/L and 5 mg/L of fluoride resulted in the same effluent concentration.
+
+
+
 ## Design Considerations
-Due to complications with the fluoride probe, the team had to delay testing and began to focus on designing a fluoride removal system that would not require electricity.  Instead of using pumps to push water through the system, gravity will be doing all the work.
+Due to complications with the fluoride probe, the team had to delay testing and instead focused on designing a fluoride removal system that would not require electricity.  Instead of using pumps to push water through the system, gravity will be doing all the work.
 The team is currently still in the process of calculating all the parameters necessary for the design of the lab scale system.
 
 <div class="alert alert-block alert-danger">
@@ -210,14 +258,31 @@ Clear flow of experimental apparatus. Refer to the schematics below here so we c
 
 #### Schematic
 
-  - The figure below depicts a sketch of the team's current design idea for the gravity-powered apparatus.
- <img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor.jpg?raw=true">
+<div style = "text-align:center">
+<img
+align = "center"
+src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor.jpg?raw=true">
 
-  - Isometric view of in progress Fusion 360 assembly
-<img src = "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Orthographic_Screenshot.png?raw=true">
+Figure 4: The figure above depicts a sketch of the team's current design idea for the gravity-powered apparatus.
+</div>
 
-  -  Front view of in progress Fusion 360 assembly
-<img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Screenshot_from_Front.png?raw=true">
+<div style = "text-align:center">
+<img
+align = "center"
+src = "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Projected_Front_View.png?raw=true">
+
+Figure 5: Isometric view of in progress Fusion 360 assembly
+</div>
+
+
+<div style = "text-align:center">
+<img
+align = "center"
+src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Projected_Side_View.png?raw=true">
+
+Figure 6: Front view of in progress Fusion 360 assembly
+</div>
+
 
 <div class="alert alert-block alert-danger">
 Reformat these with numbers and captions below the figures and eliminate bulleted list.
@@ -285,7 +350,7 @@ Consider labeling the parts in the fusion 360 drawings
 
 #### Complications in construction
 
-Earlier in the semester, the team faced challenges in fabricating a workable model of our gravity powered reactor and using this model within Fusion 360 to show an idea of the final design. As seen (CITE FIGURES OF THE FUSION 360 AFTER ADDING) in these figures the Fusion 360 has been completed and shows the constraint of the height difference necessary for the upflow velocity at which the team's reactor works best. Additionally, the team was able to procure space in graduate lab for housing our apparatus and continue building onto this apparatus.
+  At this point the team is still modeling the experimental design and confirming the calculations are correct. It is evident that the team's current workspace will not be able to house the apparatus as has been designed, so a new workspace will need to be found or implementation of a new design must be done.
 
   <div class="alert alert-block alert-danger">
   What are the constraining factors?
@@ -297,13 +362,13 @@ Earlier in the semester, the team faced challenges in fabricating a workable mod
 
 ## Future Work
 
-Design of the lab-scale system is currently underway, and the team will continue to add onto this design. The team must consider a design with a single column from the base instead of our current two column solution in order to have an easier design to build in the field. Additionally, Fusion 360 must be done for this new design to ensure fidelity of the design while still being able to generate necessary height differences to drive flow through the reactor without making the single column too high from the ground.
+Regarding the design of the lab-scale system, there are a few additional details with respect to where the height of coagulant stock tanks are placed in order to get the desired concentration of coagulant into the system. In order to do this calculation, the team has been working on python code employing functions in the aide_design package. However, the values calculated by the aide_design functions currently do not directly coincide with the old Mathcad functions, and it is not known where the inconsistencies lie between the two programs.
 
 <div class="alert alert-block alert-danger">
 First sentence is hard to read. Consider a different transition sentence first.
 </div>
 
-
+The team is also working on trying to use Fusion 360 to create a drawing of the designed process. In the coming weeks, the team will continue to work on the Fusion 360 assembly as well as continue to work on the python code and calculations. Following this, the team will build the designed set up in the lab space and begin testing to confirm that the height differences calculated result in the desired flow rate.
 
 ## Bibliography
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
@@ -386,6 +451,7 @@ The reactor in the system as shown below was developed by the summer 2017 High R
 ###Schematic
 <img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor.jpg?raw=true">
 
+
 ## Experimental Methods
 ###Fluoride Experimentation
 The following are protocols used for past semesters' experimentation. Once the gravity powered system is constructed and functioning, the team will adapt these protocols to remove components that require electricity with the exception of the turbidimeter and fluoride probe.
@@ -414,19 +480,22 @@ hours
 4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
 5. Empty the bucket at the bottom and make sure it doesn't overflow through the length of the test
 
-####Experimental Checklist Before Starting Test
+####Experimental Checklist:
+#####Before starting test
 1. Waste line is open (System will explode if this is not open)
 2. No leaks anywhere in system
 3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
 4. Pumps are all pumping water in the correct direction (in the direction of the flocculator and reactor)
 5. The fluoride pump line is closed and fluoride valve is open after running just water through the system
 6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity,etc. and then change the process to the ON state.
-7. During the test: Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
-8. At the end of the test, change the process to the OFF state.
+#####During test
+7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
+#####End of test
+8. Change the process to the OFF state.
 9. Clean the reactor using the "Cleaning  Procedure" after the experiment is completed.
 
 <div class="alert alert-block alert-danger">
-7-9 are not steps to check the system before starting so they don't belong here. Find them a new home.
+7-9 are not steps to check the system before starting so they don't belong here. Find them a new home. Done
 </div>
 
 ####Cleaning Procedure
@@ -495,12 +564,15 @@ D=(1/8)*u.inch
 D.to(u.m)
 A=np.pi*(D**2)/4
 print(A)
+#Area given our diameter of tubing
 v=(Q/A).to(u.m/u.s)
 print(v)
+#velocity through our tubing given volumetric flow and area
 L=9.43*u.m
 T = 298 * u.degK
 vis = pc.viscosity_kinematic(T)
 print(vis)
+#kinematic viscosity given the temperature
 Gcoil=206.907*(1/u.s)
 g=9.81*(u.meter)/(u.second)/(u.second)
 hf=((Gcoil**2)*vis*L/v/g).to(u.m)
@@ -508,11 +580,13 @@ print(hf)
 R_c = 0.05*u.m
 shearG = fm.g_coil(Q,D,R_c,T)
 print(shearG)
+#Shear gradient in flocculator given curvature and volumetric flow
 hfModel=((shearG**2)*vis*L/v/g).to(u.m)
 print(hfModel)
+#headloss due to the flow through the flocculator
 deltah2=((v**2)/2/g+hf).to(u.m)
 print(deltah2)
-
+#height difference necessary for the velocity the team wants
 Qpacl=.00475*(u.milliliter)/(u.second)
 Qpacl.to(u.m*u.m*u.m/u.s)
 Dpacl=.000508*(u.m)
@@ -525,6 +599,7 @@ headP=.05*(u.meter)
 Lpacl=headP*g*Dpacl*Dpacl/32/vis/vpacl
 Lpacl.to(u.m)
 print(Lpacl)
+#length of microbore tubing necessary for the given headloss
 ```
 
 <div class="alert alert-block alert-danger">
