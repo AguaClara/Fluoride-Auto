@@ -1,4 +1,4 @@
-terminal# Fluoride, Spring 2018
+# Fluoride, Spring 2018
 #### Philip Akpan, Tigran Mehrabyan, Desiree Sausele, and Victoria Zhang
 #### April 20, 2018
 
@@ -14,6 +14,8 @@ Unclear how problems calibrating the fluoride probe caused team to shift to crea
 
 Was the probe critical to flouride removal or was it used to track flouride removal? What apparatus were you using to test flouride removal before?
 
+Addressed.
+
 </div>
 
 ## Introduction
@@ -24,7 +26,7 @@ In accordance with AguaClara's mission to create affordable, reliable, and susta
 <div class="alert alert-block alert-danger">
 Consider defining adsorption, floc, floc blanket (ask new members on your team if they would be able to understand them when they first joined.)
 
--Adressed
+-Addressed.
 </div>
 
 Last semester, the subteam continued the research performed from the summer of 2017, hoping to achieve high fluoride removal with the addition of clay. After switching to a new reactor designed by the High Rate Sedimentation team, the Fluoride subteam tested different concentrations of PACl and different upflow velocities with the goal of lowering the fluoride concentration to 1.5 $mg/L$ [(Longo et al., 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). This semester's team was hoping to continue these tests and recreate the adsorption model developed last semester using tap water as opposed to deionized water standards. After discovering issues with the fluoride probe, the team altered its direction and began to design a gravity-powered system. If possible, a fluoride removal system that does not require electricity would be very beneficial to the communities in India that AguaClara plans to serve. Once this system has been constructed, the team can begin testing its ability to remove fluoride.
@@ -117,7 +119,7 @@ In the last sentence, is the waste referring to the flocs or wasted water?
 </div>
 
 ## Previous Work
-In the Spring of 2016, the team analyzed data that suggested that the sand filter system was inefficient and decided to move towards the idea of a single floc blanket reactor. [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) Although the sand filter provided cheaper, more adequate removal of fluoride per milligram of PACl used, a key issue that arose with the sand filter was the system run time. The sand filter became saturated with PACl and fluoride too quickly and the head loss built up rapidly. In a matter of a couple of hours, the floc blanket was completely saturated to the point where it was no longer efficient or providing adequate removal of fluoride. Consequently, the system had to be backwashed too frequently to be an effective process (about every couple hours). On a much larger scale, such as a full size plant, the level of maintenance required to backwash each sand filter would be infeasible. In order to address this, the team fabricated a new reactor as seen in the figure below mirroring that of the floc blanket and plate settlers in the current AguaClara plants. The team set up a new apparatus fit with stock tanks, a reactor, a turbidimeter, a flocculator, and stock and waste pumps, referencing research  previously conducted on the relationship between the amount of coagulant added and head loss accumulation [(Dao, 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
+In the Spring of 2016, the team determined that the sand filter system was inefficient and decided to move towards the idea of a single floc blanket reactor [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Although the sand filter provided cheaper, more adequate removal of fluoride per milligram of PACl used, a key issue that arose with the sand filter was the system run time. The sand filter became saturated with PACl and fluoride too quickly and the head loss built up rapidly. In a matter of a couple of hours, the floc blanket was completely saturated to the point where it was no longer efficient or providing adequate removal of fluoride. Consequently, the system had to be backwashed too frequently to be an effective process (about every couple hours). On a much larger scale, such as a full size plant, the level of maintenance required to backwash each sand filter would be infeasible. In order to address this, the team fabricated a new reactor as seen in the figure below mirroring that of the floc blanket and plate settlers in the current AguaClara plants. The team set up a new apparatus fit with stock tanks, a reactor, a turbidimeter, a flocculator, and stock and waste pumps, referencing research  previously conducted on the relationship between the amount of coagulant added and head loss accumulation [(Dao, 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 <div class="alert alert-block alert-danger">
 Consider capitalizing spring
@@ -161,24 +163,24 @@ In an effort to visualize the formation of floc blankets, the Spring 2016 team f
 
 <div class="alert alert-block alert-danger">
 Saying that the transparency of the reactor improves reactor efficiency is a bit misleading. Consider removing the part of the sentence that says that.
-Done.
+
+-Addressed
 </div>
 
-In the Fall of 2016, the team fabricated a new bottom insert to prevent the accumulation of flocs that clogged the bottom of the reactor. The newly fabricated geometry with a smooth sloped bottom allowed for gradual flow expansion and the recirculation of the flocs that would have settled to the bottom of the reactor with the old bottom geometry as shown in the figure below.
+In the Fall of 2016, the team fabricated a new bottom insert to prevent the accumulation of flocs that clogged the bottom of the reactor. The newly fabricated geometry with a smooth sloped bottom  as shown in the figure below allowed for gradual flow expansion and the recirculation of the flocs that would have settled to the bottom of the reactor with the old bottom geometry.
 
 <div style = "text-align:center">
 <img
 align = "center"
 src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
 
-Figure 3: Reactor geometry that led to aggregation of flocs
+Figure 3: Bottom insert geometry that prevented clogging of the reactor  
 </div>
 
 <div class="alert alert-block alert-danger">
 Is this the new or old design?
 
--Now it's old but it was new at the time.
-Addressed
+-Addressed
 </div>
 
 Various concentrations of dye were tested (from 25 $\mathrm{\frac{mg}{L}}$ to 100 $\mathrm{\frac{mg}{L}}$) using a 1:1 PACl to dye ratio to see whether higher concentrations of dye would clog the reactor. However, even though increasing the concentration of dye increased the density of the floc blanket, the reactor did not clog and the bottom insert proved to be successful for these tests [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
@@ -186,7 +188,7 @@ Various concentrations of dye were tested (from 25 $\mathrm{\frac{mg}{L}}$ to 10
 <div class="alert alert-block alert-danger">
 Why is dye being used instead of flouride?
 
-Done.
+-Addressed
 </div>
 
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm,  the reactor failed in the long term as flocs built up and went through the tube settler to the turbidimeter in the long term. This suggested that there was a minimum height that a floc blanket would reach; thus the shorter reactor system was not feasible. [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
@@ -206,6 +208,8 @@ Over the summer of 2017, tests performed during the previous semester were repea
 <div class="alert alert-block alert-danger">
 Spring 2017 team of flouride or CSFBR were producing 0.05 mg/l og flouride concentrations?
 
+Fluoride.
+
 maintain similar formatting for units
 </div>
 
@@ -216,8 +220,6 @@ Be consistent with capitalization
 
 Be clear with which team is doing What
 
-Where is the sludge building up?
-
 The final section of this paragraph is very interesting.
 
 The lit review and previous work sections are extremely comprehensive and give a very in depth overview of the history of this project. But it is a lot of information to take in at once and it might not be all important to the general understanding of your design. Read through it again and try to prioritize important information or less important info.
@@ -226,15 +228,20 @@ The lit review and previous work sections are extremely comprehensive and give a
 ## Results
 Experiments were conducted with the new fluoride probe, which measured the effluent concentrations of fluoride after treatment with different concentrations of PACl. The results are summarized in the table below.
 
-<img src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=150>
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=220>
 
-However, the results are inconclusive. For example, influent concentrations of 10 mg/L and 5 mg/L of fluoride resulted in the same effluent concentration.
+Table 1: A summary of the experimental results using the new fluoride probe. Initial fluoride concentrations, as well as PACl concentrations were varied to pinpoint an optimal coagulant concentration for fluoride removal.
+</div>
 
+However, the results are inconclusive. For example, influent concentrations of 10 mg/L and 5 mg/L of fluoride resulted in the same fluoride effluent concentration of around 3 mg/L for 12.5 mg/L of PACl and around 2 mg/L for 25 mg/L PACl. This leads the team to question the accuracy of the probe and makes them hesitant to trust the data. Therefore, another probe may be ordered to ensure more accurate, trustworthy results.
 
 
 ## Design Considerations
 Due to complications with the fluoride probe, the team had to delay testing and instead focused on designing a fluoride removal system that would not require electricity.  Instead of using pumps to push water through the system, gravity will be doing all the work.
-The team is currently still in the process of calculating all the parameters necessary for the design of the lab scale system.
+The team is currently  in the process of calculating all the parameters necessary for the design of the lab scale system.
 
 <div class="alert alert-block alert-danger">
 Why two paragraphs?
@@ -246,10 +253,10 @@ Consider "focused" over "began to focus"
 
 ### Experimental Apparatus
 
-Powering a water treatment plant with electrical pumps is at times impossible with countries that have intermittent access to electricity. Nevertheless drinking water treatment must still be accomplished. The team's experimental design seeks to drive water through the flocculator and sedimentation tube using the power of gravity. The flow of water through the team's apparatus is primarily driven by the height difference between the untreated water constant head tank and the outlet containing the treated effluent. Water, with a given concentration of fluoride, will be supplied to the constant head tank from a reservoir controlled by a float valve allowing a constant height of water to remain in the tank. A similar setup will be used with the coagulant reservoir to guarantee a constant flow rate through the system. Before entering the flocculator, the coagulant and the untreated influent will meet and mix. The water and coagulant will flow through the coiled flocculator, colliding and forming flocs comprised of coagulant and any particles in the water along with the fluoride in the water. These flocs will then continue on with the flow of water into the sedimentation tube, where they will settle out and be captured by the angled portion of the tube. These captured flocs will roll down into the floc weir, removing it from the flow of water. The remaining water will flow out from the top of the sedimentation tube as the treated effluent.
+Powering a water treatment plant with electrical pumps is often impossible with countries that have intermittent access to electricity. The team's experimental design seeks to drive water through the flocculator and sedimentation tube using the power of gravity. The flow of water through the team's apparatus is primarily driven by the height difference between the untreated water constant head tank and the outlet containing the treated effluent. Water, with a given concentration of fluoride, will be supplied to the constant head tank from a reservoir controlled by a float valve allowing a constant height of water to remain in the tank. A similar setup will be used with the coagulant reservoir to guarantee a constant flow rate through the system. Before entering the flocculator, the coagulant and the untreated influent will meet and mix. The water and coagulant will flow through the coiled flocculator, colliding and forming flocs. These flocs will then continue on with the flow of water into the sedimentation tube, where they will settle out and be captured by the angled portion of the tube. These captured flocs will roll down into the floc weir, removing it from the flow of water. The remaining water will flow out from the top of the sedimentation tube as the treated effluent.
 
 <div class="alert alert-block alert-danger">
-Consider revising "is at times" in first sentence and rephrashing second sentence. (wordy)
+Consider revising "is at times" in first sentence. (wordy)
 
 Revise "colliding and forming flocs comprised of coagulant and any particles in the water along with the flouride in the water"
 
@@ -362,11 +369,7 @@ Consider labeling the parts in the fusion 360 drawings
 
 ## Future Work
 
-Regarding the design of the lab-scale system, there are a few additional details with respect to where the height of coagulant stock tanks are placed in order to get the desired concentration of coagulant into the system. In order to do this calculation, the team has been working on python code employing functions in the aide_design package. However, the values calculated by the aide_design functions currently do not directly coincide with the old Mathcad functions, and it is not known where the inconsistencies lie between the two programs.
-
-<div class="alert alert-block alert-danger">
-First sentence is hard to read. Consider a different transition sentence first.
-</div>
+In order to calculate the height of the constant head tanks, the team has been working on python code employing functions in the aide_design package. However, the values calculated by the aide_design functions currently do not directly coincide with the old Mathcad functions, and it is not known where the inconsistencies lie between the two programs.
 
 The team is also working on trying to use Fusion 360 to create a drawing of the designed process. In the coming weeks, the team will continue to work on the Fusion 360 assembly as well as continue to work on the python code and calculations. Following this, the team will build the designed set up in the lab space and begin testing to confirm that the height differences calculated result in the desired flow rate.
 
@@ -454,11 +457,7 @@ The reactor in the system as shown below was developed by the summer 2017 High R
 
 ## Experimental Methods
 ###Fluoride Experimentation
-The following are protocols used for past semesters' experimentation. Once the gravity powered system is constructed and functioning, the team will adapt these protocols to remove components that require electricity with the exception of the turbidimeter and fluoride probe.
-
-<div class="alert alert-block alert-danger">
-Second sentence is confusing - "remove componenets that require electricity" implies that you are using electricity?
-</div>
+The following are protocols used for past semesters' experimentation.
 
 ####Protocol for Running Just Water Through the Reactors
 1. Turn on Just Water process in ProCoDA and fill system completely with water.
