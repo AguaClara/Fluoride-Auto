@@ -193,7 +193,7 @@ Why is dye being used instead of flouride?
 
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm,  the reactor failed in the long term as flocs built up and went through the tube settler to the turbidimeter in the long term. This suggested that there was a minimum height that a floc blanket would reach; thus the shorter reactor system was not feasible. [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
-During the final portion of the semester, the subteam performed 24-hour experiments with the longer reactor in order to compare its results with those of the CSFBR subteam. The CSFBR subteam had hypothesized that a species removal system composed of two reactors in series could lead to cleaner water than the Fluoride team's single reactor system. During each iteration, the two teams ran each system for approximately twenty four hours with the same red dye and PACl concentrations. However, the results of these experiments were inconclusive because the CSFBR team found that PACl would clog their system midway through each experiment; rendering the reactors incapable of further purification [(Dokko, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Countercurrent+Stacked+Floc+Blanket+Reactor?preview=%2F327614518%2F340898600%2FCSFBRFinalReportFall2016.pdf). Thus, past semesters' subteams sought to reexamine the benefits of reactors in series versus a single reactor and to conclude which system yields the lowest effluent concentrations of red dye and fluoride.
+During the final portion of the semester, the subteam performed 24-hour experiments with the longer reactor in order to compare its results with those of the CSFBR subteam. The CSFBR subteam had hypothesized that a species removal system composed of two reactors in series could lead to cleaner water than the Fluoride team's single reactor system. During each iteration, the two teams ran each system for approximately twenty four hours with the same red dye and PACl concentrations. However, the results of these experiments were inconclusive because the CSFBR team found that PACl would clog their system midway through each experiment; rendering the reactors incapable of further purification [(Dokko, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Countercurrent+Stacked+Floc+Blanket+Reactor?preview=%2F327614518%2F340898600%2FCSFBRFinalReportFall2016.pdf). Thus, past semesters' CSFBR subteams sought to reexamine the benefits of reactors in series versus a single reactor and to conclude which system yields the lowest effluent concentrations of red dye and fluoride.
 
 <div class="alert alert-block alert-danger">
 Hmm I got confused somewhere down the line. Is the CSFBR subteam separate from flouride? Were they also working on flouride removal? This may have been included above, but double check.
@@ -201,9 +201,10 @@ Hmm I got confused somewhere down the line. Is the CSFBR subteam separate from f
 -Included. They are separate but working on similar goals so it made sense to collaborate.
 
 Which previous subteams reexamined the benefits of the reactors?
+Addressed
 </div>
 
-Over the summer of 2017, tests performed during the previous semester were repeated in order to finally determine whether the second reactor in series made enough significant improvements to be implemented on a larger scale. A new fluoride probe was purchased, and experiments conducted on this probe showed that a plant using Spring 2017's parameters could produce effluent water with as low as 0.05 mg/L, significantly below the WHO's standards. However, clay that remained in the effluent caused turbidity to often rise above 5 NTU. In consideration of this turbidity and as an effort to lower the number of resources needed to implement the reactor, it was determined that clay needed to be eliminated from the system. Additionally, the unusually high PACl dosage of 25 g/L needed to be lowered. While no data was collected that definitively pointed to using one or two reactors, the team tentatively hypothesized that the second reactor would not justify the added expenses when built on a larger scale. However, once the reagent parameters were optimized, further tests and a cost analysis could be conducted to verify this.
+Over the summer of 2017, tests performed during the previous semester were repeated in order to finally determine whether the second reactor in series made enough significant improvements to be implemented on a larger scale. A new fluoride probe was purchased, and experiments conducted on this probe showed that a plant using Spring 2017 Fluoride subteam's parameters could produce effluent water with as low as 0.05 mg/L, significantly below the WHO's standards. However, clay that remained in the effluent caused turbidity to often rise above 5 NTU. In consideration of this turbidity and as an effort to lower the number of resources needed to implement the reactor, it was determined that clay needed to be eliminated from the system. Additionally, the unusually high PACl dosage of 25 g/L needed to be lowered. While no data was collected that definitively pointed to using one or two reactors, the team tentatively hypothesized that the second reactor would not justify the added expenses when built on a larger scale. However, once the reagent parameters were optimized, further tests and a cost analysis could be conducted to verify this.
 
 <div class="alert alert-block alert-danger">
 Spring 2017 team of flouride or CSFBR were producing 0.05 mg/l og flouride concentrations?
@@ -211,6 +212,7 @@ Spring 2017 team of flouride or CSFBR were producing 0.05 mg/l og flouride conce
 Fluoride.
 
 maintain similar formatting for units
+Addressed
 </div>
 
 As research conducted over summer 2017 suggested, last semester's team removed the addition of clay to the system and sought to determine the optimal PACl concentration for high fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Initial tests showed that the reactors would fail within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to a new reactor designed by the summer 2017 High Rate Sedimentation team. The new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined an upflow velocity of 1.5 mm/s was the best way to reduce sludge buildup. The team then ran experiments looking at  the effects of increasing PACl concentration on removal rates. Data collected from these experiments was used to create an adsorption model that could be used to calculate the necessary PACl dosage for a desired effluent fluoride concentration. After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team decided the adsorption model was incorrect and should be remade taking this discrepancy into consideration.
@@ -249,11 +251,12 @@ Why two paragraphs?
 Consider "focused" over "began to focus"
 
 "currently still" is redundant
+Addressed
 </div>
 
 ### Experimental Apparatus
 
-Powering a water treatment plant with electrical pumps is often impossible with countries that have intermittent access to electricity. The team's experimental design seeks to drive water through the flocculator and sedimentation tube using the power of gravity. The flow of water through the team's apparatus is primarily driven by the height difference between the untreated water constant head tank and the outlet containing the treated effluent. Water, with a given concentration of fluoride, will be supplied to the constant head tank from a reservoir controlled by a float valve allowing a constant height of water to remain in the tank. A similar setup will be used with the coagulant reservoir to guarantee a constant flow rate through the system. Before entering the flocculator, the coagulant and the untreated influent will meet and mix. The water and coagulant will flow through the coiled flocculator, colliding and forming flocs. These flocs will then continue on with the flow of water into the sedimentation tube, where they will settle out and be captured by the angled portion of the tube. These captured flocs will roll down into the floc weir, removing it from the flow of water. The remaining water will flow out from the top of the sedimentation tube as the treated effluent.
+Powering a water treatment plant with electrical pumps is often impossible with countries that have intermittent access to electricity. The team's experimental design, as depicted in Figures 4, 5 and 6, seeks to drive water through the flocculator and sedimentation tube using the power of gravity. The flow of water through the team's apparatus is primarily driven by the height difference between the untreated water constant head tank and the outlet containing the treated effluent. Water, with a given concentration of fluoride, will be supplied to the constant head tank from a reservoir controlled by a float valve allowing a constant height of water to remain in the tank. A similar setup will be used with the coagulant reservoir to guarantee a constant flow rate through the system. Before entering the flocculator, the coagulant and the untreated influent will meet and mix. The water and coagulant will flow through the coiled flocculator, colliding and forming flocs. These flocs will then continue on with the flow of water into the sedimentation tube, where they will settle out and be captured by the angled portion of the tube. These captured flocs will roll down into the floc weir, removing it from the flow of water. The remaining water will flow out from the top of the sedimentation tube as the treated effluent.
 
 <div class="alert alert-block alert-danger">
 Consider revising "is at times" in first sentence. (wordy)
@@ -261,6 +264,8 @@ Consider revising "is at times" in first sentence. (wordy)
 Revise "colliding and forming flocs comprised of coagulant and any particles in the water along with the flouride in the water"
 
 Clear flow of experimental apparatus. Refer to the schematics below here so we can look at it
+
+-Addressed
 </div>
 
 #### Schematic
@@ -278,7 +283,7 @@ Figure 4: The figure above depicts a sketch of the team's current design idea fo
 align = "center"
 src = "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Projected_Front_View.png?raw=true">
 
-Figure 5: Isometric view of in progress Fusion 360 assembly
+Figure 5: Front view of in progress Fusion 360 assembly
 </div>
 
 
@@ -287,7 +292,7 @@ Figure 5: Isometric view of in progress Fusion 360 assembly
 align = "center"
 src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Projected_Side_View.png?raw=true">
 
-Figure 6: Front view of in progress Fusion 360 assembly
+Figure 6: Side view of in progress Fusion 360 assembly
 </div>
 
 
@@ -303,6 +308,8 @@ Consider labeling the parts in the fusion 360 drawings
 
   <div class="alert alert-block alert-danger">
   Avoid using the word began - try "calculated" instead of "began calculating"
+
+  -Addressed
   </div>
 
   $$ P_1 + \rho g \Delta h_1+ \frac{1}{2}\rho {v_1}^2 = P_2 + \rho g \Delta h_2+ \frac{1}{2}\rho {v_2}^2+ h_f $$
@@ -351,14 +358,32 @@ Consider labeling the parts in the fusion 360 drawings
   Consider a table summarizing all of your findings/design parameters. Good job justifiying them with equations and limitations
   </div>
 
-<!--#### Materials-->
+#### Materials
+- Two 6L buckets
+- Two 1L Nalgene bottles
+- Microbore tubing
+- 1/4" tubing
+- Two float valves
+- Sedimentation tube
+  - see manual for details on construction
+- Coiled flocculator
+  - see manual for details on construction
+- Bars of 80/20
 
 
+#### Construction Procedure
 
-#### Complications in construction
+  At this point the team is still modeling the experimental design and confirming the calculations are correct. The team is currently working on a fabricated design.
 
-  At this point the team is still modeling the experimental design and confirming the calculations are correct. It is evident that the team's current workspace will not be able to house the apparatus as has been designed, so a new workspace will need to be found or implementation of a new design must be done.
+  Prior to beginning fabrication, the team first constructed drawings both by hand and on Fusion 360 to plan out how the design should be implemented. The general structure of the design, as well as initial dimensions, were recorded. Referring to the detailed drawings, the team used the bars of 80/20 to construct the base of the gravity powered setup. These bars of 80/20 were cut to specification by the shop next to the AguaClara lab and placed together to match the team's drawings.
 
+  <div style = "text-align:center">
+  <img
+  align = "center"
+  src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/currentGravityFabRotated.jpg?raw=true" height = 450>
+    
+  Figure 7. Current progress of fabricated design
+  </div>
   <div class="alert alert-block alert-danger">
   What are the constraining factors?
 
@@ -369,9 +394,11 @@ Consider labeling the parts in the fusion 360 drawings
 
 ## Future Work
 
-In order to calculate the height of the constant head tanks, the team has been working on python code employing functions in the aide_design package. However, the values calculated by the aide_design functions currently do not directly coincide with the old Mathcad functions, and it is not known where the inconsistencies lie between the two programs.
+The team plans to finish fabricating the gravity powered fluoride removal system. Following this, testing of this fabricated system will be in order to ensure that the height differences calculated earlier in the semester yield the desired flowrates and concentrations.
 
-The team is also working on trying to use Fusion 360 to create a drawing of the designed process. In the coming weeks, the team will continue to work on the Fusion 360 assembly as well as continue to work on the python code and calculations. Following this, the team will build the designed set up in the lab space and begin testing to confirm that the height differences calculated result in the desired flow rate.
+The new probe purchased this semester proved to be unreliable with respect to calculating fluoride concentrations. The team believes that another probe will be required that includes a better manual on storage and possibly comes with a warranty and customer service to ensure the team can diagnose and fix problems with the probe. Upon obtaining a new probe, the team will be able to use it in testing the new gravity powered setup.
+
+The current design of the gravity powered system may be difficult to ship out to plants in the field. A design that integrates the main components of the system on a single column with more support at the base may be simpler and cheaper, therefore making it preferable to the current design. In order to begin redesigning the system, the team must first redesign on Fusion 360 and decide whether a single column design is feasible.
 
 ## Bibliography
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
@@ -438,37 +465,52 @@ solutions using polyaluminium chloride and alum. water science and technology, 5
 
 
 # Manual
-The purpose of this project is to determine if it is possible to create a fluoride removal system similar to that of previous semesters' teams that does not require electricity. If the design constraints are calculated correctly, then the system should be able to effectively remove fluoride from water to the standard set by WHO.
 
 <div class="alert alert-block alert-danger">
 You may not need this first paragraph here
 
 Fix figure formatting throughout
+
+-Addressed
 </div>
 
 ## Fabrication Details
 ###Reactor
-The reactor in the system as shown below was developed by the summer 2017 High Rate Sedimentation subteam. Details on how to construct it may be found [here](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation).
-<img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/new%20reactor.JPG?raw=true">
+The reactor in the system as shown in Figure 8 was developed by the summer 2017 High Rate Sedimentation subteam. Details on how to construct it may be found [here](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation).
+<div style = "text-align:center">
+<img
+align = "center"
+<img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/new%20reactor.JPG?raw=true" height=250 width=320>
+
+Figure 8. The sedimentation tube used for removal of the fluoride-containing flocs created during flocculation.
+</div>
 
 ###Schematic
-<img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor.jpg?raw=true">
+<div style = "text-align:center">
+<img
+align = "center"
+<img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor.jpg?raw=true" height=400 width=550>
 
+Figure 9. A sketch of the team’s current design idea for the gravity-powered apparatus.
+</div>
 
 ## Experimental Methods
 ###Fluoride Experimentation
 The following are protocols used for past semesters' experimentation.
 
 ####Protocol for Running Just Water Through the Reactors
-1. Turn on Just Water process in ProCoDA and fill system completely with water.
-2. Open fluoride line and close the fluoride valve as to not pump fluoride into the system during backwash
-3. Close the waste line
+
+1. Open tap water valve and close the fluoride valve as to not pump fluoride into the system during backwash
+2. Close the waste line
+3. Turn on Just Water process in ProCoDA and fill system completely with water.
 4. Make sure the sample bottle with the fluoride probe does not overflow from the high flow rate of the water
 5. Continue to run water until turbidimeter reads less than 0.5 NTU and fluoride concentration is less than 0.5 mg/L.
 6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 mg/L
 
 <div class="alert alert-block alert-danger">
 2. What is the difference between the flouride line amd the flouride valve?
+
+-Addressed (fluoride line was supposed to be tap water valve)
 </div>
 
 ####Protocol for Start Up and Running of Reactors
@@ -524,7 +566,7 @@ ProCoDA is a process control system that was developed by Monroe Weber-Shirk in 
 
 To begin the ProCoDA method file, three states were made: ON and OFF and Just Water. In the OFF state, all the valves were closed and no pumps were on. In the ON state, all the pumps were ON and all valves were opened, in the Just Water state, only the water valve was open. ProCoDA turned this pump on and off via a normal valve control, so long as the pump was already set to a proper flow rate. The system was set to run on Manual setting, as a proper run time had not yet been determined.
 
-The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and dye pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
+The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and fluoride pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
 
 <div class="alert alert-block alert-danger">
 Consider using a list to describe states for clarity and conciseness
