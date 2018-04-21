@@ -227,6 +227,26 @@ The final section of this paragraph is very interesting.
 The lit review and previous work sections are extremely comprehensive and give a very in depth overview of the history of this project. But it is a lot of information to take in at once and it might not be all important to the general understanding of your design. Read through it again and try to prioritize important information or less important info.
 </div>
 
+## Methods
+###Experimental apparatus
+The construction of this apparatus and the fabrication of the reactor was completed last semester. For information on how to run an experiment, refer to the manual at the end of this report.
+
+#####Water Flow Through Reactor
+1. Fluoride from the stock tank and tap water are first mixed
+2. PACl was then pumped out of the PACl stock tank and mixed with the diluted fluoride stream, which proceeded into the flocculator to make flocs
+3. The PACl-fluoride floc mixture flowed into the reactor where a floc blanket eventually formed
+4. Flocs settled out through the floc weir
+5. The effluent of the tube settler went through the turbidimeter and fluoride probe tester to waste.
+
+#####Materials
+- Two 600 RPM pumps and one 100 RPM pump
+- Transparent 2.54 cm (1") PVC piping
+- Flexible and hard 0.635 cm (1/4") tubing and Microtubing
+- Turbidimeter
+- Polyaluminum Chloride (PACl), 10,000 ppm Fluoride Solution
+- Various connectors and buckets for stock tanks
+- Two stir plates with stir bars
+
 ## Results
 Experiments were conducted with the new fluoride probe, which measured the effluent concentrations of fluoride after treatment with different concentrations of PACl. The results are summarized in the table below.
 
@@ -238,8 +258,10 @@ src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results
 Table 1: A summary of the experimental results using the new fluoride probe. Initial fluoride concentrations, as well as PACl concentrations were varied to pinpoint an optimal coagulant concentration for fluoride removal.
 </div>
 
-However, the results are inconclusive. For example, influent concentrations of 10 mg/L and 5 mg/L of fluoride resulted in the same fluoride effluent concentration of around 3 mg/L for 12.5 mg/L of PACl and around 2 mg/L for 25 mg/L PACl. This leads the team to question the accuracy of the probe and makes them hesitant to trust the data. Therefore, another probe may be ordered to ensure more accurate, trustworthy results.
+The goal of measuring different effluent concentrations of fluoride with the probe for difference concentrations of PACl is to construct an absorption model. This model would be used to predict the PACl dosage needed for a desired effluent fluoride concentration. Since the desired fluoride level set by the WHO is 1.5 mg/L, this is the desired effluent fluoride concentration. Therefore, the model will calculate a range of W values that will result in the target effluent concentration. Additionally, the model will calculate the PACl dosage necessary to treat an initial fluoride concentration given the range of W values.
+At a certain maximum PACl dosage, the reactor will clog due to insufficient shear to break down the PACl flocs, thereby causing the bed to fluidize. The maximum PACl dosage has not yet been determined. However, if the adsorption model calculates an excessive PACl dosage, a second reactor may be necessary to decrease the max concentration of PACl necessary to run the system. Adding a second reactor decreases the PACl dosage for each reactor since less removal is required for each individual reactor to achieve the desired effluent fluoride concentration. A multiple reactor system can use the solver function on excel or a model to vary the intermediate effluent concentration between the reactors and thus calculate the minimum overall amount of PACl necessary given an initial fluoride concentration and desired effluent concentration.
 
+However, the results so far have been inconclusive. For example, influent concentrations of 10 mg/L and 5 mg/L of fluoride resulted in the same fluoride effluent concentration of around 3 mg/L for 12.5 mg/L of PACl and around 2 mg/L for 25 mg/L PACl. It is unlikely that the same dosage of PACl will result in the same effluent fluoride concentration for fluoride inlet concentrations that differ by a factor of 2. This leads the team to question the accuracy of the probe and makes them hesitant to trust the data. Therefore, another more accurate probe may be ordered before any definitive conclusions can be drawn.
 
 ## Design Considerations
 Due to complications with the fluoride probe, the team had to delay testing and instead focused on designing a fluoride removal system that would not require electricity.  Instead of using pumps to push water through the system, gravity will be doing all the work.
@@ -381,7 +403,7 @@ Consider labeling the parts in the fusion 360 drawings
   <img
   align = "center"
   src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/currentGravityFabRotated.jpg?raw=true" height = 450>
-    
+
   Figure 7. Current progress of fabricated design
   </div>
   <div class="alert alert-block alert-danger">
