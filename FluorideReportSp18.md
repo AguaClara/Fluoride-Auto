@@ -228,17 +228,17 @@ The lit review and previous work sections are extremely comprehensive and give a
 </div>
 
 ## Methods
-###Experimental apparatus
+### Experimental apparatus
 The construction of this apparatus and the fabrication of the reactor was completed last semester. For information on how to run an experiment, refer to the manual at the end of this report.
 
-#####Water Flow Through Reactor
+##### Water Flow Through Reactor
 1. Fluoride from the stock tank and tap water are first mixed
 2. PACl was then pumped out of the PACl stock tank and mixed with the diluted fluoride stream, which proceeded into the flocculator to make flocs
 3. The PACl-fluoride floc mixture flowed into the reactor where a floc blanket eventually formed
 4. Flocs settled out through the floc weir
 5. The effluent of the tube settler went through the turbidimeter and fluoride probe tester to waste.
 
-#####Materials
+##### Materials
 - Two 600 RPM pumps and one 100 RPM pump
 - Transparent 2.54 cm (1") PVC piping
 - Flexible and hard 0.635 cm (1/4") tubing and Microtubing
