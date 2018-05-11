@@ -1,9 +1,9 @@
 # Fluoride, Spring 2018
 #### Philip Akpan, Tigran Mehrabyan, Desiree Sausele, and Victoria Zhang
-#### April 20, 2018
+#### May 11, 2018
 
 <div class="alert alert-block alert-danger">
-Please do not delete my comments. Address them in the report and I will check them on the next submission. If you disagree with any of the comments, add your own comment under mine.
+Please do not delete my comments. Address them in the report and I will check them on the next submission. If you disagree with any of the comments, add your own comment under mine
 </div>
 
 ## Abstract
@@ -15,6 +15,8 @@ Was the probe critical to flouride removal or was it used to track flouride remo
 Addressed.
 
 I'm still a little confused what the probe did and why it made you shift to a gravity-powered apparatus. Does the probe measure the flouride in the water or did it help remove particles? Will you need the probe to test the new gravity-powered system?
+
+Addressed
 </div>
 
 ## Introduction
@@ -39,6 +41,8 @@ According to the National Research Council (NRC), the maximum contaminant level 
 
 <div class="alert alert-block alert-danger">
 Either use the latex format for units or don't but be consistent. I'm ok with just writing "$\mathrm{\frac{mg}{L}}$" but go with whatever you think is best.
+
+Adddressed
 </div>
 
 ####*Polyaluminum Chloride (PACl) and Fluoride Removal*
@@ -154,12 +158,26 @@ Consider removing the section earlier in previous work about the potential of no
 -addressed
 </div>
 
-As research conducted over summer 2017 suggested, last semester's team removed the addition of clay to the system and sought to determine the optimal PACl concentration for high fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Initial tests showed that the reactors would fail within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to a new reactor designed by the summer 2017 High Rate Sedimentation team. The new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined an upflow velocity of 1.5 mm/s was the best way to reduce sludge buildup. The team then ran experiments looking at  the effects of increasing PACl concentration on removal rates. Data collected from these experiments was used to create an adsorption model that could be used to calculate the necessary PACl dosage for a desired effluent fluoride concentration. After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team decided the adsorption model was incorrect and should be remade taking this discrepancy into consideration.
+As research conducted over summer 2017 suggested, last semester's team removed the addition of clay to the system and sought to determine the optimal PACl concentration for high fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Initial tests showed that the reactors would fail within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to a new reactor designed by the summer 2017 High Rate Sedimentation team. The new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined an upflow velocity of 1.5 mm/s was the best way to reduce sludge buildup. The team then ran experiments looking at  the effects of increasing PACl concentration on removal rates. Data collected from these experiments was used to create an adsorption model that could be used to calculate the necessary PACl dosage for a desired effluent fluoride concentration.
+
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Adsorption%20Model_1.jpg?raw=true" height=300, width=400>
+
+Figure 2: Pump Powered Setup
+</div>
+
+After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team decided the adsorption model was incorrect and should be remade taking this discrepancy into consideration.
 
 <div class="alert alert-block alert-danger">
 Could you add in the adsorption model and explan what needs to change?
 
+Addressed
+
 Do you have concerns over past probe readings if you think it was off here?
+
+Addressed later on
 </div>
 
 ## Methods
@@ -183,7 +201,7 @@ The construction of this apparatus and the fabrication of the reactor was comple
 - Two stir plates with stir bars
 
 ## Results
-Experiments were conducted with the new fluoride probe, which measured the effluent concentrations of fluoride after treatment with different concentrations of PACl. The results are summarized in the table below.
+Experiments were conducted with the new fluoride probe, which measured the effluent concentrations of fluoride after treatment with different concentrations of PACl. (When a new probe was ordered, the difference in voltage readings between tap and DI water were negligible; therefore, it was concluded that the discrepancy last semester may have been caused by a probe issue) The results are summarized in the table below.
 
 <div style = "text-align:center">
 <img
@@ -193,13 +211,14 @@ src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results
 Table 1: A summary of the experimental results using the new fluoride probe. Initial fluoride concentrations, as well as PACl concentrations were varied to pinpoint an optimal coagulant concentration for fluoride removal.
 </div>
 
-The goal of measuring different effluent concentrations of fluoride with the probe for difference concentrations of PACl is to construct an absorption model. This model would be used to predict the PACl dosage needed for a desired effluent fluoride concentration. Since the desired fluoride level set by the WHO is 1.5 $\mathrm{\frac{mg}{L}}$, this is the desired effluent fluoride concentration. Therefore, the model will calculate a range of W values that will result in the target effluent concentration. Additionally, the model will calculate the PACl dosage necessary to treat an initial fluoride concentration given the range of W values.
+The goal of measuring different effluent concentrations of fluoride with the probe for different concentrations of PACl is to construct an absorption model. This model would be used to predict the PACl dosage needed for a desired effluent fluoride concentration and would also give a W value for the mass of F- adsorbed. Since the desired fluoride level set by the WHO is 1.5 $\mathrm{\frac{mg}{L}}$, this is the desired effluent fluoride concentration. Therefore, the model will calculate a range of W values that will result in the target effluent concentration. Additionally, the model will calculate the PACl dosage necessary to treat an initial fluoride concentration given the range of W values.
 At a certain maximum PACl dosage, the reactor will clog due to insufficient shear to break down the PACl flocs, thereby causing the bed to fluidize. The maximum PACl dosage has not yet been determined. However, if the adsorption model calculates an excessive PACl dosage, a second reactor may be necessary to decrease the max concentration of PACl necessary to run the system. Adding a second reactor decreases the PACl dosage for each reactor since less removal is required for each individual reactor to achieve the desired effluent fluoride concentration. A multiple reactor system can use the solver function on excel or a model to vary the intermediate effluent concentration between the reactors and thus calculate the minimum overall amount of PACl necessary given an initial fluoride concentration and desired effluent concentration.
 
 <div class="alert alert-block alert-danger">
 Revise for spelling and grammar. Accidental paragraphs
 
 Consider defining W here (I see it in the figure but it may be overlooked)
+-addressed
 
 What exactky makes the bed fluidize?
 </div>
@@ -293,14 +312,14 @@ Figure 6: Side view of in progress Fusion 360 assembly
   Consider pdfing the report for the next submission so that I can read the equations easier.
   </div>
 
-  The height differences necessary to create the desired flow rates through the reactor have been calculated, however other constraints, like horizontal distance and orientation are largely undecided. Since these variables will negligibly affect the flow rate through the reactor, they can be altered for the most convenient setup. The tubing from the PACl stock was chosen to be .03" in diameter and .18m in length to generate the necessary major head loss and result in the concentration of PACl desired in the reactor. With these specifications the team can generate the following range of concentrations of PACl for experimentation:
+  The height differences necessary to create the desired flow rates through the reactor have been calculated, however other constraints, like horizontal distance and orientation are largely undecided. Since these variables will negligibly affect the flow rate through the reactor, they can be altered for the most convenient setup. The tubing from the PACl stock was chosen to be .03" in diameter and .18m in length to generate the necessary major head loss and result in the concentration of PACl desired in the reactor.  See the manual for these equations in python. With these specifications the team can generate the following range of concentrations of PACl for experimentation:
 
   $$ .00475 \frac {mL}{s}, .0095 \frac{mL}{s}, .019 \frac{mL}{s}, .038 \frac {mL}{s} $$
 
   <div class="alert alert-block alert-danger">
   Consider a table summarizing all of your findings/design parameters. Good job justifiying them with equations and limitations
 
-  Tell readers to look at your manual for these equations written up in python!
+  Tell readers to look at your manual for these equations written up in python! -addressed
   </div>
 
 #### Materials
@@ -317,16 +336,15 @@ Figure 6: Side view of in progress Fusion 360 assembly
 
 
 #### Construction Procedure
-
-  At this point the team is still modeling the experimental design and confirming the calculations are correct. The team is currently working on a fabricated design.
-
   <div class="alert alert-block alert-danger">
   Maybe redundant/unnecessary paragraph?
+
+  -addressed
   </div>
 
   Prior to beginning fabrication, the team first constructed drawings both by hand and on Fusion 360 to plan out how the design should be implemented. The general structure of the design, as well as initial dimensions, were recorded. Referring to the detailed drawings, the team used the bars of 80/20 to construct the base of the gravity powered setup. These bars of 80/20 were cut to specification by the shop next to the AguaClara lab and placed together to match the team's drawings.
 
-The team used a two column base in order to ensure stability of our setup. Additionally we used the angular bars, as can be seen in figure 7, to provide lateral support. The horizontal bars ensure that the vertical bars remain rigid and are unable to move side to side. The PVC platform, that can be noted in figure 7, are supported by another 80/20 bar along one axis. However, as can be seen in figure 7, one corner is not supported, a stress test was performed to ensure that the platform was stable even at the heaviest loading the team would place on it. The two high horizontal bars, seen in figure 7, were placed to ensure that there was a height difference of at least thirty centimeters between the bottom of the water reservoir and the top of the water constant head tank. This setup was made in order to ensure enough of a driving force is present even when the water reservoir is at its lowest level.
+The team used a two column base in order to ensure stability of our setup. Additionally we used the angular bars, as can be seen in Figure 7, to provide lateral support. The horizontal bars ensure that the vertical bars remain rigid and are unable to move side to side. The PVC platform, that can be noted in Figure 7, are supported by another 80/20 bar along one axis. However, as can be seen in Figure 7, one corner is not supported, a stress test was performed to ensure that the platform was stable even at the heaviest loading the team would place on it. The two high horizontal bars, seen in Figure 7, were placed to ensure that there was a height difference of at least thirty centimeters between the bottom of the water reservoir and the top of the water constant head tank. This setup was made in order to ensure enough of a driving force is present even when the water reservoir is at its lowest level.
 
   <div class="alert alert-block alert-danger">
   Refer to your drawings by figure number here.
@@ -335,7 +353,7 @@ The team used a two column base in order to ensure stability of our setup. Addit
   <div style = "text-align:center">
   <img
   align = "center"
-  src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/currentGravityFabRotated.jpg?raw=true" height = 450>
+  src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Screen Shot 2018-05-11 at 4.26.53 PM.png?raw=true" height = 450>
 
   Figure 7. Current progress of fabricated design
   </div>
@@ -437,7 +455,8 @@ align = "center"
 Figure 8. The sedimentation tube used for removal of the fluoride-containing flocs created during flocculation.
 </div>
 
-###Schematic
+###Set-up
+The apparatus the team is currently running experiments with is powered by gravity. The height difference between the untreated water constant head tank and the treated effluent line drives water through the flocculator and sedimentation tube to remove fluoride.
 <div style = "text-align:center">
 <img
 align = "center"
@@ -448,14 +467,16 @@ Figure 9. A sketch of the team’s current design idea for the gravity-powered a
 
 <div class="alert alert-block alert-danger">
 Maybe change "schematic" to "Set-up" and provide a brief description in a sentence or two.
+-addressed
 </div>
 
 ## Experimental Methods
-###Fluoride Experimentation
+###Electricity-Powered Fluoride Experiments
 The following are protocols used for past semesters' experimentation.
 
 <div class="alert alert-block alert-danger">
 Consider changing the name to reference that this is the past design. "Electricity-Powered Flouride Experiments" for example
+-addressed
 </div>
 
 ####Protocol for Running Just Water Through the Reactors
