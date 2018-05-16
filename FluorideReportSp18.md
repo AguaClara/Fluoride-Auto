@@ -1,10 +1,25 @@
 # Fluoride, Spring 2018
 #### Philip Akpan, Tigran Mehrabyan, Desiree Sausele, and Victoria Zhang
+<<<<<<< HEAD
 #### May 16, 2018
+=======
+#### May 11, 2018
+
+<div class="alert alert-block alert-danger">
+Please do not delete my comments. Address them in the report and I will check them on the next submission. If you disagree with any of the comments, add your own comment under mine
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 ## Abstract
 The Fluoride subteam seeks to develop a sustainable, inexpensive fluoride removal system for implementation in upcoming AguaClara plants located in India. Using the apparatus developed by previous semesters, the team continued running experiments testing how various concentrations of PACl affect fluoride removal. However, complications with the ability to measure fluoride concentrations required the team to shift its goals to designing a lab scale, gravity-powered system. The team finalized a design and completed construction of the new, electricity-free apparatus. The team plans to run experiments to test its fluoride removal capabilities after ensuring that there are no remaining water leaks.
 
+<<<<<<< HEAD
+=======
+I'm still a little confused what the probe did and why it made you shift to a gravity-powered apparatus. Does the probe measure the flouride in the water or did it help remove particles? Will you need the probe to test the new gravity-powered system?
+
+Addressed
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 ## Introduction
 With 85% of its drinking water sourced from groundwater, India is the largest user of groundwater in the world. In stark contrast to tap water sources in the United States that are supplemented with fluoride, India’s groundwater sources often display excess levels of fluoride due to rocks in aquifers that leak large amounts of fluoride into the water. Consequently, villagers  who rely on these well sources for water are at a high risk of overexposure to fluoride. The prevalence of dental fluorosis, an indicator of excessive fluoride concentrations, differs across India, but has been shown to range from 13-91 percent depending on the age group in question and the water source supplying the state or municipality [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf).
@@ -20,12 +35,34 @@ Over-consumption of fluoride can lead to arthritis, dental fluorosis, crippling 
 
 According to the National Research Council (NRC), the maximum contaminant level (MCL) of fluoride in drinking water is 4 $\mathrm{\frac{mg}{L}}$. However, a secondary limit of 2 $\mathrm{\frac{mg}{L}}$ has been established by the EPA to avoid potential cosmetic effects such as tooth and skin discoloration. The World Health Organization (WHO) established a safe upper limit of 1.5 $\mathrm{\frac{mg}{L}}$ to avoid all potential risks of fluoride consumption. The team will be striving towards the WHO guideline of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride this semester by designing and experimenting with the floc blanket reactor and manipulating the ratios and concentrations of PACl and clay in the system.
 
+<<<<<<< HEAD
+=======
+<div class="alert alert-block alert-danger">
+Either use the latex format for units or don't but be consistent. I'm ok with just writing "$\mathrm{\frac{mg}{L}}$" but go with whatever you think is best.
+
+Adddressed
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 ####*Polyaluminum Chloride (PACl) and Fluoride Removal*
 One common type of water treatment consists of a series of coagulation, flocculation, and clarification. During coagulation, raw water is mixed with a positively charged coagulant (typically an aluminum salt or iron salt), altering or destabilizing any negatively charged particles or dissolved and colloidal contaminants [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Depending on the dose of coagulant, there are two methods of particle destabilization. The first, charge neutralization, occurs with a lower coagulant dose and happens as the negative colloids are attracted to the positively charged coagulant particles. The second method, sweep flocculation, requires a high coagulant dose and transpires when the contaminants are caught by precipitates as they settle in the suspension [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). The destabilized particles then proceed through flocculation, where additional mixing increases the rate of particle collision, forming larger precipitates. Following the formation of flocs, clarification removes the agglomerated particles through sedimentation or other removal processes [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do).
 
 In recent years, polymerized forms of aluminum salts have been used increasingly to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Polyaluminum chloride, a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). The main advantages of using polyaluminum chloride instead of alum include a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). In the Daylesford Water Filtration Plant, a dose of 45 $\mathrm{\frac{mg}{L}}$ of alum was required to produce potable water, while only 12 $\mathrm{\frac{mg}{L}}$ of  PACl were required. Additionally, PACl is advantageous in particulate removal because its hydrolyzed state allows for it to be less affected than typical aluminum salts when temperature conditions are inconsistent [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Furthermore, PACl has a broader range of raw water pH in which it is an effective coagulant. It shows stable turbidity removal from 5.0-8.0 pH, compared to a range of 6.0-7.0 pH for both $\rm{AlCl_3}$ and $\rm{Al_2(SO_4)}$  [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465). For the removal of fluoride, PACl has been found to be the most effective with pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do).
 
+<<<<<<< HEAD
+=======
+
+Many sources have shown that PACl seems to be the optimal coagulant for the purposes of removing  fluoride from influent water. [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). PACl has been and continues to be used as the most common form of dye removal at the industrial scale. Despite its cost, a main reason as to why PACl is so popular as opposed to other coagulants is that PACl does not cause any leeching of hazardous chemicals into the water from dye decomposition [(Golob et al, 2005)](https://www.sciencedirect.com/science/article/pii/S0143720804002724). A drawback of PACl is that once its coagulation capabilities are saturated, the dye coagulation drops drastically while other coagulants are able to reach a maximum capacity and plateau. The team has been using PACl as the coagulant since the start of the project. Therefore the reasons listed above the team will continue to use PACl as its choice of coagulant for experiments. A future experiment may be to optimize choice of coagulant in order to maximize flouride removal, but other more important parameters must be optimized before approaching this issue.
+
+<div class="alert alert-block alert-danger">
+Can this section be combined with the earlier section describing PACl? It seems to reiterate similar themes and may be more impactful there.
+
+-addressed
+
+</div>
+
+Several techniques currently use PACl to reduce high fluoride levels. The Nalgonda technique is a popular fluoride removal method that involves a combination of rapid mixing, flocculation, sedimentation, filtration and disinfection. However,  fluoride removal is usually done through co-precipitation  [(Bailey and Fawell, 2004)](http://apps.who.int/iris/handle/10665/43514), which has traditionally been done using aluminum sulfate, but more recent experiments have proven that PACl can be an effective substitute [(Kumbhar and Salkar, 2014)](http://www.ijetae.com/files/Volume4Issue10/IJETAE_1014_22.pdf). The Nalgonda technique typically utilizes a "batch filtration" method, where large quantities of water are treated in buckets. This technique does not utilize continuous flow, and requires a series of treatments to obtain decontaminated water for extended periods of time. For this reason, the Nalgonda technique has been largely introduced as a household treatment method, and has been introduced to various Indian villages, including those in Nalgonda and in the state of Telangana. It is also currently being studied at the pilot scale in Kenya, Senegal and Tanzania [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf).  In addition to the restrictions implied by batch treatment, the Nalgonda method requires a high dosage of aluminum sulfate to aggregate with fluoride and precipitate. A study conducted by [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf) suggests that 13 $\mathrm{\frac{g}{L}}$ alum (1.2 $\mathrm{\frac{g}{L}}$ as Al) is needed for the Nalgonda method to effectively treat fluoride levels between 9 and 13 $\mathrm{\frac{mg}{L}}$. Despite the high concentrations of coagulant, the fluoride residual in the test was still unable to meet the WHO safety guidelines of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride. The high dose of aluminum sulfate also leaves high sulfate residuals in the water, which causes taste and odor issues [(Bailey and Fawell, 2004)](http://apps.who.int/iris/handle/10665/43514).
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 Many sources have shown that PACl seems to be the optimal coagulant for the purposes of removing  fluoride from influent water. [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). PACl has been and continues to be used as the most common form of dye removal at the industrial scale. Despite its cost, a main reason as to why PACl is so popular as opposed to other coagulants is that PACl does not cause any leeching of hazardous chemicals into the water from dye decomposition [(Golob et al, 2005)](https://www.sciencedirect.com/science/article/pii/S0143720804002724). A drawback of PACl is that once its coagulation capabilities are saturated, the dye coagulation drops drastically while other coagulants are able to reach a maximum capacity and plateau. The team has been using PACl as the coagulant since the start of the project. Therefore the reasons listed above the team will continue to use PACl as its choice of coagulant for experiments. A future experiment may be to optimize choice of coagulant in order to maximize flouride removal, but other more important parameters must be optimized before approaching this issue.
 
@@ -53,6 +90,17 @@ This floc blanket clarification is considered hindered settling, which is a form
 
 Examples of floc blanket clarification are shown throughout the world as further proof of its potential in water purification. In Taiwan, a process of pre-sedimentation, floc blanket clarification, and sand filtration is used to reduce 100 NTU water down to potable levels [(Lin et al., 2004)](https://ascelibrary-org.proxy.library.cornell.edu/doi/abs/10.1061/(ASCE)0733-9372(2004)130:12(1481)). Floc blankets have also been used extensively to purify water of algae, protozoa and specific virus strains [(LeChavallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/). Therefore, it is believed that the adaptability of this method in conjunction with the use of PACl would allow for effective fluoride removal.
 
+<<<<<<< HEAD
+=======
+
+
+
+<div class="alert alert-block alert-danger">
+Reexamine the last sentence: I am confused how it produces less flocs per mass of contaminant removed.
+
+Auggie suggested we remove this section since countercurrent flow isn't relevant to our work this semester
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 ## Previous Work
 In the Spring of 2016, the team determined that the sand filter system was inefficient and decided to move towards the idea of a single floc blanket reactor [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Although the sand filter provided cheaper, more adequate removal of fluoride per milligram of PACl used, a key issue that arose with the sand filter was the system run time. The sand filter became saturated with PACl and fluoride too quickly and the head loss built up rapidly. In a matter of a couple of hours, the floc blanket was completely saturated to the point where it was no longer efficient or providing adequate removal of fluoride. Consequently, the system had to be backwashed too frequently to be an effective process (about every couple hours). On a much larger scale, such as a full size plant, the level of maintenance required to backwash each sand filter would be infeasible. In order to address this, the team fabricated a new reactor as seen in Figure 2 mirroring that of the floc blanket and plate settlers in the current AguaClara plants. The team set up a new apparatus fit with stock tanks, a reactor, a turbidimeter, a flocculator, and stock and waste pumps, referencing research  previously conducted on the relationship between the amount of coagulant added and head loss accumulation [(Dao, 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
@@ -72,6 +120,14 @@ After the calculations and fabrication were completed, the Spring 2016 team was 
 
 In an effort to visualize the formation of floc blankets, the Spring 2016 team fabricated an entirely transparent version of the reactor, where the important contact points (the floc weir and the bend to the tube settler) were visible so that interactions occurring in those areas could be analyzed. The Spring 2016 team then used this reactor at an EPA competition to analyze red dye in place of fluoride and found that it was a successful dye removal apparatus. Red dye was used in place of fluoride for the majority of testing since red dye is cheaper and easier to see in the reactor and red dye and fluoride have similar properties in how they are removed and adsorbed to PACl. Once satisfactory removal efficiency was achieved, the Spring 2016 team switched to using fluoride to determine more accurate conclusions. Finally, the Spring 2016 team performed some initial jar tests which suggested that the use of clay may not be necessary for the removal of fluoride [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). These tests included putting PACl and fluoride into a beaker to mix for 5 minutes then settle for 15 minutes. Then, the surface water was tested for fluoride to reveal low levels of fluoride.
 
+<<<<<<< HEAD
+=======
+<div class="alert alert-block alert-danger">
+So the old system required influent clay? As in in the field, user would've added in sediment? In most set-ups clay is in the influent because in real-world settings, sediment in the water is an issue and also needs to be gotten rid of. Will the influent water in India have clay/sediment in it?
+
+-deleted this section as the next comment suggested
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 In the Fall of 2016, the team fabricated a new bottom insert to prevent the accumulation of flocs that clogged the bottom of the reactor. The newly fabricated geometry with a smooth sloped bottom  as shown in Figure 3 allowed for gradual flow expansion and the recirculation of the flocs that would have settled to the bottom of the reactor with the old bottom geometry.
 
@@ -91,6 +147,15 @@ During the final portion of the semester, the subteam performed 24-hour experime
 
 Over the summer of 2017, tests performed during the previous semester were repeated in order to finally determine whether the second reactor in series made enough significant improvements to be implemented on a larger scale. A new fluoride probe was purchased, and experiments conducted on this probe showed that a plant using Spring 2017 Fluoride subteam's parameters could produce effluent water with as low as 0.05 $\mathrm{\frac{mg}{L}}$, significantly below the WHO's standards. However, clay that remained in the effluent caused turbidity to often rise above 5 NTU. In consideration of this turbidity and as an effort to lower the number of resources needed to implement the reactor, it was determined that clay needed to be eliminated from the system. Additionally, the unusually high PACl dosage of 25 $\mathrm{\frac{g}{L}}$ needed to be lowered. While no data was collected that definitively pointed to using one or two reactors, the team tentatively hypothesized that the second reactor would not justify the added expenses when built on a larger scale. However, once the reagent parameters were optimized, further tests and a cost analysis could be conducted to verify this.
 
+<<<<<<< HEAD
+
+As research conducted over summer 2017 suggested, last semester's team removed the addition of clay to the system and sought to determine the optimal PACl concentration for high fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Initial tests showed that the reactors would fail within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to a new reactor designed by the summer 2017 High Rate Sedimentation team. The new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined an upflow velocity of 1.5 mm/s was the best way to reduce sludge buildup. The team then ran experiments looking at  the effects of increasing PACl concentration on removal rates. Data collected from these experiments was used to create an adsorption model that could be used to calculate the necessary PACl dosage for a desired effluent fluoride concentration.
+=======
+<div class="alert alert-block alert-danger">
+Consider removing the section earlier in previous work about the potential of not needing clay. I left a comment below it asking for clarification, but with what you have here, it is probably better to delete it instead of making things more confusing.
+
+-addressed
+</div>
 
 As research conducted over summer 2017 suggested, last semester's team removed the addition of clay to the system and sought to determine the optimal PACl concentration for high fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Initial tests showed that the reactors would fail within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to a new reactor designed by the summer 2017 High Rate Sedimentation team. The new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined an upflow velocity of 1.5 mm/s was the best way to reduce sludge buildup. The team then ran experiments looking at  the effects of increasing PACl concentration on removal rates. Data collected from these experiments was used to create an adsorption model that could be used to calculate the necessary PACl dosage for a desired effluent fluoride concentration.
 
@@ -100,6 +165,25 @@ align = "center"
 src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Adsorption%20Model_1.jpg?raw=true" height=300, width=400>
 
 Figure 2: Pump Powered Setup
+</div>
+
+After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team decided the adsorption model was incorrect and should be remade taking this discrepancy into consideration.
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
+
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Adsorption%20Model_1.jpg?raw=true" height=300, width=400>
+
+<<<<<<< HEAD
+Figure 2: Pump Powered Setup
+=======
+Addressed
+
+Do you have concerns over past probe readings if you think it was off here?
+
+Addressed later on
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 </div>
 
 After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team decided the adsorption model was incorrect and should be remade taking this discrepancy into consideration.
@@ -139,6 +223,17 @@ Table 1: A summary of the experimental results using the new fluoride probe. Ini
 The goal of measuring different effluent concentrations of fluoride with the probe for different concentrations of PACl is to construct an absorption model. This model would be used to predict the PACl dosage needed for a desired effluent fluoride concentration and would also give a W value for the mass of F- adsorbed. Since the desired fluoride level set by the WHO is 1.5 $\mathrm{\frac{mg}{L}}$, this is the desired effluent fluoride concentration. Therefore, the model will calculate a range of W values that will result in the target effluent concentration. Additionally, the model will calculate the PACl dosage necessary to treat an initial fluoride concentration given the range of W values.
 At a certain maximum PACl dosage, the reactor will clog due to insufficient shear to break down the PACl flocs, thereby causing the bed to fluidize. The maximum PACl dosage has not yet been determined. However, if the adsorption model calculates an excessive PACl dosage, a second reactor may be necessary to decrease the max concentration of PACl necessary to run the system. Adding a second reactor decreases the PACl dosage for each reactor since less removal is required for each individual reactor to achieve the desired effluent fluoride concentration. A multiple reactor system can use the solver function on excel or a model to vary the intermediate effluent concentration between the reactors and thus calculate the minimum overall amount of PACl necessary given an initial fluoride concentration and desired effluent concentration.
 
+<<<<<<< HEAD
+=======
+<div class="alert alert-block alert-danger">
+Revise for spelling and grammar. Accidental paragraphs
+
+Consider defining W here (I see it in the figure but it may be overlooked)
+-addressed
+
+What exactky makes the bed fluidize?
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 However, the results so far have been inconclusive. For example, influent concentrations of 10 $\mathrm{\frac{mg}{L}}$ and 5 $\mathrm{\frac{mg}{L}}$ of fluoride resulted in the same fluoride effluent concentration of around 3 $\mathrm{\frac{mg}{L}}$ for 12.5 $\mathrm{\frac{mg}{L}}$ of PACl and around 2 $\mathrm{\frac{mg}{L}}$ for 25 $\mathrm{\frac{mg}{L}}$ PACl. It is unlikely that the same dosage of PACl will result in the same effluent fluoride concentration for fluoride inlet concentrations that differ by a factor of 2. This leads the team to question the accuracy of the probe and makes them hesitant to trust the data. Therefore, another more accurate probe may be ordered before any definitive conclusions can be drawn.
 
@@ -214,10 +309,24 @@ Figure 6: Side view of in progress Fusion 360 assembly
   The other flow rates are all multiples of this flow rate and can be generated by multiplying the height difference by the factor necessary.
 
 
+<<<<<<< HEAD
+=======
+  Consider pdfing the report for the next submission so that I can read the equations easier.
+  </div>
+
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
   The height differences necessary to create the desired flow rates through the reactor have been calculated, however other constraints, like horizontal distance and orientation are largely undecided. Since these variables will negligibly affect the flow rate through the reactor, they can be altered for the most convenient setup. The tubing from the PACl stock was chosen to be .03" in diameter and .18m in length to generate the necessary major head loss and result in the concentration of PACl desired in the reactor.  See the manual for these equations in python. With these specifications the team can generate the following range of concentrations of PACl for experimentation:
 
   $$ .00475 \frac {mL}{s}, .0095 \frac{mL}{s}, .019 \frac{mL}{s}, .038 \frac {mL}{s} $$
 
+<<<<<<< HEAD
+=======
+  <div class="alert alert-block alert-danger">
+  Consider a table summarizing all of your findings/design parameters. Good job justifiying them with equations and limitations
+
+  Tell readers to look at your manual for these equations written up in python! -addressed
+  </div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 #### Materials
 - Two 6L buckets
@@ -233,6 +342,14 @@ Figure 6: Side view of in progress Fusion 360 assembly
 
 
 #### Construction Procedure
+<<<<<<< HEAD
+=======
+  <div class="alert alert-block alert-danger">
+  Maybe redundant/unnecessary paragraph?
+
+  -addressed
+  </div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
   Prior to beginning fabrication, the team first constructed drawings both by hand and on Fusion 360 to plan out how the design should be implemented. The general structure of the design, as well as initial dimensions, were recorded. Referring to the detailed drawings, the team used the bars of 80/20 to construct the base of the gravity powered setup. These bars of 80/20 were cut to specification by the shop next to the AguaClara lab and placed together to match the team's drawings.
 
@@ -242,7 +359,11 @@ The team used a two column base in order to ensure stability of our setup. Addit
   <div style = "text-align:center">
   <img
   align = "center"
+<<<<<<< HEAD
   src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/labeledGravSystem.PNG?raw=true" height = 450>
+=======
+  src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Screen Shot 2018-05-11 at 4.26.53 PM.png?raw=true" height = 450>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
   Figure 7. Current progress of fabricated design
   </div>
@@ -344,11 +465,25 @@ align = "center"
 Figure 9. A sketch of the team’s current design idea for the gravity-powered apparatus.
 </div>
 
+<<<<<<< HEAD
+=======
+<div class="alert alert-block alert-danger">
+Maybe change "schematic" to "Set-up" and provide a brief description in a sentence or two.
+-addressed
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 ## Experimental Methods
 ###Electricity-Powered Fluoride Experiments
 The following are protocols used for past semesters' experimentation.
 
+<<<<<<< HEAD
+=======
+<div class="alert alert-block alert-danger">
+Consider changing the name to reference that this is the past design. "Electricity-Powered Flouride Experiments" for example
+-addressed
+</div>
+>>>>>>> 21c3fa26e88fe7a78f97b62241a08531a87d1c3f
 
 ####Protocol for Running Just Water Through the Reactors
 
