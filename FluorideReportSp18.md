@@ -121,7 +121,7 @@ The construction of this apparatus and the fabrication of the reactor was comple
 - Transparent 2.54 cm (1") PVC piping
 - Flexible and hard 0.635 cm (1/4") tubing and Microtubing
 - Turbidimeter
-- Polyaluminum Chloride (PACl), 10,000 ppm Fluoride Solution
+- Polyaluminum Chloride (PACl), 1,000 ppm Fluoride Solution
 - Various connectors and buckets for stock tanks
 - Two stir plates with stir bars
 
