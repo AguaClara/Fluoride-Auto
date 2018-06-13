@@ -53,10 +53,13 @@ total_v = v_water + v_stock
 c_solution = (fluoride_stock * v_stock)/(total_v)
 print('The fluoride concentration in the stock container is: ' +str(c_solution))
 
-Q_sys = Q #water pump speed, calculated above
+Q_sys = Q.to(u.L/u.s) #water pump speed, calculated above
 Q_stock = yb_flowrate
 C_stock = c_solution
 C_sys = ((Q_stock*C_stock)/(Q_sys)).to(u.mg/u.L)
 print('The fluoride concentration in the system is: ' +str(C_sys))
+
+percent_flow = yb_flowrate/Q_sys
+print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow))
 
 ```
