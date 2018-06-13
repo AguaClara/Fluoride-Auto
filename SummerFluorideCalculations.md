@@ -31,10 +31,6 @@ Calculates RPM of coagulant pump, given a desired concentration in the system.
 Assumes flow rate of coagulant pump is negligible compared to the water pump flow rate.
 
 ```python
-import math as m
-import numpy as np
-from aide_design.play import*
-import aide_design.floc_model as fm
 
 ```
 
@@ -42,24 +38,22 @@ import aide_design.floc_model as fm
 Calculates volumetric flow rate of fluoride pump, given pump speed in RPM.
 Calculates concentration of fluoride in system.
 Assumes flow rate of fluoride pump is negligible compared to the water pump flow rate.
-Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+Peristaltic+Pumps)
+Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+Peristaltic+Pumps).
 
 ```python
-from aide_design.play import*
-
-pump_speed = 20*(u.rpm)
+pump_speed = 40*(u.rpm)
 yellow_blue = 0.149*(u.milliliter/u.revolutions)
 yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 print('The fluoride flow rate is: '+str(yb_flowrate))
 
 fluoride_stock = 1000 * (u.mg/u.L)
-v_stock = 0.02 * u.L
+v_stock = (280 * u.mL).to(u.L)
 v_water = 1 * u.L
 total_v = v_water + v_stock
 c_solution = (fluoride_stock * v_stock)/(total_v)
-print('The fluoride concentration in the stock container should be: ' +str(c_solution))
+print('The fluoride concentration in the stock container is: ' +str(c_solution))
 
-Q_sys = (1.013 * (u.mL/u.s)).to(u.L/u.s) #water pump speed, calculated above
+Q_sys = Q #water pump speed, calculated above
 Q_stock = yb_flowrate
 C_stock = c_solution
 C_sys = ((Q_stock*C_stock)/(Q_sys)).to(u.mg/u.L)
