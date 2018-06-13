@@ -2,7 +2,7 @@
 #### Philip Akpan, Tigran Mehrabyan, Desiree Sausele, and Victoria Zhang
 #### May 11, 2018
 
-## Abstractt
+## Abstract
 The Fluoride subteam seeks to develop a sustainable, inexpensive fluoride removal system for implementation in upcoming AguaClara plants located in India. Using the apparatus developed by previous semesters, the team continued running experiments testing how various concentrations of PACl affect fluoride removal. However, complications with the ability to measure fluoride concentrations required the team to shift its goals to designing a lab scale, gravity-powered system. The team finalized a design and completed construction of the new, electricity-free apparatus. The team plans to run experiments to test its fluoride removal capabilities after ensuring that there are no remaining water leaks.
 
 
