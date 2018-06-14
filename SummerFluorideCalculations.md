@@ -41,25 +41,30 @@ Assumes flow rate of fluoride pump is negligible compared to the water pump flow
 Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+Peristaltic+Pumps).
 
 ```python
-pump_speed = 40*(u.rpm)
-yellow_blue = 0.149*(u.milliliter/u.revolutions)
-yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
+pump_speed = 5*(u.rpm)
+#yellow_blue = 0.149*(u.milliliter/u.revolutions)
+#yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
+orange_yellow = 0.019*(u.milliliter/u.revolutions)
+oy_flowrate = orange_yellow.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
+
 print('The fluoride flow rate is: '+str(yb_flowrate))
 
 fluoride_stock = 1000 * (u.mg/u.L)
-v_stock = (280 * u.mL).to(u.L)
+v_stock = (675 * u.mL).to(u.L)
 v_water = 1 * u.L
 total_v = v_water + v_stock
 c_solution = (fluoride_stock * v_stock)/(total_v)
 print('The fluoride concentration in the stock container is: ' +str(c_solution))
 
 Q_sys = Q.to(u.L/u.s) #water pump speed, calculated above
-Q_stock = yb_flowrate
+#Q_stock = yb_flowrate
+Q_stock = oy_flowrate
 C_stock = c_solution
 C_sys = ((Q_stock*C_stock)/(Q_sys)).to(u.mg/u.L)
 print('The fluoride concentration in the system is: ' +str(C_sys))
 
-percent_flow = yb_flowrate/Q_sys
-print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow))
+#percent_flow = (yb_flowrate/Q_sys)*100
+percent_flow = (oy_flowrate/Q_sys)*100
+print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow)+' %.')
 
 ```
