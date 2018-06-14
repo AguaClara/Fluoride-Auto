@@ -13,7 +13,7 @@ D=(1)*u.inch
 D=D.to(u.m)
 A=np.pi*(D**2)/4
 print(A)
-v=(0.002)*(u.m/u.s)
+v=(0.0015)*(u.m/u.s)
 #Area given our diameter of tubing
 Q=(A*v)
 print(Q)
@@ -41,6 +41,8 @@ Assumes flow rate of fluoride pump is negligible compared to the water pump flow
 Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+Peristaltic+Pumps).
 
 ```python
+
+
 pump_speed = 5*(u.rpm)
 #yellow_blue = 0.149*(u.milliliter/u.revolutions)
 #yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
