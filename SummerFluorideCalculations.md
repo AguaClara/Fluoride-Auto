@@ -42,6 +42,7 @@ Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence
 
 ```python
 
+#Assume Qstock, Qsystem and Csystem
 
 pump_speed = 5*(u.rpm)
 #yellow_blue = 0.149*(u.milliliter/u.revolutions)
@@ -49,21 +50,29 @@ pump_speed = 5*(u.rpm)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate = orange_yellow.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 
-print('The fluoride flow rate is: '+str(oy_flowrate))
+print('The fluoride flow rate is: '+str(oy_flowrate)) #Qstock
+
+Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
+Q_stock = oy_flowrate
+C_sys= 5*(u.mg/u.L) #user input desired concentration of F- in the system
+
+C_stock= (Q_sys*C_sys)/Q_stock
+print('The fluoride concentration in the stock is: ' +str(C_stock))
 
 fluoride_stock = 1000 * (u.mg/u.L)
-v_stock = (675 * u.mL).to(u.L)
-v_water = 1 * u.L
-total_v = v_water + v_stock
-c_solution = (fluoride_stock * v_stock)/(total_v)
-print('The fluoride concentration in the stock container is: ' +str(c_solution))
 
-Q_sys = Q.to(u.L/u.s) #water pump speed, calculated above
+#v_stock = (675 * u.mL).to(u.L)
+#v_water = 1 * u.L
+#total_v = v_water + v_stock
+#c_solution = (fluoride_stock * v_stock)/(total_v)
+#print('The fluoride concentration in the stock container is: ' +str(c_solution))
+
+#Q_sys = Q.to(u.L/u.s) #water pump speed, calculated above
 #Q_stock = yb_flowrate
-Q_stock = oy_flowrate
-C_stock = c_solution
-C_sys = ((Q_stock*C_stock)/(Q_sys)).to(u.mg/u.L)
-print('The fluoride concentration in the system is: ' +str(C_sys))
+
+#C_stock = c_solution
+#C_sys = ((Q_stock*C_stock)/(Q_sys)).to(u.mg/u.L)
+#print('The fluoride concentration in the system is: ' +str(C_sys))
 
 #percent_flow = (yb_flowrate/Q_sys)*100
 percent_flow = (oy_flowrate/Q_sys)*100
