@@ -54,12 +54,18 @@ print('The fluoride flow rate is: '+str(oy_flowrate)) #Qstock
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock = oy_flowrate
-C_sys= 5*(u.mg/u.L) #user input desired concentration of F- in the system
+C_sys = 5*(u.mg/u.L) #user input desired concentration of F- in the system
 
 C_stock= (Q_sys*C_sys)/Q_stock
 print('The fluoride concentration in the stock is: ' +str(C_stock))
-
-fluoride_stock = 1000 * (u.mg/u.L)
+#M1V1=M2V2 to obtain volume of fluoride stock needed
+M_superstock = 10000 * (u.mg/u.L) #concentration of fluoride provided
+M_stock = C_stock
+V_stock = 0.5 * u.L #total volume of the stock (water+fluoride)
+V_superstock= (M_stock*V_stock)/M_superstock
+print('The fluoride volume in the stock is: ' +str(V_superstock))
+V_water=V_stock-V_superstock
+print('The water volume in the stock is : ' +str(V_water))
 
 #v_stock = (675 * u.mL).to(u.L)
 #v_water = 1 * u.L
