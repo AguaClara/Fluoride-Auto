@@ -47,7 +47,7 @@ pump_speed = 5*(u.rpm)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate = orange_yellow.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 
-print('The fluoride flow rate is: '+str(yb_flowrate))
+print('The fluoride flow rate is: '+str(oy_flowrate))
 
 fluoride_stock = 1000 * (u.mg/u.L)
 v_stock = (675 * u.mL).to(u.L)
