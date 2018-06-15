@@ -8,11 +8,11 @@ Q_plant = 0.7601 * (u.mL/u.s)#flow rate of the plant
 C_fluoride = 5 * (u.mg/u.L)#desired concentration of the material within the plant
 tubing_color = "orange-yellow"#color of the tubing to be used
 
-C_stock_max_fluoride = ts.C_stock_max(Q_plant_fluoride, C_fluoride, tubing_color)
-print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(stock))
+C_stock_max_fluoride = ts.C_stock_max(Q_plant, C_fluoride, tubing_color)
+print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(C_stock_max_fluoride))
 
-Q_stock_max_fluoride = ts.Q_stock_max(Q_plant_fluoride, C_fluoride, tubing_color)
-print('Flow rate of the stock of the desired concentration: '+ str(stock_flowrate))
+Q_stock_max_fluoride = ts.Q_stock_max(Q_plant, C_fluoride, tubing_color)
+print('Flow rate of the stock of the desired concentration: '+ str(Q_stock_max_fluoride))
 
 
 """Calculates maximum stock concentration and flow rate of PACl stock given desired concentration in the plant"""
