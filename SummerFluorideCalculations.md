@@ -31,7 +31,7 @@ Calculates RPM of coagulant pump, given a desired concentration in the system.
 Assumes flow rate of coagulant pump is negligible compared to the water pump flow rate.
 
 ```python
-
+#Aim for 6.5 mg/L of PAC the lowest according to Github Issues
 ```
 
 #Fluoride pump speed and stock concentration
