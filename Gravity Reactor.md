@@ -13,7 +13,7 @@ $$ v = \frac{Q}{A} $$
 Resulting in this equation:
 
 $$ \Delta h_2 = \frac {\frac{v^2}{16}}{2g} + h_f $$
-%$$ \Delta h_2 = \frac {.04266 \frac{m}{{s}^2}}{2*g}$$
+$$ \Delta h_2 = \frac {.04266 \frac{m}{{s}^2}}{2*g}$$
 $$ h_f = \frac {L}{v} * \nu * \frac{G_{coil}^2}{g} $$
 $$ \nu = \frac{\mu}{\rho} = 8.9861*10^-7 \frac{m^2}{s}$$
 $$ L = 9.43m $$
