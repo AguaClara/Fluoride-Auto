@@ -31,5 +31,13 @@ C_super_stock_PACl = 70.28 * (u.g/u.L)
 V_super_stock_PACl = ts.V_super_stock(Q_plant, C_PACl, tubing_color, V_stock_PACl, C_super_stock_PACl)
 print('The volume of PACl super stock added to the stock container to reach the desired concentration within the plant: ' + str(V_super_stock_PACl))
 
+V_stock_fluoride = 1 * u.L
+time_experiment_f = ts.T_stock(Q_plant, C_fluoride, tubing_color, V_stock_fluoride)
+print(time_experiment_f)
+
+V_stock_PACl = 1 * u.L
+time_experiment_PACl = ts.T_stock(Q_plant, C_PACl, tubing_color, V_stock_PACl)
+print(time_experiment_PACl)
+
 
 ```
