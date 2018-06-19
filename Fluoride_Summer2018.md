@@ -1,10 +1,3 @@
-# AguaClara Research Report & Manual Template
-#### Ching Pang, Kevin Sarmiento, Cheer Tsang
-#### July 29, 2018
-
-# Template Description
-This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
-
 # Fluoride, Summer 2018
 #### Ching Pang, Kevin Sarmiento, Cheer Tsang
 #### July 29, 2018
@@ -20,11 +13,10 @@ Discuss what is already known about your research area based on both external wo
 
 
 ## Methods
-Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
-
-Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
 
 ### Experimental Apparatus
+
+The construction of the
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
 * Design (calculations, constraints)
 
@@ -37,6 +29,7 @@ Explain your apparatus setup using enough detail such that future teams can recr
 * Materials (dimensions, materials)
 * Complications in construction
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
+
 
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
@@ -131,8 +124,25 @@ $F$: force
 $u$, $w$: x-velocity, z-velocity components
 
 ```python
+import math as m
+import numpy as np
 from aide_design.play import*
 from aguaclara_research import tube_sizing as ts
+
+D=(1)*u.inch
+D=D.to(u.m)
+A=np.pi*(D**2)/4
+print(A)
+v=(0.0015)*(u.m/u.s)
+#Area given our diameter of tubing
+Q=(A*v)
+print(Q)
+Q=Q.to((u.milliliter)/(u.second))
+print(Q)
+#Manual calculation of RPM
+Man_RPM=(Q/((0.8)*(u.milliliter)))
+Man_RPM=Man_RPM*(60*(u.second))
+print(Man_RPM)
 
 """Calculates maximum stock concentration and flow rate of fluoride stock given desired concentration in the plant"""
 
