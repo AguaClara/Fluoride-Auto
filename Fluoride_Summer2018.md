@@ -5,9 +5,9 @@
 # Template Description
 This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
 
-# Team Name, Semester Year
-#### Authors
-#### Date
+# Fluoride, Summer 2018
+#### Ching Pang, Kevin Sarmiento, Cheer Tsang
+#### July 29, 2018
 
 ## Abstract
 Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
@@ -131,8 +131,49 @@ $F$: force
 $u$, $w$: x-velocity, z-velocity components
 
 ```python
-# Comment
+from aide_design.play import*
+from aguaclara_research import tube_sizing as ts
+
+"""Calculates maximum stock concentration and flow rate of fluoride stock given desired concentration in the plant"""
+
+Q_plant = 0.7601 * (u.mL/u.s)#flow rate of the plant
+C_fluoride = 5 * (u.mg/u.L)#desired concentration of the material within the plant
+tubing_color = "orange-yellow"#color of the tubing to be used
+
+C_stock_max_fluoride = ts.C_stock_max(Q_plant, C_fluoride, tubing_color)
+print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(C_stock_max_fluoride))
+
+Q_stock_max_fluoride = ts.Q_stock_max(Q_plant, C_fluoride, tubing_color)
+print('Flow rate of the stock of the desired concentration: '+ str(Q_stock_max_fluoride))
+
+
+"""Calculates maximum stock concentration and flow rate of PACl stock given desired concentration in the plant"""
+
+C_PACl = 6.25 * (u.mg/u.L)#desired concentration of the material within the plant
+
+stock = ts.C_stock_max(Q_plant, C_PACl, tubing_color)
+print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(stock))
+
+stock_flowrate = ts.Q_stock_max(Q_plant, C_PACl, tubing_color)
+print('Flow rate of the stock of the desired concentration: '+ str(stock_flowrate))
+
+V_stock_PACl = 1 * u.L
+C_super_stock_PACl = 70.28 * (u.g/u.L)
+
+V_super_stock_PACl = ts.V_super_stock(Q_plant, C_PACl, tubing_color, V_stock_PACl, C_super_stock_PACl)
+print('The volume of PACl super stock added to the stock container to reach the desired concentration within the plant: ' + str(V_super_stock_PACl))
+
+V_stock_fluoride = 1 * u.L
+time_experiment_f = ts.T_stock(Q_plant, C_fluoride, tubing_color, V_stock_fluoride)
+print(time_experiment_f)
+
+V_stock_PACl = 1 * u.L
+time_experiment_PACl = ts.T_stock(Q_plant, C_PACl, tubing_color, V_stock_PACl)
+print(time_experiment_PACl)
+
+
 ```
+
 
 # Add/Delete/Change this Template as you see Fit
 When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
