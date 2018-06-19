@@ -5,10 +5,7 @@ Calculates RPM of water pump, given a desired upflow velocity in the sedimentati
 import math as m
 import numpy as np
 from aide_design.play import*
-import aide_design.floc_model as fm
 
-#Q=.76*(u.milliliter)/(u.second)
-#Q.to(u.m*u.m*u.m/u.s)
 D=(1)*u.inch
 D=D.to(u.m)
 A=np.pi*(D**2)/4
