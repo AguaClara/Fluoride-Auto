@@ -85,3 +85,54 @@ percent_flow = (oy_flowrate/Q_sys)*100
 print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow)+' %.')
 
 ```
+#Calculations in the report
+
+```python
+import math as m
+import numpy as np
+from aide_design.play import*
+import aide_design.floc_model as fm
+
+Q=.76*(u.milliliter)/(u.second)
+Q.to(u.m*u.m*u.m/u.s)
+D=(1/8)*u.inch
+D.to(u.m)
+A=np.pi*(D**2)/4
+print(A)
+#Area given our diameter of tubing
+v=(Q/A).to(u.m/u.s)
+print(v)
+#velocity through our tubing given volumetric flow and area
+L=9.43*u.m
+T = 298 * u.degK
+vis = pc.viscosity_kinematic(T)
+print(vis)
+#kinematic viscosity given the temperature
+Gcoil=206.907*(1/u.s)
+g=9.81*(u.meter)/(u.second)/(u.second)
+hf=((Gcoil**2)*vis*L/v/g).to(u.m)
+print(hf)
+R_c = 0.05*u.m
+shearG = fm.g_coil(Q,D,R_c,T)
+print(shearG)
+#Shear gradient in flocculator given curvature and volumetric flow
+hfModel=((shearG**2)*vis*L/v/g).to(u.m)
+print(hfModel)
+#headloss due to the flow through the flocculator
+deltah2=((v**2)/2/g+hf).to(u.m)
+print(deltah2)
+#height difference necessary for the velocity the team wants
+Qpacl=.00475*(u.milliliter)/(u.second)
+Qpacl.to(u.m*u.m*u.m/u.s)
+Dpacl=.0005588*(u.m)
+#Use microbore inner diameter of 1/50 inches
+Apacl=np.pi*Dpacl*Dpacl/4
+print(Apacl)
+vpacl=Qpacl/Apacl
+print(vpacl)
+headP=.05*(u.meter)
+Lpacl=headP*g*Dpacl*Dpacl/32/vis/vpacl
+Lpacl.to(u.m)
+print(Lpacl)
+#length of microbore tubing necessary for the given headloss
+```
