@@ -12,7 +12,7 @@ C_stock_max_fluoride = ts.C_stock_max(Q_plant, C_fluoride, tubing_color)
 print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(C_stock_max_fluoride))
 
 Q_stock_max_fluoride = ts.Q_stock_max(Q_plant, C_fluoride, tubing_color)
-print('Flow rate of the stock of the desired concentration: '+ str(Q_stock_max_fluoride))
+print('Flow rate of the fluoride stock of the desired concentration: '+ str(Q_stock_max_fluoride))
 
 
 """Calculates maximum stock concentration and flow rate of PACl stock given desired concentration in the plant"""
@@ -23,7 +23,7 @@ stock = ts.C_stock_max(Q_plant, C_PACl, tubing_color)
 print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(stock))
 
 stock_flowrate = ts.Q_stock_max(Q_plant, C_PACl, tubing_color)
-print('Flow rate of the stock of the desired concentration: '+ str(stock_flowrate))
+print('Flow rate of the PACl stock of the desired concentration: '+ str(stock_flowrate))
 
 V_stock_PACl = 1 * u.L
 C_super_stock_PACl = 70.28 * (u.g/u.L)
