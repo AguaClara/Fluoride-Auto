@@ -63,7 +63,7 @@ Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence
 
 #Assume Qstock, Qsystem and Csystem
 
-pump_speed = 6*(u.rpm)
+pump_speed = 5*(u.rpm)
 #yellow_blue = 0.149*(u.milliliter/u.revolutions)
 #yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
@@ -102,6 +102,11 @@ print('The water volume in the stock is : ' +str((V_water).to(u.milliliter)))
 #percent_flow = (yb_flowrate/Q_sys)*100
 percent_flow = (oy_flowrate/Q_sys)*100
 print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow)+' %.')
+
+total_flowrate = oy_flowrate_PACl + oy_flowrate + Q
+print('The total flowrate through the system is: '+str(total_flowrate))
+water_flowrate = 0.76 * (u.milliliter/u.s) - (oy_flowrate + oy_flowrate_PACl)
+print('The actual water pump flow rate required is: '+str(water_flowrate))
 
 ```
 #Calculations in the report
