@@ -8,6 +8,17 @@ Briefly summarize your previous work, goals and objectives, what you have accomp
 ## Introduction
 Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
+The recent expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as a rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles have been naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter it also offers the opportunity for minerals and metals to leach into the water. The kind of mineral and metal deposits depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China (2016).
+
+There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where the is little to no fluoride naturally present in the water. Fluoride in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). However, the World Health Organization has set the upper limit for fluoride in drinking water at 1.5 mg/L in order to prevent the onset of dental fluorosis
+
+
+NYC DEP. (2016). New York City 2016 Drinking Water Supply and Quality Report. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf
+
+ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
+
+Water-related diseases. (2016). World Health Organization. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/
+
 ## Literature Review and Previous Work
 Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
 
@@ -75,9 +86,6 @@ The goal of this section is to provide all of the guidance that would be necessa
 
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
-
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
 
 ## Experimental Methods
 ### Set-up
