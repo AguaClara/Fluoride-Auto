@@ -94,12 +94,13 @@ Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for
 ## Fabrication Details
 ### Reactors
 The reactor in both the bench system and the gravity powered system were poorly welded and have leakages. Therefore, two new reactors were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
-Bent in reactor is created using welder at 60 degrees from horizontal. Drill bit of 1/2 inch and thread of 1/4 inch were used.
-Holes were drilled into reactor for floc weir using circle saw and setting drill press at 55 degree angle.
+Bent in reactor was created using welder at 60 degrees from horizontal. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and setting drill press at 55 degree angle.
 Started welding floc weir pipe to tube settler.
 
 ### Gravity Powered System
 Valves were added to the exits of the constant head tanks for easier refills.
+
+Height Adjustment
 
 ## Experimental Methods
 ### Set-up
