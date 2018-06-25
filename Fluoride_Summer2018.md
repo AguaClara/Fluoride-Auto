@@ -38,9 +38,7 @@ Discuss what is already known about your research area based on both external wo
 
 ### Experimental Apparatus
 
-The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)).
-
-Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
+The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed below, under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
 
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
 Figure 1: The bench setup for the fluoride removal system.
@@ -71,6 +69,17 @@ Table 2: PACl parameters. Varying PACl system concentrations were tested at each
 | 2400                            |30                       |30                                  |
 | 2400                            |40                       |40                                  |
 | 2400                                |50                       |50                                  |
+
+### Fluoride Probe
+The
+
+
+### Calibration Curve
+
+
+### Gravity-Powered Apparatus
+
+
 
 
 * Design (calculations, constraints)
@@ -135,24 +144,40 @@ Bent in reactor was created using welder at 60 degrees from horizontal. Drill bi
 ### Gravity Powered System
 Valves were added to the exits of the constant head tanks for easier refills.
 
+Flow rates
 Height Adjustment
 
 ## Experimental Methods
 
 ### Set-up
+
+
+### Bench System
+
+### Gravity Powered System
+
 Step 1.
 * Put tasks in a sequential order.
 * It is okay to have sub-lists.
   - Like this.
 
 ### Experiment
+
+
+### Bench System
+
+### Gravity Powered System
+
 Step 1.
 
 ### Cleaning Procedure
 Step 1.
 
 ## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
+
+### Bench System
+
+### Gravity Powered System
 
 ## ProCoDA Method File
 Use this section to explain your method file. This could be broken up into several components as shown below:
