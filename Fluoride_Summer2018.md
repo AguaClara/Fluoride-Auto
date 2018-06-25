@@ -14,7 +14,7 @@ There are a number of public health implications associated with both underconsu
 
 The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water at 1.5 mg/L in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis is the mildest condition caused by the consumption of fluoride above a concentration 0.9mg/L. Skeletal fluorosis, a much more serious condition, can begin to develop at fluoride concentrations of 3mg/L. At concentrations above 10mg/L crippling skeletal fluorosis begins to occur  (WHO, 2004).
 
-The Bureau of Indian Standards have created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 mg/L and the permissible limit in the absence of an alternate source at 1.5 mg/L (2012). The fluoride team will try to meet the
+The Bureau of Indian Standards have created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 mg/L and the permissible limit in the absence of an alternate source at 1.5 mg/L (2012). The fluoride team has set their fluoride standards to the standards set by the Bureau of Indian Standards
 
 
 WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf
@@ -138,6 +138,7 @@ Valves were added to the exits of the constant head tanks for easier refills.
 Height Adjustment
 
 ## Experimental Methods
+
 ### Set-up
 Step 1.
 * Put tasks in a sequential order.
