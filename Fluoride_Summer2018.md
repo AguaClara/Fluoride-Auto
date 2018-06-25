@@ -34,7 +34,7 @@ The experimental apparatus included pumps, a coiled flocculator, and a sedimenta
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
 Figure 1: The bench setup for the fluoride removal system.
 
-The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system. Calculations for the fluoride stock concentrations can be found here.
+The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system. Calculations for the fluoride stock concentrations can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md).
 
 
 * Design (calculations, constraints)
@@ -95,7 +95,7 @@ Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for
 ### Reactors
 The reactor in both the bench system and the gravity powered system were poorly welded and have leakages. Therefore, two new reactors were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
 Bent in reactor is created using welder at 60 degrees from horizontal. Drill bit of 1/2 inch and thread of 1/4 inch were used.
-Drilled hole into reactor for floc weir using circle saw and drill press at 55 degree angle.
+Holes were drilled into reactor for floc weir using circle saw and setting drill press at 55 degree angle.
 Started welding floc weir pipe to tube settler.
 
 ### Gravity Powered System
