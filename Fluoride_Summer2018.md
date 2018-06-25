@@ -8,9 +8,9 @@ Briefly summarize your previous work, goals and objectives, what you have accomp
 ## Introduction
 Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
-The recent expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as a rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles have been naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter it also offers the opportunity for minerals and metals to leach into the water. The kind of mineral and metal deposits depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China (2016).
+The recent expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles have been naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter it also offers the opportunity for minerals and metals to leach into the water. The kind of mineral and metal deposits depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China (2016).
 
-There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where the is little to no fluoride naturally present in the water. Fluoride in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). However, the World Health Organization has set the upper limit for fluoride in drinking water at 1.5 mg/L in order to prevent the onset of dental fluorosis
+There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). However, the World Health Organization has set the upper limit for fluoride in drinking water at 1.5 mg/L in order to prevent the onset of dental fluorosis
 
 
 NYC DEP. (2016). New York City 2016 Drinking Water Supply and Quality Report. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf
@@ -27,7 +27,11 @@ Discuss what is already known about your research area based on both external wo
 
 ### Experimental Apparatus
 
-The construction of the
+The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube. Fluoride and coagulant
+
+![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
+Figure 1:
+
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
 * Design (calculations, constraints)
 
@@ -191,10 +195,6 @@ print(time_experiment_PACl)
 
 
 ```
-
-
-# Add/Delete/Change this Template as you see Fit
-When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
 
 ```python
 # To convert the document from markdown to pdf
