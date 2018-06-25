@@ -189,7 +189,7 @@ Here, you should describe the function of each state in your method file, both i
 \end{itemize}
 
 ### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
+
 
 ## Python Code
 
