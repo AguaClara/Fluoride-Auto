@@ -34,7 +34,9 @@ The experimental apparatus included pumps, a coiled flocculator, and a sedimenta
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
 Figure 1: The bench setup for the fluoride removal system.
 
-The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater.
+The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount
+
+ The goal was to reduce
 
 
 * Design (calculations, constraints)
