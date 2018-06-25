@@ -34,7 +34,7 @@ The experimental apparatus included pumps, a coiled flocculator, and a sedimenta
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
 Figure 1: The bench setup for the fluoride removal system.
 
-Calculations for stock concentrations
+The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater.
 
 
 * Design (calculations, constraints)
@@ -97,6 +97,9 @@ The reactor in both the bench system and the gravity powered system were poorly 
 Bent in reactor is created using welder at 60 degrees from horizontal. Drill bit of 1/2 inch and thread of 1/4 inch were used.
 Drilled hole into reactor for floc weir using circle saw and drill press at 55 degree angle.
 Started welding floc weir pipe to tube settler.
+
+### Gravity Powered System
+Valves were added to the exits of the constant head tanks for easier refills.
 
 ## Experimental Methods
 ### Set-up
