@@ -12,7 +12,7 @@ The recent expansion of AguaClara technology to new places around the world, lik
 
 There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). There are however a number of health hazards associated with the consumption of fluoride at higher concentrations.
 
-The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water at 1.5 mg/L in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis is the mildest effect of fluoride and can be caused by fluoride concentrations above 0.9mg/L according to the WHO (2004). However, the WHO also recognizes the onset
+The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water at 1.5 mg/L in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis is the mildest condition caused by fluoride and can be seen in people consuming water with fluoride levels above 0.9mg/L (WHO, 2004). Skeletal fluorosis, a much more serious condition can begin to develop at fluoride concentrations of 3mg/L. Crippling skeletal fluorosis can accure a
 
 
 WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf
@@ -37,6 +37,19 @@ The experimental apparatus included pumps, a coiled flocculator, and a sedimenta
 Figure 1: The bench setup for the fluoride removal system.
 
 The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system. Calculations for the fluoride stock concentrations can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md).
+
+
+Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was achieved by altering the fluoride pump speed. The fluoride stock concentration was kept constant.
+| F- Stock Concentration (mg/L) | F- Pump Speed (rpm) | F- System Concentration |
+|:----------------------------- |:------------------- |:----------------------- |
+| 1                             | 2                   | 3                       |
+| dfdf                          | sdsd                | dfdf                        |
+
+Table 2: PACl
+| PACl Stock Concentration (mg/L) | PACl Pump Speed (rpm) | PACl System Concentration |
+|:----------------------------- |:------------------- |:----------------------- |
+| 1                             | 2                   | 3                       |
+| dfdf                          | sdsd                | dfdf                        |
 
 
 * Design (calculations, constraints)
