@@ -10,7 +10,9 @@ Explain how the completion of your challenge will affect AguaClara and the missi
 
 The recent expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles have been naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter it also offers the opportunity for minerals and metals to leach into the water. The kind of mineral and metal deposits depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China (2016).
 
-There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). However, the World Health Organization has set the upper limit for fluoride in drinking water at 1.5 mg/L in order to prevent the onset of dental fluorosis
+There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). There are however a number of health hazards associated with the consumption of fluoride at or over 1.5 mg/L in drinking water as set by the World Health Organization.
+
+
 
 
 NYC DEP. (2016). New York City 2016 Drinking Water Supply and Quality Report. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf
@@ -27,12 +29,14 @@ Discuss what is already known about your research area based on both external wo
 
 ### Experimental Apparatus
 
-The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube. Fluoride and coagulant
+The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
 
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
-Figure 1:
+Figure 1: The bench setup for the fluoride removal system.
 
-Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
+Calculations for stock concentrations
+
+
 * Design (calculations, constraints)
 
   $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
@@ -86,10 +90,13 @@ Describe your plan of action for the next several weeks of research. Detail the 
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
 # Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
 
 ## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+### Reactors
+The reactor in both the bench system and the gravity powered system were poorly welded and have leakages. Therefore, two new reactors were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
+Bent in reactor is created using welder at 60 degrees from horizontal. Drill bit of 1/2 inch and thread of 1/4 inch were used.
+Drilled hole into reactor for floc weir using circle saw and drill press at 55 degree angle.
+Started welding floc weir pipe to tube settler.
 
 ## Experimental Methods
 ### Set-up
