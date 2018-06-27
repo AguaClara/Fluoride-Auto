@@ -6,18 +6,28 @@
 Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
 
 ## Introduction
-Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
-The recent expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as a rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles have been naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter it also offers the opportunity for minerals and metals to leach into the water. The kind of mineral and metal deposits depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China (2016).
+The recent expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles have been naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter and reducing microorganisms it also offers the opportunity for minerals and metals to leach into the water. The kinds of minerals that get into the water depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China (2016). India contains about 14% of the total fluoride on the earth's crust, which inevitable leads some of it to leach into the groundwater (Mondal, Dutta, & Gupta, 2016).
 
-There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where the is little to no fluoride naturally present in the water. Fluoride in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). However, the World Health Organization has set the upper limit for fluoride in drinking water at 1.5 mg/L in order to prevent the onset of dental fluorosis
+There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7mg/L in their effluent supply (NYC DEP, 2016). 0.7mg/L is the agreed upon recommendation for fluoride by the American Dental Association for the prevention of dental cavities (ADA, 2017). There are however a number of health hazards associated with the consumption of fluoride at higher concentrations.
 
+The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water at 1.5 mg/L in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis is the mildest condition caused by the consumption of fluoride above a concentration 0.9mg/L. Skeletal fluorosis, a much more serious condition, can begin to develop at fluoride concentrations of 3mg/L. At concentrations above 10mg/L crippling skeletal fluorosis begins to occur  (WHO, 2004).
+
+The Bureau of Indian Standards have created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 mg/L and the permissible limit in the absence of an alternate source at 1.5 mg/L (2012). The fluoride team has set their fluoride standards to the standards set by the Bureau of Indian Standards.
+
+
+WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf
 
 NYC DEP. (2016). New York City 2016 Drinking Water Supply and Quality Report. Retrieved from http://www.nyc.gov/html/dep/pdf/wsstate16.pdf
 
 ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
 
 Water-related diseases. (2016). World Health Organization. Retrieved from http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/
+
+Mondal, D., Dutta, G., & Gupta, S. (2016). Inferring the fluoride hydrogeochemistry and effect of consuming fluoride-contaminated drinking water on human health in some endemic areas of Birbhum district, West Bengal. Environmental Geochemistry and Health, 38(2), 557–576. https://doi.org/10.1007/s10653-015-9743-7
+
+Bureau of Indian Standards. (2012). IS 10500: Drinking water. Retrieved from http://archive.org/details/gov.in.is.10500.2012
+
 
 ## Literature Review and Previous Work
 Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
@@ -27,8 +37,50 @@ Discuss what is already known about your research area based on both external wo
 
 ### Experimental Apparatus
 
-The construction of the
-Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
+The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed below, under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
+
+![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
+Figure 1: The bench setup for the fluoride removal system.
+
+The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system.
+
+The following equation was used to calculate the system concentrations of fluoride and PACl:
+
+$$ Q_{stock} * C_{stock} = Q_{sys} * C_{sys} $$
+
+where $Q_{stock}$ is the flow rate out of the stock tank, $C_{stock}$ is the concentration of the stock tank containing fluoride or PACl stock, $Q_{sys}$ is the flow rate through the system, and $C_{sys}$ is the concentration of the fluoride or PACl through the system. Calculations for the fluoride and PACl stock concentrations can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md).
+
+
+Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was achieved by altering the fluoride pump speed. The fluoride stock concentration was kept constant at 2400 mg/L.
+| F- Stock Concentration (mg/L) | F- Pump Speed (rpm) | F- System Concentration (mg/L) |
+|:----------------------------- |:------------------- |:------------------------------ |
+| 2400                             | 3                   | 3                              |
+| 2400                             | 5                | 5                           |
+| 2400                            |10                     | 10                               |
+| 2400                              |15                     | 15                               |
+| 2400                               |20                     |20                                |
+
+Table 2: PACl parameters. Varying PACl system concentrations were tested at each of the fluoride system concentrations listed in the table above (Table 1). The desired PACl system concentration was achieved by altering the PACl pump speed, and the PACl stock concentration was kept constant.
+| PACl Stock Concentration (mg/L) | PACl Pump Speed (rpm) | PACl System Concentration (mg/L) |
+|:------------------------------- |:--------------------- |:-------------------------------- |
+| 2400                            | 10                     | 10                                |
+| 2400                            | 20                  | 20                             |
+| 2400                            |30                       |30                                  |
+| 2400                            |40                       |40                                  |
+| 2400                                |50                       |50                                  |
+
+### Fluoride Probe
+The fluoride probe used was
+
+
+### Calibration Curve
+
+
+### Gravity-Powered Apparatus
+
+
+
+
 * Design (calculations, constraints)
 
   $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
@@ -45,30 +97,6 @@ Explain your apparatus setup using enough detail such that future teams can recr
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
-## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
-
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
-```
-![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
-Figure 1: Captions are very important for figures. Captions go below figures.
-
-After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
-* Why did you get those results/data?
-* Did these results line up with expectations?
-* What went wrong?
-* If the data do not support your hypothesis, is there another hypothesis that describes your new data?
 
 ## Conclusions
 Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
@@ -82,26 +110,49 @@ Describe your plan of action for the next several weeks of research. Detail the 
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
 # Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
 
 ## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+### Reactors
+The reactor in both the bench system and the gravity powered system were poorly welded and have leakages. Therefore, two new reactors were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
+Bent in reactor was created using welder at 60 degrees from horizontal. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and setting drill press at 55 degree angle. Floc weir pipe was welded to the tube settler.
+
+### Gravity Powered System
+Valves were added to the exits of the constant head tanks for easier refills.
+
+Flow rates
+Height Adjustment
 
 ## Experimental Methods
+
 ### Set-up
+
+
+### Bench System
+
+### Gravity Powered System
+
 Step 1.
 * Put tasks in a sequential order.
 * It is okay to have sub-lists.
   - Like this.
 
 ### Experiment
+
+
+### Bench System
+
+### Gravity Powered System
+
 Step 1.
 
 ### Cleaning Procedure
 Step 1.
 
 ## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
+
+### Bench System
+
+### Gravity Powered System
 
 ## ProCoDA Method File
 Use this section to explain your method file. This could be broken up into several components as shown below:
@@ -113,7 +164,7 @@ Here, you should describe the function of each state in your method file, both i
 \end{itemize}
 
 ### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
+
 
 ## Python Code
 
@@ -191,10 +242,6 @@ print(time_experiment_PACl)
 
 
 ```
-
-
-# Add/Delete/Change this Template as you see Fit
-When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
 
 ```python
 # To convert the document from markdown to pdf
