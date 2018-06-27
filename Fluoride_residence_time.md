@@ -5,8 +5,8 @@ from aguaclara_research import tube_sizing as ts
 """Calculates maximum stock concentration and flow rate of fluoride stock given desired concentration in the plant"""
 
 Q_plant = 0.7601 * (u.mL/u.s)#flow rate of the plant
-C_fluoride = 5 * (u.mg/u.L)#desired concentration of the material within the plant
-tubing_color = "orange-yellow"#color of the tubing to be used
+C_fluoride = 3 * (u.mg/u.L)#desired concentration of the material within the plant
+tubing_color = "orange-yellow" #color of the tubing to be used
 
 C_stock_max_fluoride = ts.C_stock_max(Q_plant, C_fluoride, tubing_color)
 print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(C_stock_max_fluoride))

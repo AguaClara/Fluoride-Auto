@@ -29,7 +29,7 @@ Assumes flow rate of coagulant pump is negligible compared to the water pump flo
 
 ```python
 #Aim for 6.5 mg/L of PAC the lowest according to Github Issues
-pump_speed_PACl = 5*(u.rpm)
+pump_speed_PACl = 10*(u.rpm)
 #yellow_blue = 0.149*(u.milliliter/u.revolutions)
 #yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
@@ -39,7 +39,8 @@ print('The PACl flow rate is: '+str((oy_flowrate_PACl).to(u.milliliter/u.s))) #Q
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock_PACl = oy_flowrate_PACl
-C_sys_PACl = 5*(u.mg/u.L) #user input desired concentration of PACl in the system
+C_sys_PACl = 10 *(u.mg/u.L) #user input desired concentration of PACl in the system
+print('The system concentration of PACl is: ' +str(C_sys_PACl))
 
 C_stock_PACl = (Q_sys*C_sys_PACl)/Q_stock_PACl
 print('The PACl concentration in the stock is: ' +str(C_stock_PACl))
@@ -63,7 +64,7 @@ Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence
 
 #Assume Qstock, Qsystem and Csystem
 
-pump_speed = 5*(u.rpm)
+pump_speed = 5 *(u.rpm)
 #yellow_blue = 0.149*(u.milliliter/u.revolutions)
 #yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
@@ -73,7 +74,8 @@ print('The fluoride flow rate is: '+str((oy_flowrate).to(u.milliliter/u.s))) #Qs
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock = oy_flowrate
-C_sys = 5*(u.mg/u.L) #user input desired concentration of F- in the system
+C_sys = 5 *(u.mg/u.L) #user input desired concentration of F- in the system
+print('The fluoride concentration through the system is: ' + str(C_sys))
 
 C_stock= (Q_sys*C_sys)/Q_stock
 print('The fluoride concentration in the stock is: ' +str(C_stock))
