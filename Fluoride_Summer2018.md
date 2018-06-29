@@ -3,7 +3,8 @@
 #### July 29, 2018
 
 ## Abstract
-Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+Fluoride is a major contaminant in drinking water in many parts of India. Our overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of the previous fluoride subteam by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India.
+
 
 ## Introduction
 
@@ -19,10 +20,11 @@ The Bureau of Indian Standards have created water quality standards designed to 
 ## Previous Work
 Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
 
-previous bench tests
-adsorption model
+The Spring 2018 team set up a bench experiment using ProCoDA. This experiment allowed for precise control of the flow rates of water, fluoride, and PACl (Polyaluminum Chloride) by using ProCoDA to control a set of pumps. The 2018 team also switched from using a sand filtration system to the reactor designed by the High Rate Sedimentation team.
 
-The Spring 2018 fluoride team built a gravity-powered system. The constant head tanks for fluoride and coagulant ensure constant flow through the system. The heights of the constant head tanks were calculated using Bernoulli's equation:
+The team ran several tests with various influent concentrations of fluoride and PACl to determine the optimal PACl dosage to treat a given concentration on influent fluoride. The target effluent fluoride was 1.5 mg/L, based on standards set by the World Health Organization (WHO). At the maximum PACl dosage, the reactor became clogged with a fluidized bed, due to insufficient shear to break up the flocs. The team suggested adding a second reactor to decrease the maximum PACl required. The results have been thus far inconclusive, and the team suggested that the source of error may be a faulty fluoride probe. The team ordered a replacement probe.
+
+In addition, the Spring 2018 fluoride team built a gravity-powered system. The constant head tanks for fluoride and coagulant ensure constant flow through the system. The heights of the constant head tanks were calculated using Bernoulli's equation:
 
 $$ P_1 + \rho g \Delta h_1+ \frac{1}{2}\rho {v_1}^2 = P_2 + \rho g \Delta h_2+ \frac{1}{2}\rho {v_2}^2+ h_f $$
 
@@ -34,8 +36,6 @@ Figure 1: Schematic for gravity-powered system. The constant head tanks for fluo
 ![gravity_reactor](https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/labeledGravSystem.PNG?raw=true)
 Figure 2: The fabricated gravity-powered system. The system includes a flocculator and a sedimentation tube.
 
-The spring 2018 team also set up a bench experiment using ProCoDa. This experiment allowed for more precise control of the flowrates of water, fluoride, and PACl by using ProCoDa to control a set of pumps. The 2018 team also switched from using a sand filtration system to the reactor designed by the High Rate Sedimentation team.
-
 
 ## Methods
 ### Experimental Apparatus
@@ -43,7 +43,11 @@ The spring 2018 team also set up a bench experiment using ProCoDa. This experime
 The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed below, under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
 
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
-Figure 1: The bench setup for the fluoride removal system.
+Figure 3: The bench setup for the fluoride removal system.
+
+
+### Procedure
+Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
 The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system.
 
@@ -76,7 +80,7 @@ Table 2: PACl parameters. Varying PACl system concentrations were tested at each
 The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a fluoride probe and obtained a replacement.
 
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
-Figure 2: The fluoride probe used to measure effluent fluoride concentration.
+Figure 4: The fluoride probe used to measure effluent fluoride concentration.
 
 The fluoride probe uses an ion-sensitive electrode ([Light, 1975](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_paper.pdf)). When the fluoride probe is placed into a solution, the probe outputs a voltage reading. This voltage reading can then be converted to a fluoride concentration by using a calibration curve.
 
@@ -86,63 +90,18 @@ The calibration curve was generated by formulating various concentrations of flu
 Table 3: The following standard concentrations were prepared by dilution of the 10000 ppm stock fluoride solution. The voltage was recorded from the fluoride probe.
 | Standard (mg/L) | -log(Concentration) | Voltage |
 |:--------------- |:------------------- |:------- |
-| 0.1             | 10                  | 10      |
-| 0.5             | 20                  | 20      |
-| 1               | 30                  | 30      |
-| 5               | 40                  | 40      |
-| 10              | 50                  | 50      |
-| 15              |                     |         |
-| 20                |                     |         |
+| 0.1             | *                  | *      |
+| 0.5             | *                  | *      |
+| 1               | *                  | *      |
+| 5               | *                 | *      |
+| 10              | *                  | *      |
+| 15              | *                    |  *       |
+| 20                | *                    |*         |
 
 The calibration curve was generated by plotting  -log(Concentration) against voltage to generate a linear equation to model the relationship between voltage and concentration (Figure 3).
 
-Figure 3: (add figure of calibration curve after finishing calibration) The linear equation that represents the relationship between voltage and concentration is (). The R-squared value is (). The slope is (), and the y-intercept is ().
+Figure 4: (add figure of calibration curve after finishing calibration) The linear equation that represents the relationship between voltage and concentration is (). The R-squared value is (). The slope is (), and the y-intercept is ().
 
-```python
-import matplotlib.pyplot as plt
-plt.style.use('seaborn-whitegrid')
-import numpy as np
-
-fig = plt.figure()
-ax = plt.axes()
-
-ax.plot(x, x + 1)
-plt.title("Calibration Curve")
-plt.xlabel("Voltage")
-plt.ylabel("Concentration (mg/L)");
-
-```
-
-
-### Gravity-Powered Apparatus
-The gravity-powered apparatus was fabricated by the Spring 2018 fluoride team.
-
-## Dye Test
-dye testing
-
-
-
-* Design (calculations, constraints)
-
-  $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
-* Schematic (label parts)
-
-  <img src="https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/IMG_0009.jpg?raw=true" height=250 width=200>
-
-* Image (from lab; label parts)
-* Materials (dimensions, materials)
-* Complications in construction
-* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
-
-
-### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
-
-
-## Conclusions
-Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
-
-Make sure that you defend your conclusions with facts and results.
 
 ## Future Work
 Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
@@ -180,15 +139,14 @@ Bent in the reactor was created using welder at 60 degrees from horizontal. Dril
 Figure 3: Reactor fabricated for both the bench system and gravity powered system
 
 ### Gravity Powered System
-Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
+The gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) was improved since leaks were found. Newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
 
 ![Valves](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Valves.jpg)
 Figure 4: Valves added at the exits of both stock tank and constant head tank
 
-  The
+The height between the sedimentation tube and fluoride constant head tank as shown in figure 5 was adjusted since outflow velocity from the 2018 Spring team could not reach 1.5 mm/s. The constant head tank was lifted with an additional vertical bar added for greater support. Therefore, the distance was increased so that the flow rate measured from the effluent reached 0.76 mL/s, allowing an outflow velocity of 1.5 mm/s.
 
-Flow rates
-Height Adjustment
+![Gravity Powered System Adjustment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labelled_bluedye.jpg)
 
 ## Experimental Methods
 
