@@ -1,9 +1,10 @@
 # Fluoride, Summer 2018
 #### Ching Pang, Kevin Sarmiento, Cheer Tsang
-#### July 29, 2018
+#### June 29, 2018
 
 ## Abstract
-Fluoride is a major contaminant in drinking water in many parts of India. Our overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of the previous fluoride subteam by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India.
+
+ Fluoride is a major contaminant in drinking water in many parts of India. Our overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of previous fluoride subteams by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India.
 
 
 ## Introduction
@@ -18,11 +19,10 @@ The Bureau of Indian Standards have created water quality standards designed to 
 
 
 ## Previous Work
-Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
 
-The Spring 2018 team set up a bench experiment using ProCoDA. This experiment allowed for precise control of the flow rates of water, fluoride, and PACl (Polyaluminum Chloride) by using ProCoDA to control a set of pumps. The 2018 team also switched from using a sand filtration system to the reactor designed by the High Rate Sedimentation team.
+The Spring 2018 team set up a bench experiment using ProCoDA that allowed for precise control of the flow rates of water, fluoride, and coagulant. Polyaluminum chloride (PACl) is the coagulant used in the system. The 2018 team also switched from using a sand filtration system to the reactor designed by the High Rate Sedimentation team. The summer fluoride team will continue to use the new reactor design for all experiments.
 
-The team ran several tests with various influent concentrations of fluoride and PACl to determine the optimal PACl dosage to treat a given concentration on influent fluoride. The target effluent fluoride was 1.5 mg/L, based on standards set by the World Health Organization (WHO). At the maximum PACl dosage, the reactor became clogged with a fluidized bed, due to insufficient shear to break up the flocs. The team suggested adding a second reactor to decrease the maximum PACl required. The results have been thus far inconclusive, and the team suggested that the source of error may be a faulty fluoride probe. The team ordered a replacement probe.
+The team ran several tests with various influent concentrations of fluoride and PACl to determine the optimal PACl dosage to treat a given concentration on influent fluoride. The target effluent fluoride was 1.5 mg/L, based on standards set by the World Health Organization (WHO). At the maximum PACl dosage, the reactor became clogged with a fluidized bed, due to insufficient shear to break up the flocs. The team suggested adding a second reactor to decrease the maximum PACl required. The results have been thus far inconclusive, and the team suggested that the source of error may be a faulty fluoride probe. The team ordered a replacement probe ([Akpan, 2018](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md)).
 
 In addition, the Spring 2018 fluoride team built a gravity-powered system. The constant head tanks for fluoride and coagulant ensure constant flow through the system. The heights of the constant head tanks were calculated using Bernoulli's equation:
 
@@ -47,7 +47,6 @@ Figure 3: The bench setup for the fluoride removal system.
 
 
 ### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
 The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system.
 
@@ -105,9 +104,12 @@ Figure 4: (add figure of calibration curve after finishing calibration) The line
 
 ## Future Work
 
+In order to make running experiments easier we plan on modifying the gravity powered system further. The goal is to make all the platforms easily adjustable in order to manually change the flowrate of both the water with fluoride and the coagulant. It would be ideal to only use one stock concentration of PACl and change the flow rates in order to achieve the desired concentrations in the system.
 
 ## Bibliography
 ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
+
+Akpan, P. Mehrabyan, T. Sausele, D., Fluoride, Spring 2018. Retriecved from https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md
 
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
 Health, 1(2).
@@ -165,8 +167,7 @@ The following are protocols used for past semesters' experimentation.
 6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
 
 ####Protocol for Start Up and Running of Reactors
-1. Fill stock tanks with appropriate concentration of PACl, fluoride, and clay and make sure to have enough stock to run for 24
-hours
+1. Fill stock tanks with appropriate concentration of PACl, fluoride, and clay and make sure to have enough stock to run for 24 hours
 2. Calculate the flow rates of the PACl and fluoride pumps from the MathCAD file and run the pumps at the appropriate RPM using ProCoDA
 3. Run the waste pump at the appropriate RPM as calculated from ProCoDA.
 4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
@@ -194,7 +195,7 @@ hours
 5. If there is not a noticeable amount of buildup, (a) and (b) can be skipped.
 
 ####Fluoride Probe Calibration Procedure
-1. Make the stock calibration concentrations of .1 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
+1. Make the stock calibration concentrations of 0.1 $\mathrm{\frac{mg}{L}}$, 0.5 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 5 $\mathrm{\frac{mg}{L}}$, $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, 15 $\mathrm{\frac{mg}{L}}$,and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
 2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
 3. Insert the probe into one of the calibration solutions.
 4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
@@ -212,11 +213,11 @@ To begin the ProCoDA method file, three states were made: ON and OFF and Just Wa
 The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and fluoride pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
 
 ### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
+![Just water](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/waterrules.png)
+Figure 6: Screenshot of Just Water State
 
+![Run Experiment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Runrules.png)
+Figure 7: Screenshot of Run Experiment State
 ### Set Points
 
 ![Setpoints](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Setpoints.png)
