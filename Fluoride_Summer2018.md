@@ -202,7 +202,7 @@ The following are protocols used for past semesters' experimentation.
 5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again).
 6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
-8. If R squared value is not 0.99, rinse let settle in TSIAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
+8. If R squared value is not 0.99, rinse let settle in TISAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 
 ###ProCoDA Method File
 
