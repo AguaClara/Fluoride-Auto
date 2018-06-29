@@ -154,7 +154,7 @@ Figure 5: Adjustment to the Gravity Powered System
 ## Experimental Methods
 
 ###Electricity-Powered Fluoride Experiments
-The following are protocols used for past semesters' experimentation.
+The following are improvised based on protocols used for past semesters' experimentation.
 
 
 ####Protocol for Running Just Water Through the Reactors
@@ -168,7 +168,7 @@ The following are protocols used for past semesters' experimentation.
 
 ####Protocol for Start Up and Running of Reactors
 1. Fill stock tanks with appropriate concentration of PACl, fluoride, and clay and make sure to have enough stock to run for 24 hours
-2. Calculate the flow rates of the PACl and fluoride pumps from the MathCAD file and run the pumps at the appropriate RPM using ProCoDA
+2. Calculate the flow rates of the PACl and fluoride pumps from the Python file and run the pumps at the appropriate RPM using ProCoDA
 3. Run the waste pump at the appropriate RPM as calculated from ProCoDA.
 4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
 5. Empty the bucket at the bottom and make sure it doesn't overflow through the length of the test
