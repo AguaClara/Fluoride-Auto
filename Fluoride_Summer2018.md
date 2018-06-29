@@ -104,7 +104,7 @@ Figure 4: (add figure of calibration curve after finishing calibration) The line
 
 
 ## Future Work
-Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
+
 
 ## Bibliography
 ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
@@ -139,7 +139,7 @@ Bent in the reactor was created using welder at 60 degrees from horizontal. Dril
 Figure 3: Reactor fabricated for both the bench system and gravity powered system
 
 ### Gravity Powered System
-The gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) was improved since leaks were found. Newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
+Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
 
 ![Valves](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Valves.jpg)
 Figure 4: Valves added at the exits of both stock tank and constant head tank
@@ -147,41 +147,69 @@ Figure 4: Valves added at the exits of both stock tank and constant head tank
 The height between the sedimentation tube and fluoride constant head tank as shown in figure 5 was adjusted since outflow velocity from the 2018 Spring team could not reach 1.5 mm/s. The constant head tank was lifted with an additional vertical bar added for greater support. Therefore, the distance was increased so that the flow rate measured from the effluent reached 0.76 mL/s, allowing an outflow velocity of 1.5 mm/s.
 
 ![Gravity Powered System Adjustment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labelled_bluedye.jpg)
+Figure 5: Adjustment to the Gravity Powered System
 
 ## Experimental Methods
 
-### Set-up
+###Electricity-Powered Fluoride Experiments
+The following are protocols used for past semesters' experimentation.
 
 
-### Bench System
+####Protocol for Running Just Water Through the Reactors
 
-### Gravity Powered System
+1. Open tap water valve and close the fluoride valve as to not pump fluoride into the system during backwash
+2. Close the waste line
+3. Turn on Just Water process in ProCoDA and fill system completely with water.
+4. Make sure the sample bottle with the fluoride probe does not overflow from the high flow rate of the water
+5. Continue to run water until turbidimeter reads less than 0.5 NTU and fluoride concentration is less than 0.5 $\mathrm{\frac{mg}{L}}$.
+6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
 
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
+####Protocol for Start Up and Running of Reactors
+1. Fill stock tanks with appropriate concentration of PACl, fluoride, and clay and make sure to have enough stock to run for 24
+hours
+2. Calculate the flow rates of the PACl and fluoride pumps from the MathCAD file and run the pumps at the appropriate RPM using ProCoDA
+3. Run the waste pump at the appropriate RPM as calculated from ProCoDA.
+4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
+5. Empty the bucket at the bottom and make sure it doesn't overflow through the length of the test
 
-### Experiment
+####Experimental Checklist:
+#####Before starting test
+1. Waste line is open (System will explode if this is not open)
+2. No leaks anywhere in system
+3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
+4. Pumps are all pumping water in the correct direction (in the direction of the flocculator and reactor)
+5. The fluoride pump line is closed and fluoride valve is open after running just water through the system
+6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity,etc. and then change the process to the ON state.
+#####During test
+7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
+#####End of test
+8. Change the process to the OFF state.
+9. Clean the reactor using the "Cleaning  Procedure" after the experiment is completed.
 
+####Cleaning Procedure
+1. Put a piece of sponge in the tube between the flocculator and PACl insert.
+2. Run a high velocity jet through the tube to purge the flocculator of excess clay buildup.
+3. Drain both reactors through the valves at the bottom of the reactors.
+4. Flush water through both reactors until no clay remains in the system.
+5. If there is not a noticeable amount of buildup, (a) and (b) can be skipped.
 
-### Bench System
+####Fluoride Probe Calibration Procedure
+1. Make the stock calibration concentrations of .1 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
+2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
+3. Insert the probe into one of the calibration solutions.
+4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
+5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again).
+6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
+7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
+8. If R squared value is not 0.99, rinse let settle in TSIAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 
-### Gravity Powered System
+###ProCoDA Method File
 
-Step 1.
+ProCoDA is a process control system that was developed by Monroe Weber-Shirk in order to set process parameters through a computerized system. It can be adjusted to different system states that control the system pumps depending on what flow rates are desired. Additionally, ProCoDA collects the data from probes, allowing for compilation of dye concentration data.
 
-### Cleaning Procedure
-Step 1.
+To begin the ProCoDA method file, three states were made: ON and OFF and Just Water. In the OFF state, all the valves were closed and no pumps were on. In the ON state, all the pumps were ON and all valves were opened, in the Just Water state, only the water valve was open. ProCoDA turned this pump on and off via a normal valve control, so long as the pump was already set to a proper flow rate. The system was set to run on Manual setting, as a proper run time had not yet been determined.
 
-## Experimental Checklist
-
-### Bench System
-
-### Gravity Powered System
-
-## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
+The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and fluoride pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
 
 ### States
 Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
