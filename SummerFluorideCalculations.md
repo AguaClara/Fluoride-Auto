@@ -64,7 +64,7 @@ Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence
 
 #Assume Qstock, Qsystem and Csystem
 
-pump_speed = 5 *(u.rpm)
+pump_speed = 3 *(u.rpm)
 #yellow_blue = 0.149*(u.milliliter/u.revolutions)
 #yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
@@ -74,7 +74,7 @@ print('The fluoride flow rate is: '+str((oy_flowrate).to(u.milliliter/u.s))) #Qs
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock = oy_flowrate
-C_sys = 5 *(u.mg/u.L) #user input desired concentration of F- in the system
+C_sys = 3 *(u.mg/u.L) #user input desired concentration of F- in the system
 print('The fluoride concentration through the system is: ' + str(C_sys))
 
 C_stock= (Q_sys*C_sys)/Q_stock
