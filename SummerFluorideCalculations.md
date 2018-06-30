@@ -84,20 +84,6 @@ print('The fluoride volume in the stock is: ' +str((V_superstock).to(u.millilite
 V_water=V_stock-V_superstock
 print('The water volume in the stock is : ' +str((V_water).to(u.milliliter)))
 
-#v_stock = (675 * u.mL).to(u.L)
-#v_water = 1 * u.L
-#total_v = v_water + v_stock
-#c_solution = (fluoride_stock * v_stock)/(total_v)
-#print('The fluoride concentration in the stock container is: ' +str(c_solution))
-
-#Q_sys = Q.to(u.L/u.s) #water pump speed, calculated above
-#Q_stock = yb_flowrate
-
-#C_stock = c_solution
-#C_sys = ((Q_stock*C_stock)/(Q_sys)).to(u.mg/u.L)
-#print('The fluoride concentration in the system is: ' +str(C_sys))
-
-#percent_flow = (yb_flowrate/Q_sys)*100
 percent_flow = (oy_flowrate/Q_sys)*100
 print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow)+' %.')
 
