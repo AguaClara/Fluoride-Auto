@@ -29,9 +29,7 @@ Assumes flow rate of coagulant pump is negligible compared to the water pump flo
 
 ```python
 #Aim for 6.5 mg/L of PAC the lowest according to Github Issues
-pump_speed_PACl = 10*(u.rpm)
-#yellow_blue = 0.149*(u.milliliter/u.revolutions)
-#yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
+pump_speed_PACl = 15*(u.rpm)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate_PACl = orange_yellow.to(u.liter/u.revolutions)*(pump_speed_PACl).to(u.revolutions/u.s)
 
