@@ -29,9 +29,7 @@ Assumes flow rate of coagulant pump is negligible compared to the water pump flo
 
 ```python
 #Aim for 6.5 mg/L of PAC the lowest according to Github Issues
-pump_speed_PACl = 10*(u.rpm)
-#yellow_blue = 0.149*(u.milliliter/u.revolutions)
-#yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
+pump_speed_PACl = 20*(u.rpm)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate_PACl = orange_yellow.to(u.liter/u.revolutions)*(pump_speed_PACl).to(u.revolutions/u.s)
 
@@ -39,8 +37,7 @@ print('The PACl flow rate is: '+str((oy_flowrate_PACl).to(u.milliliter/u.s))) #Q
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock_PACl = oy_flowrate_PACl
-C_sys_PACl = 10 *(u.mg/u.L) #user input desired concentration of PACl in the system
-print('The system concentration of PACl is: ' +str(C_sys_PACl))
+C_sys_PACl = 10*(u.mg/u.L) #user input desired concentration of PACl in the system
 
 C_stock_PACl = (Q_sys*C_sys_PACl)/Q_stock_PACl
 print('The PACl concentration in the stock is: ' +str(C_stock_PACl))
@@ -64,7 +61,7 @@ Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence
 
 #Assume Qstock, Qsystem and Csystem
 
-pump_speed = 3 *(u.rpm)
+pump_speed = 3*(u.rpm)
 #yellow_blue = 0.149*(u.milliliter/u.revolutions)
 #yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
@@ -74,8 +71,7 @@ print('The fluoride flow rate is: '+str((oy_flowrate).to(u.milliliter/u.s))) #Qs
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock = oy_flowrate
-C_sys = 3 *(u.mg/u.L) #user input desired concentration of F- in the system
-print('The fluoride concentration through the system is: ' + str(C_sys))
+C_sys = 3*(u.mg/u.L) #user input desired concentration of F- in the system
 
 C_stock= (Q_sys*C_sys)/Q_stock
 print('The fluoride concentration in the stock is: ' +str(C_stock))
@@ -88,20 +84,6 @@ print('The fluoride volume in the stock is: ' +str((V_superstock).to(u.millilite
 V_water=V_stock-V_superstock
 print('The water volume in the stock is : ' +str((V_water).to(u.milliliter)))
 
-#v_stock = (675 * u.mL).to(u.L)
-#v_water = 1 * u.L
-#total_v = v_water + v_stock
-#c_solution = (fluoride_stock * v_stock)/(total_v)
-#print('The fluoride concentration in the stock container is: ' +str(c_solution))
-
-#Q_sys = Q.to(u.L/u.s) #water pump speed, calculated above
-#Q_stock = yb_flowrate
-
-#C_stock = c_solution
-#C_sys = ((Q_stock*C_stock)/(Q_sys)).to(u.mg/u.L)
-#print('The fluoride concentration in the system is: ' +str(C_sys))
-
-#percent_flow = (yb_flowrate/Q_sys)*100
 percent_flow = (oy_flowrate/Q_sys)*100
 print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow)+' %.')
 

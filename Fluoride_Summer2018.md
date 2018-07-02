@@ -1,9 +1,10 @@
 # Fluoride, Summer 2018
 #### Ching Pang, Kevin Sarmiento, Cheer Tsang
-#### July 29, 2018
+#### June 29, 2018
 
 ## Abstract
-Fluoride is a major contaminant in drinking water in many parts of India. Our overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of the previous fluoride subteam by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India.
+
+ Fluoride is a major contaminant in drinking water in many parts of India. Our overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of previous fluoride subteams by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India.
 
 
 ## Introduction
@@ -18,11 +19,10 @@ The Bureau of Indian Standards have created water quality standards designed to 
 
 
 ## Previous Work
-Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
 
-The Spring 2018 team set up a bench experiment using ProCoDA. This experiment allowed for precise control of the flow rates of water, fluoride, and PACl (Polyaluminum Chloride) by using ProCoDA to control a set of pumps. The 2018 team also switched from using a sand filtration system to the reactor designed by the High Rate Sedimentation team.
+The Spring 2018 team set up a bench experiment using ProCoDA that allowed for precise control of the flow rates of water, fluoride, and coagulant. Polyaluminum chloride (PACl) is the coagulant used in the system. The 2018 team also switched from using a sand filtration system to the reactor designed by the High Rate Sedimentation team. The summer fluoride team will continue to use the new reactor design for all experiments.
 
-The team ran several tests with various influent concentrations of fluoride and PACl to determine the optimal PACl dosage to treat a given concentration on influent fluoride. The target effluent fluoride was 1.5 mg/L, based on standards set by the World Health Organization (WHO). At the maximum PACl dosage, the reactor became clogged with a fluidized bed, due to insufficient shear to break up the flocs. The team suggested adding a second reactor to decrease the maximum PACl required. The results have been thus far inconclusive, and the team suggested that the source of error may be a faulty fluoride probe. The team ordered a replacement probe.
+The team ran several tests with various influent concentrations of fluoride and PACl to determine the optimal PACl dosage to treat a given concentration on influent fluoride. The target effluent fluoride was 1.5 mg/L, based on standards set by the World Health Organization (WHO). At the maximum PACl dosage, the reactor became clogged with a fluidized bed, due to insufficient shear to break up the flocs. The team suggested adding a second reactor to decrease the maximum PACl required. The results have been thus far inconclusive, and the team suggested that the source of error may be a faulty fluoride probe. The team ordered a replacement probe ([Akpan, 2018](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md)).
 
 In addition, the Spring 2018 fluoride team built a gravity-powered system. The constant head tanks for fluoride and coagulant ensure constant flow through the system. The heights of the constant head tanks were calculated using Bernoulli's equation:
 
@@ -47,7 +47,6 @@ Figure 3: The bench setup for the fluoride removal system.
 
 
 ### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
 The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system.
 
@@ -105,9 +104,12 @@ Figure 4: (add figure of calibration curve after finishing calibration) The line
 
 ## Future Work
 
+In order to make running experiments easier we plan on modifying the gravity powered system further. The goal is to make all the platforms easily adjustable in order to manually change the flowrate of both the water with fluoride and the coagulant. It would be ideal to only use one stock concentration of PACl and change the flow rates in order to achieve the desired concentrations in the system.
 
 ## Bibliography
 ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
+
+Akpan, P. Mehrabyan, T. Sausele, D., Fluoride, Spring 2018. Retriecved from https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md
 
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
 Health, 1(2).
@@ -152,7 +154,7 @@ Figure 5: Adjustment to the Gravity Powered System
 ## Experimental Methods
 
 ###Electricity-Powered Fluoride Experiments
-The following are protocols used for past semesters' experimentation.
+The following are improvised based on protocols used for past semesters' experimentation.
 
 
 ####Protocol for Running Just Water Through the Reactors
@@ -165,16 +167,15 @@ The following are protocols used for past semesters' experimentation.
 6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
 
 ####Protocol for Start Up and Running of Reactors
-1. Fill stock tanks with appropriate concentration of PACl, fluoride, and clay and make sure to have enough stock to run for 24
-hours
-2. Calculate the flow rates of the PACl and fluoride pumps from the MathCAD file and run the pumps at the appropriate RPM using ProCoDA
+1. Fill stock tanks with appropriate concentration of PACl and fluoride, and make sure to have enough stock to run for 24 hours
+2. Calculate the flow rates of the PACl and fluoride pumps from the Python file and run the pumps at the appropriate RPM using ProCoDA
 3. Run the waste pump at the appropriate RPM as calculated from ProCoDA.
 4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
 5. Empty the bucket at the bottom and make sure it doesn't overflow through the length of the test
 
 ####Experimental Checklist:
 #####Before starting test
-1. Waste line is open (System will explode if this is not open)
+1. Waste line is opened. (System will explode if this is not open)
 2. No leaks anywhere in system
 3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
 4. Pumps are all pumping water in the correct direction (in the direction of the flocculator and reactor)
@@ -188,20 +189,19 @@ hours
 
 ####Cleaning Procedure
 1. Put a piece of sponge in the tube between the flocculator and PACl insert.
-2. Run a high velocity jet through the tube to purge the flocculator of excess clay buildup.
+2. Run a high velocity jet through the tube to purge the flocculator.
 3. Drain both reactors through the valves at the bottom of the reactors.
-4. Flush water through both reactors until no clay remains in the system.
-5. If there is not a noticeable amount of buildup, (a) and (b) can be skipped.
+4. Flush water through both reactors with water.
 
 ####Fluoride Probe Calibration Procedure
-1. Make the stock calibration concentrations of .1 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
+1. Make the stock calibration concentrations of 0.1 $\mathrm{\frac{mg}{L}}$, 0.5 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 5 $\mathrm{\frac{mg}{L}}$, $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, 15 $\mathrm{\frac{mg}{L}}$,and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
 2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
 3. Insert the probe into one of the calibration solutions.
 4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
 5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again).
 6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
-8. If R squared value is not 0.99, rinse let settle in TSIAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
+8. If R squared value is not 0.99, rinse let settle in TISAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 
 ###ProCoDA Method File
 
@@ -212,11 +212,11 @@ To begin the ProCoDA method file, three states were made: ON and OFF and Just Wa
 The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and fluoride pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
 
 ### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
+![Just water](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/waterrules.png)
+Figure 6: Screenshot of Just Water State
 
+![Run Experiment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Runrules.png)
+Figure 7: Screenshot of Run Experiment State
 ### Set Points
 
 ![Setpoints](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Setpoints.png)
@@ -225,24 +225,15 @@ Figure 6: Screenshot of set points in ProCoDA
 ## Python Code
 
 ### Variables
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
+
+
+#Calculations for Water Pump speed
+Calculates RPM of water pump, given a desired upflow velocity in the sedimentation tube.
 
 ```python
 import math as m
 import numpy as np
 from aide_design.play import*
-from aguaclara_research import tube_sizing as ts
 
 D=(1)*u.inch
 D=D.to(u.m)
@@ -259,45 +250,130 @@ Man_RPM=(Q/((0.8)*(u.milliliter)))
 Man_RPM=Man_RPM*(60*(u.second))
 print(Man_RPM)
 
-"""Calculates maximum stock concentration and flow rate of fluoride stock given desired concentration in the plant"""
+```
 
-Q_plant = 0.7601 * (u.mL/u.s)#flow rate of the plant
-C_fluoride = 5 * (u.mg/u.L)#desired concentration of the material within the plant
-tubing_color = "orange-yellow"#color of the tubing to be used
+#Calculations for Coagulant Pump speed
+Calculates RPM of coagulant pump, given a desired concentration in the system.
+Assumes flow rate of coagulant pump is negligible compared to the water pump flow rate.
 
-C_stock_max_fluoride = ts.C_stock_max(Q_plant, C_fluoride, tubing_color)
-print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(C_stock_max_fluoride))
+```python
+#Aim for 6.5 mg/L of PAC the lowest according to Github Issues
+pump_speed_PACl = 15*(u.rpm)
+orange_yellow = 0.019*(u.milliliter/u.revolutions)
+oy_flowrate_PACl = orange_yellow.to(u.liter/u.revolutions)*(pump_speed_PACl).to(u.revolutions/u.s)
 
-Q_stock_max_fluoride = ts.Q_stock_max(Q_plant, C_fluoride, tubing_color)
-print('Flow rate of the stock of the desired concentration: '+ str(Q_stock_max_fluoride))
+print('The PACl flow rate is: '+str((oy_flowrate_PACl).to(u.milliliter/u.s))) #Qstock
 
+Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
+Q_stock_PACl = oy_flowrate_PACl
+C_sys_PACl = 10*(u.mg/u.L) #user input desired concentration of PACl in the system
 
-"""Calculates maximum stock concentration and flow rate of PACl stock given desired concentration in the plant"""
+C_stock_PACl = (Q_sys*C_sys_PACl)/Q_stock_PACl
+print('The PACl concentration in the stock is: ' +str(C_stock_PACl))
+#M1V1=M2V2 to obtain volume of fluoride stock needed
+M_superstock_PACl = (70.28 * (u.g/u.L)).to(u.mg/u.L) #concentration of fluoride provided
+M_stock_PACl = C_stock_PACl
+V_stock_PACl = 0.5 * u.L #total volume of the stock (water+fluoride)
+V_superstock_PACl = (M_stock_PACl*V_stock_PACl)/M_superstock_PACl
+print('The PACl superstock volume in the stock is: ' +str((V_superstock_PACl).to(u.milliliter)))
+V_water_PACl = V_stock_PACl-V_superstock_PACl
+print('The water volume in the PACl stock is : ' +str((V_water_PACl).to(u.milliliter)))
+```
 
-C_PACl = 6.25 * (u.mg/u.L)#desired concentration of the material within the plant
+#Fluoride pump speed and stock concentration
+Calculates volumetric flow rate of fluoride pump, given pump speed in RPM.
+Calculates concentration of fluoride in system.
+Assumes flow rate of fluoride pump is negligible compared to the water pump flow rate.
+Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+Peristaltic+Pumps).
 
-stock = ts.C_stock_max(Q_plant, C_PACl, tubing_color)
-print('Maximum stock concentration of fluoride given desired concentration in the plant: '+str(stock))
+```python
 
-stock_flowrate = ts.Q_stock_max(Q_plant, C_PACl, tubing_color)
-print('Flow rate of the stock of the desired concentration: '+ str(stock_flowrate))
+#Assume Qstock, Qsystem and Csystem
 
-V_stock_PACl = 1 * u.L
-C_super_stock_PACl = 70.28 * (u.g/u.L)
+pump_speed = 3*(u.rpm)
+#yellow_blue = 0.149*(u.milliliter/u.revolutions)
+#yb_flowrate = yellow_blue.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
+orange_yellow = 0.019*(u.milliliter/u.revolutions)
+oy_flowrate = orange_yellow.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 
-V_super_stock_PACl = ts.V_super_stock(Q_plant, C_PACl, tubing_color, V_stock_PACl, C_super_stock_PACl)
-print('The volume of PACl super stock added to the stock container to reach the desired concentration within the plant: ' + str(V_super_stock_PACl))
+print('The fluoride flow rate is: '+str((oy_flowrate).to(u.milliliter/u.s))) #Qstock
 
-V_stock_fluoride = 1 * u.L
-time_experiment_f = ts.T_stock(Q_plant, C_fluoride, tubing_color, V_stock_fluoride)
-print(time_experiment_f)
+Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
+Q_stock = oy_flowrate
+C_sys = 3*(u.mg/u.L) #user input desired concentration of F- in the system
 
-V_stock_PACl = 1 * u.L
-time_experiment_PACl = ts.T_stock(Q_plant, C_PACl, tubing_color, V_stock_PACl)
-print(time_experiment_PACl)
+C_stock= (Q_sys*C_sys)/Q_stock
+print('The fluoride concentration in the stock is: ' +str(C_stock))
+#M1V1=M2V2 to obtain volume of fluoride stock needed
+M_superstock = 10000 * (u.mg/u.L) #concentration of fluoride provided
+M_stock = C_stock
+V_stock = 0.5 * u.L #total volume of the stock (water+fluoride)
+V_superstock= (M_stock*V_stock)/M_superstock
+print('The fluoride volume in the stock is: ' +str((V_superstock).to(u.milliliter)))
+V_water=V_stock-V_superstock
+print('The water volume in the stock is : ' +str((V_water).to(u.milliliter)))
 
+percent_flow = (oy_flowrate/Q_sys)*100
+print('The percent flow rate of fluoride/total flow through system: '+str(percent_flow)+' %.')
+
+total_flowrate = oy_flowrate_PACl + oy_flowrate + Q
+print('The total flowrate through the system is: '+str(total_flowrate))
+water_flowrate = 0.76 * (u.milliliter/u.s) - (oy_flowrate + oy_flowrate_PACl)
+print('The actual water pump flow rate required is: '+str(water_flowrate))
 
 ```
+#Calculations in the report
+
+```python
+import math as m
+import numpy as np
+from aide_design.play import*
+import aide_design.floc_model as fm
+
+Q=.76*(u.milliliter)/(u.second)
+Q.to(u.m*u.m*u.m/u.s)
+D=(1/8)*u.inch
+D.to(u.m)
+A=np.pi*(D**2)/4
+print(A)
+#Area given our diameter of tubing
+v=(Q/A).to(u.m/u.s)
+print(v)
+#velocity through our tubing given volumetric flow and area
+L=9.43*u.m
+T = 298 * u.degK
+vis = pc.viscosity_kinematic(T)
+print(vis)
+#kinematic viscosity given the temperature
+Gcoil=206.907*(1/u.s)
+g=9.81*(u.meter)/(u.second)/(u.second)
+hf=((Gcoil**2)*vis*L/v/g).to(u.m)
+print(hf)
+R_c = 0.05*u.m
+shearG = fm.g_coil(Q,D,R_c,T)
+print(shearG)
+#Shear gradient in flocculator given curvature and volumetric flow
+hfModel=((shearG**2)*vis*L/v/g).to(u.m)
+print(hfModel)
+#headloss due to the flow through the flocculator
+deltah2=((v**2)/2/g+hf).to(u.m)
+print(deltah2)
+#height difference necessary for the velocity the team wants
+Qpacl=.00475*(u.milliliter)/(u.second)
+Qpacl.to(u.m*u.m*u.m/u.s)
+Dpacl=.0005588*(u.m)
+#Use microbore inner diameter of 1/50 inches
+Apacl=np.pi*Dpacl*Dpacl/4
+print(Apacl)
+vpacl=Qpacl/Apacl
+print(vpacl)
+headP=.05*(u.meter)
+Lpacl=headP*g*Dpacl*Dpacl/32/vis/vpacl
+Lpacl.to(u.m)
+print(Lpacl)
+#length of microbore tubing necessary for the given headloss
+```
+
 
 ```python
 # To convert the document from markdown to pdf
