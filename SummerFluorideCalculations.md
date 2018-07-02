@@ -29,7 +29,7 @@ Assumes flow rate of coagulant pump is negligible compared to the water pump flo
 
 ```python
 #Aim for 6.5 mg/L of PAC the lowest according to Github Issues
-pump_speed_PACl = 20*(u.rpm)
+pump_speed_PACl = 30*(u.rpm)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate_PACl = orange_yellow.to(u.liter/u.revolutions)*(pump_speed_PACl).to(u.revolutions/u.s)
 
@@ -37,7 +37,7 @@ print('The PACl flow rate is: '+str((oy_flowrate_PACl).to(u.milliliter/u.s))) #Q
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock_PACl = oy_flowrate_PACl
-C_sys_PACl = 10*(u.mg/u.L) #user input desired concentration of PACl in the system
+C_sys_PACl = 30*(u.mg/u.L) #user input desired concentration of PACl in the system
 
 C_stock_PACl = (Q_sys*C_sys_PACl)/Q_stock_PACl
 print('The PACl concentration in the stock is: ' +str(C_stock_PACl))
