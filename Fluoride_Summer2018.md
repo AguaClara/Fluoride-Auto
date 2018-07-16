@@ -5,11 +5,10 @@
 ## Abstract
 
  Fluoride is a major contaminant in drinking water in many parts of India. Our overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of previous fluoride subteams by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India.
-
-
+<!--Use third person for reports, eg. rather than "Our", use "the team" -->
 ## Introduction
 
-The recent expansion of AguaClara technology to new places around the world, like India, has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells and aquifers. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles are naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter and reducing microorganisms it also offers the opportunity for minerals and metals to leach into the water. The kinds of minerals that get into the water depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India contains about 14% of the total fluoride on the earth's crust, which inevitable leads some of it to leach into the groundwater [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7).
+The recent expansion of AguaClara technology to new places around the world like India has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants. However, in India 85% of the population drinks groundwater extracted from wells and aquifers. Contrast to surface water sources like in Honduras, groundwater contains nearly no particulate matter as many of the particles are naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter and reducing microorganisms it also offers the opportunity for minerals and metals to leach into the water. The kinds of minerals that get into the water depend heavily on the types of parent rock material and soils found in the region. India lies on what is known as one of the Fluoride Belts which are expanses of land that are geologically fluoride rich and have a much greater capacity to leach fluoride into the groundwater. According to the World Health Organization one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India contains about 14% of the total fluoride on the earth's crust, which inevitable leads some of it to leach into the groundwater [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7).
 
 There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places like the United States where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental caries. New York City for example adds fluoride to its water supply in order to achieve a concentration of 0.7$\mathrm{\frac{mg}{L}}$ in their effluent supply [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). The American Dental Association has set the recommended concentration of fluoride in drinking water at 0.7$\mathrm{\frac{mg}{L}}$ for the prevention of dental cavities [(ADA, 2017)](https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements). There are however a number of health risks associated with the consumption of fluoride at higher concentrations.
 
@@ -21,7 +20,7 @@ The Bureau of Indian Standards have created water quality standards designed to 
 ## Previous Work
 
 The Spring 2018 team set up a bench experiment using ProCoDA that allowed for precise control of the flow rates of water, fluoride, and coagulant. Polyaluminum chloride (PACl) is the coagulant used in the system. The 2018 team also switched from using a sand filtration system to the reactor designed by the High Rate Sedimentation team. The summer fluoride team will continue to use the new reactor design for all experiments.
-
+<!--Replace reactor with sed tank/tube settler.  Consider briefly explaining the justification for the switch -->
 The team ran several tests with various influent concentrations of fluoride and PACl to determine the optimal PACl dosage to treat a given concentration on influent fluoride. The target effluent fluoride was 1.5 mg/L, based on standards set by the World Health Organization (WHO). At the maximum PACl dosage, the reactor became clogged with a fluidized bed, due to insufficient shear to break up the flocs. The team suggested adding a second reactor to decrease the maximum PACl required. The results have been thus far inconclusive, and the team suggested that the source of error may be a faulty fluoride probe. The team ordered a replacement probe ([Akpan, 2018](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md)).
 
 In addition, the Spring 2018 fluoride team built a gravity-powered system. The constant head tanks for fluoride and coagulant ensure constant flow through the system. The heights of the constant head tanks were calculated using Bernoulli's equation:
@@ -41,14 +40,15 @@ Figure 2: The fabricated gravity-powered system. The system includes a flocculat
 ### Experimental Apparatus
 
 The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed below, under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
-
+<!--For your flow rate calculations, you should talk with Hannah about creating a simple function and pushing it to AIDE_design, since you are both using roughly the same calculation -->
 ![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
 Figure 3: The bench setup for the fluoride removal system.
 
+<!--Include a photo of your setup, with each component numbered -->
 
 ### Procedure
 
-The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system.
+The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L were tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). In order to achieve the desired system concentrations of fluoride, the stock concentrations were prepared taking into account the flow rate of water through the system.
 
 The following equation was used to calculate the system concentrations of fluoride and PACl:
 
@@ -152,12 +152,13 @@ WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water
 
 ## Fabrication Details
 ### Reactors
+<!--I would refer to this as a tube settler or sed tank, not a reactor, which is ambiguous -->
 The reactor in both the bench system and the gravity powered system had multiple leakages. Therefore, two new reactors were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
 Bent in the reactor was created using welder at 60 degrees from horizontal. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. Floc weir pipe was then welded to the tube settler.
-
+<!--For future fabrication it would be cool to get photographs of the process of building it -->
 ![sedtank](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/InkedSedtank_LI.jpg)
 Figure 3: Reactor fabricated for both the bench system and gravity powered system
-
+<!-- Can you add the dimensions of each part of the pipe to the image? -->
 ### Gravity Powered System
 Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
 
@@ -171,56 +172,56 @@ Figure 5: Adjustment to the Gravity Powered System
 
 ## Experimental Methods
 
-###Electricity-Powered Fluoride Experiments
+### Electricity-Powered Fluoride Experiments
 The following are improvised based on protocols used for past semesters' experimentation.
 
 
-####Protocol for Running Just Water Through the Reactors
+#### Protocol for Running Just Water Through the Reactors
 
-1. Open tap water valve and close the fluoride valve as to not pump fluoride into the system during backwash
+1. Open tap water valve and close the fluoride valve as to not pump fluoride into the system during backwash <!--I'm confused, when you say tap water valve do you mean the sink or the water line? -->
 2. Close the waste line
 3. Turn on Just Water process in ProCoDA and fill system completely with water.
 4. Make sure the sample bottle with the fluoride probe does not overflow from the high flow rate of the water
 5. Continue to run water until turbidimeter reads less than 0.5 NTU and fluoride concentration is less than 0.5 $\mathrm{\frac{mg}{L}}$.
 6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
-
-####Protocol for Start Up and Running of Reactors
+<!--Are you cleaning out your turbidimeters with every experiment? -->
+#### Protocol for Start Up and Running of Reactors
 1. Fill stock tanks with appropriate concentration of PACl and fluoride, and make sure to have enough stock to run for 24 hours
 2. Calculate the flow rates of the PACl and fluoride pumps from the Python file and run the pumps at the appropriate RPM using ProCoDA
 3. Run the waste pump at the appropriate RPM as calculated from ProCoDA.
 4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
 5. Empty the bucket at the bottom and make sure it doesn't overflow through the length of the test
 
-####Experimental Checklist:
-#####Before starting test
+#### Experimental Checklist:
+##### Before starting test
 1. Waste line is opened. (System will explode if this is not open)
 2. No leaks anywhere in system
 3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
 4. Pumps are all pumping water in the correct direction (in the direction of the flocculator and reactor)
 5. The fluoride pump line is closed and fluoride valve is open after running just water through the system
 6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity,etc. and then change the process to the ON state.
-#####During test
+##### During test
 7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
-#####End of test
+##### End of test
 8. Change the process to the OFF state.
 9. Clean the reactor using the "Cleaning  Procedure" after the experiment is completed.
 
-####Cleaning Procedure
+#### Cleaning Procedure
 1. Put a piece of sponge in the tube between the flocculator and PACl insert.
 2. Run a high velocity jet through the tube to purge the flocculator.
 3. Drain both reactors through the valves at the bottom of the reactors.
 4. Flush water through both reactors with water.
 
-####Fluoride Probe Calibration Procedure
+#### Fluoride Probe Calibration Procedure
 1. Make the stock calibration concentrations of 0.1 $\mathrm{\frac{mg}{L}}$, 0.5 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 5 $\mathrm{\frac{mg}{L}}$, $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, 15 $\mathrm{\frac{mg}{L}}$,and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
 2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
 3. Insert the probe into one of the calibration solutions.
 4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
-5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again).
-6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
+5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again). <!--Add a photo of what this graph looks like.  How long does it generally take to measure steady state? -->
+6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration"). <!--Add a link to the google doc -->
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99, rinse let settle in TISAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
-
+<!--Add photos! -->
 ###ProCoDA Method File
 
 ProCoDA is a process control system that was developed by Monroe Weber-Shirk in order to set process parameters through a computerized system. It can be adjusted to different system states that control the system pumps depending on what flow rates are desired. Additionally, ProCoDA collects the data from probes, allowing for compilation of dye concentration data.
@@ -244,7 +245,7 @@ Figure 6: Screenshot of set points in ProCoDA
 
 ### Variables
 
-
+<!--Comment code more!  Define variables and explain what each section is doing at a higher level of detail! -->
 #Calculations for Water Pump speed
 Calculates RPM of water pump, given a desired upflow velocity in the sedimentation tube.
 
@@ -258,11 +259,13 @@ D=D.to(u.m)
 A=np.pi*(D**2)/4
 print(A)
 v=(0.0015)*(u.m/u.s)
+
 #Area given our diameter of tubing
 Q=(A*v)
 print(Q)
 Q=Q.to((u.milliliter)/(u.second))
 print(Q)
+
 #Manual calculation of RPM
 Man_RPM=(Q/((0.8)*(u.milliliter)))
 Man_RPM=Man_RPM*(60*(u.second))
@@ -303,7 +306,7 @@ Calculates volumetric flow rate of fluoride pump, given pump speed in RPM.
 Calculates concentration of fluoride in system.
 Assumes flow rate of fluoride pump is negligible compared to the water pump flow rate.
 Uses tube sizing conversions found on [AguaClara Confluence ](https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+Peristaltic+Pumps).
-
+<!-- Consider making the section below into a function with variable inputs-->
 ```python
 
 #Assume Qstock, Qsystem and Csystem
@@ -340,8 +343,8 @@ water_flowrate = 0.76 * (u.milliliter/u.s) - (oy_flowrate + oy_flowrate_PACl)
 print('The actual water pump flow rate required is: '+str(water_flowrate))
 
 ```
-#Calculations in the report
-
+# Calculations in the report
+<!-- Comment code more! -->
 ```python
 import math as m
 import numpy as np
@@ -354,14 +357,17 @@ D=(1/8)*u.inch
 D.to(u.m)
 A=np.pi*(D**2)/4
 print(A)
+
 #Area given our diameter of tubing
 v=(Q/A).to(u.m/u.s)
 print(v)
+
 #velocity through our tubing given volumetric flow and area
 L=9.43*u.m
 T = 298 * u.degK
 vis = pc.viscosity_kinematic(T)
 print(vis)
+
 #kinematic viscosity given the temperature
 Gcoil=206.907*(1/u.s)
 g=9.81*(u.meter)/(u.second)/(u.second)
@@ -370,16 +376,20 @@ print(hf)
 R_c = 0.05*u.m
 shearG = fm.g_coil(Q,D,R_c,T)
 print(shearG)
+
 #Shear gradient in flocculator given curvature and volumetric flow
 hfModel=((shearG**2)*vis*L/v/g).to(u.m)
 print(hfModel)
+
 #headloss due to the flow through the flocculator
 deltah2=((v**2)/2/g+hf).to(u.m)
 print(deltah2)
+
 #height difference necessary for the velocity the team wants
 Qpacl=.00475*(u.milliliter)/(u.second)
 Qpacl.to(u.m*u.m*u.m/u.s)
 Dpacl=.0005588*(u.m)
+
 #Use microbore inner diameter of 1/50 inches
 Apacl=np.pi*Dpacl*Dpacl/4
 print(Apacl)
