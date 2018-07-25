@@ -8,7 +8,7 @@ from aguaclara_research import tube_sizing as ts
 
 #Q_sys * C_sys = Q_stock * C_stock
 
-pump_speed = 10*(u.rpm)
+pump_speed = 30*(u.rpm)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate = orange_yellow.to(u.milliliter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 
