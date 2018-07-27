@@ -29,7 +29,7 @@ $$ P_1 + \rho g \Delta h_1+ \frac{1}{2}\rho {v_1}^2 = P_2 + \rho g \Delta h_2+ \
 
 Details on design calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/Gravity%20Reactor.md). More information can be found in the Spring 2018 [report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md).
 
-![gravity_schematic](https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true)
+![gravity_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
 Figure 1: Schematic for gravity-powered system. The constant head tanks for fluoride and PACl ensure constant flow through the system.
 
 ![gravity_reactor](https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/labeledGravSystem.PNG?raw=true)
@@ -41,7 +41,7 @@ Figure 2: The fabricated gravity-powered system. The system includes a flocculat
 
 The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed below, under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
 <!--For your flow rate calculations, you should talk with Hannah about creating a simple function and pushing it to AIDE_design, since you are both using roughly the same calculation #done -->
-![bench_setup_drawing](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
+![bench_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
 Figure 3: A schematic drawing of the bench setup for the fluoride removal system.
 ![bench_setup](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labeled_bench_setup.jpg)
 Figure 4: Actual bench setup for the fluoride removal system.
@@ -79,7 +79,7 @@ Table 2: PACl parameters. Varying PACl system concentrations were tested at each
 ### Fluoride Probe
 The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a fluoride probe and obtained a replacement.
 
-![bench_setup](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
+![fluoride_probe](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
 Figure 4: The fluoride probe used to measure effluent fluoride concentration.
 
 The fluoride probe uses an ion-sensitive electrode ([Light, 1975](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_paper.pdf)). When the fluoride probe is placed into a solution, the probe outputs a voltage reading. This voltage reading can then be converted to a fluoride concentration by using a calibration curve.
@@ -154,8 +154,8 @@ print("R-squared:", r_value ** 2)
 
 
 ```
-![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/calibration_curve.jpg?raw=true)
-Figure 5: (add figure of calibration curve after finishing calibration) The linear equation that represents the relationship between voltage and concentration is (). The R-squared value is (). The slope is (), and the y-intercept is ().
+![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/calibration_curve.png?raw=true)
+Figure 5: The linear relationship between voltage and concentration. The R-squared value is 0.9900. The slope is 0.04529, and the y-intercept is 0.04352.
 
 
 ## Future Work
@@ -194,9 +194,9 @@ WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water
 The sedimentation tube in both the bench system and the gravity powered system had multiple leakages. Therefore, two new tube settlers were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
 60 degree bends from the horizontal were created using a welder. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. Floc weir pipe was then welded to the tube settler.
 <!--For future fabrication it would be cool to get photographs of the process of building it -->
-![sedtank](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/InkedSedtank_LI.jpg)
-Figure 5: Reactor fabricated for both the bench system and gravity powered system. THe 1 inch tubing is 90cm in length and the 1/2 inch tubing is 40cm in length.
-<!-- Can you add the dimensions of each part of the pipe to the image? -->
+![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Sed%20tube%20dimensions.JPG?raw=true)
+Figure 5: Reactor fabricated for both the bench system and gravity powered system.
+<!-- Can you add the dimensions of each part of the pipe to the image? --><!--Addressed-->
 ### Gravity Powered System
 Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
 
@@ -253,7 +253,7 @@ The following are improvised based on protocols used for past semesters' experim
 4. Flush water through both reactors with water.
 
 #### Fluoride Probe Calibration Procedure
-1. Make the stock calibration concentrations of 0.1 $\mathrm{\frac{mg}{L}}$, 0.3 $\mathrm{\frac{mg}{L}}$, 0.5 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 3 $\mathrm{\frac{mg}{L}}$, 5 $\mathrm{\frac{mg}{L}}$, $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, 15 $\mathrm{\frac{mg}{L}}$,and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
+1. Make the stock calibration concentrations of 0.1 $\mathrm{\frac{mg}{L}}$, 0.3 $\mathrm{\frac{mg}{L}}$, 0.5 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 3 $\mathrm{\frac{mg}{L}}$, 5  $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, 15 $\mathrm{\frac{mg}{L}}$,and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
 2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
 3. Insert the probe into one of the calibration solutions.
 4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
