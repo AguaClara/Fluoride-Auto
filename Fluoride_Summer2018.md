@@ -1,5 +1,5 @@
 # Fluoride, Summer 2018
-#### Ching Pang, Kevin Sarmiento, Cheer Tsang
+#### Ching Pang, Kevin Sarmiento, Cheer Tsang, Isa Kaminsky
 #### July 27, 2018
 
 ## Abstract
@@ -15,6 +15,10 @@ There are a number of public health implications associated with both underconsu
 The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water at 1.5$\mathrm{\frac{mg}{L}}$ in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis, the mildest condition caused by the consumption of fluoride, can begin with water concentrations above 0.9$\mathrm{\frac{mg}{L}}$. Skeletal fluorosis, a much more serious condition, can begin to develop with fluoride concentrations above 3$\mathrm{\frac{mg}{L}}$. Lastly, At concentrations above 10$\mathrm{\frac{mg}{L}}$ crippling skeletal fluorosis will begins to occur  [(WHO, 2004)](http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf). The cases of dental fluorosis, the most mild indicator of excessive fluoride, varies across India, but has been shown to range from 13-91 percent depending on the demographic in question and their geographic location [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). While there is no established average for fluoride in Indian groundwater, concentrations in some extreme cases have been measured to be as high as 20$\mathrm{\frac{mg}{L}}$ in some regions but most frequently are below 5$\mathrm{\frac{mg}{L}}$ [(LeChevallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/).
 
 The Bureau of Indian Standards have created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 $\mathrm{\frac{mg}{L}}$ and the permissible limit in the absence of an alternate source at 1.5 $\mathrm{\frac{mg}{L}}$ [(Bureau of Indian Standards, 2012)](http://archive.org/details/gov.in.is.10500.2012). The fluoride team has set their fluoride standards to the standards set by the Bureau of Indian Standards and therefore will be striving to achieve an effluent fluoride concentration of 1 $\mathrm{\frac{mg}{L}}$ or lower. The team will be experimenting with fluoride concentrations up to 20 $\mathrm{\frac{mg}{L}}$ in order to simulate the highest concentrations our systems may encounter out in the field.
+
+The objectives for the 2018 Summer Fluoride team are:
+1. Create an adsorption model to determine the optimal PACl dosage for varying concentrations of fluoride.
+2. Fabricate a user-friendly gravity-powered fluoride removal system that will be used for research. The goal is for the system to be easily adjustable so that various parameters can be tested. 
 
 
 ## Previous Work
@@ -75,6 +79,8 @@ Table 2: PACl parameters. Varying PACl system concentrations were tested at each
 | 2400                            |30                       |30                                  |
 | 2400                            |40                       |40                                  |
 | 2400                                |50                       |50                                  |
+
+The fluoride concentration was tested at the influent, pre-treatment with PACl, and the effluent, after treatment with PACl. Samples were taken every 15 minutes. The first sample was taken 15 minutes after setting up the system, due to the calculated residence time of 13.22 minutes. The residence time is the amount of time a fluoride ion takes to be transported from the start of the system when it enters the coiled flocculator to the system effluent after the sedimentation tube. Residence time calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/residence_time.md).
 
 ### Fluoride Probe
 The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a fluoride probe and obtained a replacement.
@@ -157,6 +163,43 @@ print("R-squared:", r_value ** 2)
 ![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/calibration_curve.png?raw=true)
 Figure 5: The linear relationship between voltage and concentration. The R-squared value is 0.9900. The slope is 0.04529, and the y-intercept is 0.04352.
 
+## Results
+Experiments were run with varying concentrations of fluoride and PACl. In each case, the effluent fluoride concentration was lower than the influent fluoride concentration, which indicated that the flocculation/sedimentation system was effective in removing fluoride.
+
+Table 4: Data taken on 7/25/2018. The time, influent fluoride concentration, and effluent fluoride concentration were recorded at each 15 minute interval. The fluoride dosage was 10 mg/L and the PACl dosage was 50 mg/L.
+| Time (hr) | Fluoride (mg/L) | PACl (mg/L) | Influent Fluoride (mg/L)   | Effluent Fluoride (mg/L)  |
+|:-----|:----|:--- | --- | --- |
+| 0.25 | 10  | 50  | 13.42056163    | 1.642056825    |
+| 0.5  | 10  | 50  | 12.06523927    | 3.369977473    |
+| 1.0  | 10  | 50  | 11.37457308    | 3.316232356    |
+| 1.25 | 10  | 50  | 10.95578916    | 3.211299867    |
+| 1.5  | 10  | 50  | 10.21852321    | 3.228555153    |
+| 2.0  | 10  | 50  | 10.27343043    | 3.613121185    |
+| 2.25 | 10  | 50  | 8.4256534      | 3.812027396    |
+| 2.5  | 10  | 50  | 7.528860869    | 3.536495699    |
+| 3    | 10  | 50  | 6.207900192    | 3.832510573    |
+
+The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing).  
+
+### Adsorption Model
+The results of the experiments were plotted to generate an adsorption model. The amount of fluoride adsorbed by the PACl was calculated by the following equation:
+
+$$ W  = \frac{inital fluoride - final fluoride}{mass of PACl} $$
+
+Figure: (put adsorption model after finishing all experiments, upload excel file)
+
+Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotted against the effluent fluoride.
+| Influent Fluoride (mg/L)| Effluent Fluoride (mg/L) | W |
+|:-----|:-----|:----|
+| 13.42056163    | 1.642056825 | 0.235570096  |
+| 12.06523927    | 3.369977473  | 0.173905236  |
+| 11.37457308    | 3.316232356  | 0.161166814  |
+| 10.95578916    | 3.211299867 | 0.154889786  |
+| 10.21852321    | 3.228555153  | 0.139799361  |
+| 10.27343043    | 3.613121185  | 0.133206185  |
+| 8.4256534      | 3.812027396 | 0.09227252  |
+| 7.528860869    | 3.536495699  | 0.079847303  |
+| 6.207900192    | 3.832510573    | 0.047507792  |
 
 ## Future Work
 
@@ -192,7 +235,7 @@ WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water
 ### Sedimentation Tube
 <!--I would refer to this as a tube settler or sed tank, not a reactor, which is ambiguous --> <!--Addressed-->
 The sedimentation tube in both the bench system and the gravity powered system had multiple leakages. Therefore, two new tube settlers were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
-60 degree bends from the horizontal were created using a welder. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. Floc weir pipe was then welded to the tube settler.
+60 degree bends from the horizontal were created using a welder. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. The floc weir pipe was then welded to the tube settler.
 <!--For future fabrication it would be cool to get photographs of the process of building it -->
 ![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Sed%20tube%20dimensions.JPG?raw=true)
 Figure 5: Reactor fabricated for both the bench system and gravity powered system.
@@ -257,8 +300,9 @@ The following are improvised based on protocols used for past semesters' experim
 2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
 3. Insert the probe into one of the calibration solutions.
 4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
-5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again). <!--Add a photo of what this graph looks like.  How long does it generally take to measure steady state? -->
-6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration"). ![Summer Fluoride Calibration](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit#gid=0)<!--Add a link to the google doc -->
+5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again). ![Fluoride Voltage readings on ProCoDa](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/ProCoDa_fluoride_probe_calibration.JPG?raw=true)
+Figure 6: Voltage reading of fluoride sample on ProCoDa <!--Add a photo of what this graph looks like.  How long does it generally take to measure steady state? --> <!--done-->
+6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration"). [Summer Fluoride Calibration](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit#gid=0)<!--Add a link to the google doc -->
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99, rinse let settle in standard solution (50% TISAB and 50% DI water), then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 <!--Add photos! -->
@@ -272,14 +316,14 @@ The method file was set to control the revolutions per minute (RPM) of the PACl/
 
 ### States
 ![Just water](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/waterrules.png)
-Figure 6: Screenshot of Just Water State
+Figure 7: Screenshot of Just Water State
 
 ![Run Experiment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Runrules.png)
-Figure 7: Screenshot of Run Experiment State
+Figure 8: Screenshot of Run Experiment State
 ### Set Points
 
 ![Setpoints](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Setpoints.png)
-Figure 6: Screenshot of set points in ProCoDA
+Figure 9: Screenshot of set points in ProCoDA
 
 ## Python Code
 
@@ -293,14 +337,16 @@ Calculates RPM of water pump, given a desired upflow velocity in the sedimentati
 import math as m
 import numpy as np
 from aide_design.play import*
-
+#D=diameter of 1 inch sed tube
 D=(1)*u.inch
 D=D.to(u.m)
+#A=area of sed tube
 A=np.pi*(D**2)/4
 print(A)
+#v=velocity of flow through sed tube
 v=(0.0015)*(u.m/u.s)
 
-#Area given our diameter of tubing
+#Q=flowrate through sed tube
 Q=(A*v)
 print(Q)
 Q=Q.to((u.milliliter)/(u.second))
@@ -332,7 +378,7 @@ C_sys_PACl = 10*(u.mg/u.L) #user input desired concentration of PACl in the syst
 C_stock_PACl = (Q_sys*C_sys_PACl)/Q_stock_PACl
 print('The PACl concentration in the stock is: ' +str(C_stock_PACl))
 #M1V1=M2V2 to obtain volume of fluoride stock needed
-M_superstock_PACl = (70.28 * (u.g/u.L)).to(u.mg/u.L) #concentration of fluoride provided
+M_superstock_PACl = (70.28 * (u.g/u.L)).to(u.mg/u.L) #concentration of PACl provided by Cornell water treatment facility
 M_stock_PACl = C_stock_PACl
 V_stock_PACl = 0.5 * u.L #total volume of the stock (water+fluoride)
 V_superstock_PACl = (M_stock_PACl*V_stock_PACl)/M_superstock_PACl
@@ -390,14 +436,14 @@ import math as m
 import numpy as np
 from aide_design.play import*
 import aide_design.floc_model as fm
-
+#Q=flowrate of system
 Q=.76*(u.milliliter)/(u.second)
 Q.to(u.m*u.m*u.m/u.s)
+#D=diameter of tubing
 D=(1/8)*u.inch
 D.to(u.m)
 A=np.pi*(D**2)/4
 print(A)
-
 #Area given our diameter of tubing
 v=(Q/A).to(u.m/u.s)
 print(v)
