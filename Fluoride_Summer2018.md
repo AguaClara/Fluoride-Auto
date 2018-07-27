@@ -154,7 +154,7 @@ print("R-squared:", r_value ** 2)
 
 
 ```
-
+![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/calibration_curve.jpg?raw=true)
 Figure 5: (add figure of calibration curve after finishing calibration) The linear equation that represents the relationship between voltage and concentration is (). The R-squared value is (). The slope is (), and the y-intercept is ().
 
 
