@@ -2,6 +2,10 @@
 #### Ching Pang, Kevin Sarmiento, Cheer Tsang, Isa Kaminsky
 #### July 27, 2018
 
+**Ian's Comment:** Wow you're giving Isa credit for all this work?
+
+**Ian's Comment:** Can you include a table of contents at the top with links to each section?
+
 ## Abstract
 
  Fluoride is a major contaminant in drinking water in many parts of India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of previous fluoride teams by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India and design a easily adjustable gravity powered system. In addition, the team aims to develop a simple user guide for the fluoride probe in order to maximize future teams efficiency.
@@ -18,7 +22,7 @@ The Bureau of Indian Standards have created water quality standards designed to 
 
 The objectives for the 2018 Summer Fluoride team are:
 1. Create an adsorption model to determine the optimal PACl dosage for varying concentrations of fluoride.
-2. Fabricate a user-friendly gravity-powered fluoride removal system that will be used for research. The goal is for the system to be easily adjustable so that various parameters can be tested. 
+2. Fabricate a user-friendly gravity-powered fluoride removal system that will be used for research. The goal is for the system to be easily adjustable so that various parameters can be tested.
 
 
 ## Previous Work
@@ -45,6 +49,7 @@ Figure 2: The fabricated gravity-powered system. The system includes a flocculat
 
 The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed below, under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
 <!--For your flow rate calculations, you should talk with Hannah about creating a simple function and pushing it to AIDE_design, since you are both using roughly the same calculation #done -->
+**Ian's Comments:** the image link below is not working
 ![bench_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png?raw=true)
 Figure 3: A schematic drawing of the bench setup for the fluoride removal system.
 ![bench_setup](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labeled_bench_setup.jpg)
@@ -61,6 +66,7 @@ $$ Q_{stock} * C_{stock} = Q_{sys} * C_{sys} $$
 
 where $Q_{stock}$ is the flow rate out of the stock tank, $C_{stock}$ is the concentration of the stock tank containing fluoride or PACl stock, $Q_{sys}$ is the flow rate through the system, and $C_{sys}$ is the concentration of the fluoride or PACl through the system. Calculations for the fluoride and PACl stock concentrations can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md).
 
+**Ian's Comments:** Can you merge the calculations document with this document so everything is in one place?  Then you can explain the calculations line by line to aid with understanding.
 
 Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was achieved by altering the fluoride pump speed. The fluoride stock concentration was kept constant at 2400 mg/L.
 | F- Stock Concentration (mg/L) | F- Pump Speed (rpm) | F- System Concentration (mg/L) |
@@ -89,6 +95,8 @@ The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Previo
 Figure 4: The fluoride probe used to measure effluent fluoride concentration.
 
 The fluoride probe uses an ion-sensitive electrode ([Light, 1975](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_paper.pdf)). When the fluoride probe is placed into a solution, the probe outputs a voltage reading. This voltage reading can then be converted to a fluoride concentration by using a calibration curve.
+
+**Ian's Comments:** Have you looked at all into getting another probe?  If so add some documentation on your progress there
 
 ### Calibration Curve
 The calibration curve was generated by formulating various concentrations of fluoride and measuring each sample with the fluoride probe (Table 3).
@@ -163,6 +171,8 @@ print("R-squared:", r_value ** 2)
 ![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/calibration_curve.png?raw=true)
 Figure 5: The linear relationship between voltage and concentration. The R-squared value is 0.9900. The slope is 0.04529, and the y-intercept is 0.04352.
 
+**Ian's Comment's:** Can you add a troubleshooting section on using the probe.  Explain what works and what doesn't.  You can tie this into you discussion on buying another probe.
+
 ## Results
 Experiments were run with varying concentrations of fluoride and PACl. In each case, the effluent fluoride concentration was lower than the influent fluoride concentration, which indicated that the flocculation/sedimentation system was effective in removing fluoride.
 
@@ -178,6 +188,10 @@ Table 4: Data taken on 7/25/2018. The time, influent fluoride concentration, and
 | 2.25 | 10  | 50  | 8.4256534      | 3.812027396    |
 | 2.5  | 10  | 50  | 7.528860869    | 3.536495699    |
 | 3    | 10  | 50  | 6.207900192    | 3.832510573    |
+
+**Ian's Comments:**
+* Can you plot this data and all data you present in the report?
+* For the experiments where you feel you have some data, can you do some analysis?  For example, why is the influent concentration decreasing over time?  Shouldn't that be constant?
 
 The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing).  
 
@@ -204,6 +218,8 @@ Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotte
 ## Future Work
 
 In order to make running experiments easier we plan on modifying the gravity powered system further. The goal is to make all the platforms easily adjustable in order to manually change the flow rate of both the water with fluoride and the coagulant. It would be ideal to only use one stock concentration of PACl and change the flow rates in order to achieve the desired concentrations in the system.
+
+**Ian's Comment:** Update this section with more detail for future work and some steps the next teams should take
 
 ## Bibliography
 ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
@@ -240,6 +256,8 @@ The sedimentation tube in both the bench system and the gravity powered system h
 ![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Sed%20tube%20dimensions.JPG?raw=true)
 Figure 5: Reactor fabricated for both the bench system and gravity powered system.
 <!-- Can you add the dimensions of each part of the pipe to the image? --><!--Addressed-->
+
+**Ian's Comments:** How long is each piece of the PVC (what length is the bend at).  Update the image to include this.
 ### Gravity Powered System
 Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
 
@@ -284,12 +302,16 @@ The following are improvised based on protocols used for past semesters' experim
 6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity,etc. and then change the process to the ON state.
 ##### During test
 7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
-8. Take a influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent).
+8. Take an influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent).
+
+**Ian's Comment:** Can you include a photo of how to do this?  I could see future teams being confused about the process.
+
 ##### End of test
 8. Change the process to the OFF state.
 9. Clean the reactor using the "Cleaning  Procedure" after the experiment is completed.
 
 #### Cleaning Procedure
+**Ian's Comment:** Can you include a photo of how to do this as well?
 1. Put a piece of sponge in the tube between the flocculator and PACl insert.
 2. Run a high velocity jet through the tube to purge the flocculator.
 3. Drain both reactors through the valves at the bottom of the reactors.
