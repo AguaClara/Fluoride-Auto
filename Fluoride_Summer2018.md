@@ -1,5 +1,5 @@
 # Fluoride, Summer 2018
-#### Ching Pang, Kevin Sarmiento, Cheer Tsang, Isa Kaminsky
+#### Ching Pang, Kevin Sarmiento, Cheer Tsang
 #### July 27, 2018
 
 **Ian's Comment:** Wow you're giving Isa credit for all this work?
