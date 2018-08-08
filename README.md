@@ -16,6 +16,20 @@ https://docs.google.com/presentation/d/1NIgislmkylECw1T6YsHlsUr3Kja0XoYnWcOhY1Un
 - Kevin Sarmiento (ks2255@cornell.edu)
 
 ## Reports and Presentations
-
+* Fall 2016 
+  - [Fall 2016 Symposium](https://docs.google.com/presentation/d/1LYKhGo9DmKVBfABIZYmKVnQmFsj5Wc-5EE6xW85aE_g/edit?usp=sharing)
+  - [Fall 2016 Final Presentation](https://docs.google.com/presentation/d/1oa40fZAqf9ytgXPxNWXSbHNJvKELtv9hsU_OuKzBN8g/edit?usp=sharing)
+* Spring 2017
+  - [Spring 2017 Report]()
+  - [Spring 2017 Symposium](https://docs.google.com/presentation/d/18l0xwZtfAeUvRBzfIBijr8AGbGEGiYylfUTL_XSi51w/edit?usp=sharing)
+  - [Spring 2017 Final Presentation](https://docs.google.com/presentation/d/1Hxqun_3KzcYxWILCP8Yt_f5FO3m59eYeMJO0zQij-6k/edit)
+* Fall 2017 
+  - [Fall 2017 Report]()
+  - [Fall 2017 Symposium]()
+  - [Fall 2017 Final Presentation]()
+* Spring 2018
+  - [Spring 2018 Report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md)
+  - [Spring 2018 Symposium](https://docs.google.com/presentation/d/1gzC25zcd-eUTTrmerA-OcLBdWd--tOl6X8JpqGEy7_o/edit#slide=id.p3)
+  - [Spring 2018 Final Presentation](https://docs.google.com/presentation/d/1NIgislmkylECw1T6YsHlsUr3Kja0XoYnWcOhY1UnEyQ/edit)
 
 
