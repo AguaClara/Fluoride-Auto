@@ -10,13 +10,12 @@ https://docs.google.com/presentation/d/1gzC25zcd-eUTTrmerA-OcLBdWd--tOl6X8JpqGEy
 Spring 2018 Final Presentation:
 https://docs.google.com/presentation/d/1NIgislmkylECw1T6YsHlsUr3Kja0XoYnWcOhY1UnEyQ/edit
 
-## Team members:
-Philip Akpan (pa328)
+## Current Members:
+- Cheer Tsang (ct542@cornell.edu)
+- Ching Pang (cp546@cornell.edu)
+- Kevin Sarmiento (ks2255@cornell.edu)
 
-Tigran Mehrabyan (tm545)
+## Reports and Presentations
 
-Desiree Sausele (djs469)
-
-Victoria Zhang (vxz3) - Subteam Lead
 
 
