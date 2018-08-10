@@ -366,7 +366,7 @@ Figure 6: Voltage reading of fluoride sample on ProCoDa
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99, rinse let settle in standard solution (50% TISAB and 50% DI water), then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 <!--Add photos! -->
-###ProCoDA Method File
+### ProCoDA Method File
 
 ProCoDA is a process control system that was developed by Monroe Weber-Shirk in order to set process parameters through a computerized system. It can be adjusted to different system states that control the system pumps depending on what flow rates are desired. Additionally, ProCoDA collects the data from probes, allowing for compilation of dye concentration data.
 
