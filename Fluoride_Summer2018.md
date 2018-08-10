@@ -390,7 +390,7 @@ Figure 9: Screenshot of set points in ProCoDA
 ### Variables
 
 <!--Comment code more!  Define variables and explain what each section is doing at a higher level of detail! -->
-###Calculations for Water Pump speed
+###Calculations for Water Pump Speed
 Calculates RPM of water pump, given a desired upflow velocity in the sedimentation tube.
 
 ```python
@@ -419,7 +419,7 @@ print(Man_RPM)
 
 ```
 
-###Calculations for Coagulant Pump speed
+###Calculations for Coagulant Pump Speed
 Calculates RPM of coagulant pump, given a desired concentration in the system.
 Assumes flow rate of coagulant pump is negligible compared to the water pump flow rate.
 
@@ -447,7 +447,7 @@ V_water_PACl = V_stock_PACl-V_superstock_PACl
 print('The water volume in the PACl stock is : ' +str((V_water_PACl).to(u.milliliter)))
 ```
 
-###Fluoride pump speed and stock concentration
+###Fluoride Pump Speed and Stock Concentration
 Calculates volumetric flow rate of fluoride pump, given pump speed in RPM.
 Calculates concentration of fluoride in system.
 Assumes flow rate of fluoride pump is negligible compared to the water pump flow rate.
@@ -489,7 +489,7 @@ water_flowrate = 0.76 * (u.milliliter/u.s) - (oy_flowrate + oy_flowrate_PACl)
 print('The actual water pump flow rate required is: '+str(water_flowrate))
 
 ```
-### Calculations for gravity powered system
+### Calculations for Gravity Powered System
 <!-- Comment code more! -->
 ```python
 import math as m
