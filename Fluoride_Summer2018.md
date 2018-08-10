@@ -55,7 +55,7 @@ Figure 3: A schematic drawing of the bench setup for the fluoride removal system
 
 ![bench_setup](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labeled_bench_setup.jpg)
 Figure 4: Actual bench setup for the fluoride removal system.
-<!--Include a photo of your setup, with each component numbered --> <!--Addressed -->
+
 
 ### Procedure
 
