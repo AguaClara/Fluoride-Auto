@@ -37,8 +37,8 @@
   - [Variables](#variables)
   - [Calculations for Water Pump Speed](#calculations-for-water-pump-speed)
   - [Calculations for Coagulant Pump Speed](#calculations-for-coagulant-pump-speed)
-  - [Fluoride Pump Speed and Stock Concentration](fluoride-pump-speed-and-stock-concentration)
-  - [Calculations for Gravity Powered System](calculations-for-gravity-powered-system)
+  - [Fluoride Pump Speed and Stock Concentration](#fluoride-pump-speed-and-stock-concentration)
+  - [Calculations for Gravity Powered System](#calculations-for-gravity-powered-system)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
