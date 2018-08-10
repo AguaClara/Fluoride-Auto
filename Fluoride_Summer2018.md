@@ -42,8 +42,6 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-**Ian's Comment:** Can you include a table of contents at the top with links to each section?
-
 ## Abstract
 
  Fluoride is a major contaminant in drinking water in many parts of India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of previous fluoride teams by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India and design a easily adjustable gravity powered system. In addition, the team aims to develop a simple user guide for the fluoride probe in order to maximize future teams efficiency.
