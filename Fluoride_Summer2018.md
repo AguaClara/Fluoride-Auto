@@ -7,7 +7,7 @@
 ## Abstract
 
  Fluoride is a major contaminant in drinking water in many parts of India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The summer fluoride subteam aims to continue and expand upon the work of previous fluoride teams by running experiments with both the pump controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, per the fluoride standard in India and design a easily adjustable gravity powered system. In addition, the team aims to develop a simple user guide for the fluoride probe in order to maximize future teams efficiency.
-<!--Use third person for reports, eg. rather than "Our", use "the team" --> <!--Addressed -->
+
 ## Introduction
 
 The recent expansion of AguaClara technology to new places around the world like India has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed, the source of water designated for filtration comes from surface waters such as rivers and lakes. These waters typically have a high amount of particulate matter and as a result also carry biological contaminants.
@@ -48,7 +48,6 @@ Figure 2: The fabricated gravity-powered system. The system includes a flocculat
 ### Experimental Apparatus
 
 The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it flows to a sampling container. A sample is taken from the sampling container and the fluoride of the effluent water is measured by a fluoride probe.
-<!--For your flow rate calculations, you should talk with Hannah about creating a simple function and pushing it to AIDE_design, since you are both using roughly the same calculation #done -->
 
 ![bench_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
 Figure 3: A schematic drawing of the bench setup for the fluoride removal system.
@@ -250,7 +249,6 @@ WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water
 
 ## Fabrication Details
 ### Sedimentation Tube
-<!--I would refer to this as a tube settler or sed tank, not a reactor, which is ambiguous --> <!--Addressed-->
 The sedimentation tube in both the bench system and the gravity powered system had multiple leakages. Therefore, two new tube settlers were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
 60 degree bends from the horizontal were created using a welder. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. The floc weir pipe was then welded to the tube settler.
 <!--For future fabrication it would be cool to get photographs of the process of building it -->
@@ -280,12 +278,12 @@ The following are improvised based on protocols used for past semesters' experim
 
 #### Protocol for Running Just Water Through the Reactors
 
-1. Open tap water valve and turn off the fluoride pump as to not pump fluoride into the system during backwash <!--I'm confused, when you say tap water valve do you mean the sink or the water line? --> <!-- Addressed. We mean the water line. We are not using the sink at all.-->
+1. Open tap water valve and turn off the fluoride pump as to not pump fluoride into the system during backwash
 2. Close the waste line
 3. Turn on Just Water process in ProCoDA and fill system completely with water.
 5. Continue to run water until fluoride concentration is less than 0.5 $\mathrm{\frac{mg}{L}}$.
 6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
-<!--Are you cleaning out your turbidimeters with every experiment? --> <!-- We are not using turbidimeter anymore -->
+
 #### Protocol for Start Up and Running of Reactors
 1. Fill stock tanks with appropriate concentration of PACl and fluoride, and make sure to have enough stock to run for 24 hours
 2. Calculate the flow rates of the PACl and fluoride pumps from the Python file and run the pumps at the appropriate RPM using ProCoDA
@@ -300,7 +298,7 @@ The following are improvised based on protocols used for past semesters' experim
 3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
 4. Pumps are all pumping water in the correct direction (in the direction of the flocculator and reactor)
 5. The fluoride pump line is closed and fluoride valve is open after running just water through the system
-6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity,etc. and then change the process to the ON state.
+6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity, etc. and then change the process to the ON state.
 ##### During test
 7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
 8. Take an influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent).
@@ -324,7 +322,8 @@ The following are improvised based on protocols used for past semesters' experim
 3. Insert the probe into one of the calibration solutions.
 4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
 5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again). ![Fluoride Voltage readings on ProCoDa](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/ProCoDa_fluoride_probe_calibration.JPG?raw=true)
-Figure 6: Voltage reading of fluoride sample on ProCoDa <!--Add a photo of what this graph looks like.  How long does it generally take to measure steady state? --> <!--done-->
+Figure 6: Voltage reading of fluoride sample on ProCoDa
+
 6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration"). [Summer Fluoride Calibration](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit#gid=0)<!--Add a link to the google doc -->
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99, rinse let settle in standard solution (50% TISAB and 50% DI water), then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
