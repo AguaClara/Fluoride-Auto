@@ -1,6 +1,31 @@
 # Fluoride, Summer 2018
 #### Ching Pang, Kevin Sarmiento, Cheer Tsang
-#### July 27, 2018
+
+## Index
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Previous Work](#previous-work)
+- [Methods](#methods)
+  - [Experimental Apparatus](#experimental-apparatus)
+  - [Procedure](#procedure)
+  - [Fluoride Probe](#fluoride-probe)
+  - [Calibration Curve](#calibration-curve)
+  - [Sample Calculation](#sample-calculation)
+- [Results](#results)
+    - [Adsorption Model](#adsorption-model)
+- [Future Work](#future-work)
+- [Bibliography](#bibliography)
+- [Manual](#manual)
+  - [Fabrication Details](#fabrication-details)
+    - [Sedimentation Tube](#sedimentation-tube)
+    - [Gravity Powered System](#gravity-powered-system)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 **Ian's Comment:** Can you include a table of contents at the top with links to each section?
 
@@ -252,7 +277,7 @@ WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water
 The sedimentation tube in both the bench system and the gravity powered system had multiple leakages. Therefore, two new tube settlers were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
 60 degree bends from the horizontal were created using a welder. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. The floc weir pipe was then welded to the tube settler.
 <!--For future fabrication it would be cool to get photographs of the process of building it -->
-![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Sed%20tube%20dimensions.JPG?raw=true)
+![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Sedtank_labeled.jpg?raw=true)
 Figure 5: Reactor fabricated for both the bench system and gravity powered system.
 <!-- Can you add the dimensions of each part of the pipe to the image? --><!--Addressed-->
 
