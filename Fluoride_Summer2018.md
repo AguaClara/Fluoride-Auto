@@ -352,6 +352,8 @@ Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotte
 
 ## Future Work
 
+The gravity powered system has been modified in a way that allows for easy adjustments to both the fluoride flowrate and the PACl flowrate. However, no tests have been done using this system. The gravity powered fluoride removal team should work to optimize the flowrate of both of these variables in order to achieve the desired effluent fluoride concentration of 1mg/L fluoride.
+
 In order to make running experiments easier we plan on modifying the gravity powered system further. The goal is to make all the platforms easily adjustable in order to manually change the flow rate of both the water with fluoride and the coagulant. It would be ideal to only use one stock concentration of PACl and change the flow rates in order to achieve the desired concentrations in the system.
 
 **Ian's Comment:** Update this section with more detail for future work and some steps the next teams should take
