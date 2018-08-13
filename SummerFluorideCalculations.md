@@ -1,19 +1,13 @@
-**Ian's Comments:**  A couple of notes:
-* aide_design.play imports math and numpy already, so you don't need those lines
-* Use more descriptive variable names!  Rather than D & Q use diameter and flow_rate
-* Once aguaclara_research is ready and these functions have been added, you can just import it and call the functions directly from there!
-
-
 #Calculations for Water Pump speed
 Calculates RPM of water pump, given a desired upflow velocity in the sedimentation tube.
 
 ```python
-import math as m    # aide_design.play imports both math and numpy, so you don't need these lines  
+import math as m
 import numpy as np
 from aide_design.play import*
 
-D=(1)*u.inch  
-D=D.to(u.m)  
+D=(1)*u.inch
+D=D.to(u.m)
 A=np.pi*(D**2)/4
 print(A)
 v=(0.0015)*(u.m/u.s)
@@ -28,8 +22,6 @@ Man_RPM=Man_RPM*(60*(u.second))
 print(Man_RPM)
 
 ```
-
-
 
 #Calculations for Coagulant Pump speed
 Calculates RPM of coagulant pump, given a desired concentration in the system.
@@ -88,7 +80,7 @@ M_superstock = 10000 * (u.mg/u.L) #concentration of fluoride provided
 M_stock = C_stock
 V_stock = 0.5 * u.L #total volume of the stock (water+fluoride)
 V_superstock= (M_stock*V_stock)/M_superstock
-print('The fluoride volume in the stock is: ' +str((V_superstock).to(u.milliliter)))
+print('The fluoride superstock volume in the stock is: ' +str((V_superstock).to(u.milliliter)))
 V_water=V_stock-V_superstock
 print('The water volume in the stock is : ' +str((V_water).to(u.milliliter)))
 
@@ -103,16 +95,11 @@ print('The actual water pump flow rate required is: '+str(water_flowrate))
 ```
 #Calculations in the report
 
-**Ian's Comment:**  I would define the below section as functions and then just call them down below (it'll be much easier long term I promise)  Make sure to implement doctests on them too!
-
-**Ian's Comment:** The section below doesn't make much sense to me, make the sure write out what you are doing, define variable names well, and document
-
 ```python
 import math as m
 import numpy as np
 from aide_design.play import*
 import aide_design.floc_model as fm
-
 
 Q=.76*(u.milliliter)/(u.second)
 Q.to(u.m*u.m*u.m/u.s)

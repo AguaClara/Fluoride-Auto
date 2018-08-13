@@ -107,15 +107,17 @@ where $Q_{stock}$ is the flow rate out of the stock tank, $C_{stock}$ is the con
 **Ian's Comments:** Can you merge the calculations document with this document so everything is in one place?  Then you can explain the calculations line by line to aid with understanding.
 
 Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was achieved by altering the fluoride pump speed. The fluoride stock concentration was kept constant at 2400 mg/L.
+
 | F- Stock Concentration (mg/L) | F- Pump Speed (rpm) | F- System Concentration (mg/L) |
 |:----------------------------- |:------------------- |:------------------------------ |
-| 2400                             | 3                   | 3                              |
-| 2400                             | 5                | 5                           |
-| 2400                            |10                     | 10                               |
-| 2400                              |15                     | 15                               |
-| 2400                               |20                     |20                                |
+| 2400                          | 3                   | 3                              |
+| 2400                          | 5                   | 5                              |
+| 2400                          | 10                  | 10                             |
+| 2400                          | 15                  | 15                             |
+| 2400                          | 20                  | 20                             |
 
 Table 2: PACl parameters. Varying PACl system concentrations were tested at each of the fluoride system concentrations listed in the table above (Table 1). The desired PACl system concentration was achieved by altering the PACl pump speed, and the PACl stock concentration was kept constant.
+
 | PACl Stock Concentration (mg/L) | PACl Pump Speed (rpm) | PACl System Concentration (mg/L) |
 |:------------------------------- |:--------------------- |:-------------------------------- |
 | 2400                            | 10                     | 10                                |
