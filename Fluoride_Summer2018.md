@@ -95,15 +95,31 @@ Figure 4: Current pump powered bench setup for the fluoride removal system.
 
 ### Procedure
 
-The stock concentrations for fluoride were prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L were tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)). Instead of having to make various stock fluoride bottles with each desired concentration, the team instead
+The stock concentration for fluoride was prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L were tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)).
+
+The stock fluoride bottle was made in way that allows for a range of fluoride concentration in the entire system by only adjusting the pump speed. This reduced the need to a different stock for each desired concentration of fluoride in the entire system.  
+
 
 The following equation was used to calculate the system concentrations of fluoride and PACl:
 
 $$ Q_{stock} * C_{stock} = Q_{sys} * C_{sys} $$
 
-where $Q_{stock}$ is the flow rate out of the stock tank, $C_{stock}$ is the concentration of the stock tank containing fluoride or PACl stock, $Q_{sys}$ is the flow rate through the system, and $C_{sys}$ is the concentration of the fluoride or PACl through the system. Calculations for the fluoride and PACl stock concentrations can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md).
+where $Q_{stock}$ is the flow rate out of the stock tank, $C_{stock}$ is the concentration of the stock tank containing fluoride or PACl stock, $Q_{sys}$ is the flow rate through the system, and $C_{sys}$ is the concentration of the fluoride or PACl through the system. Calculations for the fluoride and PACl stock concentrations can be found below.
 
 ```python
+#fluoride calculations
+#Calculation for the system flowrate are needed in order to calculate the required fluoride stock concentration that will produce the needed system concentrations of fluoride  
+#D=diameter of sed tube
+D=(1)*u.inch
+D=D.to(u.m)
+A=np.pi*(D**2)/4
+print(A)
+v=(0.0015)*(u.m/u.s)
+#v=desired upflow velocity in sed tube
+Q=(A*v) #Q=system flowrate
+print(Q)
+Q=Q.to((u.milliliter)/(u.second))
+print(Q)
 
 #Assume Qstock, Qsystem and Csystem
 
@@ -113,16 +129,17 @@ pump_speed = 3*(u.rpm)
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate = orange_yellow.to(u.liter/u.revolutions)*(pump_speed).to(u.revolutions/u.s)
 
-print('The fluoride flow rate is: '+str((oy_flowrate).to(u.milliliter/u.s))) #Qstock
+print('The fluoride flow rate is: '+str((oy_flowrate).to(u.milliliter/u.s))) #Qstock . This is what is entered into ProCoDa under fluoride flowrate for controlling the fluoride pump.
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
-Q_stock = oy_flowrate
-C_sys = 3*(u.mg/u.L) #user input desired concentration of F- in the system
+Q_stock = oy_flowrate # setting Q_stock = oy_flowrate makes controlling the pumps rather simple. If the desired concentration in the system is 5mg/L of fluoride then the pump speed to achieve that is 5 RPM
+
+C_sys = 3*(u.mg/u.L) #user input desired concentration of F- in the system.
 
 C_stock= (Q_sys*C_sys)/Q_stock
 print('The fluoride concentration in the stock is: ' +str(C_stock))
-#M1V1=M2V2 to obtain volume of fluoride stock needed
-M_superstock = 10000 * (u.mg/u.L) #concentration of fluoride provided
+#The equation M1V1=M2V2 is used below to obtain volume of fluoride stock needed
+M_superstock = 10000 * (u.mg/u.L) #concentration of fluoride superstock purchased.  
 M_stock = C_stock
 V_stock = 0.5 * u.L #total volume of the stock (water+fluoride)
 V_superstock= (M_stock*V_stock)/M_superstock
@@ -137,8 +154,33 @@ total_flowrate = oy_flowrate_PACl + oy_flowrate + Q
 print('The total flowrate through the system is: '+str(total_flowrate))
 water_flowrate = 0.76 * (u.milliliter/u.s) - (oy_flowrate + oy_flowrate_PACl)
 print('The actual water pump flow rate required is: '+str(water_flowrate))
-
 ```
+
+```python
+#PACl calculations
+#Aim for 6.5 mg/L of PAC the lowest according to Github Issues
+pump_speed_PACl = 30*(u.rpm)
+orange_yellow = 0.019*(u.milliliter/u.revolutions)
+oy_flowrate_PACl = orange_yellow.to(u.liter/u.revolutions)*(pump_speed_PACl).to(u.revolutions/u.s)
+
+print('The PACl flow rate is: '+str((oy_flowrate_PACl).to(u.milliliter/u.s))) #Qstock
+
+Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
+Q_stock_PACl = oy_flowrate_PACl
+C_sys_PACl = 30*(u.mg/u.L) #user input desired concentration of PACl in the system
+
+C_stock_PACl = (Q_sys*C_sys_PACl)/Q_stock_PACl
+print('The PACl concentration in the stock is: ' +str(C_stock_PACl))
+#M1V1=M2V2 to obtain volume of fluoride stock needed
+M_superstock_PACl = (70.28 * (u.g/u.L)).to(u.mg/u.L) #concentration of fluoride provided
+M_stock_PACl = C_stock_PACl
+V_stock_PACl = 0.5 * u.L #total volume of the stock (water+fluoride)
+V_superstock_PACl = (M_stock_PACl*V_stock_PACl)/M_superstock_PACl
+print('The PACl superstock volume in the stock is: ' +str((V_superstock_PACl).to(u.milliliter)))
+V_water_PACl = V_stock_PACl-V_superstock_PACl
+print('The water volume in the PACl stock is : ' +str((V_water_PACl).to(u.milliliter)))
+```
+
 **Ian's Comments:** Can you merge the calculations document with this document so everything is in one place?  Then you can explain the calculations line by line to aid with understanding.
 
 Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was achieved by altering the fluoride pump speed. The fluoride stock concentration was kept constant at 2400 mg/L.
