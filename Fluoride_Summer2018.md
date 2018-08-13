@@ -323,6 +323,8 @@ Table 4: Data taken on 7/25/2018. The time, influent fluoride concentration, and
 | 2.5  | 10  | 50  | 7.528860869    | 3.536495699    |
 | 3    | 10  | 50  | 6.207900192    | 3.832510573    |
 
+There are however many inconsistencies that have been observed in the data. For example, when testing the influent fluoride concentration, before the addition of PACl, the fluoride readings with the probe do not always match what the calculated fluoride system concentration should be. 
+
 **Ian's Comments:**
 * Can you plot this data and all data you present in the report?
 * For the experiments where you feel you have some data, can you do some analysis?  For example, why is the influent concentration decreasing over time?  Shouldn't that be constant?
@@ -351,10 +353,13 @@ Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotte
 | 6.207900192    | 3.832510573    | 0.047507792  |
 
 ## Future Work
+#### Gravity Powered System
 
 The gravity powered system has been modified in a way that allows for easy adjustments to both the fluoride flowrate and the PACl flowrate. However, no tests have been done using this system. The gravity powered fluoride removal team should work to optimize the flowrate of both of these variables in order to achieve the desired effluent fluoride concentration of 1mg/L fluoride.
 
-In order to make running experiments easier we plan on modifying the gravity powered system further. The goal is to make all the platforms easily adjustable in order to manually change the flow rate of both the water with fluoride and the coagulant. It would be ideal to only use one stock concentration of PACl and change the flow rates in order to achieve the desired concentrations in the system.
+#### Pump Powered System
+
+
 
 **Ian's Comment:** Update this section with more detail for future work and some steps the next teams should take
 
