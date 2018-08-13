@@ -182,23 +182,19 @@ print('The PACl flow rate is: '+str((oy_flowrate_PACl).to(u.milliliter/u.s))) #Q
 
 Q_sys=Q.to((u.liter)/(u.second)) #From Calculations for Water Pump speed and assume oy_flowrate is negligible for now
 Q_stock_PACl = oy_flowrate_PACl
-C_sys_PACl = 30*(u.mg/u.L) #user input desired concentration of PACl in the system
+C_sys_PACl = 30*(u.mg/u.L) #user input desired concentration of PACl in the system. Our tests use between 10mg/L and 50mg/L of PACl.
 
 C_stock_PACl = (Q_sys*C_sys_PACl)/Q_stock_PACl
 print('The PACl concentration in the stock is: ' +str(C_stock_PACl))
-#M1V1=M2V2 to obtain volume of fluoride stock needed
-M_superstock_PACl = (70.28 * (u.g/u.L)).to(u.mg/u.L) #concentration of fluoride provided
+#The equation M1V1=M2V2 is used to obtain the volume of PACl superstock needed
+M_superstock_PACl = (70.28 * (u.g/u.L)).to(u.mg/u.L) #concentration of PACl provided to AguaClara from the Ithaca Water Treatment facility.
 M_stock_PACl = C_stock_PACl
-V_stock_PACl = 0.5 * u.L #total volume of the stock (water+fluoride)
+V_stock_PACl = 0.5 * u.L #total volume of the stock (water+PACl)
 V_superstock_PACl = (M_stock_PACl*V_stock_PACl)/M_superstock_PACl
 print('The PACl superstock volume in the stock is: ' +str((V_superstock_PACl).to(u.milliliter)))
 V_water_PACl = V_stock_PACl-V_superstock_PACl
 print('The water volume in the PACl stock is : ' +str((V_water_PACl).to(u.milliliter)))
 ```
-
-**Ian's Comments:** Can you merge the calculations document with this document so everything is in one place?  Then you can explain the calculations line by line to aid with understanding.
-
-Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was achieved by altering the fluoride pump speed. The fluoride stock concentration was kept constant at 2400 mg/L.
 
 | F- Stock Concentration (mg/L) | F- Pump Speed (rpm) | F- System Concentration (mg/L) |
 |:----------------------------- |:------------------- |:------------------------------ |
@@ -208,7 +204,8 @@ Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was
 | 2400                          | 15                  | 15                             |
 | 2400                          | 20                  | 20                             |
 
-Table 2: PACl parameters. Varying PACl system concentrations were tested at each of the fluoride system concentrations listed in the table above (Table 1). The desired PACl system concentration was achieved by altering the PACl pump speed, and the PACl stock concentration was kept constant.
+Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was achieved by altering the fluoride pump speed. The fluoride stock concentration was kept constant at 2400 mg/L.
+
 
 | PACl Stock Concentration (mg/L) | PACl Pump Speed (rpm) | PACl System Concentration (mg/L) |
 |:------------------------------- |:--------------------- |:-------------------------------- |
@@ -218,7 +215,9 @@ Table 2: PACl parameters. Varying PACl system concentrations were tested at each
 | 2400                            |40                       |40                                  |
 | 2400                                |50                       |50                                  |
 
-The fluoride concentration was tested at the influent, pre-treatment with PACl, and the effluent, after treatment with PACl. Samples were taken every 15 minutes. The first sample was taken 15 minutes after setting up the system, due to the calculated residence time of 13.22 minutes. The residence time is the amount of time a fluoride ion takes to be transported from the start of the system when it enters the coiled flocculator to the system effluent after the sedimentation tube. Residence time calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/residence_time.md).
+Table 2: PACl parameters. Varying PACl system concentrations were tested at each of the fluoride system concentrations listed in the table above (Table 1). The desired PACl system concentration was achieved by altering the PACl pump speed, and the PACl stock concentration was kept constant.
+
+The fluoride concentration was tested at the influent, before treatment with PACl, and the effluent, after treatment with PACl. Samples were taken every 15 minutes. The calculated residence time of the pump powered system was of 13.22 minutes so therefore the first sample was taken 15 minutes after beginning the experiment to give the system enough time to reach the desired fluoride concentration. The residence time is the amount of time a fluoride ion takes to be transported from the start of the system, when it enters the coiled flocculator, to the system effluent after the sedimentation tube. Residence time calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/residence_time.md).
 
 ### Fluoride Probe
 The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a fluoride probe and obtained a replacement.
