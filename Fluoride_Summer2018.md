@@ -217,7 +217,7 @@ Table 1: Fluoride (F-) parameters. The desired fluoride system concentration was
 
 Table 2: PACl parameters. Varying PACl system concentrations were tested at each of the fluoride system concentrations listed in the table above (Table 1). The desired PACl system concentration was achieved by altering the PACl pump speed, and the PACl stock concentration was kept constant.
 
-The fluoride concentration was tested at the influent, before treatment with PACl, and the effluent, after treatment with PACl. Samples were taken every 15 minutes. The calculated residence time of the pump powered system was of 13.22 minutes so therefore the first sample was taken 15 minutes after beginning the experiment to give the system enough time to reach the desired fluoride concentration. The residence time is the amount of time a fluoride ion takes to be transported from the start of the system, when it enters the coiled flocculator, to the system effluent after the sedimentation tube. Residence time calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/residence_time.md).
+Samples were taken at two different locations throughout the experiment. One at the influent, before treatment with PACl, and another at the effluent, after treatment with PACl. Samples were taken every 15 minutes. The calculated residence time of the pump powered system was of 13.22 minutes therefore the first sample was taken 15 minutes after beginning the experiment to give the system enough time to reach the desired fluoride concentration. The residence time is the amount of time a fluoride ion takes to be transported from the start of the system, when it enters the coiled flocculator, to the system effluent after the sedimentation tube. Residence time calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/residence_time.md).
 
 ### Fluoride Probe
 The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a fluoride probe and obtained a replacement.
@@ -390,7 +390,6 @@ The sedimentation tube in both the bench system and the gravity powered system h
 Figure 5: Reactor fabricated for both the bench system and gravity powered system.
 <!-- Can you add the dimensions of each part of the pipe to the image? --><!--Addressed-->
 
-**Ian's Comments:** How long is each piece of the PVC (what length is the bend at).  Update the image to include this.
 ### Gravity Powered System
 Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
 
