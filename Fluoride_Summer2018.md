@@ -157,9 +157,24 @@ print('The actual water pump flow rate required is: '+str(water_flowrate))
 ```
 
 ```python
-#PACl calculations
+#PACl calculations are the same as that of fluoride with the only difference that the superstocks are different. So each requires different amount of susperstock and water in order to achieve the desired 2400mg/L concentration.  
+
+#Just as the previous calculations, the system flowrate are needed in order to calculate the required PACl stock concentration that will produce the desired system concentrations of PACl
+#D=diameter of sed tube
+D=(1)*u.inch
+D=D.to(u.m)
+A=np.pi*(D**2)/4
+print(A)
+v=(0.0015)*(u.m/u.s)
+#v=desired upflow velocity in sed tube
+Q=(A*v) #Q=system flowrate
+print(Q)
+Q=Q.to((u.milliliter)/(u.second))
+print(Q)
+
 #Aim for 6.5 mg/L of PAC the lowest according to Github Issues
 pump_speed_PACl = 30*(u.rpm)
+#orange_yellow is a type of small diameter tubing used on the pump
 orange_yellow = 0.019*(u.milliliter/u.revolutions)
 oy_flowrate_PACl = orange_yellow.to(u.liter/u.revolutions)*(pump_speed_PACl).to(u.revolutions/u.s)
 
