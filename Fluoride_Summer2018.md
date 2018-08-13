@@ -220,12 +220,14 @@ Table 2: PACl parameters. Varying PACl system concentrations were tested at each
 Samples were taken at two different locations throughout the experiment. One at the influent, before treatment with PACl, and another at the effluent, after treatment with PACl. Samples were taken every 15 minutes. The calculated residence time of the pump powered system was of 13.22 minutes therefore the first sample was taken 15 minutes after beginning the experiment to give the system enough time to reach the desired fluoride concentration. The residence time is the amount of time a fluoride ion takes to be transported from the start of the system, when it enters the coiled flocculator, to the system effluent after the sedimentation tube. Residence time calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/residence_time.md).
 
 ### Fluoride Probe
-The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a fluoride probe and obtained a replacement.
+The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. However, previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a probe and obtained a replacement, which is the one the Summer 2018 team has used.
 
 ![fluoride_probe](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
 Figure 4: The fluoride probe used to measure effluent fluoride concentration.
 
-The fluoride probe uses an ion-sensitive electrode ([Light, 1975](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_paper.pdf)). When the fluoride probe is placed into a solution, the probe outputs a voltage reading. This voltage reading can then be converted to a fluoride concentration by using a calibration curve.
+The fluoride probe uses an ion-sensitive electrode ([Light, 1975](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_paper.pdf)). When the fluoride probe is placed in a fluoride solution, the probe outputs a voltage reading. This voltage reading can then be converted to a fluoride concentration by first creating a calibration curve and comparing the output voltage to the calibration curve.
+
+While the FL43-0001 probe is still functional the team decided to put in an order for a new fluoride probe. This was necessary considering that for the upcoming Fall 2018 semester there will be two 
 
 **Ian's Comments:** Have you looked at all into getting another probe?  If so add some documentation on your progress there
 
