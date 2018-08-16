@@ -221,14 +221,14 @@ Table 2: PACl parameters. Varying PACl system concentrations were tested at each
 Samples were taken at two different locations throughout the experiment. One at the influent, before treatment with PACl, and another at the effluent, after treatment with PACl. Samples were taken every 15 minutes. The calculated residence time of the pump powered system was of 13.22 minutes therefore the first sample was taken 15 minutes after beginning the experiment to give the system enough time to reach the desired fluoride concentration. The residence time is the amount of time a fluoride ion takes to be transported from the start of the system, when it enters the coiled flocculator, to the system effluent after the sedimentation tube. Residence time calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/residence_time.md).
 
 ### Fluoride Probe
-The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. However, previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a probe and obtained a replacement, which is the one the Summer 2018 team has used.
+The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. However, previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a probe and obtained a replacement, which is the one the Summer 2018 team has used. Manual for operating the probe can be found [here](https://github.com/AguaClara/fluoride/wiki/Fluoride-Probe-Manual).
 
 ![fluoride_probe](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
 Figure 4: The fluoride probe used to measure effluent fluoride concentration.
 
 The fluoride probe uses an ion-sensitive electrode ([Light, 1975](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_paper.pdf)). When the fluoride probe is placed in a fluoride solution, the probe outputs a voltage reading. This voltage reading can then be converted to a fluoride concentration by first creating a calibration curve and comparing the output voltage to the calibration curve.
 
-While the FL43-0001 probe is still functional, the team decided to order a new fluoride probe. This was necessary considering that for the upcoming Fall 2018 semester there will be two active fluoride teams. One team will be running tests with the pump station while the other will be running tests on the gravity system. Each team will need to test their samples for fluoride. The second probe, a Cole-Parmer Ion-Selective Electrode (ISE) was ordered at the end of the summer. Additionally, a third fluoride probe is also recommended in order to prevent future loss of time due to delays caused by non-functional probes. This should be one of the first tasks of the Fall 2018 fluoride team, to search and purchase a third backup probe.
+While the FL43-0001 probe is still functional, the team decided to order a [new fluoride probe](https://github.com/AguaClara/fluoride/issues/59). This was necessary considering that for the upcoming Fall 2018 semester there will be two active fluoride teams. One team will be running tests with the pump station while the other will be running tests on the gravity system. Each team will need to test their samples for fluoride. The second probe, a Cole-Parmer Ion-Selective Electrode (ISE) was ordered at the end of the summer. Additionally, a third fluoride probe is also recommended in order to prevent future loss of time due to delays caused by non-functional probes. This should be one of the first tasks of the Fall 2018 fluoride team, to search and purchase a third backup probe.
 
 
 ### Calibration Curve
@@ -305,7 +305,6 @@ print("R-squared:", r_value ** 2)
 ![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/calibration_curve.png?raw=true)
 Figure 5: The linear relationship between voltage and concentration. The R-squared value is 0.9900. The slope is 0.04529, and the y-intercept is 0.04352.
 
-**Ian's Comment's:** Can you add a troubleshooting section on using the probe.  Explain what works and what doesn't.  You can tie this into you discussion on buying another probe.
 
 ## Results
 Experiments were run with varying concentrations of fluoride and PACl. In each case, the effluent fluoride concentration was lower than the influent fluoride concentration, which indicated that the flocculation/sedimentation system was effective in removing fluoride.
@@ -327,17 +326,18 @@ Table 4: Data taken on 7/25/2018. The time, influent fluoride concentration, and
 There are however many inconsistencies that have been observed in the data. For example, when testing the influent fluoride concentration, before the addition of PACl, the fluoride readings with the probe do not always match what the calculated fluoride system concentration should be.
 
 **Ian's Comments:**
-* Can you plot this data and all data you present in the report?
-* For the experiments where you feel you have some data, can you do some analysis?  For example, why is the influent concentration decreasing over time?  Shouldn't that be constant?
+* Can you plot this data and all data you present in the report? - Plotted below in Adsorption Model section
+* For the experiments where you feel you have some data, can you do some analysis?  For example, why is the influent concentration decreasing over time?  Shouldn't that be constant? - addressed in section below
 
 The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing).  
 
 ### Adsorption Model
-The results of the experiments were plotted to generate an adsorption model. The amount of fluoride adsorbed by the PACl was calculated by the following equation:
+The results of the experiments were plotted to generate an adsorption model. 
+
+
+The amount of fluoride adsorbed by the PACl was calculated by the following equation:
 
 $$ W  = \frac{inital fluoride - final fluoride}{mass of PACl} $$
-
-Figure: (put adsorption model after finishing all experiments, upload excel file)
 
 Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotted against the effluent fluoride.
 
@@ -352,6 +352,15 @@ Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotte
 | 8.4256534      | 3.812027396 | 0.09227252  |
 | 7.528860869    | 3.536495699  | 0.079847303  |
 | 6.207900192    | 3.832510573    | 0.047507792  |
+
+![adsorption_linear](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_linear.png?raw=true)
+
+Figure 6: (put adsorption model after finishing all experiments, upload excel file)
+
+
+![adsorption_model](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_model.png?raw=true)
+
+Figure 7:
 
 ## Future Work
 #### Gravity Powered System
