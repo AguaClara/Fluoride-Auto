@@ -332,7 +332,12 @@ There are however many inconsistencies that have been observed in the data. For 
 The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing).  
 
 ### Adsorption Model
-The results of the experiments were plotted to generate an adsorption model. Adsorption is the process of molecules or ions adhering to a solid surface. 
+The results of the experiments were plotted to generate an adsorption model. Surface adsorption is the process of molecules or ions adhering to a solid surface. There are two general types of adsorption: physisorption and chemisorption. In physisorption, the adsorbate binds to a surface via loose, non-specific van der Waals interactions. This process allows multilayer binding and can be disrupted by increasing temperatures. The process of chemiadsorption is like a chemical reaction, allowing more specific binding, which only allows monolayer binding. Chemiadsorption can be modeled by the Langmuir Isotherm.
+
+The Langmuir Isotherm has three assumptions:
+1.
+
+([Altig, 2018](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Langmuir-Isotherm.pdf))
 
 
 The amount of fluoride adsorbed by the PACl was calculated by the following equation:
@@ -376,7 +381,9 @@ The gravity powered system has been modified in a way that allows for easy adjus
 ## Bibliography
 ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
 
-Akpan, P. Mehrabyan, T. Sausele, D., Fluoride, Spring 2018. Retriecved from https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md
+Akpan, P. Mehrabyan, T. Sausele, D., Fluoride, Spring 2018. Retrieved from https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md
+
+Altig, Jeff. (2018). The Langmuir Adsorption Isotherm. Retrieved from https://infohost.nmt.edu/~jaltig/Langmuir.pdf
 
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
 Health, 1(2).
