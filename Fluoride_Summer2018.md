@@ -332,7 +332,7 @@ There are however many inconsistencies that have been observed in the data. For 
 The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing).  
 
 ### Adsorption Model
-The results of the experiments were plotted to generate an adsorption model. 
+The results of the experiments were plotted to generate an adsorption model. Adsorption is the process of molecules or ions adhering to a solid surface. 
 
 
 The amount of fluoride adsorbed by the PACl was calculated by the following equation:
