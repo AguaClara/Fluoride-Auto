@@ -325,22 +325,25 @@ Table 4: Data taken on 7/25/2018. The time, influent fluoride concentration, and
 
 There are however many inconsistencies that have been observed in the data. For example, when testing the influent fluoride concentration, before the addition of PACl, the fluoride readings with the probe do not always match what the calculated fluoride system concentration should be.
 
-**Ian's Comments:**
-* Can you plot this data and all data you present in the report? - Plotted below in Adsorption Model section
-* For the experiments where you feel you have some data, can you do some analysis?  For example, why is the influent concentration decreasing over time?  Shouldn't that be constant? - addressed in section below
-
-The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing).  
 
 ### Adsorption Model
 The results of the experiments were plotted to generate an adsorption model. Surface adsorption is the process of molecules or ions adhering to a solid surface. There are two general types of adsorption: physisorption and chemisorption. In physisorption, the adsorbate binds to a surface via loose, non-specific van der Waals interactions. This process allows multilayer binding and can be disrupted by increasing temperatures. The process of chemiadsorption is like a chemical reaction, allowing more specific binding, which only allows monolayer binding. Chemiadsorption can be modeled by the Langmuir Isotherm.
 
 The Langmuir Isotherm has three assumptions:
-1.
+1. "The surface of the adsorbant is in contact with a solution containing an
+adsorbate which is strongly attracted to the surface."
+2. "The surface has a specific number of sites where the solute molecules
+can be adsorbed."
+3. "The adsorption involves the attachment of only one layer of molecules
+to the surface, i. e. monolayer adsorption." ([Altig, 2018](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Langmuir-Isotherm.pdf))
 
-([Altig, 2018](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Langmuir-Isotherm.pdf))
+In linear form, the Langmuir Isotherm is modeled by the equation:
 
+$$ \frac{C_e}{q_e} = \frac{1}{q_e}C_e+\frac{1}{K_L\cdot q_m} $$
 
-The amount of fluoride adsorbed by the PACl was calculated by the following equation:
+where $C_e$ is the equilibrium concentration of the adsorbant, $q_e$ is the amount adsorbed at equilibrium, and $K_L$ and $q_m$ are Langmuir constants which are related to adsorption capacity and energy of adsorption.
+
+Thus, the amount of fluoride adsorbed by the PACl was calculated by the following equation:
 
 $$ W  = \frac{inital fluoride - final fluoride}{mass of PACl} $$
 
@@ -358,19 +361,21 @@ Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotte
 | 7.528860869    | 3.536495699  | 0.079847303  |
 | 6.207900192    | 3.832510573    | 0.047507792  |
 
+
+The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing). This data was graphed to create the adsorption model (Figure 6).
+
 ![adsorption_linear](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_linear.png?raw=true)
 
-Figure 6: (put adsorption model after finishing all experiments, upload excel file)
-
+Figure 6: Linear adsorption model fitted to Langmuir Isotherm.
 
 ![adsorption_model](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_model.png?raw=true)
 
-Figure 7:
+Figure 7: Langmuir adsorption model, with outliers and inconsistencies removed. The points in blue contain all data from experiments run with 5 mg/L influent concentration of fluoride. The points in green are 15 mg/L influent fluoride, and the points in orange are 10 mg/L influent fluoride.
 
 ## Future Work
 #### Gravity Powered System
 
-The gravity powered system has been modified in a way that allows for easy adjustments to both the fluoride flowrate and the PACl flowrate. However, no tests have been done using this system. The gravity powered fluoride removal team should work to optimize the flowrate of both of these variables in order to achieve the desired effluent fluoride concentration of 1mg/L fluoride.
+The gravity powered system has been modified in a way that allows for easy adjustments to both the fluoride flowrate and the PACl flowrate. However, no tests have been done using this system. The gravity powered fluoride removal team should work to optimize the flowrate of both of these variables in order to achieve the desired effluent fluoride concentration of 1 mg/L fluoride.
 
 #### Pump Powered System
 
