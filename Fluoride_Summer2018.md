@@ -421,10 +421,21 @@ Figure 5: Reactor fabricated for both the bench system and gravity powered syste
 <!-- Can you add the dimensions of each part of the pipe to the image? --><!--Addressed-->
 
 ### Gravity Powered System
-Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were added to the exits of the constant head tank and stock tank so that the both tanks can be removed separately for easier refills.
+Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were also added to the exits of the constant head tank and stock tank so that the both tanks can be easily removed for refilling.
 
 ![Valves](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Valves.jpg)
 Figure 4: Valves added at the exits of both stock tank and constant head tank
+
+#### Making Gravity Powered System Adjustable
+
+Further improvements to the gravity powered system which allows for easier adjustments to fluoride and PACl flowrates were made. This was accomplished by installing sliding tracks onto the body of the gravity system frame. Additionally all components were lowered in order to place the whole setup on top of a lab bench in order to conserve space in the lab.
+![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
+Figure 5: Modified gravity powered reactor shown with 3 adjustable sliders.
+
+On the right side of figure 5 are two adjustable platforms that hold PACl. The top platform has a scale attached to it in order to accurately measure the weight of PACl at different time intervals. This information can then be used to calculate the flowrate of PACl into the system more accurately than previously done before. The top 1L PACl tank feeds the bottom 1L PACl constant head tank. Their hights can be adjusted inorder to achieve the desired PACl system concentration.
+
+![PACl adjustable tanks](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
+Figure 6: Height adjustable PACl platforms used to easily adjust system concentration of PACl. 
 
 The height between the sedimentation tube and fluoride constant head tank as shown in figure 5 was adjusted since outflow velocity from the 2018 Spring team could not reach 1.5 mm/s. The constant head tank was lifted with an additional vertical bar added for greater support. Therefore, the distance was increased so that the flow rate measured from the effluent reached 0.76 mL/s, allowing an outflow velocity of 1.5 mm/s.
 
