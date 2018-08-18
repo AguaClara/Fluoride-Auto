@@ -432,16 +432,15 @@ Further improvements to the gravity powered system which allows for easier adjus
 ![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
 Figure 5: Modified gravity powered reactor shown with 3 adjustable sliders.
 
-On the right side of figure 5 are two adjustable platforms that hold PACl. The top platform has a scale attached to it in order to accurately measure the weight of PACl at different time intervals. This information can then be used to calculate the flowrate of PACl into the system more accurately than previously done before. The top 1L PACl tank feeds the bottom 1L PACl constant head tank. Their hights can be adjusted inorder to achieve the desired PACl system concentration.
+Figure 6 shows the two adjustable platforms that hold PACl. The top platform has a scale attached to it in order to accurately measure the weight of PACl at different time intervals. This information can then be used to calculate the flowrate of PACl into the system more accurately than previously done before. The top 1L PACl tank feeds the bottom 1L PACl constant head tank. Their hights can be adjusted inorder to achieve the desired PACl system concentration.
 
 ![PACl adjustable tanks](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
-Figure 6: Height adjustable PACl platforms used to easily adjust system concentration of PACl. 
+Figure 6: Height adjustable PACl platforms used to easily adjust system concentration of PACl.
 
-The height between the sedimentation tube and fluoride constant head tank as shown in figure 5 was adjusted since outflow velocity from the 2018 Spring team could not reach 1.5 mm/s. The constant head tank was lifted with an additional vertical bar added for greater support. Therefore, the distance was increased so that the flow rate measured from the effluent reached 0.76 mL/s, allowing an outflow velocity of 1.5 mm/s.
+A third adjustable slider was added to the frame of the gravity powered system. This last piece allows for easy control of the system flowrate. By adjusting the height of the effluent point relative to the top of the constant fluoride head tank the system flowrate can be easily adjusted.
 
-![Gravity Powered System Adjustment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labelled_bluedye.jpg)
-Figure 5: Adjustment to the Gravity Powered System
-
+![System Flowrate Adjustment](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_sedtank_labeled.jpg?raw=true)
+Figure 7: Slider allows for easy and fast adjustment of the system flowrate of the gravity powered system.  
 
 
 ## Experimental Methods
