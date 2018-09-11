@@ -43,17 +43,18 @@
 
 ## Abstract
 
- Fluoride is a major contaminant in drinking water in many parts of India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The Summer 2018 team aims to continue and expand upon the work of previous teams by running experiments with both the pump-controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1$\mathrm{\frac{mg}{L}}$, as per the fluoride standard in India and design an easily adjustable gravity powered system. In addition, the team aims to develop a simple user guide for the fluoride probe in order to maximize future teams' efficiency.
+ Fluoride is a major contaminant in drinking water in many parts of India. The fluoride team's overarching goal is to create low cost, compact, and sustainable solutions to fluoride contamination in drinking water. The Summer 2018 team aims to continue and expand upon the work of previous teams by running experiments with both the pump-controlled system and the gravity powered system. The goal for the summer is to optimize the amount of coagulant needed to reduce the effluent fluoride concentration to 1 $\mathrm{\frac{mg}{L}}$, as per the fluoride standard in India and design an easily adjustable gravity powered system. In addition, the team aims to develop a simple user guide for the fluoride probe in order to maximize future teams' efficiency.
 
 ## Introduction
 
 The recent expansion of AguaClara technology to new places around the world like India has uncovered new challenges and prompted new goals for AguaClara. In Honduras, where the majority of AguaClara plants have been constructed as of date, the source of water designated for purification comes from surface waters, such as rivers and lakes. Surface waters typically have a high amount of particulate matter and, as a result, also carry biological contaminants.
 However, in India, 85% of the population drinks groundwater extracted from wells and aquifers. Contrast to surface water sources in Honduras, groundwater contains nearly no particulate matter, since many particles are naturally filtered out as the water percolates through the soil and rock material. While this natural filtration process is capable of removing particulate matter and reducing microorganisms, it also allows minerals and metals to leach into the water. Minerals that enter the water depend heavily on the types of parent rock material and soils found in the region.
+
 India lies on one of the Fluoride Belts, which are expanses of land that are geologically rich in fluoride and have a much greater capacity to leach fluoride into groundwater. According to the World Health Organization, one of these belts stretches from Syria through Jordan, Egypt, Libya, Algeria, Sudan, and Kenya, while another starts in Turkey and goes through Iraq, Iran, Afghanistan, India, Northern Thailand, and China [(Water-related diseases, 2016)](http://www.who.int/water_sanitation_health/diseases-risks/diseases/fluorosis/en/). India contains about 14% of the total fluoride on the earth's crust, which inevitably leads the floride-rich groundwater [(Mondal, Dutta, & Gupta, 2016)](https://doi.org/10.1007/s10653-015-9743-7).
 
-There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places such as the United States, where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental cavities. New York City, for example, adds fluoride to its water supply in order to achieve a concentration of 0.7$\mathrm{\frac{mg}{L}}$ in its effluent supply [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). The American Dental Association has set the recommended concentration of fluoride in drinking water to 0.7$\mathrm{\frac{mg}{L}}$ for the prevention of dental cavities [(ADA, 2017)](https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements). There are, however, a number of health risks associated with the consumption of fluoride at higher concentrations.
+There are a number of public health implications associated with both underconsumption and overconsumption of fluoride. Fluoride is a common additive to municipal water systems in places such as the United States, where there is little to no fluoride naturally present in the water. Fluoride is added in order to prevent the onset of dental cavities. New York City, for example, adds fluoride to its water supply in order to achieve a concentration of 0.7 $\mathrm{\frac{mg}{L}}$ in its effluent supply [(NYC DEP, 2016)](http://www.nyc.gov/html/dep/pdf/wsstate16.pdf). The American Dental Association has set the recommended concentration of fluoride in drinking water to 0.7 $\mathrm{\frac{mg}{L}}$ for the prevention of dental cavities [(ADA, 2017)](https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements). There are, however, a number of health risks associated with the consumption of fluoride at higher concentrations.
 
-The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water to 1.5$\mathrm{\frac{mg}{L}}$ in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis, the mildest condition caused by the consumption of fluoride, can begin with water concentrations above 0.9$\mathrm{\frac{mg}{L}}$. Skeletal fluorosis, a much more serious condition, can begin to develop with fluoride concentrations above 3$\mathrm{\frac{mg}{L}}$. Lastly, at concentrations above 10$\mathrm{\frac{mg}{L}}$, crippling skeletal fluorosis will begins to occur  [(WHO, 2004)](http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf). The cases of dental fluorosis, the mildest indicator of excessive fluoride, varies across India, but has been shown to range from 13-91 percent, depending on the demographic in question and geographic location [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). While there is no established average for fluoride in Indian groundwater, concentrations in some extreme cases have been measured to be as high as 20$\mathrm{\frac{mg}{L}}$ in some regions, but most frequently are below 5$\mathrm{\frac{mg}{L}}$ [(LeChevallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/).
+The World Health Organization has set an absolute limit on the concentration of fluoride in drinking water to 1.5 $\mathrm{\frac{mg}{L}}$ in order to minimize the negative impacts of elevated fluoride on human health. Dental fluorosis, the mildest condition caused by the consumption of fluoride, can begin with water concentrations above 0.9 $\mathrm{\frac{mg}{L}}$. Skeletal fluorosis, a much more serious condition, can begin to develop with fluoride concentrations above 3 $\mathrm{\frac{mg}{L}}$. Lastly, at concentrations above 10 $\mathrm{\frac{mg}{L}}$, crippling skeletal fluorosis will begins to occur  [(WHO, 2004)](http://www.who.int/water_sanitation_health/dwq/chemicals/fluoride.pdf). The cases of dental fluorosis, the mildest indicator of excessive fluoride, varies across India, but has been shown to range from 13-91 percent, depending on the demographic in question and geographic location [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf). While there is no established average for fluoride in Indian groundwater, concentrations in some extreme cases have been measured to be as high as 20 $\mathrm{\frac{mg}{L}}$ in some regions, but most frequently are below 5 $\mathrm{\frac{mg}{L}}$ [(LeChevallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/).
 
 The Bureau of Indian Standards has created water quality standards designed to protect the public from the adverse effects of fluoride. They have set the upper limit for fluoride at 1 $\mathrm{\frac{mg}{L}}$ and the permissible limit in the absence of an alternate source at 1.5 $\mathrm{\frac{mg}{L}}$ [(Bureau of Indian Standards, 2012)](http://archive.org/details/gov.in.is.10500.2012). AguaClara's fluoride subteam has set its fluoride standards to match the standards set by the Bureau of Indian Standards and therefore will be striving to achieve an effluent fluoride concentration of 1 $\mathrm{\frac{mg}{L}}$ or lower. The team will be experimenting with fluoride concentrations up to 20 $\mathrm{\frac{mg}{L}}$ in order to simulate the highest concentrations our systems may encounter out in the field.
 
@@ -373,15 +374,26 @@ Figure 6: Linear adsorption model fitted to Langmuir Isotherm.
 Figure 7: Langmuir adsorption model, with outliers and inconsistencies removed. The points in blue contain all data from experiments run with 5 mg/L influent concentration of fluoride. The points in green are 15 mg/L influent fluoride, and the points in orange are 10 mg/L influent fluoride.
 
 ## Future Work
+#### Automated Benchtop System
+
+For the pump-powered (automated) system, experiments with 3 mg/L and 20 mg/L should be run to improve the accuracy of the adsorption model. Once these experiments have been completed, the adsorption model should be analyzed for trends at different PACl and fluoride concentrations.
+
+An additional task is to test different upflow velocities. It was noted that the coagulant formed a gel at the bottom of the sedimentation tube after running the experiment for several hours, thus causing a buildup of coagulant, which obstructed the upflow velocity. A future goal should be to determine an optimal upflow velocity through the sedimentation tube that minimizes the buildup of gel.
+
+The formation of floc blanket in fluoride tests is more difficult than in clay mixture tests. However, the importance of floc blanket in fluoride removal tests is still unknown. Therefore, the height of the floc blanket should be further investigated to see whether it affects fluoride removal efficiency directly or just floc removal.
+
+The data graphed for the Langmuir isotherm has much variability, in which there was particular vertical trends seen in the graph. Future teams should investigate into the data trends and compare that from the gravity powered system.
+
 #### Gravity Powered System
 
-The gravity powered system has been modified in a way that allows for easy adjustments to both the fluoride flowrate and the PACl flowrate. However, no tests have been done using this system. The gravity powered fluoride removal team should work to optimize the flowrate of both of these variables in order to achieve the desired effluent fluoride concentration of 1 mg/L fluoride.
+The gravity powered system has been modified so that it allows for easy adjustments to both fluoride flow rate and PACl flow rate. However, no tests have been done using this system yet. The gravity powered fluoride removal team should work to optimize the flow rate of both of these variables in order to achieve the desired effluent fluoride concentration of 1 mg/L fluoride.
 
-#### Pump Powered System
+Future teams should also research on how to operate the system based on the findings of the automated system. A future goal should be to optimize the system so that it is compact, easy to transport, and easy to use. A standard operation manual should be developed so that the system can be tested in Honduras or India. The future team should also research options on how the system should be field-tested.
 
+Another goal is to research options on how to handle the fluoride-coagulant waste that exits the fluoride-removal system. One possible option is to concentrate the waste stream. Future teams should consider how the waste should be handled on-site in the communities where the fluoride-removal systems will be implemented.
 
-
-**Ian's Comment:** Update this section with more detail for future work and some steps the next teams should take
+##Conclusion
+The summer 2018 fluoride team focused on creating an adsorption model by testing various fluoride and PACl concentrations. The team also worked on fabricating a gravity-powered system that will be used for research in the field.
 
 ## Bibliography
 ADA. (2017). Fluoride: Topical and Systemic Supplements. Retrieved from https://www.ada.org/en/member-center/oral-health-topics/fluoride-topical-and-systemic-supplements
@@ -415,10 +427,10 @@ WHO. (2004). Fluoride in Drinking-Water. Retrieved from http://www.who.int/water
 ### Sedimentation Tube
 The sedimentation tube in both the bench system and the gravity powered system had multiple leakages. Therefore, two new tube settlers were fabricated by cutting out 2 sets of PVC pipes for the tube settler (90 cm) and floc weir (40 cm) according to [2017 Fall HRS team final report](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation?preview=/327614520/350974719/high-rate-sedimentation%20(5).pdf).
 60 degree bends from the horizontal were created using a welder. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. The floc weir pipe was then welded to the tube settler.
-<!--For future fabrication it would be cool to get photographs of the process of building it -->
+
+
 ![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Sedtank_labeled.jpg?raw=true)
 Figure 5: Reactor fabricated for both the bench system and gravity powered system.
-<!-- Can you add the dimensions of each part of the pipe to the image? --><!--Addressed-->
 
 ### Gravity Powered System
 Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were also added to the exits of the constant head tank and stock tank so that the both tanks can be easily removed for refilling.
@@ -453,28 +465,30 @@ The following are improvised based on protocols used for past semesters' experim
 
 1. Open tap water valve and turn off the fluoride pump as to not pump fluoride into the system during backwash
 2. Close the waste line
-3. Turn on Just Water process in ProCoDA and fill system completely with water.
-5. Continue to run water until fluoride concentration is less than 0.5 $\mathrm{\frac{mg}{L}}$.
-6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
+3. Turn on Just Water process in ProCoDA and fill system completely with water
+4. Continue to run water at high velocity for at least 15 minutes
 
 #### Protocol for Start Up and Running of Reactors
-1. Fill stock tanks with appropriate concentration of PACl and fluoride, and make sure to have enough stock to run for 24 hours
+1. Fill stock tanks with appropriate concentration of PACl and fluoride, and make sure to have enough stock to run for 3 hours
 2. Calculate the flow rates of the PACl and fluoride pumps from the Python file and run the pumps at the appropriate RPM using ProCoDA
 3. Run the waste pump at the appropriate RPM as calculated from ProCoDA.
 4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
-5. Empty the bucket at the bottom and make sure it doesn't overflow through the length of the test
 
 #### Experimental Checklist:
 ##### Before starting test
 1. Waste line is opened. (System will explode if this is not open)
 2. No leaks anywhere in system
-3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
-4. Pumps are all pumping water in the correct direction (in the direction of the flocculator and reactor)
-5. The fluoride pump line is closed and fluoride valve is open after running just water through the system
-6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity, etc. and then change the process to the ON state.
+3. Ensure that all collection valves are closed and that the main line valves are open. Failure to do so can cause sed tank to exlode
+4. Check PACl and Fluoride stock containers and refill them when necessary
+5. Make sure that lids are on the containers but not tightly sealed in order to prevent negative pressure from crushing the stock containers
+6. Turn on magnetic stir plates under the stock containers (NOT THE HEAT)
+7. Turn on all pumps and set them to run at the desired RPM (Check ProCoDA)
+8. Set all pumps to run in the correct direction (in the direction of the flocculator and reactor)
+9. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity, etc. and then change the process to the ON state.
+
 ##### During test
 7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
-8. Take an influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent).
+8. Take an influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent). Remember to not close both main line valve and collection valves at the same time. Doing so will cause the system to explode
 
 **Ian's Comment:** Can you include a photo of how to do this?  I could see future teams being confused about the process.
 
@@ -484,10 +498,12 @@ The following are improvised based on protocols used for past semesters' experim
 
 #### Cleaning Procedure
 **Ian's Comment:** Can you include a photo of how to do this as well?
-1. Put a piece of sponge in the tube between the flocculator and PACl insert.
-2. Run a high velocity jet through the tube to purge the flocculator.
-3. Drain both reactors through the valves at the bottom of the reactors.
-4. Flush water through both reactors with water.
+1. Follow protocol for "Running Just Water Through the Reactors"
+2. Unplug the waste line and allow the water to drain
+3. Put a piece of sponge in the tube between the flocculator and PACl insert.
+4. Run a high velocity jet through the tube to purge the flocculator.
+5. Drain both reactors through the valves at the bottom of the reactors.
+. Flush water through both reactors again and let it drain.
 
 #### Fluoride Probe Calibration Procedure
 1. Make the stock calibration concentrations of 0.1 $\mathrm{\frac{mg}{L}}$, 0.3 $\mathrm{\frac{mg}{L}}$, 0.5 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 3 $\mathrm{\frac{mg}{L}}$, 5  $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, 15 $\mathrm{\frac{mg}{L}}$,and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
@@ -497,7 +513,7 @@ The following are improvised based on protocols used for past semesters' experim
 5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again). ![Fluoride Voltage readings on ProCoDa](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/ProCoDa_fluoride_probe_calibration.JPG?raw=true)
 Figure 6: Voltage reading of fluoride sample on ProCoDa
 
-6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration"). [Summer Fluoride Calibration](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit#gid=0)<!--Add a link to the google doc -->
+6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration"). [Summer Fluoride Calibration](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit#gid=0)
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99, rinse let settle in standard solution (50% TISAB and 50% DI water), then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 <!--Add photos! -->
@@ -683,5 +699,6 @@ print(Lpacl)
 
 ```python
 # To convert the document from markdown to pdf
-pandoc Fluoride_Summer2018.md -o Fluoride_Research_Summer_Report.pdf
+pandoc Fluoride_Summer2018.md -o
+Fluoride_Summer_2018_final .pdf
 ```
