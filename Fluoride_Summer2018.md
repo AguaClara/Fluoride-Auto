@@ -478,17 +478,29 @@ The following are improvised based on protocols used for past semesters' experim
 ##### Before starting test
 1. Waste line is opened. (System will explode if this is not open)
 2. No leaks anywhere in system
-3. Ensure that all collection valves are closed and that the main line valves are open. Failure to do so can cause sed tank to exlode
+3. Ensure that all collection valves are closed and that the main line valves are open. Failure to do so can cause sed tank to explode
+![System_Valves](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Influent_valves_edit.JPG?raw=true)
+Figure 8. Main line valve and collection valves
+
 4. Check PACl and Fluoride stock containers and refill them when necessary
 5. Make sure that lids are on the containers but not tightly sealed in order to prevent negative pressure from crushing the stock containers
 6. Turn on magnetic stir plates under the stock containers (NOT THE HEAT)
+![Stir](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Stock_stir.jpg?raw=true)
+Figure 9. PACl and fluoride stock on stir
+
 7. Turn on all pumps and set them to run at the desired RPM (Check ProCoDA)
 8. Set all pumps to run in the correct direction (in the direction of the flocculator and reactor)
 9. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity, etc. and then change the process to the ON state.
 
 ##### During test
 7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
-8. Take an influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent). Remember to not close both main line valve and collection valves at the same time. Doing so will cause the system to explode
+8. Take an influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent). Remember to not close both main line valve and collection valves at the same time. Doing so will cause the system to explode.
+![Influent_sampling](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Influent_collection.jpg?raw=true)
+Figure 10. Sampling of influent fluoride concentration  
+
+![Effluent_sampling](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Effluent_collection.jpg?raw=true)
+Figure 11. Sampling of effluent fluoride concentration
+ 
 
 **Ian's Comment:** Can you include a photo of how to do this?  I could see future teams being confused about the process.
 
