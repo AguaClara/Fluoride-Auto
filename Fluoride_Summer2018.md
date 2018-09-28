@@ -500,16 +500,12 @@ Figure 10. Sampling of influent fluoride concentration
 
 ![Effluent_sampling](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Effluent_collection.jpg?raw=true)
 Figure 11. Sampling of effluent fluoride concentration
- 
-
-**Ian's Comment:** Can you include a photo of how to do this?  I could see future teams being confused about the process.
 
 ##### End of test
 8. Change the process to the OFF state.
 9. Clean the reactor using the "Cleaning  Procedure" after the experiment is completed.
 
 #### Cleaning Procedure
-**Ian's Comment:** Can you include a photo of how to do this as well?
 1. Follow protocol for "Running Just Water Through the Reactors"
 2. Unplug the waste line and allow the water to drain
 3. Put a piece of sponge in the tube between the flocculator and PACl insert.
