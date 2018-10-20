@@ -76,7 +76,7 @@ $$ P_1 + \rho g \Delta h_1+ \frac{1}{2}\rho {v_1}^2 = P_2 + \rho g \Delta h_2+ \
 
 Details on design calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/Gravity%20Reactor.md). More information can be found in the Spring 2018 [report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md).
 
-![gravity_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
+![gravity_schematic](https://github.com/AguaClara/Fluoride-Auto/blob/master/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true)
 Figure 1: Schematic for gravity-powered system. The constant head tanks for fluoride and PACl ensure constant flow through the system.
 
 ![gravity_reactor](https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/labeledGravSystem.PNG?raw=true)
