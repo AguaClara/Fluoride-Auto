@@ -186,14 +186,48 @@ Figure 5. The experimental data, (dots), plotted against the Langmuir isotherm (
 The experimental data fits the Langmuir isotherm closely, specifically at low fluoride concentrations, which shows that the adsorption model is an accurate fit. The coefficient of determination is 0.82, which shows that a high percentage of variability in the uptake is from the variability in the concentration. However, there are two data points that do not fit the theoretical isotherm. The team looked into why these two points deviated from the fit, and determined that the root cause is experimental error. More data collection is necessary to confirm the Langmuir model, but the team concluded that a necessary PACl concentration can be predicted from Fluoride concentration with this model.
 
 Current experiments have been run at high PACl concentrations. (Tigran- talk about gel formation and add some pics)
+Work during this semester has been aimed at reducing the variability of data points. One method that was proposed for reducing variability was by introduction of a new bottom geometry. Work in the Summer of 2018 found that flocs aggregate at the bottom of the reactor. Addition of a new geometric piece, was theorized that can force flocs to flow along parallel paths. Without a singular point for flocs to collide, a large amount of flocs will not accumulate at and flow upwards within the reactor. A CAD file of this design is shown below.
+
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Bottom-Geo.PNG?raw=true" height=500, width=300>
+
+Figure 6. AutoCAD drawing of the Bottom Geometry piece based on fabrication principles proposed by Dr. Weber-Shirk
+
+<div style = "text-align:left">
+
+This design is based on the principle that any constriction of the pipe's diameter must be done with linear flow profiles. So we can see two different contractions of the radius of the reactor is done through linear profiles all at 60 degrees as recommended by Dr. Monroe Weber-Shirk. Since we are using linear wedges the inlet ends with a square which is shown in below. In inlet tube is a circle so a perfect fit is not possible from the inlet tube to the bottom of the geometry. Flow is still achieved when incorporating the novel bottom geometry. Experimentation with this new bottom geometry has resulted in gel formation and failure of the experiment.
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Bottom-Geo2.PNG?raw=true" height=500, width=300>
+
+Figure 6. Bottom view of AutoCAD drawing of Bottom Geometry
+
+<div style = "text-align:left">
+
+Gel formation is indicative of gel suspension occurring and the formation of a super saturated solution. Gel was formed throughout the entire reactor for the first experiment, which was run with 40 mg/L PACl and 10 mg/L fluoride. To combat the formation of gel and to attempt to form flocs instead two theories were tested. First, that the concentration of PACl was too high and second, the ratio of fluoride to PACl was too high. During prior semesters, experiments were run with up to 50 mg/L of fluoride without gel formation so this does not seem to be the issue. Secondly, Dr. Weber-Shirk proposed that with too high of a concentration of fluoride bound to PACl. Aluminum bound to fluoride may possibly repel other aluminum particles within solution. While past teams have conducted experiments at higher fluoride concentrations, very few experiments were conducted at concentrations of 10 mg/L or higher. The last theory for the consistent of gel formation for this semester's experiments is that inclusion of the bottom geometry promotes formation of gel. Below are two pictures of gel formation. Dye was injected to visualize where the gel was during the second experiment since the gel was not present throughout the entire reactor.
+
+
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/Automated%20System/Gel_Dye_12.PNG?raw=true" height=500, width=800>
+
+Figure 7 and 8. Images of dye injected within the reactor system for gel visualization
+
+<div style = "text-align:left">
+
+Due to the flow of the dye through the reactor, the team concluded that gel first formed in the floc hopper and grew until it reached the top of the reactor. The full reach of the gel is shown in the image on the left while figure 8 shows the gel after flushing the rest of the reactor with a high flow rate of water. When using 8 mm/s upflow velocity gel breaks up quickly within the main reactor. Gel within the floc weir is harder to break since it is controlled by a single speed pump. In order to stop gel formation within the floc weir the team must further understand what parameters stop the accumulation of PACl of flocs but instead promote formation of gel.
 
 ##Conclusion
 
-The Fall 2018 Fluoride Auto subteam has concluded thus far that the Langmuir isotherm model fits previous experimental data with low variability. The team has also concluded that the current reactor setup leads to uniform gel formation and that the coagulant dosage is too high for operation.
+The Fall 2018 Fluoride Auto subteam has concluded thus far that the Langmuir isotherm model fits previous experimental data with low variability. The team has also concluded that the current reactor setup leads to uniform gel formation. The bottom geometry was inconclusive in its overall effectiveness and may even possibly be causing gel formation. Further experimentation and research must be conducted to understand the flocculation and gel formation occuring within the team's setup.
 
 ## Future Work
 
-The next steps include validating the Langmuir isotherm model, determining the root cause of gel formation and eliminating it, and exploring whether floc blanket formation is necessary for fluoride removal. The team will first observe the change in gel formation by lowering the PACl concentration or adjusting the reactor bottom geometry. Then, the team will run more experiments to determine floc blanket effectiveness and if a new design of the reactor is required where a floc blanket does not form. Finally, the team will confirm the Langmuir model by running more experiments at varying PACl and Fluoride concentrations.
+The next steps include validating the Langmuir isotherm model, determining the root cause of gel formation and eliminating it, and exploring whether floc blanket formation is necessary for fluoride removal. The team will first observe the change in gel formation by lowering the PACl concentration or adjusting the reactor bottom geometry. Then, the team will run more experiments to determine floc blanket effectiveness and if a new design of the reactor is required where a floc blanket does not form. Further experimentation must be done with the new bottom geometry working with the High Rate Sedimentation subteam to understand if this bottom geometry is causing the formation of gel. Finally, the team will confirm the Langmuir model by running more experiments at varying PACl and Fluoride concentrations. 
 
 ## Bibliography
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
