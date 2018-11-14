@@ -16,15 +16,15 @@ In accordance with AguaClara's mission to create affordable, reliable, and susta
 
 The main goal of Fluoride Auto subteam thus far has been to analyze fluoride removal by researching and constructing Langmuir isotherms. Langmuir isotherms are used to explain adsorption mechanisms. They are based upon the assumptions that there are a fixed number of adsorption sites and each site can hold one adsorbed molecule. The team has fit a Langmuir isotherm to previous data obtained in Fall 2017 and Summer 2018 by Fluoride subteams. After discovering issues with various data points, the Langmuir isotherm plots were constructed with the removal of some data points. Once the Langmuir isotherm is verified, the information can be applied to other dissolved species removal teams in AguaClara.
 
-##Literature Review
-####*Fluoride Limitations and Hazards*
+## Literature Review
+#### *Fluoride Limitations and Hazards*
 
 Over-consumption of fluoride can lead to arthritis, dental fluorosis, crippling fluorosis, bone deformation and ligament calcification [(Roholm, 1937)](http://cof-cof.ca/wp-content/uploads/2012/10/Roholm-Fluorine-Intoxication-A-Clinical-Hygienic-Study-Copenhagen-Denmark-1937.pdf). Fluoride can cause irritation through inhalation, digestion, and touch, and can cause damage to both eyes and exposed skin [(NJ Department of Health, 2010)](http://nj.gov/health/eoh/rtkweb/documents/fs/1699.pdf). Though there isn’t an established average level of fluoride in India, literature suggests that fluoride levels are seldom above 5 $\mathrm{\frac{mg}{L}}$ in groundwater. However, in the remote Karbi Anglong district of India, fluoride levels range from 5-23 $\mathrm{\frac{mg}{L}}$ causing severe anemia, stiff joints, painful and restricted movement, mottled teeth and kidney failure [(LeChevallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/).
 
 According to the National Research Council (NRC), the maximum contaminant level (MCL) of fluoride in drinking water is 4 $\mathrm{\frac{mg}{L}}$. However, a secondary limit of 2 $\mathrm{\frac{mg}{L}}$ has been established by the EPA to avoid potential cosmetic effects such as tooth and skin discoloration. The World Health Organization (WHO) established a safe upper limit of 1.5 $\mathrm{\frac{mg}{L}}$ to avoid all potential risks of fluoride consumption. The team will be striving towards the WHO guideline of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride this semester by designing and experimenting with the floc blanket reactor and manipulating the ratios and concentrations of PACl in the system.
 
 
-####*Polyaluminum Chloride (PACl) and Fluoride Removal*
+#### *Polyaluminum Chloride (PACl) and Fluoride Removal*
 One common type of water treatment consists of a series of coagulation, flocculation, and clarification. During coagulation, raw water is mixed with a positively charged coagulant (typically an aluminum salt or iron salt), altering or destabilizing any negatively charged particles or dissolved and colloidal contaminants [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Depending on the dose of coagulant, there are two methods of particle destabilization. The first, charge neutralization, occurs with a lower coagulant dose and happens as the negative colloids are attracted to the positively charged coagulant particles. The second method, sweep flocculation, requires a high coagulant dose and transpires when the contaminants are caught by precipitates as they settle in the suspension [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). The destabilized particles then proceed through flocculation, where additional mixing increases the rate of particle collision, forming larger precipitates. Following the formation of flocs, clarification removes the agglomerated particles through sedimentation or other removal processes [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do).
 
 In recent years, polymerized forms of aluminum salts have been used increasingly to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Polyaluminum chloride, a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). The main advantages of using polyaluminum chloride instead of alum include a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). In the Daylesford Water Filtration Plant, a dose of 45 $\mathrm{\frac{mg}{L}}$ of alum was required to produce potable water, while only 12 $\mathrm{\frac{mg}{L}}$ of  PACl were required. Additionally, PACl is advantageous in particulate removal because its hydrolyzed state allows for it to be less affected than typical aluminum salts when temperature conditions are inconsistent [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Furthermore, PACl has a broader range of raw water pH in which it is an effective coagulant. It shows stable turbidity removal from 5.0-8.0 pH, compared to a range of 6.0-7.0 pH for both aluminum chloride, $\rm{AlCl_3}$, and aluminum sulfate, $\rm{Al_2(SO_4)}$,  [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465). For the removal of fluoride, PACl has been found to be the most effective with pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do).
@@ -41,7 +41,7 @@ Several techniques currently use PACl to reduce high fluoride levels. The Nalgon
 In regards to other filtration methods, a study by Inganiella achieved 33.3% removal of fluoride using a combination of a gravel pre-filter and a sand rapid filter to capture granules of fluoride, PACl, NaClO and $SO_4H_2$ [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true).
 
 
-####*Floc Blankets*
+#### *Floc Blankets*
 Floc blankets develop when vertical flow sedimentation tanks form a fluidized bed of particles. An example is shown in the figure below. A floc blanket then facilitates particle removal by “increasing particle-particle interactions that lead to flocculation and filtration occurring in the floc blanket” [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
 
 [EM: This is a super long sentence. Consider breaking it up for fluidity. [ADDRESSED]]
@@ -297,7 +297,7 @@ solutions using polyaluminium chloride and alum. water science and technology, 5
 
 # Manual
 ## Fabrication Details
-###Reactor
+### Reactor
 The reactor in the system as shown in Figure 8 was developed by the summer 2018 Fluoride Gravity subteam. Details on how to construct it may be found [here](https://confluence.cornell.edu/display/AGUACLARA/High+Rate+Sedimentation).
 <div style = "text-align:center">
 <img
@@ -307,11 +307,11 @@ align = "center"
 Figure 6: The sedimentation tube used for removal of the fluoride-containing flocs created during flocculation.
 </div>
 
-###Set-up
+### Set-up
 The apparatus the team is currently running experiments with is uses a basic flocculator-settling tube design. Coagulant, and water are pumped into the flocculator, and the pumps are controlled by ProCoDA. The Fluoride pump is not controlled by ProCoDA so we manually set the flow rate before each experiment. The pumps all pump through the flocculator and the outlet of the flocculator enters the bottom of the sedimentation tube. Ideally, flocs in the sedimentation tube will recirculate as fluid flows up the tube, and if the floc blanket gets large enough, flocs will fall down the floc weir. The outlet of the sedimentation tank goes into the in-line fluoride concentration bottle, and then flows into the turbidimeter and then into the sink. ProCoDA measures data at constant time intervals for voltage, and turbidimeters.
 
 
-####Protocol for Running Just Water Through the Reactors
+#### Protocol for Running Just Water Through the Reactors
 
 1. Open tap water valve and close the fluoride valve as to not pump fluoride into the system during backwash
 2. Close the waste line
@@ -320,7 +320,7 @@ The apparatus the team is currently running experiments with is uses a basic flo
 5. Continue to run water until turbidimeter reads less than 0.5 NTU and fluoride concentration is less than 0.5 $\mathrm{\frac{mg}{L}}$.
 6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
 
-####Protocol for Start Up and Running of Reactors
+#### Protocol for Start Up and Running of Reactors
 1. Fill stock tanks with appropriate concentration of PACl, and fluoride
 hours
 2. Calculate the flow rates of the PACl, water and fluoride pumps from the MathCAD file and run the pumps at the appropriate RPM using ProCoDA
@@ -328,8 +328,8 @@ hours
 4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
 5. Place the fluoride probe into the in-line concentration measurement bottle
 
-####Experimental Checklist:
-#####Before starting test
+#### Experimental Checklist:
+##### Before starting test
 1. Waste line is open (System will explode if this is not open)
 2. No leaks anywhere in system
 3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
@@ -341,14 +341,14 @@ hours
 7. Change the process to the OFF state.
 8. Clean the reactor using the "Cleaning  Procedure" after the experiment is completed.
 
-####Cleaning Procedure
+#### Cleaning Procedure
 1. Put a piece of sponge in the tube between the flocculator and PACl insert.
 2. Run a high velocity jet through the tube to purge the flocculator of excess clay buildup.
 3. Drain the reactor through the valves at the bottom.
 4. Flush water through the system.
 5. If there is not a noticeable amount of floc blanket buildup, (a) and (b) can be skipped.
 
-####Fluoride Probe Calibration Procedure
+#### Fluoride Probe Calibration Procedure
 1. Make the stock calibration concentrations of .1 $\mathrm{\frac{mg}{L}}$, 1 $\mathrm{\frac{mg}{L}}$, 10 $\mathrm{\frac{mg}{L}}$, and 20 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
 2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
 3. Insert the probe into one of the calibration solutions.
@@ -358,7 +358,7 @@ hours
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99 or higher, rinse the probe and let it settle in 5 $\mathrm{\frac{mg}{L}}$ solution for 5 minutes, then rinse thoroughly with DI water. Repeat procedure.
 
-###ProCoDA Method File
+### ProCoDA Method File
 
 ProCoDA is a process control system that was developed by Monroe Weber-Shirk in order to set process parameters through a computerized system. It can be adjusted to different system states that control the system pumps depending on what flow rates are desired. Additionally, ProCoDA collects the data from probes, allowing for compilation of dye concentration data.
 
