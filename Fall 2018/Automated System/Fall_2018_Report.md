@@ -1,6 +1,6 @@
 # Fluoride Automated System, Fall 2018
 #### Tigran Mehrabyan, Janak Shah, Samba Sowe
-#### October 26th, 2018
+#### November 16th, 2018
 
 [EM: Hi Fluoride Auto! My comments will be un brackets under the paragraph in which I am referring. In the future, please delete the previous comments from your report before submitting it. This will give each grader a freash start when beginning to read your report. Thanks!]
 
@@ -219,17 +219,17 @@ Figure 7 and 8. Images of dye injected within the reactor system for gel visuali
 The team concluded that gel first formed in the floc hopper and accumulated until it reached the top of the reactor because of the flow of dye throughout the reactor. The full spread of gel is shown in Figure 7 while Figure 8 shows the gel after the reactor was flushed with a high flow rate of water. Gel breaks up within the reactor when the upflow velocity is 8 mm/s. The gel within the floc weir is harder to break because it is controlled by a single speed pump. The team must further understand what parameters reduce the accumulation of PACl and flocs and promote formation of gel to prevent further gel formation in experiments.
 
 
-Further experimentation was conducted by replacing the fluoride stock with red dye to produce more visible flocs. The first experiment with the red dye showed that flocs formed but also aggregated into a gel at the entrance of the floc weir. The team hypothesized that the floc weir protruded into the sedimentation tube and created a surface for flocs to accumulate and form gel. A new sedimentation tube was fabricated to test this hypothesis. The red dye experiment was replicated to test whether gel would form in this new sedimentation tube with the same experimental conditions. Gel formed in this experiment, however, flocs entered the floc weir without aggregating at the entrance as they had in the previous reactor. The team hypothsized that gel formed when the flocs that were above the floc weir descended down the sedimentation tube and collided with other flocs, which created a super saturated solution necessary for a gel.
+Further experimentation was conducted by replacing the fluoride stock with red dye to produce more visible flocs. The first experiment with the red dye showed that flocs formed but also aggregated into a gel at the entrance of the floc weir. The team hypothesized that the floc weir protruded into the sedimentation tube and created a surface for flocs to accumulate and form gel. A new sedimentation tube was fabricated to test this hypothesis. The red dye experiment was replicated to test whether gel would form in this new sedimentation tube with the same experimental conditions. Gel formed in this experiment, however, flocs entered the floc weir without aggregating at the entrance as they had in the previous reactor. The team hypothesized that gel formed when the flocs that were above the floc weir descended down the sedimentation tube and collided with other flocs, which created a super saturated solution necessary for a gel.
 
 
 
 ## Conclusion
 
-The Fall 2018 Fluoride Auto subteam has concluded thus far that the Langmuir isotherm model fits previous experimental data with low variability. The team has also concluded that the current reactor setup leads to uniform gel formation. The new bottom geometry and  reactor reduced gel formation; however, gel still formed with the new reactor. Further experimentation and research must be conducted to understand the flocculation process and gel formation process occuring within the team's setup.
+The Fall 2018 Fluoride Auto subteam has concluded thus far that the Langmuir isotherm model fits previous experimental data with low variability. The team has also concluded that the current reactor setup leads to uniform gel formation. The new bottom geometry and reactor reduced gel formation; however, gel still formed with the new reactor. Further experimentation and research must be conducted to understand the flocculation and gel formation processes occurring within the team's setup.
 
 ## Future Work
 
-The next steps include validating the Langmuir isotherm model, determining the root cause of gel formation and eliminating it, and exploring whether floc blanket formation is necessary for fluoride removal. The new bottom geometry and reactor did not eliminate gel formation. Red dye will be continued to be used in place of fluoride to detect where gel is forming and to form a floc blanket. The team will also explore re-introducing clay into the system, which was phased out of testing in the Fall 2017 semester. This is because gel formation might be impossible to prevent without clay. Reintroducing clay would also allow for floc blanket formation, but the necessity of this must be determined by further testing.
+The next steps include validating the Langmuir isotherm model, determining the root cause of gel formation, and exploring whether floc blanket formation is necessary for fluoride removal. The new bottom geometry and reactor did not reduce gel formation. Red dye will be continued to be used in place of fluoride to detect where gel is forming and to form a floc blanket. The team will also explore re-introducing clay into the system, which was phased out of testing in the Fall 2017 semester. This is because gel formation might be impossible to prevent without clay. Reintroducing clay could also increase floc blanket formation, however, the necessity of a floc blanket must still be determined.
 
 ## Bibliography
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
