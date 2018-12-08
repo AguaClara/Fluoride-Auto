@@ -1,8 +1,6 @@
 # Fluoride Automated System, Fall 2018
 #### Tigran Mehrabyan, Janak Shah, Samba Sowe
-#### November 16th, 2018
-
-[EM: Hi Fluoride Auto! My comments will be un brackets under the paragraph in which I am referring. In the future, please delete the previous comments from your report before submitting it. This will give each grader a freash start when beginning to read your report. Thanks!]
+#### December 8th, 2018
 
 
 ## Abstract
@@ -29,8 +27,6 @@ One common type of water treatment consists of a series of coagulation, floccula
 
 In recent years, polymerized forms of aluminum salts have been used increasingly to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Polyaluminum chloride, a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). The main advantages of using polyaluminum chloride instead of alum include a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). In the Daylesford Water Filtration Plant, a dose of 45 $\mathrm{\frac{mg}{L}}$ of alum was required to produce potable water, while only 12 $\mathrm{\frac{mg}{L}}$ of  PACl were required. Additionally, PACl is advantageous in particulate removal because its hydrolyzed state allows for it to be less affected than typical aluminum salts when temperature conditions are inconsistent [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Furthermore, PACl has a broader range of raw water pH in which it is an effective coagulant. It shows stable turbidity removal from 5.0-8.0 pH, compared to a range of 6.0-7.0 pH for both aluminum chloride, $\rm{AlCl_3}$, and aluminum sulfate, $\rm{Al_2(SO_4)}$,  [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465). For the removal of fluoride, PACl has been found to be the most effective with pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do).
 
-[EM: If switching from using the chemical formula to the common name, make sure it is stated what is what, similar to writing out abbreviations before using them frequently. [ADDRESSED]]
-
 
 Many sources have shown that PACl seems to be the optimal coagulant for the purposes of removing fluoride from influent water. [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). PACl has been and continues to be used as the most common form of dye removal at the industrial scale. Despite its cost, a main reason as to why PACl is so popular as opposed to other coagulants is that PACl does not cause any leeching of hazardous chemicals into the water from dye decomposition [(Golob et al, 2005)](https://www.sciencedirect.com/science/article/pii/S0143720804002724). A drawback of PACl is that once its coagulation capabilities are saturated, the dye coagulation drops drastically while other coagulants are able to reach a maximum capacity and plateau. The team has been using PACl as the coagulant since the start of the project. Therefore the reasons listed above the team will continue to use PACl as its choice of coagulant for experiments. A future experiment may be to optimize choice of coagulant in order to maximize fluoride removal, but other more important parameters must be optimized before approaching this issue.
 
@@ -44,7 +40,6 @@ In regards to other filtration methods, a study by Inganiella achieved 33.3% rem
 #### *Floc Blankets*
 Floc blankets develop when vertical flow sedimentation tanks form a fluidized bed of particles. An example is shown in the figure below. A floc blanket then facilitates particle removal by “increasing particle-particle interactions that lead to flocculation and filtration occurring in the floc blanket” [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
 
-[EM: This is a super long sentence. Consider breaking it up for fluidity. [ADDRESSED]]
 
 <div style = "text-align:center">
 <img
@@ -60,9 +55,6 @@ This floc blanket clarification is considered hindered settling, which is a form
 
 Examples of floc blanket clarification are shown throughout the world as further proof of its potential in water purification. In Taiwan, a process of pre-sedimentation, floc blanket clarification, and sand filtration is used to reduce 100 NTU water down to potable levels [(Lin et al., 2004)](https://ascelibrary-org.proxy.library.cornell.edu/doi/abs/10.1061/(ASCE)0733-9372(2004)130:12(1481)). Floc blankets have also been used extensively to purify water of algae, protozoa and specific virus strains [(LeChavallier and Au, 2004)](http://www.who.int/water_sanitation_health/publications/9241562552/en/). Therefore, it is believed that the adaptability of this method in conjunction with the use of PACl would allow for effective fluoride removal.
 
-[I know that this is the literature review from the last 1424545 senesters but I wonderif it even needs to be this long, if you all run out of work you could try to condense it. (We did not run out of work)]
-
-[EM: ^rt. It was rather long and hard to get through. I would find aspects that are most critital to the work you're doing now and stick with those.]
 
 ## Previous Work
 In the Spring of 2016, the team determined that the sand filter system was inefficient and decided to move towards the idea of a single floc blanket reactor [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Although the sand filter provided cheaper, more adequate removal of fluoride per milligram of PACl used, a key issue that arose with the sand filter was the system run time. The sand filter became saturated with PACl and fluoride too quickly and the head loss built up rapidly. In a matter of a couple of hours, the floc blanket was completely saturated to the point where it was no longer efficient or providing adequate removal of fluoride. Consequently, the system had to be backwashed too frequently to be an effective process (about every couple hours). On a much larger scale, such as a full size plant, the level of maintenance required to backwash each sand filter would be infeasible. In order to address this, the team fabricated a new reactor as seen in Figure 2 mirroring that of the floc blanket and plate settlers in the current AguaClara plants. The team set up a new apparatus fit with stock tanks, a reactor, a turbidimeter, a flocculator, and stock and waste pumps, referencing research  previously conducted on the relationship between the amount of coagulant added and head loss accumulation [(Dao, 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
@@ -117,15 +109,11 @@ Table 1: A summary of the experimental results using the fluoride probe . Initia
 The goal of both the Fall 2017 and Summer 2018 team was to measure different effluent concentrations of fluoride with the probe for different concentrations of PACl to construct an adsorption model. This model would be used to predict the PACl dosage needed for a desired effluent fluoride concentration and would also give an adsorption density value for the mass of F- adsorbed, or W. Since the desired fluoride level set by the WHO is 1.5 $\mathrm{\frac{mg}{L}}$, this is the desired effluent fluoride concentration. Therefore, the model would calculate a range of uptake values that would result in the target effluent concentration. Additionally, the model would calculate the PACl dosage necessary to treat an initial fluoride concentration given the range of W values.
 
 
-[EM: This section is far too long. Not as much detail of experiments in the past are needed, just results relevant to your experiment now. A lot of it felt very repetitive and not relevant, making it difficult to read, tbh. Concentrate on the later subteams that worked with isotherms.]
-
 At a certain maximum PACl dosage, the Summer 2018 team found that the reactor would clog due to insufficient shear to break down the PACl flocs, thereby causing the bed to fluidize.  If the adsorption model calculates an excessive PACl dosage, a second reactor would be necessary to decrease the max concentration of PACl necessary to run the system. This will be shown again in experiments run in the Fall of 2018, where gel systems were formed at high PACl concentrations.
 
 However, the Summer 2018 team found that results were inconclusive. For example, influent concentrations of 10 $\mathrm{\frac{mg}{L}}$ and 5 $\mathrm{\frac{mg}{L}}$ of fluoride resulted in the same fluoride effluent concentration of around 3 $\mathrm{\frac{mg}{L}}$ for 12.5 $\mathrm{\frac{mg}{L}}$ of PACl and around 2 $\mathrm{\frac{mg}{L}}$ for 25 $\mathrm{\frac{mg}{L}}$ PACl. It is unlikely that the same dosage of PACl would result in the same effluent fluoride concentration for fluoride inlet concentrations that differ by a factor of 2.  Therefore, another more accurate probe should be ordered before any definitive conclusions can be drawn.
 
 The Summer 2018 team began experiments with the new probe delivered in May. Coagulant dosing was changed based on the isotherm developed during the spring of 2018, which showed that coagulant dosing at 6.25 mg/L will not create a floc blanket. The coagulant dosing ranged from 10 mg/L to 50 mg/L with the influent fluoride concentration ranging from 3 mg/L to 20 mg/L. The team also identified that the influent fluoride concentration did not match the ideal concentration set by the flow rate and stock tank concentration. Therefore, the team began to take a manual reading of the influent fluoride before it reached the flocculator to compare to the effluent fluoride reading. These manual readings were used by the Fall 2018 in the Langmuir isotherm derivation.
-
-[EM: The probe broke 3 or 4 times? Maybe try and brainstorm another way of measuring; a non-functioning probe seems to hold back research often. Or maybe, like, order more than 1 at a time so once it breaks you don't have to wait for a new one?]
 
 
 ## Methods
@@ -178,11 +166,9 @@ src="https://github.com/AguaClara/Fluoride-Auto/blob/master/langmuir.PNG?raw=tru
 Figure 5. The experimental data, (dots), plotted against the Langmuir isotherm (solid).
 
 <div style = "text-align:left">
-The experimental data fits the Langmuir isotherm closely, specifically at low fluoride concentrations, which shows that the adsorption model is an accurate fit. The coefficient of determination is 0.82, which shows that a high percentage of variability in the uptake is from the variability in the concentration. However, there are two data points that do not fit the theoretical isotherm. The team looked into why these two points deviated from the fit, and determined that the root cause is experimental error. More data collection is necessary to confirm the Langmuir model, but the team concluded that a necessary PACl concentration can be predicted from Fluoride concentration with this model.
+The experimental data fits the Langmuir isotherm closely, specifically at low fluoride concentrations, which shows that the adsorption model is an accurate fit. The coefficient of determination is 0.82, which shows that a high percentage of variability in the uptake is from the variability in the concentration. However, there are two data points that do not fit the theoretical isotherm. The team looked into why these two points deviated from the fit, and determined that the root cause is experimental error. The team hypothesized that there were two different isotherms occurring with the data, but determined that this is not a realistic adsorption model. More data collection is necessary to confirm the Langmuir model, but the team concluded that a necessary PACl concentration can be predicted from Fluoride concentration with this model.
 
 One method for reducing variability was by introducing a new bottom geometry into the reactor system. The Summer 2018 team observed that flocs aggregated at the bottom of the reactor. A different geometric piece was added to the reactor entrance to force flocs to flow parallel to each other. Significant numbers of flocs would not accumulate at and flow upwards within the reactor without a singular point for flocs to collide. A CAD file of this design is shown below.
-
-[EM: Proof-read before submission. Also, this paragraph is awkward. [ADDRESSED]]
 
 <div style = "text-align:center">
 <img
@@ -205,7 +191,6 @@ Figure 6. Bottom view of AutoCAD drawing of Bottom Geometry
 
 Gel formation occurs because of the formation of a super saturated solution. Gel formed throughout the entire reactor for the first experiment, which was run with 40 mg/L PACl and 10 mg/L fluoride. There were two hypotheses as to the root cause of the gel formation. These theories were that the concentration of PACl was too high and that the ratio of fluoride to PACl was too high. Previous experiments were run with up to 50 mg/L PACl concentration without gel formation. An aluminum fluoride complex could also form and repel other aluminum particles within the solution. While past teams have conducted experiments at higher fluoride concentrations, few experiments were conducted at concentrations of 10 mg/L or higher. The second theory is consistent with this semester's experiments in that the inclusion of the bottom geometry increases gel formation. Below are two images of gel formation. Dye was injected to visualize the gel location during the second experiment because the gel was not present throughout the entire reactor for this experiment.
 
-[EM: This paragraph is also awkward. [ADDRESSED]]
 
 <div style = "text-align:center">
 <img
@@ -219,9 +204,9 @@ Figure 7 and 8. Images of dye injected within the reactor system for gel visuali
 The team concluded that gel first formed in the floc hopper and accumulated until it reached the top of the reactor because of the flow of dye throughout the reactor. The full spread of gel is shown in Figure 7 while Figure 8 shows the gel after the reactor was flushed with a high flow rate of water. Gel breaks up within the reactor when the upflow velocity is 8 mm/s. The gel within the floc weir is harder to break because it is controlled by a single speed pump. The team must further understand what parameters reduce the accumulation of PACl and flocs and promote formation of gel to prevent further gel formation in experiments.
 
 
-Further experimentation was conducted by replacing the fluoride stock with red dye to produce more visible flocs. The first experiment with the red dye showed that flocs formed but also aggregated into a gel at the entrance of the floc weir. The team hypothesized that the floc weir protruded into the sedimentation tube and created a surface for flocs to accumulate and form gel. A new sedimentation tube was fabricated to test this hypothesis. The red dye experiment was replicated to test whether gel would form in this new sedimentation tube with the same experimental conditions. Gel formed in this experiment, however, flocs entered the floc weir without aggregating at the entrance as they had in the previous reactor. The team hypothesized that gel formed when the flocs that were above the floc weir descended down the sedimentation tube and collided with other flocs, which created a super saturated solution necessary for a gel.
+Further experimentation was conducted by replacing the fluoride stock with red dye to produce more visible flocs. The first experiment with the red dye showed that flocs formed but also aggregated into a gel at the entrance of the floc weir. This experiment was run with 20 mg/L PACl. The team hypothesized that the floc weir protruded into the sedimentation tube and created a surface for flocs to accumulate and form gel. A new sedimentation tube was fabricated to test this hypothesis. The red dye experiment was replicated to test whether gel would form in this new sedimentation tube with the same experimental conditions. Gel formed in this experiment, however, flocs entered the floc weir without aggregating at the entrance as they had in the previous reactor. The team hypothesized that gel formed when the flocs that were above the floc weir descended down the sedimentation tube and collided with other flocs, which created a super saturated solution necessary for a gel.
 
-
+The team continued to run tests at low concentration of PACl, or a maximum of 20 mg/L, and high concentrations of red dye given the dilute stock solution of red dye. However, each experiment gelled, and thus, produced no useful data for further validating a Langmuir adsorption model.
 
 ## Conclusion
 
@@ -229,7 +214,7 @@ The Fall 2018 Fluoride Auto subteam has concluded thus far that the Langmuir iso
 
 ## Future Work
 
-The next steps include validating the Langmuir isotherm model, determining the root cause of gel formation, and exploring whether floc blanket formation is necessary for fluoride removal. The new bottom geometry and reactor did not reduce gel formation. Red dye will be continued to be used in place of fluoride to detect where gel is forming and to form a floc blanket. The team will also explore re-introducing clay into the system, which was phased out of testing in the Fall 2017 semester. This is because gel formation might be impossible to prevent without clay. Reintroducing clay could also increase floc blanket formation, however, the necessity of a floc blanket must still be determined.
+The next steps include determining the root cause of gel formation and exploring whether floc blanket formation is necessary for fluoride removal. The new bottom geometry and reactor did not reduce gel formation. The team will also explore re-introducing clay into the system, which was phased out of testing in the Fall 2017 semester. This is because gel formation might be impossible to prevent without clay. Reintroducing clay could also increase floc blanket formation, however, it is still unknown whether a floc blanket is necessary for the system. The Fluoride Auto team could also be remerged with Fluoride gravity given that the principal task for this semester's team, validating the Langmuir Isotherm model, was achieved.
 
 ## Bibliography
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
@@ -357,6 +342,10 @@ hours
 6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99 or higher, rinse the probe and let it settle in 5 $\mathrm{\frac{mg}{L}}$ solution for 5 minutes, then rinse thoroughly with DI water. Repeat procedure.
+
+### Fluoride Probe Replacment
+If the fluoride probe requires replacement, use this link to purchase a new one: https://www.coleparmer.com/i/cole-parmer-ion-selective-electrode-ise-fluoride-double-junction-bnc/2750219?PubID=UX&persist=true&ip=no&gclid=Cj0KCQjw-o_bBRCOARIsAM5NbIPaSgDmo2SsaOPk9Nmz8tdYYPRbkZ7sxqVKuY_9hdBmA0lDkKri_JcaAkr3EALw_wcB
+
 
 ### ProCoDA Method File
 
