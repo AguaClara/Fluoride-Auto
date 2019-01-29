@@ -5,7 +5,7 @@ Fluoride contamination of groundwater is a major, well-known health concern, tha
 
 ## Current Members:
 - Desiree Sausele (djs469@cornell.edu)
-- Emily Spiek ()
+- Emily Spiek (eas397@cornell.edu)
 - Dominic Grasso (dng35@cornell.edu)
 - Melissa Louie (ml897@cornell.edu)
 
