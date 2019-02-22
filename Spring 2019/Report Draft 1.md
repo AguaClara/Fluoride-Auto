@@ -13,8 +13,7 @@ Explain how the completion of your challenge will affect AguaClara and the missi
  If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
 
-Fluoride, in moderation, can provide a variety of healthy benefits.
-It can prevent tooth decay and, over time, strengthen teeth.
+Fluoride, in moderation, can provide a variety of healthy benefits, including prevention of tooth decay and, over time, the strengthening of teeth.
  An overexposure to fluoride, however, can cause dental fluorosis among other
 health issues. In India, 85.0% of drinking water is sourced from groundwater, but
 this groundwater often displays excess levels of fluroide due to rocks in
@@ -25,7 +24,7 @@ but has been shown to range from 13-91 percent depending on the age group
  [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf).
 
  In accordance with AguaClara's mission to create affordable, reliable, and
- sustainable water treatment solutions, the goal of the subteam is to treat
+ sustainable water treatment solutions, the goal of the Fluoride Auto subteam is to treat
  groundwater that contains excessive fluoride concentrations. Teams from previous
   semesters analyzed the efficiency of fluoride removal by passing a coagulant,
    polyaluminum chloride (PACl), and a solution of fluoride through a sand filter.
@@ -59,13 +58,12 @@ The Fall 2018 Fluoride Auto subteam faced the issue of gel formation in
      their floc blanket reactor, which prevented the floc blanket from exiting
      through the weir. The cause of the gel formation was not entirely known
      but was theorized to have occurred due to an oversaturation of flocs in
-     the floc blanket. The Spring 2019 team, therefore, aimed to reconstruct
+     the floc blanket. The Spring 2019 team, therefore, aims to reconstruct
      the reactor with the weir in a lower position. In the future, the team will
    attempt to validate the Langmuir isotherms constructed by teams in previous
    semesters. The team will also attempt to determine a safe method of disposal
    for fluoride after it has been removed from the drinking water. This course
-   of action, when determined, will be essential in the implementation of fluoride-removal
-   plants in India.
+   of action, when determined, will be essential in the implementation of fluoride-removal plants in India.
 
 
 
