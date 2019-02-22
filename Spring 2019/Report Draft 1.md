@@ -25,13 +25,7 @@ but has been shown to range from 13-91 percent depending on the age group
 
  In accordance with AguaClara's mission to create affordable, reliable, and
  sustainable water treatment solutions, the goal of the Fluoride Auto subteam is to treat
- groundwater that contains excessive fluoride concentrations. Teams from previous
-  semesters analyzed the efficiency of fluoride removal by passing a coagulant,
-   polyaluminum chloride (PACl), and a solution of fluoride through a sand filter.
-    However, the sand filter was an inefficient method of removal because of
-    the buildup of headloss from particles deposited in the sand filter that
-    eventually prevented water from flowing through
-    [(Dao et el., 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Thus, instead of using a traditional sand filter, the team researched a similar relationship between PACl and fluoride via a floc blanket reactor. Flocs are aggregates of particles that are created through collision and precipitate out into the water. In the floc blanket reactor, flocs of PACl and clay adsorbed the fluoride from the influent water. The flocs then overflowed into a floc weir as the floc blanket grew and the purified water flowed out the top of the reactor.
+ groundwater that contains excessive fluoride concentrations. In recent semesters, the team has used a floc blanket reactor to remove fluoride. Flocs are aggregates of particles that are created through collision and precipitate out into the water. In the floc blanket reactor, flocs of PACl and clay adsorbed the fluoride from the influent water. The flocs then overflowed into a floc weir as the floc blanket grew and the purified water flowed out the top of the reactor.
     This reactor was modeled after the floc blanket, floc weir, and
     plate settlers setup in the sedimentation tank of a typical AguaClara water
     treatment plant. The team expected that the floc blanket reactor would be
