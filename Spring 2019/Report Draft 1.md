@@ -29,11 +29,8 @@ but has been shown to range from 13-91 percent depending on the age group
     This reactor was modeled after the floc blanket, floc weir, and
     plate settlers setup in the sedimentation tank of a typical AguaClara water
     treatment plant. The team expected that the floc blanket reactor would be
-    able to remove fluoride with a significantly higher efficiency than the
-    sand filter from previous semesters and could run for extended periods of
-     time due to the absence of headloss buildup in the reactor. The flocs in
-     the floc blanket could exit the floc weir while the fluoride in the sand
-     filter would build up and saturate the sand in a short amount of time
+    able to remove fluoride efficiently and could run for extended periods of
+     time due to the absence of headloss buildup in the reactor.
       [(Longo et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) [(Cheng et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 
