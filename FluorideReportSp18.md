@@ -432,7 +432,7 @@ $u$, $w$: x-velocity, z-velocity components
 ```python
 import math as m
 import numpy as np
-from aide_design.play import*
+from aguaclara.play import*
 import aide_design.floc_model as fm
 
 Q=.76*(u.milliliter)/(u.second)
