@@ -1,3 +1,3 @@
 #MathCad Conversions
 
-D_reactor = 1 in.
+D_reactor = 1 in..
