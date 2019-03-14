@@ -5,14 +5,15 @@
 **[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
 
 ## Abstract
-The Fluoride Auto subteam seeks to develop a sustainable, inexpensive fluoride removal system for AguaClara plants in India.  Due to gel formation events in the sedimentation tube last semester, the team conducted test runs with red dye to monitor for gel formation.  Since no gel formation was observed, this event was likely a result of a shorter flocculator used by the Fall 2018 team. The Spring 2019 team will continue to develop a model to predict an optimal coagulant dosage given both influent and target effluent fluoride concentrations and research removal techniques for fluoride and arsenic from wastewater.
+
+The Fluoride Auto subteam aims to empirically determine the optimal dosage of Polyaluminum Chloride (PACl) needed to precipitate fluoride ions out of influent water to meet WHO’s drinking water standard for fluoride (1.5 mg/L).  The team fabricated a longer flocculator (L = 46 ft.) and a new sedimentation tube.  Tests were run with PACl and red dye to visually determine that flocs were exiting the sedimentation tube through the floc weir. The team experienced difficulty calibrating the fluoride probe; however, upon acquiring a new probe the team will analyze fluoride removal efficiency using the Langmuir Adsorption model.      
 
 **[In future submissions, speak less about what previous teams did and more about your work. The Abstract is meant to give a brief overview of your semester's research.]**
 
 **[Overall comment: Please remember to write in past tense throughout the manual as it would be someone in the future~ reading your final manual. Refer to Will's Technical Writing Presentation or our team's Grammar Guidelines on [Confluence](https://confluence.cornell.edu/display/AGUACLARA/Grammar+Guidelines+for+Reports).]**
 
-## Introduction 
-Fluoride, in moderation, can provide a variety of healthy benefits. It can prevent tooth decay and, over time, strengthen teeth. An overexposure to fluoride, however, can cause dental fluorosis among other health issues. **[Good introduction to the problem you are addressing!]** In India, 85.0% of drinking water is sourced from groundwater, but this groundwater often displays excess levels of fluoride due to rocks in aquifers that leak large amounts of fluoride into the water. The prevalence of dental fluorosis, an indicator of excessive fluoride concentrations, differs across India, but has been shown to range from 13-91 percent depending on the age group in question and the water source supplying the state or municipality [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf).
+## Introduction
+Fluoride, in moderation, can provide a variety of health benefits. It can prevent tooth decay and, over time, strengthen teeth. However, overexposure to fluoride can cause dental fluorosis among other health issues. **[Good introduction to the problem you are addressing!]** In India- where AguaClara expects to build new water treatment facilities- 85.0% of drinking water is sourced from groundwater, but this groundwater often displays excess levels of fluoride due to rocks in aquifers that leak large amounts of fluoride into the water. The prevalence of dental fluorosis, an indicator of excessive fluoride concentrations, differs across India, but has been shown to range from 13-91 percent depending on the age group in question and the water source supplying the state or municipality [(Arlappa et al., 2013)](http://www.ijrdh.com/files/11.Fluorosis.pdf).
 
 In accordance with AguaClara's mission to create affordable, reliable, and sustainable water treatment solutions, the goal of the subteam is to treat groundwater that contains excessive fluoride concentrations. Teams from previous semesters analyzed the efficiency of fluoride removal by passing a coagulant, polyaluminum chloride (PACl), and a solution of fluoride through a sand filter. However, the sand filter was an inefficient method of removal because of the buildup of headloss from particles deposited in the sand filter that eventually prevented water from flowing through [(Dao et el., 2015)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride). Thus, instead of using a traditional sand filter, the team researched a similar relationship between PACl and fluoride via a floc blanket reactor. Flocs are aggregates of particles that are created through collision and precipitate out into the water. In the floc blanket reactor, flocs of PACl and clay adsorbed the fluoride from the influent water. The flocs then overflowed into a floc weir as the floc blanket grew and the purified water flowed out the top of the reactor. This reactor was modeled after the floc blanket, floc weir, and plate settlers setup in the sedimentation tank of a typical AguaClara water treatment plant. **[Briefly introduce the concepts of a floc blanket, floc weir, and plate settlers. Perhaps including a figure of these components would be helpful in introducing them/making them clear to the reader what they are?]** The team expected that the floc blanket reactor would be able to remove fluoride with a significantly higher efficiency than the sand filter from previous semesters and could run for extended periods of time due to the absence of headloss buildup in the reactor. The flocs in the floc blanket could exit the floc weir while the fluoride in the sand filter would build up and saturate the sand in a short amount of time [(Longo et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride) [(Cheng et al., 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
@@ -55,7 +56,7 @@ Prior to the Spring 2016 semester, the team used a sand filter system that was i
 
 The Spring 2016 team then developed a MathCad file to calculate flow rates of pumps from a given set of parameters including upflow velocity, tubing diameters, and reactor concentrations. The team also created a ProCoDA method file to turn the flow rates into RPMs for the pumps so that the process of changing PACl and fluoride concentrations within the reactor was more user-friendly. Transitioning the MathCad file completely to Python is still underway, but might not be necessary if the gravity-powered setup is successful.
 
-In the Fall 2016 semester, the team fabricated a new bottom insert to prevent the accumulation of flocs that previously clogged the bottom of the reactor. The newly designed geometry incorporated a smooth sloped bottom, as shown in Figure 3, **[Are you missing a figure?]** which allowed for gradual flow expansion and recirculation of flocs that would have settled to the bottom of the reactor with the old bottom geometry. The formation of gels during experiments in Fall 2018 has many potential causes, one of which was thought to be the bottom geometry. **[Don't suddenly start talking about the research of another semester while you're in the middle of discussing a different one! This is very confusing.]** Further research into that is currently underway.
+In the Fall 2016 semester, the team fabricated a new bottom insert to prevent the accumulation of flocs that previously clogged the bottom of the reactor. The newly designed geometry incorporated a smooth sloped bottom, **[Are you missing a figure?]** which allowed for gradual flow expansion and recirculation of flocs that would have settled to the bottom of the reactor with the old bottom geometry. **[Don't suddenly start talking about the research of another semester while you're in the middle of discussing a different one! This is very confusing.]**
 
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm, in the long term the flocs built up and traveled through the tube settler to the turbidimeter, indicating a failure in the reactor. This observation suggested that there was some minimum height that a floc blanket would reach, and the team concluded that a shorter reactor system was not feasible [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
@@ -63,7 +64,7 @@ In the summer of 2017, the fluoride team repeated tests from the previous semest
 
 After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team deemed the adsorption model to be inaccurate and planned to revise it, taking this discrepancy into consideration.
 
-In the Spring 2018 semester, experiments were conducted with a new fluoride probe, which measured the effluent concentrations of fluoride after treatment with different concentrations of PACl. When a new probe was used, the difference in voltage readings between tap and DI water turned out to be negligible; therefore, it was concluded that the discrepancy last semester may have been caused by a probe issue. The results are summarized in the table below. **[Refer to the table as Figure 2 so it's more clear what you're talking about.]**
+In the Spring 2018 semester, experiments were conducted with a new fluoride probe, which measured the effluent concentrations of fluoride after treatment with different concentrations of PACl. When a new probe was used, the difference in voltage readings between tap and DI water turned out to be negligible; therefore, it was concluded that the discrepancy last semester may have been caused by a probe issue. The results are summarized in Figure 2. **[Refer to the table as Figure 2 so it's more clear what you're talking about.]**
 
 <div style = "text-align:center">
 <img
@@ -76,13 +77,13 @@ Figure 2. A summary of the experimental results of final fluoride concentrations
 
 In the summer of 2018, the team ran experiments to measure the effluent concentrations of fluoride for different concentrations of PACl to construct an adsorption model, which could be used to predict the PACl dosage required for a desired effluent fluoride concentration and would generate an adsorption density value for the mass of fluoride adsorbed (W). The WHO standard for fluoride levels is 1.5 $\mathrm{\frac{mg}{L}}$, which is the desired effluent fluoride concentration. Therefore, the model would calculate a range of uptake values that would result in the target effluent concentration. In addition, the model would provide a way to calculate the PACl dosage required to treat an initial fluoride concentration given a range of W values.
 
-The findings of the Summer 2018 team showed that the reactor would clog due to insufficient shear to break down the PACl flocs, which then caused the bed to fluidize. This result indicates that, for an excessive PACl dosage, a second reactor would be necessary to decrease the maximum concentration of PACl needed to run the system. The Fall 2018 **[I think you're missing the word "team" here. Also, I said this already but don't suddenly start talking about another team when you're already discussing one.]** later confirmed this result with the observation of gel systems forming at high PACl concentrations.
+The findings of the Summer 2018 team showed that the reactor would clog due to insufficient shear to break down the PACl flocs, which then caused the bed to fluidize. This result indicates that, for an excessive PACl dosage, a second reactor would be necessary to decrease the maximum concentration of PACl needed to run the system. **[I think you're missing the word "team" here. Also, I said this already but don't suddenly start talking about another team when you're already discussing one.]**
 
 However, the Summer 2018 team found that results were inconclusive. For example, influent concentrations of 10 $\mathrm{\frac{mg}{L}}$ and 5 $\mathrm{\frac{mg}{L}}$ of fluoride resulted in the same fluoride effluent concentration of around 3 $\mathrm{\frac{mg}{L}}$ for 12.5 $\mathrm{\frac{mg}{L}}$ of PACl and around 2 $\mathrm{\frac{mg}{L}}$ for 25 $\mathrm{\frac{mg}{L}}$ PACl. It is unlikely that the same dosage of PACl would result in the same effluent fluoride concentration for fluoride inlet concentrations that differ as substantially as by a factor of 2. Therefore, another more accurate probe should be ordered before any definitive conclusions can be drawn.
 
-The team then began using the probe that had been ordered in May 2018 for experiments that used the isotherm developed by the Spring 2018 team to change the coagulant dosing. The experiments showed that a 6.25 mg/L dosing of coagulant did not create a floc blanket. As a result, the coagulant dosing used in subsequent experiments ranged from 10 mg/L to 50 mg/L with the influent fluoride concentration ranging from 3 mg/L to 20 mg/L. The team also identified that the influent fluoride concentration did not match the ideal concentration set by the flow rate and stock tank concentration. Therefore, the team began to take manual readings of the influent fluoride before it reached the flocculator to compare with the effluent fluoride reading. These manual readings were used for the Langmuir isotherm derivation in the fall **[Capitalize Fall.]** of 2018.
+The team then began using the probe that had been ordered in May 2018 for experiments that used the isotherm developed by the Spring 2018 team to change the coagulant dosing. The experiments showed that a 6.25 mg/L dosing of coagulant did not create a floc blanket. As a result, the coagulant dosing used in subsequent experiments ranged from 10 mg/L to 50 mg/L with the influent fluoride concentration ranging from 3 mg/L to 20 mg/L. The team also identified that the influent fluoride concentration did not match the ideal concentration set by the flow rate and stock tank concentration. Therefore, the team began to take manual readings of the influent fluoride before it reached the flocculator to compare with the effluent fluoride reading. These manual readings were used for the Langmuir isotherm derivation in the Fall **[Capitalize Fall.]** of 2018.
 
-The Fall 2018 team created a longer reactor due to a low upflow velocity, in accordance with the findings of the Fall 2016 team discussed previously regarding reactor length. The main goal of this past semester was to analyze the Fall 2017 and Summer 2018 Langmuir isotherm that modeled the adsorption of fluoride to PACl. The team used the experimental data from the two previous teams to graph a nonlinear regression to compare the experimental results to the theoretical Langmuir isotherm. The analysis showed that the data closely fit the adsorption model, especially at low concentrations of fluoride. The team also calculated a coefficient of determination of 0.82, indicating that a high percentage of variability in the uptake occurs because of the variability in concentration. While more data is still necessary to confirm the Langmuir isotherm, the team concluded that the model so far is sufficient to predict required PACl concentrations based on fluoride concentrations.
+The Fall 2018 team created a longer reactor due to a low upflow velocity, in accordance with the findings of the Fall 2016 team discussed previously regarding reactor length. The main goal of this past semester was to analyze the Fall 2017 and Summer 2018 Langmuir isotherm that modeled the adsorption of fluoride to PACl. The team used the experimental data from the two previous teams to graph a nonlinear regression to compare the experimental results to the theoretical Langmuir isotherm, shown below in Figure 3. The analysis demonstrated that the data closely fit the adsorption model, especially at low concentrations of fluoride. The team also calculated a coefficient of determination of 0.82, indicating that a high percentage of variability in the uptake occurs because of the variability in concentration. While more data is still necessary to confirm the Langmuir isotherm, the team concluded that the model so far is sufficient to predict required PACl concentrations based on fluoride concentrations.
 
 <div style = "text-align:center">
 <img
@@ -95,7 +96,7 @@ Figure 3. The experimental data from Fall 2017 and Summer 2018 plotted against t
 
 **[Refer to your figure in your writing so when skimming your paper, it is obvious to the reader which figures go with what information in your report.]**
 
-The Fall 2018 team then implemented a new bottom geometry into the reactor system to reduce variability. This new bottom geometry was designed with the intent of guiding flocs to flow parallel to each other and prevent them from colliding and accumulating. However, when the new design was implemented, the formation of a super saturated solution and **[insert commas here before and after "subsequently" otherwise the first part of your sentence reads as a fragment]** subsequently gel occurred. The first experiment in which gel appeared in the reactor was with a concentration of 40 mg/L PACl and 10 mg/L fluoride. The team hypothesized that either the concentration of PACl was too high or the ratio of fluoride to PACl was too high. Previous experiments were run with up to 50 mg/L PACl concentration without gel formation. Additionally, an aluminum fluoride complex may have formed and repelled other aluminum particles within the solution. While past teams have conducted experiments at higher fluoride concentrations, few experiments were conducted at concentrations of 10 mg/L or higher. The second theory is consistent with this semester's experiments in that the inclusion of the bottom geometry increases gel formation.
+The Fall 2018 team then implemented a new bottom geometry into the reactor system to reduce variability. This new bottom geometry was designed with the intent of guiding flocs to flow parallel to each other and prevent them from colliding and accumulating. However, when the new design was implemented, the formation of a super saturated solution and, **[insert commas here before and after "subsequently" otherwise the first part of your sentence reads as a fragment]** subsequently, gel occurred. The first experiment in which gel appeared in the reactor was with a concentration of 40 mg/L PACl and 10 mg/L fluoride. The team hypothesized that either the concentration of PACl was too high or the ratio of fluoride to PACl was too high. Previous experiments were run with up to 50 mg/L PACl concentration without gel formation. Additionally, an aluminum fluoride complex may have formed and repelled other aluminum particles within the solution. While past teams have conducted experiments at higher fluoride concentrations, few experiments were conducted at concentrations of 10 mg/L or higher. The second theory is consistent with this semester's experiments in that the inclusion of the bottom geometry increases gel formation.
 
 In order to more clearly observe the gel formation, the team injected red dye into the sedimentation tube with the PACl. Using this method, the team concluded that gel first formed in the floc hopper and accumulated until it reached the top of the reactor because of the flow of dye throughout the reactor. The gel only dissociated within the reactor with an upflow velocity of 8 mm/s. The gel within the floc weir was more difficult to remove because it was controlled by a single speed pump.
 
@@ -112,52 +113,75 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 
 ### Experimental Apparatus
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
-* Design (calculations, constraints)
 
-  $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
-* Schematic (label parts)
+#### Schematic
 
-  <img src="https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/IMG_0009.jpg?raw=true" height=250 width=200>
+  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20auto%20apparatus%20spring%2019.jpg?raw=true" >
+Figure x: A schematic drawing of the bench setup for the Fluoride Auto Subteam
 
-* Image (from lab; label parts)
+  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20desk%20apparatus.jpg?raw=true">
+Figure x: Current bench setup for the Fluoride Auto Subteam
+
+#### Process Flow Through Reactor
+1. Fluoride was pumped from the stock tank and mixed with tap water.
+2. PACl was pumped from the PACl stock tank and mixed with the diluted fluoride stream
+3. Mixture was sent to the flocculator to make flocs.
+4. The PACl-fluoride mixture flowed into the reactor.
+5. Flocs settled out through the floc weir.
+6. Effluent stream flowed out the top of the reactor. The turbidimeter measured the stream turbidity.
+7. Fluoride probe was immersed in effluent reactor stream to measure the effluent fluoride concentration.
+8. The effluent stream flowed into the sink
+9. The floc weir effluent was pumped to the waste line by a waste pump
+
+#### Materials
+- One 600 RPM pumps, two 100 RPM pumps, and one 1 RPM pump
+- Transparent 2.54 cm (1") PVC piping
+- Flexible and hard 0.635 cm (1/4") tubing and Microbore tubing
+- Turbidimeter
+- 1,000 ppm Polyaluminum Chloride (PACl) stock solution
+- 1,000 ppm Fluoride stock Solution
+- Connectors and buckets for stock tanks
+- Two stir plates with stir bars for the stock solutions
+
 * Materials (dimensions, materials)
 * Complications in construction
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
+#### Apparatus Changes
+This section details the changes made in the Spring 2019 apparatus from previous subteam apparatuses. These changes are detailed in the manual section below.
+- Flocculator: The flocculator was lengthened to account for the desired amount of headloss.
+
 ### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
+The team used ProCoDA to run the experiments and collect fluoride probe and turbidimeter data. Refer to the manual for more information on the Fluoride Auto ProCoDA method file.
+
+
+#### Creating the Fluoride Calibration Curve
+Before running an experiment, a standard curve was made for the fluoride probe. The team first prepared stock solutions of known fluoride concentrations (1 $\frac{mg}{L}$, 5 $\frac{mg}{L}$, and 10 $\frac{mg}{L}$). Then, through ProCoDA, the voltages of each solution was measured using the fluoride probe. These values are put into an excel spreadsheet to create a standard curve as shown in Figure #. This allowed the team to determine the fluoride concentration in the water exiting the sedimentation tube. Refer to the manual for more detailed information on calibrating the probe.
+
+ADD FIG OF STANDARD CURVE
+
+#### Running an Experiment
+Before running the pumps, the valves for the influent and effluent water lines were opened. In ProCoDA, the state was manually changed to "Just Water," which allowed the sedimentation tube to fill up. This process took about five minutes, during which the team plugged in the 1 RPM waste pump and secured the probe in the BOTTLE (see Figure #). After the sedimentation tube filled up completely, the state was switched to "Run Experiment," which started the PACl pump. Because ProCoDA can only control two pumps at once, the fluoride pump was turned on manually. Due to the nature of the team's experiments, the flow rates for the PACl and fluoride pumps varied depending on what concentrations the team were analyzing. See Tables # and # for the range of pump speeds used.
+
+ADD IN TABLES
+
+The experiments were run for two hours after which the state was switched back to "Just Water" to clear out the sedimentation tube. The team then turned off all the pumps and closed the influent and effluent water valves, concluding the experiment.
 
 ## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
-
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
-```
-![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
-Figure 1: Captions are very important for figures. Captions go below figures.
-
-After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
-* Why did you get those results/data?
-* Did these results line up with expectations?
-* What went wrong?
-* If the data do not support your hypothesis, is there another hypothesis that describes your new data?
+The team has not yet run an experiment, and thus dos not have results or analysis at this point.
 
 ## Conclusions
-Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
-
-Make sure that you defend your conclusions with facts and results.
+The team has concluded that the new sedimentation tube design is capable at removing flocs from the sedimentation tube. However, further experimentation must be conducted to determine its efficiency.
 
 ## Future Work
+The team's immediate plan will be to order a new fluoride probe. The team will then replicate and analyze the fluoride experiment that was first run during the Fall 2017 and Summer 2018 semesters in order to verify data from the previous teams. The new data will be plotted against the theoretical Langmuir isotherm to determine whether the model can be reliably used to optimize PACl concentrations for desired effluent fluoride concentrations.
+
+Additionally, during several of the experiments, the team observed that the bottom geometry of the sedimentation tube far enough down the tube that the bottom of the floc blanket could not be seen. Thus, once the team receives the new bottom geometry that is currently being designed, the new bottom will be implemented in a raised position in order to make it possible to see the initial formation of the floc blanket.
+
+The team will eventually design and test a horizontal reactor in which influent water will enter through one end of the sedimentation tube and the flocs will exit through a vertical floc weir in the middle of the reactor.
+
+Finally, the team will also research methods of treating and disposing of the fluoride and arsenic waste that will exit the floc weir.
+
 Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
 ## Bibliography
@@ -224,13 +248,16 @@ Zonoozi, M. H., Moghaddam, M. A., and Arami, M. (2009). Coagulation/flocculation
 solutions using polyaluminium chloride and alum. water science and technology, 59(7):1343–1351.
 
 # Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
+This manual povides information on fabricating key components of the team's experimental apparatus along with more detailed information on running an experiment. 
 
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+### Flocculator
 
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+### Sedimentation tube
+
+## Fluoride Probe Calibration
+
 
 ## Experimental Methods
 ### Set-up
@@ -280,8 +307,7 @@ $u$, $w$: x-velocity, z-velocity components
 # Comment
 ```
 
-# Add/Delete/Change this Template as you see Fit
-When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
+
 
 ```python
 # To convert the document from markdown to pdf
