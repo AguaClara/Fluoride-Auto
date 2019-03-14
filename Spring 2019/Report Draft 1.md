@@ -6,7 +6,7 @@
 
 ## Abstract
 
-The Fluoride Auto subteam aims to empirically determine the optimal dosage of Polyaluminum Chloride (PACl) needed to precipitate fluoride ions out of influent water to meet WHO’s drinking water standard for fluoride (1.5 mg/L).  The team fabricated a longer flocculator (L = 46 ft.) and a new sedimentation tube.  Tests were run with PACl and red dye to visually determine that flocs were exiting the sedimentation tube through the floc weir. The team experienced difficulty calibrating the fluoride probe; however, upon acquiring a new probe the team will analyze fluoride removal efficiency using the Langmuir Adsorption model.      
+The Fluoride Auto subteam aims to empirically determiane the optimal dosage of Polyaluminum Chloride (PACl) needed to precipitate fluoride ions out of influent water to meet WHO’s drinking water standard for fluoride (1.5 mg/L).  The team fabricated a longer flocculator (L = 46 ft.) and a new sedimentation tube.  Tests were run with PACl and red dye to visually determine that flocs were exiting the sedimentation tube through the floc weir. The team experienced difficulty calibrating the fluoride probe; however, upon acquiring a new probe the team will analyze fluoride removal efficiency using the Langmuir Adsorption model.      
 
 **[In future submissions, speak less about what previous teams did and more about your work. The Abstract is meant to give a brief overview of your semester's research.]**
 
@@ -248,7 +248,7 @@ Zonoozi, M. H., Moghaddam, M. A., and Arami, M. (2009). Coagulation/flocculation
 solutions using polyaluminium chloride and alum. water science and technology, 59(7):1343–1351.
 
 # Manual
-This manual povides information on fabricating key components of the team's experimental apparatus along with more detailed information on running an experiment. 
+This manual povides information on fabricating key components of the team's experimental apparatus along with more detailed information on running an experiment.
 
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
