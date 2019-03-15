@@ -176,7 +176,7 @@ The team has concluded that the new sedimentation tube design is capable at remo
 ## Future Work
 The team's immediate plan will be to order a new fluoride probe. The team will then replicate and analyze the fluoride experiment that was first run during the Fall 2017 and Summer 2018 semesters in order to verify data from the previous teams. The new data will be plotted against the theoretical Langmuir isotherm to determine whether the model can be reliably used to optimize PACl concentrations for desired effluent fluoride concentrations.
 
-Additionally, during several of the experiments, the team observed that the bottom geometry of the sedimentation tube far enough down the tube that the bottom of the floc blanket could not be seen. Thus, once the team receives the new bottom geometry that is currently being designed, the new bottom will be implemented in a raised position in order to make it possible to see the initial formation of the floc blanket.
+Additionally, during several of the experiments, the team observed that the bottom geometry of the sedimentation tube was too far down within the tube and obscured the bottom of the floc blanket. Thus, once the team receives the new bottom geometry that is currently being designed, the new bottom will be implemented in a raised position in order to make it possible to see the initial formation of the floc blanket.
 
 The team will eventually design and test a horizontal reactor in which influent water will enter through one end of the sedimentation tube and the flocs will exit through a vertical floc weir in the middle of the reactor.
 
@@ -251,13 +251,11 @@ solutions using polyaluminium chloride and alum. water science and technology, 5
 This manual provides information on fabricating key components of the team's experimental apparatus along with more detailed information on running an experiment.
 
 ## Fabrication Details
-
-
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 ### Flocculator
 
 ### Sedimentation tube
-The team created a new reactor that reverts to a design used by teams several years ago [find the years and mention them], which has a floc weir protruding from the sedimentation tube below the bend rather than above it. The goal of using this design was to minimize gel formation, which was seen around the bend and mouth of the floc weir in the Fall 2018 semester, and to more closely mimic the actual AguaClara plants in the field. The PVC was heated proximate to the bend point in order to create as smooth of a bend as possible; the floc weir was subsequently welded to the side of the reactor.
+The team created a new reactor that reverts to a design used by the Fall 2016 through Fall 2017 teams, which has a floc weir protruding from the sedimentation tube below the bend rather than above it. The goal of using this design was to minimize gel formation, which was seen around the bend and mouth of the floc weir in the Fall 2018 semester, and to more closely mimic the actual AguaClara plants in the field. The PVC was heated proximate to the bend point in order to create as smooth of a bend as possible; the floc weir was subsequently welded to the side of the reactor.
 
 <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/IMG_1013.JPG?raw=true">
 Image x: The team's current reactor.
