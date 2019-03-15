@@ -248,13 +248,19 @@ Zonoozi, M. H., Moghaddam, M. A., and Arami, M. (2009). Coagulation/flocculation
 solutions using polyaluminium chloride and alum. water science and technology, 59(7):1343–1351.
 
 # Manual
-This manual povides information on fabricating key components of the team's experimental apparatus along with more detailed information on running an experiment.
+This manual provides information on fabricating key components of the team's experimental apparatus along with more detailed information on running an experiment.
 
 ## Fabrication Details
+
+
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 ### Flocculator
 
 ### Sedimentation tube
+The team created a new reactor that reverts to a design used by teams several years ago [find the years and mention them], which has a floc weir protruding from the sedimentation tube below the bend rather than above it. The goal of using this design was to minimize gel formation, which was seen around the bend and mouth of the floc weir in the Fall 2018 semester, and to more closely mimic the actual AguaClara plants in the field. The PVC was heated proximate to the bend point in order to create as smooth of a bend as possible; the floc weir was subsequently welded to the side of the reactor.
+
+<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/IMG_1013.JPG?raw=true">
+Image x: The team's current reactor.
 
 ## Fluoride Probe Calibration
 
