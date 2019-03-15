@@ -29,7 +29,7 @@ Although small quantities of fluoride in drinking water can be beneficial to hum
 #### *Polyaluminum Chloride (PACl) and Fluoride Removal*
 AguaClara water treatment consists of a series of coagulation, flocculation, and clarification. During coagulation, raw water is mixed with a positively charged coagulant (typically an aluminum salt or iron salt), altering or destabilizing any negatively charged particles or dissolved and colloidal contaminants [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). The destabilized particles then proceed through flocculation, where additional mixing increases the rate of particle collision, forming larger precipitates. Following the formation of flocs, clarification removes the agglomerated particles through sedimentation or other removal processes [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do).
 
-Recently, polymerized forms of aluminum salts have begun to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Polyaluminum chloride (PACl), a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to those of aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Using PACl instead of alum leads to a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). PACl is also less sensitive to temperature changes in its hydrolyzed state and has a broader range of raw water pH in which it is an effective coagulant [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do) [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465).  For the removal of fluoride, specifically, PACl has been found to be the most effective with pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). For fluoride removal, PACl appears to be the optimal coagulant [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). **[Awkward wording for the last sentence? This paragraph just reads like you are spitting out facts. To wrap it up, maybe you could say "Therefore, PACl appears to be the optimal coagulant for fluoride removal."]**
+Recently, polymerized forms of aluminum salts have begun to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Polyaluminum chloride (PACl), a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to those of aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true).Using PACl instead of alum leads to a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). PACl is also less sensitive to temperature changes in its hydrolyzed state and has a broader range of raw water pH in which it is an effective coagulant [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do) [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465). In particular, for the removal of fluoride, PACl has been found to be the most effective for pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Taking these factors into consideration, PACl appears to be the optimal coagulant for fluoride removal [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). **[Awkward wording for the last sentence? This paragraph just reads like you are spitting out facts. To wrap it up, maybe you could say "Therefore, PACl appears to be the optimal coagulant for fluoride removal."]**
 
 Current fluoride removal processes need improvement. The Nalgonda technique is a common fluoride removal method that involves a combination of rapid mixing, flocculation, sedimentation, filtration and disinfection [(Kumbhar and Salkar, 2014)](http://www.ijetae.com/files/Volume4Issue10/IJETAE_1014_22.pdf). Unlike AguaClara treatment, which is a continuous flow process, the Nalgonda technique is a "batch filtration" method, where large quantities of water are treated in buckets. A series of treatments to obtain safe, treated water for extended periods of time, so currently the Nalgonda technique is largely used as a household treatment method. It has been introduced to various Indian villages, including those in Nalgonda and in the state of Telangana. It is also currently being studied at the pilot scale in Kenya, Senegal and Tanzania [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf).  In addition to the restrictions implied by batch treatment, the Nalgonda method requires a high dosage of aluminum sulfate to aggregate with fluoride and precipitate. A study conducted by [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf) suggests that 13 $\mathrm{\frac{g}{L}}$ alum (1.2 $\mathrm{\frac{g}{L}}$ as Al) is needed for the Nalgonda method to effectively treat fluoride levels between 9 and 13 $\mathrm{\frac{mg}{L}}$. Despite the high concentrations of coagulant, the fluoride residual in the test was still unable to meet the WHO safety guidelines of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride. The high dose of aluminum sulfate also leaves high sulfate residuals in the water, which causes taste and odor issues [(Bailey and Fawell, 2004)](http://apps.who.int/iris/handle/10665/43514). In regards to other filtration methods, a study by Inganiella achieved 33.3% removal of fluoride using a combination of a gravel pre-filter and a sand rapid filter to capture granules of fluoride, PACl, NaClO and $SO_4H_2$ [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Though this clearly is not effective enough to obtain safe drinking water.
 #### *Floc Blankets*
@@ -115,12 +115,16 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
 
 #### Schematic
-
+<div style = "text-align:center">
   <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20auto%20apparatus%20spring%2019.jpg?raw=true" >
-Figure x: A schematic drawing of the bench setup for the Fluoride Auto Subteam
+Figure 4: A schematic drawing of the bench setup for the Fluoride Auto Subteam
+
+
 
   <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20desk%20apparatus.jpg?raw=true">
-Figure x: Current bench setup for the Fluoride Auto Subteam
+Figure 5: Current bench setup for the Fluoride Auto Subteam
+
+<div style = "text-align:left">
 
 #### Process Flow Through Reactor
 1. Fluoride was pumped from the stock tank and mixed with tap water.
@@ -143,13 +147,11 @@ Figure x: Current bench setup for the Fluoride Auto Subteam
 - Connectors and buckets for stock tanks
 - Two stir plates with stir bars for the stock solutions
 
-* Materials (dimensions, materials)
-* Complications in construction
-* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
-
 #### Apparatus Changes
-This section details the changes made in the Spring 2019 apparatus from previous subteam apparatuses. These changes are detailed in the manual section below.
+The Spring 2019 Team made various changes to the apparatus from previous semester's teams. The fabrication details are outlined in the Manual section of this report.
 - Flocculator: The flocculator was lengthened to account for the desired amount of headloss.
+- Fluoride Reactor: The shape of the reactor tube was reevaluated from what was used in previous semesters. The floc weir was moved from being on the right side of the tube and above the bend to being on the left side of the tube and below the bend. The goal was to better model the reactor after sedimentation tanks in actual AguaClara plants. Additionally, the Fall 2018 Team faced the issue of gel formation over the entrance to the floc weir. The root cause of gel formation was unknown, but the Spring 2019 Team hoped to improve the issue by moving the floc weir lower down the tube to let the floc blanket overflow out of the reactor before gel formation could occur.
+
 
 ### Procedure
 The team used ProCoDA to run the experiments and collect fluoride probe and turbidimeter data. Refer to the manual for more information on the Fluoride Auto ProCoDA method file.
