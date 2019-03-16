@@ -67,6 +67,7 @@ In the Fall 2016 semester, the team fabricated a new bottom geometry insert (see
 
 <div style = "text-align:center">
 <img src ="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Bottom%20geometry.png?raw=true">
+
 Figure 3: The newly designed bottom geometry Insert
 <div style = "text-align:left">
 
