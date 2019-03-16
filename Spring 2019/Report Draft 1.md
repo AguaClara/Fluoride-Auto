@@ -1,6 +1,6 @@
 # Fluoride Automated System, Spring 2019
 #### Dominic Grasso, Melissa Louie, Desiree Sausele, Emily Spiek
-#### February 22, 2019
+#### March 15, 2019
 
 **[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
 
@@ -31,9 +31,10 @@ Although small quantities of fluoride in drinking water can be beneficial to hum
 #### *Polyaluminum Chloride (PACl) and Fluoride Removal*
 AguaClara water treatment consists of a series of coagulation, flocculation, and clarification. During coagulation, raw water is mixed with a positively charged coagulant (typically an aluminum salt or iron salt), altering or destabilizing any negatively charged particles or dissolved and colloidal contaminants [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). The destabilized particles then proceed through flocculation, where additional mixing increases the rate of particle collision, forming larger precipitates. Following the formation of flocs, clarification removes the agglomerated particles through sedimentation or other removal processes [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do).
 
-Recently, polymerized forms of aluminum salts have begun to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Polyaluminum chloride (PACl), a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to those of aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Using PACl instead of alum leads to a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). PACl is also less sensitive to temperature changes in its hydrolyzed state and has a broader range of raw water pH in which it is an effective coagulant [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do) [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465).  For the removal of fluoride, specifically, PACl has been found to be the most effective with pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). For fluoride removal, PACl appears to be the optimal coagulant [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). **[Awkward wording for the last sentence? This paragraph just reads like you are spitting out facts. To wrap it up, maybe you could say "Therefore, PACl appears to be the optimal coagulant for fluoride removal."]**
+Recently, polymerized forms of aluminum salts have begun to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true).Polyaluminum chloride (PACl), a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to those of aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true).Using PACl instead of alum leads to a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). PACl is also less sensitive to temperature changes in its hydrolyzed state and has a broader range of raw water pH in which it is an effective coagulant [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do) [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465). In particular, for the removal of fluoride, PACl has been found to be the most effective for pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Taking these factors into consideration, PACl appears to be the optimal coagulant for fluoride removal [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000). **[Awkward wording for the last sentence? This paragraph just reads like you are spitting out facts. To wrap it up, maybe you could say "Therefore, PACl appears to be the optimal coagulant for fluoride removal."]**
 
-Current fluoride removal processes need improvement. The Nalgonda technique is a common fluoride removal method that involves a combination of rapid mixing, flocculation, sedimentation, filtration and disinfection [(Kumbhar and Salkar, 2014)](http://www.ijetae.com/files/Volume4Issue10/IJETAE_1014_22.pdf). Unlike AguaClara treatment, which is a continuous flow process, the Nalgonda technique is a "batch filtration" method, where large quantities of water are treated in buckets. A series of treatments to obtain safe, treated water for extended periods of time, so currently the Nalgonda technique is largely used as a household treatment method. It has been introduced to various Indian villages, including those in Nalgonda and in the state of Telangana. It is also currently being studied at the pilot scale in Kenya, Senegal and Tanzania [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf).  In addition to the restrictions implied by batch treatment, the Nalgonda method requires a high dosage of aluminum sulfate to aggregate with fluoride and precipitate. A study conducted by [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf) suggests that 13 $\mathrm{\frac{g}{L}}$ alum (1.2 $\mathrm{\frac{g}{L}}$ as Al) is needed for the Nalgonda method to effectively treat fluoride levels between 9 and 13 $\mathrm{\frac{mg}{L}}$. Despite the high concentrations of coagulant, the fluoride residual in the test was still unable to meet the WHO safety guidelines of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride. The high dose of aluminum sulfate also leaves high sulfate residuals in the water, which causes taste and odor issues [(Bailey and Fawell, 2004)](http://apps.who.int/iris/handle/10665/43514). In regards to other filtration methods, a study by Inganiella achieved 33.3% removal of fluoride using a combination of a gravel pre-filter and a sand rapid filter to capture granules of fluoride, PACl, NaClO and $SO_4H_2$ [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Though this clearly is not effective enough to obtain safe drinking water.
+Current fluoride removal processes need improvement.The Nalgonda technique is a common fluoride removal method that involves a combination of rapid mixing, flocculation, sedimentation, filtration and disinfection [(Kumbhar and Salkar, 2014)](http://www.ijetae.com/files/Volume4Issue10/IJETAE_1014_22.pdf). Unlike AguaClara treatment, which is a continuous flow process, the Nalgonda technique is a "batch filtration" method, where large quantities of water are treated in buckets. Obtaining safe and treated water for extended periods of time thus requires a series of treatments, so currently the Nalgonda technique is largely used as a household treatment method. It has been introduced to various Indian villages, including those in Nalgonda and in the state of Telangana. It is also currently being studied at the pilot scale in Kenya, Senegal and Tanzania [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf).  In addition to the restrictions implied by batch treatment, the Nalgonda method requires a high dosage of aluminum sulfate to aggregate with fluoride and precipitate. A study conducted by [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf) suggests that 13 $\mathrm{\frac{g}{L}}$ alum (1.2 $\mathrm{\frac{g}{L}}$ as Al) is needed for the Nalgonda method to effectively treat fluoride levels between 9 and 13 $\mathrm{\frac{mg}{L}}$. Despite the high concentrations of coagulant, the fluoride residual in the test was still unable to meet the WHO safety guidelines of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride. The high dose of aluminum sulfate also leaves high sulfate residuals in the water, which causes taste and odor issues [(Bailey and Fawell, 2004)](http://apps.who.int/iris/handle/10665/43514). In regards to other filtration methods, a study by Inganiella achieved 33.3% removal of fluoride using a combination of a gravel pre-filter and a sand rapid filter to capture granules of fluoride, PACl, NaClO and $SO_4H_2$ [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Clearly, this method is not effective enough to produce safe drinking water.
+
 #### *Floc Blankets*
 Floc blankets develop when vertical flow sedimentation tanks form a fluidized bed of particles. An example is shown in the figure below. A floc blanket then facilitates particle removal by “increasing particle-particle interactions that lead to flocculation and filtration occurring in the floc blanket” [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
 
@@ -90,7 +91,7 @@ The Fall 2018 team created a longer reactor due to a low upflow velocity, in acc
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/raw/master/langmuir.PNG?raw=true" height=200 width=220>
+src="https://github.com/AguaClara/Fluoride-Auto/raw/master/langmuir.PNG?raw=true" >
 
 Figure 3. The experimental data from Fall 2017 and Summer 2018 plotted against the theoretical Langmuir isotherm.
 
@@ -109,20 +110,19 @@ The team continued to run tests at low concentration of PACl, or a maximum of 20
 **[Great work overall! You are so thorough in each of the sections you worked on. Sometimes you get lost in your own work though forget to define terms, which is an easy fix! Please address my and Tigran's comments for the next report and you should be good to go!]**
 
 ## Methods
-Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
-
-Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
-
 ### Experimental Apparatus
-Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
 
 #### Schematic
-
+<div style = "text-align:center">
   <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20auto%20apparatus%20spring%2019.jpg?raw=true" >
-Figure x: A schematic drawing of the bench setup for the Fluoride Auto Subteam
+Figure 4: A schematic drawing of the bench setup for the Fluoride Auto Subteam
+
+
 
   <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20desk%20apparatus.jpg?raw=true">
-Figure x: Current bench setup for the Fluoride Auto Subteam
+Figure 5: Current bench setup for the Fluoride Auto Subteam
+
+<div style = "text-align:left">
 
 #### Process Flow Through Reactor
 1. Fluoride was pumped from the stock tank and mixed with tap water.
@@ -145,27 +145,30 @@ Figure x: Current bench setup for the Fluoride Auto Subteam
 - Connectors and buckets for stock tanks
 - Two stir plates with stir bars for the stock solutions
 
-* Materials (dimensions, materials)
-* Complications in construction
-* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
-
 #### Apparatus Changes
-This section details the changes made in the Spring 2019 apparatus from previous subteam apparatuses. These changes are detailed in the manual section below.
+The Spring 2019 Team made various changes to the apparatus from previous semester's teams. The fabrication details are outlined in the Manual section of this report.
 - Flocculator: The flocculator was lengthened to account for the desired amount of headloss.
+- Fluoride Reactor: The shape of the reactor tube was reevaluated from what was used in previous semesters. The floc weir was moved from being on the right side of the tube and above the bend to being on the left side of the tube and below the bend. The goal was to better model the reactor after sedimentation tanks in actual AguaClara plants. Additionally, the Fall 2018 Team faced the issue of gel formation over the entrance to the floc weir. The root cause of gel formation was unknown, but the Spring 2019 Team hoped to improve the issue by moving the floc weir lower down the tube to let the floc blanket overflow out of the reactor before gel formation could occur.
+
 
 ### Procedure
 The team used ProCoDA to run the experiments and collect fluoride probe and turbidimeter data. Refer to the manual for more information on the Fluoride Auto ProCoDA method file.
 
 
 #### Creating the Fluoride Calibration Curve
-Before running an experiment, a standard curve was made for the fluoride probe. The team first prepared stock solutions of known fluoride concentrations (1 $\frac{mg}{L}$, 5 $\frac{mg}{L}$, and 10 $\frac{mg}{L}$). Then, through ProCoDA, the voltages of each solution was measured using the fluoride probe. These values are put into an excel spreadsheet to create a standard curve as shown in Figure #. This allowed the team to determine the fluoride concentration in the water exiting the sedimentation tube. Refer to the manual for more detailed information on calibrating the probe.
+Before running an experiment, a standard curve was made for the fluoride probe. The team first prepared stock solutions of known fluoride concentrations (1 $\frac{mg}{L}$, 5 $\frac{mg}{L}$, and 10 $\frac{mg}{L}$). Then, through ProCoDA, the voltages of each solution was measured using the fluoride probe. These values are put into an excel spreadsheet to create a standard curve as shown in Figure 6. This allowed the team to determine the fluoride concentration in the water exiting the sedimentation tube.
 
-ADD FIG OF STANDARD CURVE
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/std_curve.PNG?raw=true" >
+
+Figure 1: Excel sheet used to calibrate the probe and create a standard curve
+
+</div>
 
 #### Running an Experiment
-Before running the pumps, the valves for the influent and effluent water lines were opened. In ProCoDA, the state was manually changed to "Just Water," which allowed the sedimentation tube to fill up. This process took about five minutes, during which the team plugged in the 1 RPM waste pump and secured the probe in the BOTTLE (see Figure #). After the sedimentation tube filled up completely, the state was switched to "Run Experiment," which started the PACl pump. Because ProCoDA can only control two pumps at once, the fluoride pump was turned on manually. Due to the nature of the team's experiments, the flow rates for the PACl and fluoride pumps varied depending on what concentrations the team were analyzing. See Tables # and # for the range of pump speeds used.
-
-ADD IN TABLES
+Before running the pumps, the valves for the influent and effluent water lines were opened. In ProCoDA, the state was manually changed to "Just Water," which allowed the sedimentation tube to fill up. This process took about five minutes, during which the team plugged in the 1 RPM waste pump and secured the probe in the BOTTLE (see Figure #). After the sedimentation tube filled up completely, the state was switched to "Run Experiment," which started the PACl pump. Because ProCoDA can only control two pumps at once, the fluoride pump was turned on manually. Due to the nature of the team's experiments, the flow rates for the PACl and fluoride pumps varied depending on what concentrations the team were analyzing.
 
 The experiments were run for two hours after which the state was switched back to "Just Water" to clear out the sedimentation tube. The team then turned off all the pumps and closed the influent and effluent water valves, concluding the experiment.
 
@@ -256,67 +259,126 @@ This manual provides information on fabricating key components of the team's exp
 
 ## Fabrication Details
 
-<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/IMG_1013.JPG?raw=true">
-Figure x: The team's current reactor.
-
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 ### Flocculator
 
 ### Sedimentation tube
 The team created a new reactor that reverts to a design used by the Fall 2016 through Fall 2017 teams, which has a floc weir protruding from the sedimentation tube below the bend rather than above it. The goal of using this design was to minimize gel formation, which was seen around the bend and mouth of the floc weir in the Fall 2018 semester, and to more closely mimic the actual AguaClara plants in the field. The PVC was heated proximate to the bend point in order to create as smooth of a bend as possible; the floc weir was subsequently welded to the side of the reactor.
 
 <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/IMG_1013.JPG?raw=true">
-Image x: The team's current reactor.
-
-## Fluoride Probe Calibration
+Image 7: The team's current reactor.
 
 
 ## Experimental Methods
-### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
+#### Protocol for Running Just Water Through the Reactors
 
-### Experiment
-Step 1.
+1. Open tap water valve and close the fluoride valve as to not pump fluoride into the system during backwash
+2. Close the waste line
+3. Turn on Just Water process in ProCoDA and fill system completely with water.
+4. Make sure the sample bottle with the fluoride probe does not overflow from the high flow rate of the water
+5. Continue to run water until turbidimeter reads less than 0.5 NTU and fluoride concentration is less than 0.5 $\mathrm{\frac{mg}{L}}$.
+6. Record the initial voltage reading to make sure the initial concentration of fluoride in the sample bottle is about 0 $\mathrm{\frac{mg}{L}}$
 
-### Cleaning Procedure
-Step 1.
+#### Protocol for Start Up and Running of Reactors
+1. Fill stock tanks with appropriate concentration of PACl, fluoride, and clay and make sure to have enough stock to run for 24
+hours
+2. Calculate the flow rates of the PACl and fluoride pumps from the MathCAD file and run the pumps at the appropriate RPM using ProCoDA
+3. Run the waste pump at the appropriate RPM as calculated from ProCoDA.
+4. Calibrate the fluoride probes and record the initial concentration of fluoride in the sample bottle
+5. Empty the bucket at the bottom and make sure it doesn't overflow through the length of the test
 
-## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
+#### Experimental Checklist:
+##### Before starting test
+1. Waste line is open (System will explode if this is not open)
+2. No leaks anywhere in system
+3. Pumps are all turned on and running at the correct RPM (Check ProCoDA)
+4. Pumps are all pumping water in the correct direction (in the direction of the flocculator and reactor)
+5. The fluoride pump line is closed and fluoride valve is open after running just water through the system
+6. Write a text file in ProCoDA saying "Start Test" with appropriate descriptors including fluoride concentration, PACl concentration, upflow velocity,etc. and then change the process to the ON state.
+##### During test
+7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
+##### End of test
+8. Change the process to the OFF state.
+9. Clean the reactor using the "Cleaning  Procedure" after the experiment is completed.
+
+#### Cleaning Procedure
+1. Put a piece of sponge in the tube between the flocculator and PACl insert.
+2. Run a high velocity jet through the tube to purge the flocculator of excess clay buildup.
+3. Drain both reactors through the valves at the bottom of the reactors.
+4. Flush water through both reactors until no clay remains in the system.
+5. If there is not a noticeable amount of buildup, (a) and (b) can be skipped.
+
+#### Fluoride Probe Calibration Procedure
+1. Make the stock calibration concentrations of 1 $\mathrm{\frac{mg}{L}}$, 5 $\mathrm{\frac{mg}{L}}$, and 10 $\mathrm{\frac{mg}{L}}$ in small bottles. Individually pipette fluoride stocks into all four bottles, do not use serial dilutions.
+2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
+3. Insert the probe into one of the calibration solutions.
+4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
+5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again).
+6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
+7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
+8. If R squared value is not 0.99, rinse let settle in TSIAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 
 ## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
 
-### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
+ProCoDA is a process control system that was developed by Monroe Weber-Shirk in order to set process parameters through a computerized system. It can be adjusted to different system states that control the system pumps depending on what flow rates are desired. Additionally, ProCoDA collects the data from probes, allowing for compilation of dye concentration data.
 
-### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
+To begin the ProCoDA method file, three states were made: ON and OFF and Just Water. In the OFF state, all the valves were closed and no pumps were on. In the ON state, all the pumps were ON and all valves were opened, in the Just Water state, only the water valve was open. ProCoDA turned this pump on and off via a normal valve control, so long as the pump was already set to a proper flow rate. The system was set to run on Manual setting, as a proper run time had not yet been determined.
+
+The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and fluoride pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
 
 ## Python Code
 
 ### Variables
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
 
 ```python
-# Comment
+import math as m
+from aguaclara.core.units import unit_registry as u
+from aguaclara.core import physchem as pc
+from aguaclara.core import utility as ut
+import numpy as np
+
+#Diameter of reactor tube
+D_reactor = 1 * u.inch
+#upflow velocity
+V_up = 1.5 * u.mm/u.s
+#Flow rate into reactor
+Q_reactor = (m.pi*((D_reactor/2)**2)*V_up).to(u.mL/u.s)
+#Height of reactor
+H_reactor = 50 * u.inch
+# Volume of reactor
+Vol_reactor = (m.pi * ((D_reactor)**2)*H_reactor/4).to(u.mL)
+# Residence time in reactor
+T_residence= (Vol_reactor/Q_reactor).to(u.minute)
+
+
+
+C_stock_PACl = 1000*u.mg/u.L
+C_stock_dye = 1000*u.mg/u.L
+C_reactor_PAC = 30*u.mg/u.L
+C_reactor_F = 5*u.mg/u.L  
+
+Q_stock_PAC = Q_reactor*(C_reactor_PAC/C_stock_PACl)
+
+C_reactor_dye = (Q_stock_PAC*C_stock_dye)/Q_reactor
+
+Q_tap = Q_reactor - 1*Q_stock_PAC
+Q_fluoride = (0.5)*Q_tap
+
+C_stock_F = Q_reactor*(C_reactor_F/Q_fluoride)
+
+C_lab_PAC = 70900
+
+
+#Flocculator Calculations
+
+#Inputs
+# flow rate in flocculator
+Q_flocculator = Q_reactor
+# target G*theta to design the flocculator
+Gtheta_goal = 20000
+#inner diameter of the flocculator tubing
+D_floctube = 0.125 * u.inch
+#radius of curvature (the radius of the tube the flocculator is wrapped around)
+R_c = 4.25 * u.cm
 ```
 
 
