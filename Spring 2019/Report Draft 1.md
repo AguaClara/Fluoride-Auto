@@ -65,8 +65,11 @@ The Spring 2016 team then developed a MathCad file to calculate flow rates of pu
 
 In the Fall 2016 semester, the team fabricated a new bottom geometry insert (see figure 3) to prevent the accumulation of flocs that previously clogged the bottom of the reactor. The newly designed geometry incorporated a smooth sloped bottom, **[Are you missing a figure?]** which allowed for gradual flow expansion and recirculation of flocs that would have settled to the bottom of the reactor with the old bottom geometry. **[Don't suddenly start talking about the research of another semester while you're in the middle of discussing a different one! This is very confusing.]**
 
+<div style = "text-align:center">
 <img src ="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Bottom%20geometry.png?raw=true">
 Figure 3: The newly designed bottom geometry Insert
+<div style = "text-align:left">
+
 
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm, in the long term the flocs built up and traveled through the tube settler to the turbidimeter, indicating a failure in the reactor. This observation suggested that there was some minimum height that a floc blanket would reach, and the team concluded that a shorter reactor system was not feasible [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
@@ -175,7 +178,7 @@ src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/std_cu
 
 Figure 8: Excel sheet used to calibrate the probe and create a standard curve
 
-</div>
+<div style = "text-align:left">
 
 #### Running an Experiment
 Before running the pumps, the valves for the influent and effluent water lines were opened. In ProCoDA, the state was manually changed to "Just Water," which allowed the sedimentation tube to fill up. This process took about five minutes, during which the team plugged in the 1 RPM waste pump and secured the probe in the fluoride sensor bottle (see figure 7). After the sedimentation tube filled up completely, the state was switched to "Run Experiment," which started the PACl pump. Because ProCoDA can only control two pumps at once, the fluoride pump was turned on manually. Due to the nature of the team's experiments, the flow rates for the PACl and fluoride pumps varied depending on what concentrations the team were analyzing.
@@ -275,9 +278,10 @@ To assemble the flocculator, the team wrapped 46 feet of flexible and hard tubin
 ### Sedimentation tube
 The team created a new reactor that reverts to a design used by the Fall 2016 through Fall 2017 teams, which has a floc weir protruding from the sedimentation tube below the bend rather than above it. The goal of using this design was to minimize gel formation, which was seen around the bend and mouth of the floc weir in the Fall 2018 semester, and to more closely mimic the actual AguaClara plants in the field. The PVC was heated proximate to the bend point in order to create as smooth of a bend as possible; the floc weir was subsequently welded to the side of the reactor.
 
+<div style = "text-align:center">
 <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/sedimentation%20tube.JPEG?raw=true">
 Figure 9: The reactor used by the Spring 2019 subteam
-
+<div style = "text-align:left">
 
 ## Experimental Methods
 #### Protocol for Running Just Water Through the Reactors
