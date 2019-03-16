@@ -280,7 +280,7 @@ To assemble the flocculator, the team wrapped 46 feet of flexible and hard tubin
 The team created a new reactor that reverts to a design used by the Fall 2016 through Fall 2017 teams, which has a floc weir protruding from the sedimentation tube below the bend rather than above it. The goal of using this design was to minimize gel formation, which was seen around the bend and mouth of the floc weir in the Fall 2018 semester, and to more closely mimic the actual AguaClara plants in the field. The PVC was heated proximate to the bend point in order to create as smooth of a bend as possible; the floc weir was subsequently welded to the side of the reactor.
 
 <div style = "text-align:center">
-<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/sedimentation%20tube.JPEG?raw=true">
+<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/sedimentation%20tube.JPEG?raw=true" height=500 width=300>
 Figure 9: The reactor used by the Spring 2019 subteam
 <div style = "text-align:left">
 
