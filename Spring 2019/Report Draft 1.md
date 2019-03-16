@@ -281,6 +281,7 @@ The team created a new reactor that reverts to a design used by the Fall 2016 th
 
 <div style = "text-align:center">
 <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/sedimentation%20tube.JPEG?raw=true" height=500 width=300>
+
 Figure 9: The reactor used by the Spring 2019 subteam
 <div style = "text-align:left">
 
