@@ -35,3 +35,6 @@ Fluoride contamination of groundwater is a major, well-known health concern, tha
   - [Fall 2018 Symposium](https://docs.google.com/presentation/d/1l783hJZfi7w9sAJqHuncesPV9qp9_3rgFQg1rHAaE4A/edit#slide=id.g451dae360e_1_74)
   - [Fall 2018 Final Presentation](https://docs.google.com/presentation/d/1hwhpw0rzzTh_NbEuIzjVWDoTfEolhdVf5Cl5P47a8P4/edit#slide=id.g346a079b2f_0_0)
   - [Fall 2018 Video](https://www.youtube.com/watch?v=SizO93XcZTI)
+  
+ * Spring 2019
+   - [Spring 2019 Symposium](https://docs.google.com/presentation/d/1EirkNHbf-_-S5zPb75K6iNqBA-L_sTGiCHSEH11HEzk/edit?usp=sharing)
