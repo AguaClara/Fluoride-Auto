@@ -4,7 +4,7 @@
 
 **[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
 
-**[Overall: YAAAS! Great report guys. Thank you for addressing all my comments. There are just some minor changes to be made, but really good work!!!]**
+**[Overall: YAAAS! Great report guys. Thank you for addressing all my comments. There are just some minor changes to be made, but really good work! Also, please change the file name to something like Fluoride-Auto-Spring-2019-Report.md.]**
 
 ## Abstract
 
