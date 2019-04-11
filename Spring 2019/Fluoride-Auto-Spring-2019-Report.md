@@ -71,7 +71,7 @@ Figure 3: The newly designed bottom geometry Insert
 
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm, in the long term the flocs built up and traveled through the tube settler to the turbidimeter, indicating a failure in the reactor. This observation suggested that there was some minimum height that a floc blanket would reach, and the team concluded that a shorter reactor system was not feasible [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
-In the **[Change summer to Summer]** summer of 2017, the fluoride team repeated tests from the previous semester to determine whether the improvements made by the second reactor in series were significant enough to warrant implementation on a larger scale. The summer 2017 team stopped adding clay to the system and focused on the goal of determining a PACl concentration that would optimize fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride), which is the main objective of the team. Initial tests indicated reactor failure within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to using a new reactor designed by the summer 2017 High Rate Sedimentation team. This new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined that an upflow velocity of 1.5 $\mathrm{\frac{mm}{s}}$ was the best way to reduce sludge buildup. The team then ran experiments to examine the effect of higher PACl concentrations on removal rates. Data collected from these experiments was used to create an adsorption model that could calculate the necessary PACl dosage for a desired effluent fluoride concentration.
+In the **[Change summer to Summer]** Summer of 2017, the fluoride team repeated tests from the previous semester to determine whether the improvements made by the second reactor in series were significant enough to warrant implementation on a larger scale. The Summer 2017 team stopped adding clay to the system and focused on the goal of determining a PACl concentration that would optimize fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride), which is the main objective of the team. Initial tests indicated reactor failure within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to using a new reactor designed by the Summer 2017 High Rate Sedimentation team. This new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined that an upflow velocity of 1.5 $\mathrm{\frac{mm}{s}}$ was the best way to reduce sludge buildup. The team then ran experiments to examine the effect of higher PACl concentrations on removal rates. Data collected from these experiments was used to create an adsorption model that could calculate the necessary PACl dosage for a desired effluent fluoride concentration.
 
 After creating the adsorption model, the team observed a significant difference in the fluoride probe readings for tap water versus the readings in deionized water. The findings suggested that the amount of fluoride ions in tap water is actually higher than the readings from the fluoride probe state. Therefore, the team deemed the adsorption model to be inaccurate and planned to revise it, taking this discrepancy into consideration.
 
@@ -86,7 +86,8 @@ Figure 4: A summary of the experimental results of final fluoride concentrations
 
 <div style = "text-align:left">
 
-In the summer of 2018, the team ran experiments to measure the effluent concentrations of fluoride for different concentrations of PACl to construct an adsorption model, which could be used to predict the PACl dosage required for a desired effluent fluoride concentration and would generate an adsorption density value for the mass of fluoride adsorbed (W). The WHO standard for fluoride levels is 1.5 $\mathrm{\frac{mg}{L}}$, which is the desired effluent fluoride concentration. Therefore, the model would calculate a range of uptake values that would result in the target effluent concentration. In addition, the model would provide a way to calculate the PACl dosage required to treat an initial fluoride concentration given a range of W values.
+In the S
+ummer of 2018, the team ran experiments to measure the effluent concentrations of fluoride for different concentrations of PACl to construct an adsorption model, which could be used to predict the PACl dosage required for a desired effluent fluoride concentration and would generate an adsorption density value for the mass of fluoride adsorbed (W). The WHO standard for fluoride levels is 1.5 $\mathrm{\frac{mg}{L}}$, which is the desired effluent fluoride concentration. Therefore, the model would calculate a range of uptake values that would result in the target effluent concentration. In addition, the model would provide a way to calculate the PACl dosage required to treat an initial fluoride concentration given a range of W values.
 
 The findings of the Summer 2018 team showed that the reactor would clog due to insufficient shear to break down the PACl flocs, which then caused the bed to fluidize. This result indicates that, for an excessive PACl dosage, a second reactor would be necessary to decrease the maximum concentration of PACl needed to run the system.
 
@@ -133,11 +134,11 @@ Figure 7: The bench setup for the Spring 2019 Subteam
 
 **[LOVELY diagrams!! So well labeled. I love this.]**
 #### Process Flow Through Reactor
-1. Fluoride was pumped from the stock tank and mixed with tap water.
+1. Fluoride was pumped from the Fluoride stock tank and mixed with tap water.
 2. PACl was pumped from the PACl stock tank and mixed with the diluted fluoride stream.
 3. Mixture was sent to the flocculator to make flocs.
 4. The PACl-fluoride mixture flowed into the reactor.
-5. Flocs settled out through the floc weir.
+5. Flocs build up a floc blanket and exit out through the floc weir.
 6. Effluent stream flowed out the top of the reactor. The turbidimeter measured the stream turbidity.
 7. Fluoride probe was immersed in effluent reactor stream to measure the effluent fluoride concentration.
 8. The effluent stream flowed into the sink.
@@ -155,11 +156,12 @@ Figure 7: The bench setup for the Spring 2019 Subteam
 - Connectors and buckets for stock tanks
 - Two stir plates with stir bars for the stock solutions
 - One Fluoride Probe [insert brand and model here after new probe arrives]
+- One 47 mm In-Line Filter Holder (Pall Corporation, 
 
 #### Apparatus Changes
 The Spring 2019 team made various changes to the apparatus from the one used by the Fall 2018 team. The fabrication details are outlined in the manual.
-- Flocculator: The flocculator was lengthened to account for the desired amount of headloss.
-- Fluoride Reactor: The shape of the reactor tube was reevaluated from what was used in previous semesters. The floc weir was moved from being on the right side of the tube and above the bend to being on the left side of the tube and below the bend. The goal was to better model the reactor after sedimentation tanks in AguaClara plants in addition to preventing gel formation within the reactor. The team hoped to improve the issue of gel formation by moving the floc weir lower down the tube to let the floc blanket overflow out of the reactor before gel could form.
+- Flocculator: The flocculator was lengthened to account for the desired amount of headloss. This also increased the retention time which allowed for better floc formation.
+- Sedimentation Tube: The shape of the reactor tube was reevaluated from what was used in previous semesters. The floc weir was moved from being on the right side of the tube and above the bend to being on the left side of the tube and below the bend. The goal was to better model the reactor after sedimentation tanks in AguaClara plants in addition to preventing gel formation within the reactor. The team hoped to improve the issue of gel formation by moving the floc weir lower down the tube to let the floc blanket overflow out of the reactor before gel could form.
 
 ### Procedure
 The team used ProCoDA to run the experiments and collect fluoride probe and turbidimeter data. Refer to the manual for more information on the Fluoride Auto ProCoDA method file.
@@ -183,7 +185,7 @@ Before running the pumps, the valves for the influent and effluent water lines w
 The experiments were run for two hours after which the state was switched back to "Just Water" to clear out the sedimentation tube. The team then turned off all the pumps and closed the influent and effluent water valves, concluding the experiment.
 
 ## Results and Analysis
-The team has not yet run an experiment, and thus does not have results or analysis at this point.
+The team has not yet run a successful experiment, and thus does not have results or analysis on fluoride removal efficieny at this point. ADD IN STUFF ABOUT PROBE NOT SEEING FLOCS
 
 ## Conclusions
 The team has concluded that the new sedimentation tube design is capable at removing flocs from an influent water stream. However, further experimentation must be conducted to determine its efficiency.
