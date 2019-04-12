@@ -312,7 +312,7 @@ The team created a new reactor that reverts to a design used by the Fall 2016 th
 Figure 11: The reactor used by the Spring 2019 subteam
 <div style = "text-align:left">
 
-###Mesh filters
+### Mesh filters
 The team cut a hole into a piece of mesh and placed the mesh over the effluent opening of the sedimentation tube. Additionally, the team placed a mesh screen in a 47 mm In-Line Filter Holder and added the Filter Holder to the apparatus between the turbidimeter and the bottle with the fluoride probe. The idea behind this addition was to break up fluoride flocs that had exited the sedimentation, since the team determined that the fluoride probe was inaccurate at detecting fluoride in the form of flocs.
 
 ## Experimental Methods
@@ -364,7 +364,7 @@ hours
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99, rinse let settle in TSIAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
 
-####Fluoride Probe Accuracy Test
+#### Fluoride Probe Accuracy Test
 1. Run an experiment with PaCl and Fluoride. The exact concentrations of each don’t matter as long as fluoride can adsorb to PaCl and
 form flocs.
 2. Allow a floc blanket to build up partially in the sedimentation tube.
