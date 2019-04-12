@@ -156,12 +156,13 @@ Figure 7: The bench setup for the Spring 2019 Subteam
 - Connectors and buckets for stock tanks
 - Two stir plates with stir bars for the stock solutions
 - One Fluoride Probe [insert brand and model here after new probe arrives]
-- One 47 mm In-Line Filter Holder (Pall Corporation, 
+- One 47 mm In-Line Filter Holder (Pall Corporation,
 
 #### Apparatus Changes
 The Spring 2019 team made various changes to the apparatus from the one used by the Fall 2018 team. The fabrication details are outlined in the manual.
-- Flocculator: The flocculator was lengthened to account for the desired amount of headloss. This also increased the retention time which allowed for better floc formation.
-- Sedimentation Tube: The shape of the reactor tube was reevaluated from what was used in previous semesters. The floc weir was moved from being on the right side of the tube and above the bend to being on the left side of the tube and below the bend. The goal was to better model the reactor after sedimentation tanks in AguaClara plants in addition to preventing gel formation within the reactor. The team hoped to improve the issue of gel formation by moving the floc weir lower down the tube to let the floc blanket overflow out of the reactor before gel could form.
+- Flocculator: The flocculator was lengthened to account for the desired amount of headloss. This also increased the retention time which allowed for better floc formation. See [Flocculator](flocculator) for fabrication details.
+- Sedimentation Tube: The shape of the reactor tube was reevaluated from what was used in previous semesters. The floc weir was moved from being on the right side of the tube and above the bend to being on the left side of the tube and below the bend. The goal was to better model the reactor after sedimentation tanks in AguaClara plants in addition to preventing gel formation within the reactor. The team hoped to improve the issue of gel formation by moving the floc weir lower down the tube to let the floc blanket overflow out of the reactor before gel could form. See [Sedimentation Tube](#sedimentation-tube) for fabrication details.
+- Floc filter: The team placed a wire mesh screen between the two plates of a 47 mm In-Line Filter Holder. This filter holder was attached at one end to the effluent tube from the turbidimeter and the influent tube to the bottle where the fluoride probe was. Additionally, a mesh screen with a larger hole was placed over the effluent opening of the sedimentation tube. See [Mesh Filters](#mesh-filters) for fabrication details.
 
 ### Procedure
 The team used ProCoDA to run the experiments and collect fluoride probe and turbidimeter data. Refer to the manual for more information on the Fluoride Auto ProCoDA method file.
@@ -185,15 +186,43 @@ Before running the pumps, the valves for the influent and effluent water lines w
 The experiments were run for two hours after which the state was switched back to "Just Water" to clear out the sedimentation tube. The team then turned off all the pumps and closed the influent and effluent water valves, concluding the experiment.
 
 ## Results and Analysis
-The team has not yet run a successful experiment, and thus does not have results or analysis on fluoride removal efficieny at this point. ADD IN STUFF ABOUT PROBE NOT SEEING FLOCS
+The team has not yet run a successful experiment, and thus does not have results or analysis on fluoride removal efficiency at this point. ADD IN STUFF ABOUT PROBE NOT SEEING FLOCS
+
+The team ran an experiment to test if the fluoride probe was as accurate at sensing fluoride flocs as it was at detecting ionic fluoride. See [Fluoride Probe Accuracy Test](#fluoride-probe-accuracy-test) for experimental design used.
+
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Screen%20Shot%202019-04-11%20at%209.39.24%20PM.png?raw=true" >
+
+Figure 9: Table showing the fluoride concentrations of the effluent directly after collection and after filtering through a mesh screen.
+
+<div style = "text-align:left">
+
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Screen%20Shot%202019-04-11%20at%209.39.41%20PM.png?raw=true" >
+
+Figure 10: Table showing fluoride concentrations of the effluent directly after collection, after shaking/mixing, and after filtering through a mesh screen.
+
+<div style = "text-align:left">
+
+The results, outlined in Figure 9 and 10 above, show a consistent increase in detected fluoride after filtering. The only exception is the first sample, which shows a decrease in the detected concentration after filtering. This first trial used the effluent from cleaning out the sedimentation tube, where the floc blanket had formed a gel from a previous experiment. The team speculated that, in this case, the flocs present in the effluent sample were large enough to be effectively filtered out by the mesh, causing the detected concentration of the fluoride to decrease after filtering. However, since all the other samples showed an increase in detected fluoride concentration, the team believed that the flocs in all samples besides Sample 1 were smaller, and were possibly broken up more by the mesh rather than filtered out due to their size. These smaller flocs were then able to pass through the holes in the mesh.
+
+Both Table 9 and Table 10 show an increase in detected fluoride concentration after filtering, but Table 10 also shows an increase in the concentration after shaking/mixing. Thus, the team believed that shaking the samples also helped break up the flocs into a form of fluoride that the probe was able to sense.
 
 ## Conclusions
 The team has concluded that the new sedimentation tube design is capable at removing flocs from an influent water stream. However, further experimentation must be conducted to determine its efficiency.
 
+Following the fluoride probe test, the team concluded that, when fluoride is in the form of flocs, the concentration detected by the probe is lower than the actual total concentration of fluoride. The team found that both shaking and filtering the effluent samples were effective ways to increase the amount of fluoride that the probes could sense, thus providing a more accurate reading of the effluent fluoride concentration.
+
 ## Future Work
-The team's immediate plan will be to order a new fluoride probe. The team will then replicate and analyze the fluoride experiment that was first run during the Fall 2017 and Summer 2018 semesters in order to verify data from the previous teams. The new data will be plotted against the theoretical Langmuir isotherm to determine whether the model can be reliably used to optimize PACl concentrations for desired effluent fluoride concentrations.
+The team's immediate plan will be to order a new fluoride probe, as the two current probes had been working invariably throughout the semester thus far, which somewhat slowed progress. The team will then replicate and analyze the fluoride experiment that was first run during the Fall 2017 and Summer 2018 semesters in order to verify data from the previous teams. The new data will be plotted against the theoretical Langmuir isotherm to determine whether the model can be reliably used to optimize PACl concentrations for desired effluent fluoride concentrations.
 
 Additionally, during several of the experiments, the team observed that the bottom geometry of the sedimentation tube was too far down within the tube and obscured the bottom of the floc blanket. Thus, once the team receives the new bottom geometry that is currently being designed, the new bottom will be implemented in a raised position in order to make it possible to see the initial formation of the floc blanket.
+
+In the Summer 2018 semester and other previous semesters, the Fluoride Auto team used an upflow velocity of 1.5 mm/s. However, the current team decided to run an experiment with an upflow velocity of 1.0 mm/s, which is consistent with the value used in AguaClara plants in the field. Both the Summer 2018 team and the current team encountered the formation of gel in the sedimentation tube and subsequent failure of the apparatus with the lower upflow velocity. Thus, for the rest of the semester, the team will decide whether to use the slower or faster upflow velocity and design experiments so as to minimize gelling.
 
 Over the course of the semester, the team will also convert the MathCad file that is used to determine flow rates and experimental parameters into Python code. This switchover will allow for the experimental information to be shared more easily through Github.
 
@@ -280,8 +309,11 @@ The team created a new reactor that reverts to a design used by the Fall 2016 th
 <div style = "text-align:center">
 <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/sedimentation%20tube.JPEG?raw=true" height=500 width=350>
 
-Figure 9: The reactor used by the Spring 2019 subteam
+Figure 11: The reactor used by the Spring 2019 subteam
 <div style = "text-align:left">
+
+###Mesh filters
+The team cut a hole into a piece of mesh and placed the mesh over the effluent opening of the sedimentation tube. Additionally, the team placed a mesh screen in a 47 mm In-Line Filter Holder and added the Filter Holder to the apparatus between the turbidimeter and the bottle with the fluoride probe. The idea behind this addition was to break up fluoride flocs that had exited the sedimentation, since the team determined that the fluoride probe was inaccurate at detecting fluoride in the form of flocs.
 
 ## Experimental Methods
 #### Protocol for Running Just Water Through the Reactors
@@ -331,6 +363,18 @@ hours
 6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration").
 7. The R squared value, slope, and y-intercept will be updated as the voltages are updated (make sure the R squared value is at least .99 to ensure accurate fluoride calibrations).
 8. If R squared value is not 0.99, rinse let settle in TSIAB solution for 5 minutes, then rinse thoroughly with DI water. Sand with polishing strip, and repeat procedure, gently shaking probe up and down before first calibration measurement.
+
+####Fluoride Probe Accuracy Test
+1. Run an experiment with PaCl and Fluoride. The exact concentrations of each don’t matter as long as fluoride can adsorb to PaCl and
+form flocs.
+2. Allow a floc blanket to build up partially in the sedimentation tube.
+3. Stop running the experiment. Run JustWater to push the floc blanket out of the sed tube
+4. Watch the turbidimeter. It should spike from ~0.1 (or less) to 1 or 2. This rise in turbidity indicates flocs exiting the sedimentation tube.
+5. With a bottle, collect samples of the effluent that had been through the turbidimeter. The sample should be rich in flocs.
+4. Using the probe (that has been calibrated), measure the fluoride concentration of both samples.
+5. Mix one of the samples by vigorously shaking for at least 10 seconds. This breaks up the flocs. Note which sample was mixed.
+6. Using mesh, filter the samples to remove flocs and remeasure fluoride concentration.
+
 
 ## ProCoDA Method File
 
