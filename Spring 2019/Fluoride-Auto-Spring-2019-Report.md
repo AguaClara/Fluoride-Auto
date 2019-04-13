@@ -86,8 +86,7 @@ Figure 4: A summary of the experimental results of final fluoride concentrations
 
 <div style = "text-align:left">
 
-In the S
-ummer of 2018, the team ran experiments to measure the effluent concentrations of fluoride for different concentrations of PACl to construct an adsorption model, which could be used to predict the PACl dosage required for a desired effluent fluoride concentration and would generate an adsorption density value for the mass of fluoride adsorbed (W). The WHO standard for fluoride levels is 1.5 $\mathrm{\frac{mg}{L}}$, which is the desired effluent fluoride concentration. Therefore, the model would calculate a range of uptake values that would result in the target effluent concentration. In addition, the model would provide a way to calculate the PACl dosage required to treat an initial fluoride concentration given a range of W values.
+In the Summer of 2018, the team ran experiments to measure the effluent concentrations of fluoride for different concentrations of PACl to construct an adsorption model, which could be used to predict the PACl dosage required for a desired effluent fluoride concentration and would generate an adsorption density value for the mass of fluoride adsorbed (W). The WHO standard for fluoride levels is 1.5 $\mathrm{\frac{mg}{L}}$, which is the desired effluent fluoride concentration. Therefore, the model would calculate a range of uptake values that would result in the target effluent concentration. In addition, the model would provide a way to calculate the PACl dosage required to treat an initial fluoride concentration given a range of W values.
 
 The findings of the Summer 2018 team showed that the reactor would clog due to insufficient shear to break down the PACl flocs, which then caused the bed to fluidize. This result indicates that, for an excessive PACl dosage, a second reactor would be necessary to decrease the maximum concentration of PACl needed to run the system.
 
@@ -156,7 +155,7 @@ Figure 7: The bench setup for the Spring 2019 Subteam
 - Connectors and buckets for stock tanks
 - Two stir plates with stir bars for the stock solutions
 - One Fluoride Probe [insert brand and model here after new probe arrives]
-- One 47 mm In-Line Filter Holder (Pall Corporation,
+- One 47 mm In-Line Filter Holder (Pall Corporation)
 
 #### Apparatus Changes
 The Spring 2019 team made various changes to the apparatus from the one used by the Fall 2018 team. The fabrication details are outlined in the manual.
@@ -186,7 +185,7 @@ Before running the pumps, the valves for the influent and effluent water lines w
 The experiments were run for two hours after which the state was switched back to "Just Water" to clear out the sedimentation tube. The team then turned off all the pumps and closed the influent and effluent water valves, concluding the experiment.
 
 ## Results and Analysis
-The team has not yet run a successful experiment, and thus does not have results or analysis on fluoride removal efficiency at this point. ADD IN STUFF ABOUT PROBE NOT SEEING FLOCS
+The team has not yet run a successful experiment, and thus does not have results or analysis on fluoride removal efficiency at this point.
 
 The team ran an experiment to test if the fluoride probe was as accurate at sensing fluoride flocs as it was at detecting ionic fluoride. See [Fluoride Probe Accuracy Test](#fluoride-probe-accuracy-test) for experimental design used.
 
