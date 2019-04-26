@@ -63,7 +63,7 @@ The Spring 2016 team then developed a MathCad file to calculate flow rates of pu
 The Fall 2016 team fabricated a new bottom geometry insert within the sedimentation tube to prevent the accumulation of flocs that previously clogged the bottom. The newly designed geometry, as shown in Figure 3, incorporated a smooth sloped bottom, which allowed for gradual flow expansion and recirculation of flocs that would have settled to the bottom of the reactor with the old bottom geometry.
 
 <div style = "text-align:center">
-<img src ="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Onshape%20BotGeo.pdf">
+<img src ="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Onshape%20BotGeo.jpg">
 
 Figure 3: The newly designed bottom geometry Insert
 <div style = "text-align:left">
