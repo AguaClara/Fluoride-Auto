@@ -223,6 +223,8 @@ Additionally, during several of the experiments, the team observed that the bott
 
 In the Summer 2018 semester and other previous semesters, the Fluoride Auto team used an upflow velocity of 1.5 mm/s. However, the current team decided to run an experiment with an upflow velocity of 1.0 mm/s, which is consistent with the value used in AguaClara plants in the field. Both the Summer 2018 team and the current team encountered the formation of gel in the sedimentation tube and subsequent failure of the apparatus with the lower upflow velocity. Thus, for the rest of the semester, the team will decide whether to use the slower or faster upflow velocity and design experiments so as to minimize gelling.
 
+In light of the results of the experiment in which the team filtered the effluent and found flocs were broken up by filtration, the team is considering finding a different model based on bonds that may be weaker than covalent bonds between the fluoride and PACl. However, if the Langmuir isotherm ends up being a fitting model for the data, a new model may not be necessary.
+
 Over the course of the semester, the team will also convert the MathCad file that is used to determine flow rates and experimental parameters into Python code. This switchover will allow for the experimental information to be shared more easily through Github.
 
 The team will eventually design and test a horizontal reactor in which influent water will enter through one end of the sedimentation tube and the flocs will exit through a vertical floc weir in the middle of the reactor.
