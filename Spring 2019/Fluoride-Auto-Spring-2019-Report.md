@@ -36,7 +36,9 @@ AguaClara water treatment consists of a series of coagulation, flocculation, and
 
 Recently, polymerized forms of aluminum salts have begun to replace standard aluminum salt coagulants [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Polyaluminum chloride (PACl), a partially hydrolyzed aluminum salt, is one of the most widely used, as it delivers results similar to those of aluminum sulfate (alum) coupled with a polyelectrolyte [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Using PACl instead of alum leads to a reduction in sulfates added to treated water, lower sludge production, reduced odor problems, and higher overall removal efficiency [(Gebbie, 2001)](http://wioa.org.au/conference_papers/2001/pdf/paper6.pdf). PACl is also less sensitive to temperature changes in its hydrolyzed state and has a broader range of raw water pH in which it is an effective coagulant [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do) [(Yang et al., 2010)](https://www.ncbi.nlm.nih.gov/pubmed/20188465). In particular, for the removal of fluoride, PACl has been found to be the most effective for pH values between 5.2 and 6.2 [(EPA, 2016)](https://iaspub.epa.gov/tdb/pages/general/home.do). Taking these factors into consideration, PACl appears to be the optimal coagulant for fluoride removal, and is thus what the AguaClara Fluoride Auto team currently uses [(Zonoozi et al, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/19381000).
 
-Current fluoride removal processes need improvement. The Nalgonda technique is a common fluoride removal method that involves a combination of rapid mixing, flocculation, sedimentation, filtration and disinfection [(Kumbhar and Salkar, 2014)](http://www.ijetae.com/files/Volume4Issue10/IJETAE_1014_22.pdf). Unlike AguaClara treatment, which is a continuous flow process, the Nalgonda technique is a "batch filtration" method, where large quantities of water are treated in buckets. Obtaining safe and treated water for extended periods of time thus requires a series of treatments, so currently the Nalgonda technique is largely used as a household treatment method. It has been introduced to various Indian villages, including those in Nalgonda and in the state of Telangana. It is also currently being studied at the pilot scale in Kenya, Senegal and Tanzania [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf).  In addition to the restrictions implied by batch treatment, the Nalgonda method requires a high dosage of aluminum sulfate to aggregate with fluoride and precipitate. A study conducted by [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf) suggests that 13 $\mathrm{\frac{g}{L}}$ alum (1.2 $\mathrm{\frac{g}{L}}$ as Al) is needed for the Nalgonda method to effectively treat fluoride levels between 9 and 13 $\mathrm{\frac{mg}{L}}$. Despite the high concentrations of coagulant, the fluoride residual in the test was still unable to meet the WHO safety guidelines of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride. The high dose of aluminum sulfate also leaves high sulfate residuals in the water, which causes taste and odor issues [(Bailey and Fawell, 2004)](http://apps.who.int/iris/handle/10665/43514). In regards to other filtration methods, a study by Inganiella achieved 33.3% removal of fluoride using a combination of a gravel pre-filter and a sand rapid filter to capture granules of fluoride, PACl, NaClO and $SO_4H_2$ [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Clearly, this method is not effective enough to produce safe drinking water.
+
+####*Nalgonda Technique for Fluoride Removal*
+Current fluoride removal processes need improvement. The Nalgonda technique is a common fluoride removal method that involves a combination of rapid mixing, flocculation, sedimentation, filtration and disinfection [(Kumbhar and Salkar, 2014)](http://www.ijetae.com/files/Volume4Issue10/IJETAE_1014_22.pdf). Unlike AguaClara treatment, which is a continuous flow process, the Nalgonda technique is a "batch filtration" method, where large quantities of water are treated in buckets. Obtaining safe and treated water for extended periods of time thus requires a series of treatments, so currently the Nalgonda technique is largely used as a household treatment method in various villages in India. In addition to the restrictions implied by batch treatment, the Nalgonda method requires a high dosage of aluminum sulfate to aggregate with fluoride and precipitate. A study conducted by [(Dahi et al., 1996)](https://wedc-knowledge.lboro.ac.uk/resources/conference/22/Dahi.pdf) suggests that 13 $\mathrm{\frac{g}{L}}$ alum (1.2 $\mathrm{\frac{g}{L}}$ as Al) is needed for the Nalgonda method to effectively treat fluoride levels between 9 and 13 $\mathrm{\frac{mg}{L}}$. Despite the high concentrations of coagulant, the fluoride residual in the test was still unable to meet the WHO safety guidelines of 1.5 $\mathrm{\frac{mg}{L}}$ of fluoride. The high dose of aluminum sulfate also leaves high sulfate residuals in the water, which causes taste and odor issues [(Bailey and Fawell, 2004)](http://apps.who.int/iris/handle/10665/43514). In regards to other filtration methods, a study by Inganiella achieved 33.3% removal of fluoride using a combination of a gravel pre-filter and a sand rapid filter to capture granules of fluoride, PACl, NaClO and $SO_4H_2$ [(Ingallinella and Pacini, 2001)](https://www.tandfonline.com/doi/full/10.1080/10934529.2011.598835?scroll=top&needAccess=true). Clearly, this method is not effective enough to produce safe drinking water.
 
 #### *Floc Blankets*
 Floc blankets develop when vertical flow sedimentation tanks form a fluidized bed of particles. An example is shown in Figure 2. A floc blanket then facilitates particle removal by “increasing particle-particle interactions that lead to flocculation and filtration occurring in the floc blanket” [(Hurst, 2010)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.6127&rep=rep1&type=pdf).
@@ -62,13 +64,6 @@ The Spring 2016 team then developed a MathCad file to calculate flow rates of pu
 
 The Fall 2016 team fabricated a new bottom geometry insert within the sedimentation tube to prevent the accumulation of flocs that previously clogged the bottom. The newly designed geometry, as shown in Figure 3, incorporated a smooth sloped bottom, which allowed for gradual flow expansion and recirculation of flocs that would have settled to the bottom of the reactor with the old bottom geometry.
 
-<div style = "text-align:center">
-<img src = "https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/BotGeo%20Drawing.jpg?raw=true">
-
-Figure 3: The newly designed bottom geometry Insert
-<div style = "text-align:left">
-
-
 The team also determined the minimum length of the reactor needed to save resources and space. A shorter reactor, with a height of 5 cm below the weir, was tested with concentrations of 25 $\mathrm{\frac{mg}{L}}$, 50 $\mathrm{\frac{mg}{L}}$, and 100 $\mathrm{\frac{mg}{L}}$ of dye. Although the floc blankets reached a short term steady state height of around 20-30 cm, in the long term the flocs built up and traveled through the tube settler to the turbidimeter, indicating a failure in the reactor. This observation suggested that there was some minimum height that a floc blanket would reach, and the team concluded that a shorter reactor system was not feasible [(Longo, 2016)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride).
 
 In the **[Change summer to Summer]** Summer of 2017, the fluoride team repeated tests from the previous semester to determine whether the improvements made by the second reactor in series were significant enough to warrant implementation on a larger scale. The Summer 2017 team stopped adding clay to the system and focused on the goal of determining a PACl concentration that would optimize fluoride removal rates [(Longo, 2017)](https://confluence.cornell.edu/display/AGUACLARA/Fluoride), which is the main objective of the team. Initial tests indicated reactor failure within 10 hours due to sludge buildup regardless of PACl concentration, so the team switched to using a new reactor designed by the Summer 2017 High Rate Sedimentation team. This new reactor increased the time to failure and allowed for higher upflow velocities. After running various tests, the team determined that an upflow velocity of 1.5 $\mathrm{\frac{mm}{s}}$ was the best way to reduce sludge buildup. The team then ran experiments to examine the effect of higher PACl concentrations on removal rates. Data collected from these experiments was used to create an adsorption model that could calculate the necessary PACl dosage for a desired effluent fluoride concentration.
@@ -82,7 +77,7 @@ In the Spring 2018 semester, experiments were conducted with a new fluoride prob
 align = "center"
 src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=220>
 
-Figure 4: A summary of the experimental results of final fluoride concentrations based on varied concentrations of initial and PACl concentrations.
+Figure 3: A summary of the experimental results of final fluoride concentrations based on varied concentrations of initial and PACl concentrations.
 
 <div style = "text-align:left">
 
@@ -94,16 +89,7 @@ However, the Summer 2018 team found that results were inconclusive. For example,
 
 The team then began using the probe that had been ordered in May 2018 for experiments that used the isotherm developed by the Spring 2018 team to change the coagulant dosing. The experiments showed that a 6.25 mg/L dosing of coagulant did not create a floc blanket. As a result, the coagulant dosing used in subsequent experiments ranged from 10 mg/L to 50 mg/L with the influent fluoride concentration ranging from 3 mg/L to 20 mg/L. The team also identified that the influent fluoride concentration did not match the ideal concentration set by the flow rate and stock tank concentration. Therefore, the team began to take manual readings of the influent fluoride before it reached the flocculator to compare with the effluent fluoride reading. These manual readings were used for the Langmuir isotherm derivation in the Fall of 2018.
 
-The Fall 2018 team created a longer reactor due to a low upflow velocity, in accordance with the findings of the Fall 2016 team discussed previously regarding reactor length. The main goal of this past semester was to analyze the Fall 2017 and Summer 2018 Langmuir isotherm that modeled the adsorption of fluoride to PACl. The team used the experimental data from the two previous teams to graph a nonlinear regression to compare the experimental results to the theoretical Langmuir isotherm, shown below in Figure 5. The analysis demonstrated that the data closely fit the adsorption model, especially at low concentrations of fluoride. The team also calculated a coefficient of determination of 0.82, indicating that a high percentage of variability in the uptake occurs because of the variability in concentration. While more data is still necessary to confirm the Langmuir isotherm, the team concluded that the model so far is sufficient to predict required PACl concentrations based on fluoride concentrations.
-
-<div style = "text-align:center">
-<img
-align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/raw/master/langmuir.PNG?raw=true" >
-
-Figure 5: The experimental data from Fall 2017 and Summer 2018 plotted against the theoretical Langmuir isotherm.
-
-<div style = "text-align:left">
+The Fall 2018 team created a longer reactor due to a low upflow velocity, in accordance with the findings of the Fall 2016 team discussed previously regarding reactor length. The main goal of the Fall 2018 team was to analyze the Fall 2017 and Summer 2018 Langmuir isotherm that modeled the adsorption of fluoride to PACl. The team used the experimental data from the two previous teams to graph a nonlinear regression to compare the experimental results to the theoretical Langmuir isotherm. The analysis demonstrated that the data closely fit the adsorption model, especially at low concentrations of fluoride. The team also calculated a coefficient of determination of 0.82, indicating that a high percentage of variability in the uptake occurs because of the variability in concentration. While more data is still necessary to confirm the Langmuir isotherm, the team concluded that the model so far is sufficient to predict required PACl concentrations based on fluoride concentrations.
 
 The Fall 2018 team then implemented a new bottom geometry into the reactor system to reduce variability. This new bottom geometry was designed with the intent of guiding flocs to flow parallel to each other and prevent them from colliding and accumulating. However, when the new design was implemented, the formation of a super saturated solution and, subsequently, gel occurred. The first experiment in which gel appeared in the reactor was with a concentration of 40 mg/L PACl and 10 mg/L fluoride. The team hypothesized that either the concentration of PACl was too high or the ratio of fluoride to PACl was too high. Previous experiments were run with up to 50 mg/L PACl concentration without gel formation. Additionally, an aluminum fluoride complex may have formed and repelled other aluminum particles within the solution. While past teams have conducted experiments at higher fluoride concentrations, few experiments were conducted at concentrations of 10 mg/L or higher. The second theory is consistent with this semester's experiments in that the inclusion of the bottom geometry increases gel formation.
 
@@ -120,15 +106,15 @@ The team continued to run tests at low concentration of PACl, or a maximum of 20
 #### Schematic
 
 <div style = "text-align:center">
-  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20auto%20apparatus%20spring%2019.jpg?raw=true" >
-Figure 6: A schematic drawing of the Spring 2019 Subteam apparatus
+  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20spring%2019%20new%20apparatus.jpg?raw=true" >
+Figure 4: A schematic drawing of the Spring 2019 Subteam apparatus
 <div style = "text-align:left">
 
 </div>
 
 <div style = "text-align:center">
-  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20desk%20apparatus.jpg?raw=true">
-Figure 7: The bench setup for the Spring 2019 Subteam
+  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20apparatus%20with%20filter%20(2).jpg?raw=true">
+Figure 5: The bench setup for the Spring 2019 Subteam
 <div style = "text-align:left">
 
 **[LOVELY diagrams!! So well labeled. I love this.]**
@@ -162,31 +148,35 @@ The Spring 2019 team made various changes to the apparatus from the one used by 
 - Flocculator: The flocculator was lengthened to account for the desired amount of headloss. This also increased the retention time which allowed for better floc formation. See [Flocculator](flocculator) for fabrication details.
 - Sedimentation Tube: The shape of the reactor tube was reevaluated from what was used in previous semesters. The floc weir was moved from being on the right side of the tube and above the bend to being on the left side of the tube and below the bend. The goal was to better model the reactor after sedimentation tanks in AguaClara plants in addition to preventing gel formation within the reactor. The team hoped to improve the issue of gel formation by moving the floc weir lower down the tube to let the floc blanket overflow out of the reactor before gel could form. See [Sedimentation Tube](#sedimentation-tube) for fabrication details.
 - Floc filter: The team placed a wire mesh screen between the two plates of a 47 mm In-Line Filter Holder. This filter holder was attached at one end to the effluent tube from the turbidimeter and the influent tube to the bottle where the fluoride probe was. Additionally, a mesh screen with a larger hole was placed over the effluent opening of the sedimentation tube. See [Mesh Filters](#mesh-filters) for fabrication details.
+- Bottom geometry: The Fall 2018 team encountered sedimentation tube failure due to gelling from the old bottom geometry. In the middle of the Spring 2019 semester, the team received a new bottom geometry. However, the inlet to the sedimentation tube through this new bottom geometry was too small, which increased the upflow velocity at the bottom of the tube, broke up flocs, and prevented the formation of a floc blanket. The team received a new bottom geometry at the end of the semester, pictured below, which is to be implemented in the next semester.
+
+<div style = "text-align:center">
+<img src = "https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/BotGeo%20Drawing.jpg?raw=true">
+Figure 6: The newly designed bottom geometry insert
+<div style = "text-align:left">
 
 ### Procedure
 The team used ProCoDA to run the experiments and collect fluoride probe and turbidimeter data. Refer to the manual for more information on the Fluoride Auto ProCoDA method file.
 
 
 #### Creating the Fluoride Calibration Curve
-Before running an experiment, a standard curve was made for the fluoride probe. The team first prepared stock solutions of known fluoride concentrations (1 $\frac{mg}{L}$, 5 $\frac{mg}{L}$, and 10 $\frac{mg}{L}$). Then, through ProCoDA, the voltages of each solution were measured using the fluoride probe. These values were put into an excel spreadsheet to create a standard curve as shown in Figure 8. This allowed the team to determine the fluoride concentration in the effluent stream.
+Before running an experiment, a standard curve was made for the fluoride probe. The team first prepared stock solutions of known fluoride concentrations (1 $\frac{mg}{L}$, 5 $\frac{mg}{L}$, and 10 $\frac{mg}{L}$). Then, through ProCoDA, the voltages of each solution were measured using the fluoride probe. These values were put into an excel spreadsheet to create a standard curve as shown in Figure 7. This allowed the team to determine the fluoride concentration in the effluent stream.
 
 <div style = "text-align:center">
 <img
 align = "center"
 src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/std_curve.PNG?raw=true" >
-
-Figure 8: Excel sheet used to calibrate the probe and create a standard curve
+<div style = "text-align:center">
+Figure 7: Excel sheet used to calibrate the probe and create a standard curve
 
 <div style = "text-align:left">
 
 #### Running an Experiment
-Before running the pumps, the valves for the influent and effluent water lines were opened. In ProCoDA, the state was manually changed to "Just Water," which allowed the sedimentation tube to fill up. This process took about five minutes, during which the team plugged in the 1 RPM waste pump and secured the probe in the fluoride sensor bottle (see figure 7). After the sedimentation tube filled up completely, the state was switched to "Run Experiment," which started the PACl pump. Because ProCoDA can only control two pumps at once, the fluoride pump was turned on manually. Due to the nature of the team's experiments, the flow rates for the PACl and fluoride pumps varied depending on what concentrations the team were analyzing.
+Before running the pumps, the valves for the influent and effluent water lines were opened. In ProCoDA, the state was manually changed to "Just Water," which allowed the sedimentation tube to fill up. This process took about five minutes, during which the team plugged in the 1 RPM waste pump and secured the probe in the fluoride sensor bottle (see figure 6). After the sedimentation tube filled up completely, the state was switched to "Run Experiment," which started the PACl pump. Because ProCoDA can only control two pumps at once, the fluoride pump was turned on manually. Due to the nature of the team's experiments, the flow rates for the PACl and fluoride pumps varied depending on what concentrations the team were analyzing.
 
 The experiments were run for two hours after which the state was switched back to "Just Water" to clear out the sedimentation tube. The team then turned off all the pumps and closed the influent and effluent water valves, concluding the experiment.
 
 ## Results and Analysis
-The team has not yet run a successful experiment, and thus does not have results or analysis on fluoride removal efficiency at this point.
-
 The team ran an experiment to test if the fluoride probe was as accurate at sensing fluoride flocs as it was at detecting ionic fluoride. See [Fluoride Probe Accuracy Test](#fluoride-probe-accuracy-test) for experimental design used.
 
 <div style = "text-align:center">
@@ -194,7 +184,7 @@ The team ran an experiment to test if the fluoride probe was as accurate at sens
 align = "center"
 src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Screen%20Shot%202019-04-11%20at%209.39.24%20PM.png?raw=true" >
 
-Figure 9: Table showing the fluoride concentrations of the effluent directly after collection and after filtering through a mesh screen.
+Figure 8: Table showing the fluoride concentrations of the effluent directly after collection and after filtering through a mesh screen.
 
 <div style = "text-align:left">
 
@@ -203,31 +193,45 @@ Figure 9: Table showing the fluoride concentrations of the effluent directly aft
 align = "center"
 src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Screen%20Shot%202019-04-11%20at%209.39.41%20PM.png?raw=true" >
 
-Figure 10: Table showing fluoride concentrations of the effluent directly after collection, after shaking/mixing, and after filtering through a mesh screen.
+Figure 9: Table showing fluoride concentrations of the effluent directly after collection, after shaking/mixing, and after filtering through a mesh screen.
 
 <div style = "text-align:left">
 
-The results, outlined in Figure 9 and 10 above, show a consistent increase in detected fluoride after filtering. The only exception is the first sample, which shows a decrease in the detected concentration after filtering. This first trial used the effluent from cleaning out the sedimentation tube, where the floc blanket had formed a gel from a previous experiment. The team speculated that, in this case, the flocs present in the effluent sample were large enough to be effectively filtered out by the mesh, causing the detected concentration of the fluoride to decrease after filtering. However, since all the other samples showed an increase in detected fluoride concentration, the team believed that the flocs in all samples besides Sample 1 were smaller, and were possibly broken up more by the mesh rather than filtered out due to their size. These smaller flocs were then able to pass through the holes in the mesh.
+The results, outlined in Figure 8 and 9 above, show a consistent increase in detected fluoride after filtering. The only exception is the first sample, which shows a decrease in the detected concentration after filtering. This first trial used the effluent from cleaning out the sedimentation tube, where the floc blanket had formed a gel from a previous experiment. The team speculated that, in this case, the flocs present in the effluent sample were large enough to be effectively filtered out by the mesh, causing the detected concentration of the fluoride to decrease after filtering. However, since all the other samples showed an increase in detected fluoride concentration, the team believed that the flocs in all samples besides Sample 1 were smaller, and were possibly broken up more by the mesh rather than filtered out due to their size. These smaller flocs were then able to pass through the holes in the mesh.
 
-Both Table 9 and Table 10 show an increase in detected fluoride concentration after filtering, but Table 10 also shows an increase in the concentration after shaking/mixing. Thus, the team believed that shaking the samples also helped break up the flocs into a form of fluoride that the probe was able to sense.
+Both Table 8 and Table 9 show an increase in detected fluoride concentration after filtering, but Table 9 also shows an increase in the concentration after shaking/mixing. Thus, the team believed that shaking the samples also helped break up the flocs into a form of fluoride that the probe was able to sense.
+
+The team also ran two experiments this semester, with different ratios of PACl to fluoride. The team was able to plot these two experiments on the Langmuir Isotherm model developed by the Fall 2018 Team, as seen in figure 10. The coefficient of determination between the experimental and theoretical trend lines is 0.87.
+
+<div style = "text-align:center">
+<img
+align = "center"
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Langmuir%20Isotherm%20Data/isotherm.png?raw=true" >
+
+Figure 10: Langmuir Adsorption Isotherm showing theoretical vs. experimental trends.
+
+<div style = "text-align:left">
+
 
 ## Conclusions
-The team has concluded that the new sedimentation tube design is capable at removing flocs from an influent water stream. However, further experimentation must be conducted to determine its efficiency.
+The Spring 2019 team's two experiments show results that closely match the data from the previous semesters, which confirms that the new sedimentation tube design is capable of removing flocs from an influent water stream in a similar manner to the previous sedimentation tube design, despite the difference in the placement of the floc weir.
 
 Following the fluoride probe test, the team concluded that, when fluoride is in the form of flocs, the concentration detected by the probe is lower than the actual total concentration of fluoride. The team found that both shaking and filtering the effluent samples were effective ways to increase the amount of fluoride that the probes could sense, thus providing a more accurate reading of the effluent fluoride concentration.
 
+The results of the fluoride probe test, which indicated that flocs were broken up by filtration through mesh, also suggests that the bonds between flocs are weaker than covalent bonds. Thus, the Langmuir isotherm, which is valid for covalently bonded molecules, may not work for modeling the bonding of PACl to fluoride.
+
 ## Future Work
-The team's immediate plan will be to reorder a new fluoride probe, as the two current probes had been working invariably throughout the semester thus far, which slowed progress. The team will then replicate and analyze the fluoride experiment that was first run during the Fall 2017 and Summer 2018 semesters in order to verify data from the previous teams. The new data will be plotted against the theoretical Langmuir isotherm to determine whether the model can be reliably used to optimize PACl concentrations for desired effluent fluoride concentrations.
+The team's immediate plan will be to calibrate the newest probe and ensure that it is working and usable. The team will then continue to replicate and analyze the fluoride experiment that was first run during the Fall 2017 and Summer 2018 semesters in order to verify data from the previous teams. The new data will be plotted against the theoretical Langmuir isotherm to determine whether the model can be reliably used to optimize PACl concentrations for desired effluent fluoride concentrations.
 
 Additionally, during several of the experiments, the team observed that the bottom geometry of the sedimentation tube was too far down within the tube and obscured the bottom of the floc blanket. Thus, once the team receives the new bottom geometry that is currently being designed, the new bottom will be implemented in a raised position in order to make it possible to see the initial formation of the floc blanket.
 
-In the Summer 2018 semester and other previous semesters, the Fluoride Auto team used an upflow velocity of 1.5 mm/s. However, the current team decided to run an experiment with an upflow velocity of 1.0 mm/s, which is consistent with the value used in AguaClara plants in the field. Both the Summer 2018 team and the current team encountered the formation of gel in the sedimentation tube and subsequent failure of the apparatus with the lower upflow velocity. Thus, in the next semester, the team will test different upflow velocities between 1 and 2 mm/s to determine an optimal velocity.
+In the Summer 2018 semester and other previous semesters, the Fluoride Auto team used an upflow velocity of 1.5 mm/s. However, the current team decided to run an experiment with an upflow velocity of 1.0 mm/s, which is consistent with the value used in AguaClara plants in the field. Both the Summer 2018 team and the current team encountered the formation of gel in the sedimentation tube and subsequent failure of the apparatus with the lower upflow velocity. Thus, in the next semester, the team will test different upflow velocities between 1 and 2 mm/s to determine an optimal velocity. The upflow velocity should be low enough to allow for the formation of a proper floc blanket but high enough to prevent gelling in the sedimentation tube.
 
 In light of the results of the experiment in which the team filtered the effluent and found flocs were broken up by filtration, the team is considering finding a different model based on ionic rather than covalent bonds between the fluoride and PACl. However, if the Langmuir isotherm ends up being a fitting model for the data, a new model may not be necessary.
 
 The team will eventually design and test a horizontal reactor in which influent water will enter through one end of the sedimentation tube and the flocs will exit through a vertical floc weir in the middle of the reactor.
 
-Finally, the team will research methods of treating and disposing of the effluent waste, which will consist of fluoride and possibly arsenic, which may also be present in the untreated groundwater. 
+Finally, the team will research methods of treating and disposing of the effluent waste, which will consist of fluoride and possibly arsenic, which may also be present in the untreated groundwater.
 
 ## Bibliography
 Arlappa, N., Aatif Qureshi, I., and Srinivas, R. (2013). Fluorosis in India: an overview. Int J Res Dev
