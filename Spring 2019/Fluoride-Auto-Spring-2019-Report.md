@@ -109,7 +109,7 @@ The team continued to run tests at low concentrations of PACl, or a maximum of 2
 #### Schematic
 
 <div style = "text-align:center">
-  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/fluoride%20spring%2019%20new%20apparatus.jpg?raw=true" >
+  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/fluoride%20spring%2019/Images/%20new%20apparatus.jpg?raw=true" >
 Figure 4: A schematic drawing of the Spring 2019 Subteam apparatus
 <div style = "text-align:left">
 
