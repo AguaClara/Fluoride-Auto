@@ -17,7 +17,7 @@ In accordance with AguaClara's mission to create affordable, reliable, and susta
 
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/sed%20tube%20diagram.png?raw=true" >
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/sed%20tube%20diagram.png?raw=true" >
 
 Figure 1: A diagram of the sedimentation tube used by the Spring 2019 subteam
 
@@ -47,7 +47,7 @@ Floc blankets develop when vertical flow sedimentation tanks form a fluidized be
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
+src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Images/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
 
 Figure 2: Floc blanket forming in the reactor
 
@@ -76,7 +76,7 @@ In the Spring 2018 semester, experiments were conducted with a new fluoride prob
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=220>
+src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Images/Results.png?raw=true" height=200 width=220>
 
 Figure 3: A summary of the experimental results of final fluoride concentrations based on varied concentrations of initial and PACl concentrations.
 
@@ -109,14 +109,14 @@ The team continued to run tests at low concentrations of PACl, or a maximum of 2
 #### Schematic
 
 <div style = "text-align:center">
-  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20spring%2019%20new%20apparatus.jpg?raw=true" >
+  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/fluoride%20spring%2019%20new%20apparatus.jpg?raw=true" >
 Figure 4: A schematic drawing of the Spring 2019 Subteam apparatus
 <div style = "text-align:left">
 
 </div>
 
 <div style = "text-align:center">
-  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/fluoride%20apparatus%20with%20filter%20(2).jpg?raw=true">
+  <img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/fluoride%20apparatus%20with%20filter%20(2).jpg?raw=true">
 Figure 5: The bench setup for the Spring 2019 Subteam
 <div style = "text-align:left">
 
@@ -155,7 +155,7 @@ The Spring 2019 team made various changes to the apparatus from the one used by 
 - Bottom geometry: The Fall 2018 team encountered sedimentation tube failure due to gelling from the old bottom geometry. In the middle of the Spring 2019 semester, the team received a new bottom geometry. However, the inlet to the sedimentation tube through this new bottom geometry was too small, which increased the upflow velocity at the bottom of the tube, broke up flocs, and prevented the formation of a floc blanket. The team received a new bottom geometry at the end of the semester (see Figure 6), which is to be implemented in the next semester.
 
 <div style = "text-align:center">
-<img src = "https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/BotGeo%20Drawing.jpg?raw=true">
+<img src = "https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/BotGeo%20Drawing.jpg?raw=true">
 Figure 6: The newly designed bottom geometry insert
 <div style = "text-align:left">
 
@@ -168,7 +168,7 @@ Before running an experiment, a standard curve was made for the fluoride probe. 
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/std_curve.PNG?raw=true" >
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/std_curve.PNG?raw=true" >
 <div style = "text-align:center">
 Figure 7: Excel sheet used to calibrate the probe and create a standard curve
 
@@ -185,7 +185,7 @@ The team ran an experiment to test if the fluoride probe was as accurate at sens
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Screen%20Shot%202019-04-11%20at%209.39.24%20PM.png?raw=true" >
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/Screen%20Shot%202019-04-11%20at%209.39.24%20PM.png?raw=true" >
 
 Figure 8: Table showing the fluoride concentrations of the effluent directly after collection and after filtering through a mesh screen.
 
@@ -194,7 +194,7 @@ Figure 8: Table showing the fluoride concentrations of the effluent directly aft
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Screen%20Shot%202019-04-11%20at%209.39.41%20PM.png?raw=true" >
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/Screen%20Shot%202019-04-11%20at%209.39.41%20PM.png?raw=true" >
 
 Figure 9: Table showing fluoride concentrations of the effluent directly after collection, after shaking/mixing, and after filtering through a mesh screen.
 
@@ -209,7 +209,7 @@ The team also ran two experiments this semester, with different ratios of PACl t
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Langmuir%20Isotherm%20Data/isotherm.png?raw=true" >
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/Langmuir%20Isotherm%20Data/isotherm.png?raw=true" >
 
 Figure 10: Langmuir Adsorption Isotherm showing theoretical vs. experimental trends.
 
@@ -313,7 +313,7 @@ To assemble the flocculator, the team wrapped 46 feet of flexible and hard tubin
 The team created a new reactor that reverts to a design used by the Fall 2016 through Fall 2017 teams, which has a floc weir protruding from the sedimentation tube below the bend rather than above it. The goal of using this design was to minimize gel formation, which was seen around the bend and mouth of the floc weir in the Fall 2018 semester, and to more closely mimic the actual AguaClara plants in the field. The PVC was heated proximate to the bend point in order to create as smooth of a bend as possible; the floc weir was subsequently welded to the side of the reactor.
 
 <div style = "text-align:center">
-<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/sedimentation%20tube.JPEG?raw=true" height=500 width=350>
+<img src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/sedimentation%20tube.JPEG?raw=true" height=500 width=350>
 
 Figure 11: The reactor used by the Spring 2019 subteam
 <div style = "text-align:left">
