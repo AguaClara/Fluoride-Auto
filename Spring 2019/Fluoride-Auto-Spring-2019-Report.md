@@ -185,7 +185,7 @@ The team ran an experiment to test if the fluoride probe was as accurate at sens
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/Screen%20Shot%202019-04-11%20at%209.39.24%20PM.png?raw=true" >
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Resources/Screen%20Shot%202019-04-11%20at%209.39.24%20PM.png?raw=true" >
 
 Figure 8: Table showing the fluoride concentrations of the effluent directly after collection and after filtering through a mesh screen.
 
@@ -209,7 +209,7 @@ The team also ran two experiments this semester, with different ratios of PACl t
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Images/Langmuir%20Isotherm%20Data/isotherm.png?raw=true" >
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Spring%202019/Resources/Langmuir%20Isotherm%20Data/isotherm.png?raw=true" >
 
 Figure 10: Langmuir Adsorption Isotherm showing theoretical vs. experimental trends.
 
