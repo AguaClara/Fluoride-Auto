@@ -2,10 +2,6 @@
 #### Dominic Grasso, Melissa Louie, Desiree Sausele, Emily Spiek
 #### March 15, 2019
 
-**[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
-
-**[Overall: YAAAS! Great report guys. Thank you for addressing all my comments. There are just some minor changes to be made, but really good work! Also, please change the file name to something like Fluoride-Auto-Spring-2019-Report.md.]**
-
 ## Abstract
 
 The Spring 2019 Fluoride Auto subteam aimed to determine the optimal dosage of polyaluminum chloride (PACl) needed to precipitate fluoride ions out of influent water to meet the World Health Organization’s drinking water standard for fluoride concentration (1.5 mg/L). The team accomplished several fabrication tasks, including lengthening the flocculator used by the Fall 2018 subteam and constructing a new sedimentation tube. The team tested the new apparatus with PACl and red dye to visually determine that it worked properly and that aggregated particles (flocs) were exiting the tube through the floc weir. The team then aimed to run experiments with fluoride but experienced difficulty calibrating the fluoride probe. Upon acquiring a new probe in the future, the team will analyze fluoride removal efficiency using the Langmuir Adsorption Model.      
@@ -120,7 +116,6 @@ Figure 4: A schematic drawing of the Spring 2019 Subteam apparatus
 Figure 5: The bench setup for the Spring 2019 Subteam
 <div style = "text-align:left">
 
-**[LOVELY diagrams!! So well labeled. I love this.]**
 #### Process Flow Through Reactor
 1. Fluoride was pumped from the Fluoride stock tank and mixed with tap water.
 2. PACl was pumped from the Coagulant stock tank and mixed with the diluted fluoride stream.
@@ -131,9 +126,7 @@ Figure 5: The bench setup for the Spring 2019 Subteam
 7. The stream flowed through the effluent filter to break up large flocs.
 8. The fluoride sensor was immersed in the effluent reactor stream to measure the effluent fluoride concentration.
 9. The effluent stream flowed into the sink.
-10. The floc weir effluent was pumped to the waste line by a waste pump.
-
-**[Try to use the naming convention from the beautiful schematic and diagram you included in the actual process? For instance, "1. Fluoride was pumped from the Fluoride Stock Tank and mixed with tap water."]**
+  1. The floc weir effluent was pumped to the waste line by a waste pump.
 
 #### Materials
 - One 600 RPM pump, two 100 RPM pumps, and one 1 RPM pump
