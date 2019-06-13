@@ -21,24 +21,46 @@ Vol_reactor = (m.pi * ((D_reactor)**2)*H_reactor/4).to(u.mL)
 # Residence time in reactor
 T_residence= (Vol_reactor/Q_reactor).to(u.minute)
 
-
-
+#PACl
+#Concentration of PACl stock
 C_stock_PACl = 1000*u.mg/u.L
-C_stock_dye = 1000*u.mg/u.L
+#Concentration of PACl that you want in the reactor
 C_reactor_PAC = 30*u.mg/u.L
-C_reactor_F = 5*u.mg/u.L  
-
+#Flow rate of PACl in mL/s (put into ProCoDA)
 Q_stock_PAC = Q_reactor*(C_reactor_PAC/C_stock_PACl)
 
+#RED DYE
+#Concentration of red dye stock
+C_stock_dye = 1000*u.mg/u.L
+#Concentration of dye that you want in the reactor
 C_reactor_dye = (Q_stock_PAC*C_stock_dye)/Q_reactor
 
+#FLUORIDE
+#Concentration of fluoride stock
+C_stock_F = 1000*u.mg/u.L
+#Concentration of fluoride that you want in the reactor
+C_reactor_F = 5*u.mg/u.L
+#Fluoride microtubing (orange-yellow)
+oy_tube=0.019*u.mL/u.revolutions
+#CHECK THIS WITH PROCODA TMW, NOT SURE IF IT IS correct:
+#Flow rate of fluoride in RPM (put into manual pump)
+Q_stock_F = (Q_reactor/oy_tube)*(C_reactor_F/C_stock_F)*60*u.sec/u.min
+print ('Fluoride pump should be set at: ')
+print(Q_stock_F)
+
+#WATER
+#Flow rate of water in mL/s (put into ProCoDA)
 Q_tap = Q_reactor - 1*Q_stock_PAC
+
 #Not sure if this is correct right now: Q_fluoride = (0.5)*Q_tap
-Q_fluoride = (Q_reactor * C_reactor_F)/(C_stock_dye)
 
-C_stock_F = Q_reactor*(C_reactor_F/Q_fluoride)
+#Fix this part of the code --> not sure what it's for because it has fluoride and dye included
+#Flow rate of fluoride in mL/s (put into ProCoDA)
+#Q_fluoride = (Q_reactor * C_reactor_F)/(C_stock_dye)
 
-C_lab_PAC = 70900
+#C_stock_F = Q_reactor*(C_reactor_F/Q_fluoride)
+
+#C_lab_PAC = 70900
 
 
 #Flocculator Calculations
