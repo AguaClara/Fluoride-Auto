@@ -42,7 +42,10 @@ C_stock_F = 1000*u.mg/u.L
 C_reactor_F = 5*u.mg/u.L
 #Fluoride microtubing (orange-yellow)
 oy_tube=0.019*u.mL/u.revolutions
-#CHECK THIS WITH PROCODA TMW, NOT SURE IF IT IS correct:
+#Flow rate of fluoride in mL/s (check in ProCoDA)
+Q_stock_F = Q_reactor*(C_reactor_F/C_stock_F)
+print('Fluoride can be set in ProCoDA to: ')
+print(Q_stock_F)
 #Flow rate of fluoride in RPM (put into manual pump)
 Q_stock_F = (Q_reactor/oy_tube)*(C_reactor_F/C_stock_F)*60*u.sec/u.min
 print ('Fluoride pump should be set at: ')
