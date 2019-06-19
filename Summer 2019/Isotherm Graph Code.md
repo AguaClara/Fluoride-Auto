@@ -29,7 +29,7 @@ summer19_effluent=summer19.iloc[:,1]
 summer19_uptake=summer19.iloc[:,3]
 summer19plot, =plt.plot(summer19_effluent,summer19_uptake,"ms")
 
-# find the logarithmic line of best fit for the data --> finish this part
+# find the logarithmic line of best fit for the data
 #alldata=pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20Points.csv')
 #alldata_effluent=alldata.iloc[:,0]
 #alldata_uptake=alldata.iloc[:,1]
