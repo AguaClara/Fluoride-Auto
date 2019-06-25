@@ -4,6 +4,7 @@ import pandas as pd
 import scipy.stats as stats
 import numpy as np
 import scipy.optimize as opt
+
 # import the summer 2018 data: summer18
 summer18 = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Spring%202019/Langmuir%20Isotherm%20Data/Summer%202018%20data%20points.csv')
 summer18_effluent=summer18.iloc[:,0]
@@ -24,8 +25,8 @@ spring19plot, =plt.plot(spring19_effluent,spring19_uptake,"ys")
 
 # import the summer 2019 data: summer19
 summer19 = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Summer%202019%20data.csv')
-summer19_effluent=summer19.iloc[:,1]
-summer19_uptake=summer19.iloc[:,3]
+summer19_effluent=summer19.iloc[4,1]
+summer19_uptake=summer19.iloc[4,3]
 summer19plot, =plt.plot(summer19_effluent,summer19_uptake,"ms")
 
 # find the logarithmic line of best fit for the data
@@ -53,10 +54,9 @@ theoretical_effluent=theoretical.iloc[:,0]
 theoretical_uptake=theoretical.iloc[:,1]
 theoreticalplot, =plt.plot(theoretical_effluent,theoretical_uptake,"m")
 
-
 # plot the data set
 plt.xlim(0, 11)
 plt.ylim(0,400)
 plt.xlabel("Effluent Fluoride Concentration (mg/L)")
 plt.ylabel("Uptake (mg Fluoride/g PaCl)")
-plt.legend((summer18plot, fall18plot, spring19plot, summer19plot, bestfit_plot,theoreticalplot),("Summer 2018", "Fall 2018", "Spring 2019","Summer 2019", "Line of Best Fit","Theoretical Langmuir Isotherm"))
+plt.legend((summer18plot, fall18plot, spring19plot, summer19plot, bestfit_plot,theoreticalplot),("Summer 2018", "Fall 2018", "Spring 2019", "Line of Best Fit","Theoretical Langmuir Isotherm"))
