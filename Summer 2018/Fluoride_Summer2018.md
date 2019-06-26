@@ -88,10 +88,10 @@ Figure 2: The fabricated gravity-powered system. The system includes a flocculat
 
 The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it a sample is taken, and the fluoride of the effluent water is measured by a fluoride probe.
 
-![bench_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
+![bench_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
 Figure 3: A schematic drawing of the bench setup for the fluoride removal system.
 
-![bench_setup](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Labeled_bench_setup.jpg)
+![bench_setup](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labeled_bench_setup.jpg)
 Figure 4: Current pump powered bench setup for the fluoride removal system.
 
 
@@ -227,7 +227,7 @@ The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. Howeve
 
 Figure 4: The fluoride probe used to measure effluent fluoride concentration.
 
-![fluoride_probe](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
+![fluoride_probe](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
 
 While the FL43-0001 probe is still functional, the team decided to order a [new fluoride probe](https://github.com/AguaClara/fluoride/issues/59). This was necessary considering that for the upcoming Fall 2018 semester there will be two active fluoride teams. One team will be running tests with the pump station while the other will be running tests on the gravity system. Each team will need to test their samples for fluoride. The second probe, a Cole-Parmer Ion-Selective Electrode (ISE) was ordered at the end of the summer. Additionally, a third fluoride probe is also recommended in order to prevent future loss of time due to delays caused by non-functional probes. This should be one of the first tasks of the Fall 2018 fluoride team, to search and purchase a third backup probe.
 
@@ -303,7 +303,7 @@ print("R-squared:", r_value ** 2)
 
 
 ```
-![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/calibration_curve.png?raw=true)
+![calibration_curve](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/calibration_curve.png?raw=true)
 Figure 5: The linear relationship between voltage and concentration. The R-squared value is 0.9900. The slope is 0.04529, and the y-intercept is 0.04352.
 
 
@@ -365,11 +365,11 @@ Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotte
 
 The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing). This data was graphed to create the adsorption model (Figure 6).
 
-![adsorption_linear](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/adsorption_linear.png?raw=true)
+![adsorption_linear](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_linear.png?raw=true)
 
 Figure 6: Linear adsorption model fitted to Langmuir Isotherm.
 
-![adsorption_model](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/adsorption_model.png?raw=true)
+![adsorption_model](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_model.png?raw=true)
 
 Figure 7: Langmuir adsorption model, with outliers and inconsistencies removed. The points in blue contain all data from experiments run with 5 mg/L influent concentration of fluoride. The points in green are 15 mg/L influent fluoride, and the points in orange are 10 mg/L influent fluoride.
 
@@ -429,29 +429,29 @@ The sedimentation tube in both the bench system and the gravity powered system h
 60 degree bends from the horizontal were created using a welder. Drill bit of 1/2 inch and thread of 1/4 inch were used. Holes were drilled into reactor for floc weir using circle saw and by setting the drill press at 55 degree angle. The floc weir pipe was then welded to the tube settler.
 
 
-![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Sedtank_labeled.jpg?raw=true)
+![sedtank](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Sedtank_labeled.jpg?raw=true)
 Figure 5: Reactor fabricated for both the bench system and gravity powered system.
 
 ### Gravity Powered System
 Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were also added to the exits of the constant head tank and stock tank so that the both tanks can be easily removed for refilling.
 
-![Valves](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Valves.jpg)
+![Valves](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Valves.jpg)
 Figure 4: Valves added at the exits of both stock tank and constant head tank
 
 #### Making Gravity Powered System Adjustable
 
 Further improvements to the gravity powered system which allows for easier adjustments to fluoride and PACl flowrates were made. This was accomplished by installing sliding tracks onto the body of the gravity system frame. Additionally all components were lowered in order to place the whole setup on top of a lab bench in order to conserve space in the lab.
-![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
+![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
 Figure 5: Modified gravity powered reactor shown with 3 adjustable sliders.
 
 Figure 6 shows the two adjustable platforms that hold PACl. The top platform has a scale attached to it in order to accurately measure the weight of PACl at different time intervals. This information can then be used to calculate the flowrate of PACl into the system more accurately than previously done before. The top 1L PACl tank feeds the bottom 1L PACl constant head tank. Their hights can be adjusted inorder to achieve the desired PACl system concentration.
 
-![PACl adjustable tanks](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
+![PACl adjustable tanks](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Gravity_reactor_PACl_adjustable_edit.jpg?raw=true)
 Figure 6: Height adjustable PACl platforms used to easily adjust system concentration of PACl.
 
 A third adjustable slider was added to the frame of the gravity powered system. This last piece allows for easy control of the system flowrate. By adjusting the height of the effluent point relative to the top of the constant fluoride head tank the system flowrate can be easily adjusted.
 
-![System Flowrate Adjustment](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Gravity_reactor_sedtank_labeled.jpg?raw=true)
+![System Flowrate Adjustment](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_sedtank_labeled.jpg?raw=true)
 Figure 7: Slider allows for easy and fast adjustment of the system flowrate of the gravity powered system.  
 
 
