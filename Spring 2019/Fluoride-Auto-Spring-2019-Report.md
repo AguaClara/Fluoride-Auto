@@ -43,7 +43,7 @@ Floc blankets develop when vertical flow sedimentation tanks form a fluidized be
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/fluoride%20report/Flocs_in_Reactor.jpg" height=400, width=300>
 
 Figure 2: Floc blanket forming in the reactor
 
@@ -72,7 +72,7 @@ In the Spring 2018 semester, experiments were conducted with a new fluoride prob
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=220>
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/fluoride%20report/Results.png>
 
 Figure 3: A summary of the experimental results of final fluoride concentrations based on varied concentrations of initial and PACl concentrations.
 
