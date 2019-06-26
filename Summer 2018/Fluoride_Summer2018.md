@@ -392,7 +392,7 @@ Future teams should also research on how to operate the system based on the find
 
 Another goal is to research options on how to handle the fluoride-coagulant waste that exits the fluoride-removal system. One possible option is to concentrate the waste stream. Future teams should consider how the waste should be handled on-site in the communities where the fluoride-removal systems will be implemented.
 
-##Conclusion
+## Conclusion
 The summer 2018 fluoride team focused on creating an adsorption model by testing various fluoride and PACl concentrations. The team also worked on fabricating a gravity-powered system that will be used for research in the field.
 
 ## Bibliography
@@ -534,14 +534,14 @@ To begin the ProCoDA method file, three states were made: ON and OFF and Just Wa
 The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and fluoride pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
 
 ### States
-![Just water](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/waterrules.png)
+![Just water](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/waterrules.png)
 Figure 7: Screenshot of Just Water State
 
-![Run Experiment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Runrules.png)
+![Run Experiment](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/Runrules.png)
 Figure 8: Screenshot of Run Experiment State
 ### Set Points
 
-![Setpoints](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Setpoints.png)
+![Setpoints](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/Setpoints.png)
 Figure 9: Screenshot of set points in ProCoDA
 
 ## Python Code
