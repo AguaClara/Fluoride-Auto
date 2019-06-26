@@ -76,28 +76,28 @@ $$ P_1 + \rho g \Delta h_1+ \frac{1}{2}\rho {v_1}^2 = P_2 + \rho g \Delta h_2+ \
 
 Details on design calculations can be found [here](https://github.com/AguaClara/fluoride/blob/master/Gravity%20Reactor.md). More information can be found in the Spring 2018 [report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md).
 
-![gravity_schematic](https://github.com/AguaClara/Fluoride-Auto/blob/master/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true)
+![gravity_schematic](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg)
 Figure 1: Schematic for gravity-powered system. The constant head tanks for fluoride and PACl ensure constant flow through the system.
 
-![gravity_reactor](https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/labeledGravSystem.PNG?raw=true)
+![gravity_reactor](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/fluoride%20report/labeledGravSystem.PNG)
 Figure 2: The fabricated gravity-powered system. The system includes a flocculator and a sedimentation tube.
 
 
 ## Methods
 ### Experimental Apparatus
 
-The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it a sample is taken, and the fluoride of the effluent water is measured by a fluoride probe.
+The experimental apparatus included pumps, a coiled flocculator, and a sedimentation tube ([Figure 1](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Bench%20setup.png)). Two new sedimentation tubes were fabricated. Fabrication details are listed under the Manual section. Water flows into the system through the water pump. Fluoride and coagulant (PACl) are pumped into the system from their respective stock tanks. The pumps are operated by ProCoDA (Process Controller and Data Acquisition), which is a process control software created to automate pump control and generate datalogs ([Weber-Shirk, 2016](https://confluence.cornell.edu/display/AGUACLARA/ProCoDA)). The water, fluoride, and PACl mixture flows into the coiled flocculator. In the flocculator, PACl particles collide with fluoride ions, forming flocs. The mixture flows from the coiled flocculator to the sedimentation tube. Water flows up the sedimentation tube at a rate of 1.5 mm/s. This upflow velocity was used to calculate the necessary flow rate of water through the system. Calculations for the system flow rate can be found [here](https://github.com/AguaClara/fluoride/blob/master/SummerFluorideCalculations.md). Flocs are pumped from the sedimentation tube by a 1 rpm waste pump and exit through the floc weir. The treated water exits the sedimentation tube through the top where it a sample is taken, and the fluoride of the effluent water is measured by a fluoride probe.
 
-![bench_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
+![bench_schematic](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Bench_setup_new.png?raw=true)
 Figure 3: A schematic drawing of the bench setup for the fluoride removal system.
 
-![bench_setup](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Labeled_bench_setup.jpg)
+![bench_setup](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Labeled_bench_setup.jpg)
 Figure 4: Current pump powered bench setup for the fluoride removal system.
 
 
 ### Procedure
 
-The stock concentration for fluoride was prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)).
+The stock concentration for fluoride was prepared to model the actual fluoride concentrations observed in India's groundwater. A range of 20 mg/L to 5 mg/L was tested, since the highest reported fluoride concentration in groundwater was 20 mg/L, while the average amount of fluoride among most regions was 5 mg/L ([Karthikeyan and Lakshanan, 2011](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Fluoride_book_chapter.pdf)). The goal was to reduce the fluoride influent concentration to 1.0 mg/L, to meet the India fluoride standards for drinking water ([Bhawan and Marg, 2009](https://github.com/AguaClara/fluoride)).
 
 The stock fluoride bottle was made in way that allows for a range of fluoride concentration in the entire system by only adjusting the pump speed. This reduced the need for a different stock for each desired concentration of fluoride in the entire system.  
 
@@ -225,10 +225,9 @@ Samples were taken at two different locations throughout the experiment. One at 
 ### Fluoride Probe
 The fluoride probe used was model FL43-0001 from Daigger Scientific, Inc. However, previous teams had issues taking accurate measurements using this fluoride probe. The Spring 2018 fluoride subteam returned a probe and obtained a replacement, which is the one the Summer 2018 team has used. Manual for operating the probe can be found [here](https://github.com/AguaClara/fluoride/wiki/Fluoride-Probe-Manual).
 
-![fluoride_probe](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
 Figure 4: The fluoride probe used to measure effluent fluoride concentration.
 
-The fluoride probe uses an ion-sensitive electrode ([Light, 1975](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/fluoride_paper.pdf)). When the fluoride probe is placed in a fluoride solution, the probe outputs a voltage reading. This voltage reading can then be converted to a fluoride concentration by first creating a calibration curve and comparing the output voltage to the calibration curve.
+![fluoride_probe](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018/Summer%202018%20fluoride%20report/fluoride_probe.jpg?raw=true)
 
 While the FL43-0001 probe is still functional, the team decided to order a [new fluoride probe](https://github.com/AguaClara/fluoride/issues/59). This was necessary considering that for the upcoming Fall 2018 semester there will be two active fluoride teams. One team will be running tests with the pump station while the other will be running tests on the gravity system. Each team will need to test their samples for fluoride. The second probe, a Cole-Parmer Ion-Selective Electrode (ISE) was ordered at the end of the summer. Additionally, a third fluoride probe is also recommended in order to prevent future loss of time due to delays caused by non-functional probes. This should be one of the first tasks of the Fall 2018 fluoride team, to search and purchase a third backup probe.
 
@@ -337,7 +336,7 @@ adsorbate which is strongly attracted to the surface."
 2. "The surface has a specific number of sites where the solute molecules
 can be adsorbed."
 3. "The adsorption involves the attachment of only one layer of molecules
-to the surface, i. e. monolayer adsorption." ([Altig, 2018](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Langmuir-Isotherm.pdf))
+to the surface, i. e. monolayer adsorption." ([Altig, 2018](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Langmuir-Isotherm.pdf))
 
 In linear form, the Langmuir Isotherm is modeled by the equation:
 
@@ -366,11 +365,11 @@ Table 5: Data taken on 7/25/2018. The amount of fluoride adsorbed (W) was plotte
 
 The complete data for each experiment can be found [here](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit?usp=sharing). This data was graphed to create the adsorption model (Figure 6).
 
-![adsorption_linear](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_linear.png?raw=true)
+![adsorption_linear](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/adsorption_linear.png?raw=true)
 
 Figure 6: Linear adsorption model fitted to Langmuir Isotherm.
 
-![adsorption_model](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/adsorption_model.png?raw=true)
+![adsorption_model](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/adsorption_model.png?raw=true)
 
 Figure 7: Langmuir adsorption model, with outliers and inconsistencies removed. The points in blue contain all data from experiments run with 5 mg/L influent concentration of fluoride. The points in green are 15 mg/L influent fluoride, and the points in orange are 10 mg/L influent fluoride.
 
@@ -436,13 +435,13 @@ Figure 5: Reactor fabricated for both the bench system and gravity powered syste
 ### Gravity Powered System
 Fixes to the gravity powered system from the [2018 Spring fluoride removal team final report](https://github.com/AguaClara/fluoride/blob/master/FluorideReportSp18.md) were made which included fixing several leaks throughout the apparatus. The newly fabricated reactor was installed to fix the leakages. Valves as shown in figure 4 were also added to the exits of the constant head tank and stock tank so that the both tanks can be easily removed for refilling.
 
-![Valves](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Valves.jpg)
+![Valves](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Valves.jpg)
 Figure 4: Valves added at the exits of both stock tank and constant head tank
 
 #### Making Gravity Powered System Adjustable
 
 Further improvements to the gravity powered system which allows for easier adjustments to fluoride and PACl flowrates were made. This was accomplished by installing sliding tracks onto the body of the gravity system frame. Additionally all components were lowered in order to place the whole setup on top of a lab bench in order to conserve space in the lab.
-![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
+![Gravity powered reactor](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Gravity_reactor_labeled_edit.jpg?raw=true)
 Figure 5: Modified gravity powered reactor shown with 3 adjustable sliders.
 
 Figure 6 shows the two adjustable platforms that hold PACl. The top platform has a scale attached to it in order to accurately measure the weight of PACl at different time intervals. This information can then be used to calculate the flowrate of PACl into the system more accurately than previously done before. The top 1L PACl tank feeds the bottom 1L PACl constant head tank. Their hights can be adjusted inorder to achieve the desired PACl system concentration.
@@ -452,7 +451,7 @@ Figure 6: Height adjustable PACl platforms used to easily adjust system concentr
 
 A third adjustable slider was added to the frame of the gravity powered system. This last piece allows for easy control of the system flowrate. By adjusting the height of the effluent point relative to the top of the constant fluoride head tank the system flowrate can be easily adjusted.
 
-![System Flowrate Adjustment](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/Gravity_reactor_sedtank_labeled.jpg?raw=true)
+![System Flowrate Adjustment](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Gravity_reactor_sedtank_labeled.jpg?raw=true)
 Figure 7: Slider allows for easy and fast adjustment of the system flowrate of the gravity powered system.  
 
 
@@ -480,13 +479,13 @@ The following are improvised based on protocols used for past semesters' experim
 1. Waste line is opened. (System will explode if this is not open)
 2. No leaks anywhere in system
 3. Ensure that all collection valves are closed and that the main line valves are open. Failure to do so can cause sed tank to explode
-![System_Valves](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Influent_valves_edit.JPG?raw=true)
+![System_Valves](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Influent_valves_edit.JPG?raw=true)
 Figure 8. Main line valve and collection valves
 
 4. Check PACl and Fluoride stock containers and refill them when necessary
 5. Make sure that lids are on the containers but not tightly sealed in order to prevent negative pressure from crushing the stock containers
 6. Turn on magnetic stir plates under the stock containers (NOT THE HEAT)
-![Stir](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Stock_stir.jpg?raw=true)
+![Stir](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Stock_stir.jpg?raw=true)
 Figure 9. PACl and fluoride stock on stir
 
 7. Turn on all pumps and set them to run at the desired RPM (Check ProCoDA)
@@ -496,10 +495,10 @@ Figure 9. PACl and fluoride stock on stir
 ##### During test
 7. Recheck everything periodically to ensure it is running how it should be and that there are no water leaks
 8. Take an influent and effluent sample every 15 minutes by using the valve after fluoride and before coagulant is added (influent) and after the sedimentation tube (effluent). Remember to not close both main line valve and collection valves at the same time. Doing so will cause the system to explode.
-![Influent_sampling](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Influent_collection.jpg?raw=true)
+![Influent_sampling](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Influent_collection.jpg?raw=true)
 Figure 10. Sampling of influent fluoride concentration  
 
-![Effluent_sampling](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018%20fluoride%20report/Effluent_collection.jpg?raw=true)
+![Effluent_sampling](https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/Summer%202018%20fluoride%20report/Effluent_collection.jpg?raw=true)
 Figure 11. Sampling of effluent fluoride concentration
 
 ##### End of test
@@ -519,7 +518,7 @@ Figure 11. Sampling of effluent fluoride concentration
 2. Rinse the fluoride probe with DI water and carefully dab the end of the probe on a Kimwipe. If any sediments from prior experiments remain, rub off with polishing
 3. Insert the probe into one of the calibration solutions.
 4. Swirl the probe around, then let settle. Record the voltage once it reaches a steady state
-5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again). ![Fluoride Voltage readings on ProCoDa](https://github.com/AguaClara/fluoride/blob/master/Summer%202018%20fluoride%20report/ProCoDa_fluoride_probe_calibration.JPG?raw=true)
+5. Make sure to record the voltage at the minimum voltage (the voltage will spike first and eventually reach a steady state voltage before increasing again). ![Fluoride Voltage readings on ProCoDa](https://github.com/AguaClara/fluoride/blob/master/Summer%202018/Summer%202018%20fluoride%20report/ProCoDa_fluoride_probe_calibration.JPG?raw=true)
 Figure 6: Voltage reading of fluoride sample on ProCoDa
 
 6. Repeat with the other fluoride concentrations and record the values in Google Docs (labeled "Fluoride Calibration"). [Summer Fluoride Calibration](https://docs.google.com/spreadsheets/d/1Qdzn8rtu0ubeyHFeoxpHNJPTBkcbFvO21DLpOUB-Flc/edit#gid=0)
@@ -535,14 +534,14 @@ To begin the ProCoDA method file, three states were made: ON and OFF and Just Wa
 The method file was set to control the revolutions per minute (RPM) of the PACl/dye pump and the tap water pumps. This was done using the peristaltic pump ProCoDA file available in the AguaClara server as well as inputs for desired flow rate and tubing size. For the PACl and fluoride pump heads, inputs of $\mathrm{\frac{mL}{rev}}$ and flow rate were needed to calculate RPM since microtubing was used, and for the water pump head, tubing ID and flow rate were needed to calculate RPM. The set points used for the method file included a water pump set point for the water pump RPM and a floc pump set point for the PACl/dye pump RPM.
 
 ### States
-![Just water](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/waterrules.png)
+![Just water](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/waterrules.png)
 Figure 7: Screenshot of Just Water State
 
-![Run Experiment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Runrules.png)
+![Run Experiment](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Runrules.png)
 Figure 8: Screenshot of Run Experiment State
 ### Set Points
 
-![Setpoints](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018%20fluoride%20report/Setpoints.png)
+![Setpoints](https://raw.githubusercontent.com/AguaClara/fluoride/master/Summer%202018/Summer%202018%20fluoride%20report/Setpoints.png)
 Figure 9: Screenshot of set points in ProCoDA
 
 ## Python Code
