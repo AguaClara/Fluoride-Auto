@@ -44,7 +44,7 @@ Floc blankets develop when vertical flow sedimentation tanks form a fluidized be
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/fluoride%20report/Flocs_in_Reactor.jpg>
 
 Figure 1: Floc blanket forming in the reactor
 </div>
@@ -62,7 +62,7 @@ In the Spring of 2016, the team determined that the sand filter system was ineff
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Old_Setup.jpg?raw=true" height=300, width=400>
+src="https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Old_Setup.jpg?raw=true" height=300, width=400>
 
 Figure 2: Pump Powered Setup
 </div>
@@ -80,7 +80,7 @@ In the Fall of 2016, the team fabricated a new bottom insert to prevent the accu
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
+src="https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
 
 Figure 3: Bottom insert geometry that prevented clogging of the reactor
 </div>
@@ -99,7 +99,7 @@ As research conducted during the summer of 2017 suggested, last semester's team 
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Adsorption_Langmuir.png?raw=true" height=300, width=400>
+src="https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Adsorption_Langmuir.png?raw=true" height=300, width=400>
 
 Figure 4: Langmuir Model Comparison to Experimental Data
 </div>
@@ -133,7 +133,7 @@ Experiments were conducted with the new fluoride probe, which measured the efflu
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=220>
+src="https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Results.png?raw=true" height=200 width=220>
 
 Table 1: A summary of the experimental results using the new fluoride probe. Initial fluoride concentrations, as well as PACl concentrations were varied to pinpoint an optimal coagulant concentration for fluoride removal.
 </div>
@@ -157,7 +157,7 @@ Powering a water treatment plant with electrical pumps is often impossible in co
 <div style = "text-align:center">
 <img
 align = "center"
-src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true">
+src= "https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true">
 
 Figure 5: The figure above depicts a sketch of the team's current design idea for the gravity-powered apparatus.
 </div>
@@ -165,7 +165,7 @@ Figure 5: The figure above depicts a sketch of the team's current design idea fo
 <div style = "text-align:center">
 <img
 align = "center"
-src = "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Projected_Front_View.png?raw=true">
+src = "https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Projected_Front_View.png?raw=true">
 
 Figure 6: Front view of in progress Fusion 360 assembly
 </div>
@@ -174,7 +174,7 @@ Figure 6: Front view of in progress Fusion 360 assembly
 <div style = "text-align:center">
 <img
 align = "center"
-src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Projected_Side_View.png?raw=true">
+src= "https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Projected_Side_View.png?raw=true">
 
 Figure 7: Side view of in progress Fusion 360 assembly
 </div>
@@ -244,7 +244,7 @@ The team used a two column base in order to ensure stability of our setup. Addit
   <div style = "text-align:center">
   <img
   align = "center"
-  src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/labeledGravSystem.PNG?raw=true" height = 450>
+  src= "https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/labeledGravSystem.PNG?raw=true" height = 450>
 
   Figure 8: Current progress of fabricated design
   </div>
@@ -341,7 +341,7 @@ The apparatus the team is currently running experiments with is powered by gravi
 <div style = "text-align:center">
 <img
 align = "center"
-<img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true" height=400 width=550>
+<img src= "https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Gravity%20Powered%20Reactor%20(2).jpg?raw=true" height=400 width=550>
 
 Figure 10: A sketch of the team’s current design idea for the gravity-powered apparatus.
 </div>
