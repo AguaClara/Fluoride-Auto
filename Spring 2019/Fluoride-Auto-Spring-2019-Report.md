@@ -72,7 +72,7 @@ In the Spring 2018 semester, experiments were conducted with a new fluoride prob
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202018/fluoride%20report/Results.png>
+src="https://github.com/AguaClara/fluoride/blob/master/Summer%202018/fluoride%20report/Results.png?raw=true>
 
 Figure 3: A summary of the experimental results of final fluoride concentrations based on varied concentrations of initial and PACl concentrations.
 
