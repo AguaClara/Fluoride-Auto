@@ -29,6 +29,18 @@ summer19_effluent=summer19.iloc[14,1]
 summer19_uptake=summer19.iloc[14,4]
 summer19plot, =plt.plot(summer19_effluent,summer19_uptake,"ms")
 
+# import the summer 2019 data without clay: summer19noclay
+summer19noclay = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/No%20Clay.csv')
+summer19_noclay_effluent=summer19noclay.iloc[:,1]
+summer19_noclay_uptake=summer19noclay.iloc[:,4]
+summer19noclayplot, =plt.plot(summer19_noclay_effluent,summer19_noclay_uptake,"m*")
+
+# import the summer 2019 data with clay: summer19clay
+summer19clay = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Clay.csv')
+summer19_clay_effluent=summer19clay.iloc[:,1]
+summer19_clay_uptake=summer19clay.iloc[:,4]
+summer19clayplot, =plt.plot(summer19_clay_effluent,summer19_clay_uptake,"b*")
+
 # find the logarithmic line of best fit for the data
 alldata=pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Spring%202019/Langmuir%20Isotherm%20Data/All%20Experimental%20Data%20Points.csv')
 alldata_effluent=alldata.iloc[:,0]
@@ -55,8 +67,10 @@ theoretical_uptake=theoretical.iloc[:,1]
 theoreticalplot, =plt.plot(theoretical_effluent,theoretical_uptake,"m")
 
 # plot the data set
+plt.title("Cumulative Uptake vs. Effluent Fluoride Concentration Data")
 plt.xlim(0, 11)
 plt.ylim(0,400)
 plt.xlabel("Effluent Fluoride Concentration (mg/L)")
 plt.ylabel("Uptake (mg Fluoride/g PaCl)")
-plt.legend((summer18plot, fall18plot, spring19plot, summer19plot, bestfit_plot,theoreticalplot),("Summer 2018", "Fall 2018", "Spring 2019", "Summer 2019", "Line of Best Fit","Theoretical Langmuir Isotherm"))
+plt.legend((summer18plot, fall18plot, spring19plot, summer19noclayplot, summer19clayplot, bestfit_plot,theoreticalplot),("Summer 2018", "Fall 2018", "Spring 2019", "Summer 2019 No Clay", "Summer 2019 Clay", "Line of Best Fit","Theoretical Langmuir Isotherm"))
+plt.savefig("Cumulative Graph")
