@@ -7,7 +7,7 @@ from aguaclara.play import*
 #Diameter of reactor tube
 D_reactor = 1 * u.inch
 #Input upflow velocity
-V_up = 1.5 * u.mm/u.s
+V_up = 1.17 * u.mm/u.s
 #Flow rate into reactor
 Q_reactor = (m.pi*((D_reactor/2)**2)*V_up).to(u.mL/u.s)
 #Height of reactor
@@ -21,7 +21,7 @@ T_residence= (Vol_reactor/Q_reactor).to(u.minute)
 #Concentration of PACl stock
 C_stock_PACl = 1000*u.mg/u.L
 #Input concentration of PACl that you want in the reactor
-C_reactor_PAC = 15*u.mg/u.L
+C_reactor_PAC = 18.9*u.mg/u.L
 #Coagulant microtubing (orange-yellow)
 oy_tube=0.019*u.mL/u.revolutions
 #Flow rate of PACl in mL/s (put into ProCoDA)
