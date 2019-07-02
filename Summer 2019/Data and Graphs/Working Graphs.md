@@ -5,11 +5,17 @@ import scipy.stats as stats
 import numpy as np
 import scipy.optimize as opt
 
-#import working experiments
-summer19 = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Working%20Experiments.csv')
-summer19_effluent=summer19.iloc[:,1]
-summer19_uptake=summer19.iloc[:,4]
-summer19plot, =plt.plot(summer19_effluent,summer19_uptake,"mo")
+# import auto data
+summer19auto = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/Working%20Experiments%20Auto.csv')
+summer19_auto_effluent=summer19auto.iloc[:,1]
+summer19_auto_uptake=summer19auto.iloc[:,4]
+summer19autoplot, =plt.plot(summer19_auto_effluent,summer19_auto_uptake,"rs")
+
+# import grav data
+summer19grav = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/Working%20Experiments%20Grav.csv')
+summer19_grav_effluent=summer19grav.iloc[:,1]
+summer19_grav_uptake=summer19grav.iloc[:,4]
+summer19gravplot, =plt.plot(summer19_grav_effluent,summer19_grav_uptake,"cs")
 
 plt.title("Summer 2019 Uptake vs. Effluent Working Experiments")
 plt.xlim(0,6)
