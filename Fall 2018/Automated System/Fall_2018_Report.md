@@ -44,7 +44,7 @@ Floc blankets develop when vertical flow sedimentation tanks form a fluidized be
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/fluoride%20report/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
 
 Figure 1: Floc blanket forming in the reactor
 </div>
@@ -62,7 +62,7 @@ In the Spring of 2016, the team determined that the sand filter system was ineff
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Old_Setup.jpg?raw=true" height=300, width=400>
+src="https://github.com/AguaClara/fluoride/blob/master/Fall%202018/fluoride%20report/Old_Setup.jpg?raw=true" height=300, width=400>
 
 Figure 2: Pump Powered Setup
 </div>
@@ -75,7 +75,7 @@ In the Fall of 2016, the team fabricated a new bottom insert to prevent the accu
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
+src="https://github.com/AguaClara/fluoride/blob/master/Fall%202018/fluoride%20report/Reactor_Bottom.png?raw=true" height=400, width=350>
 
 Figure 3: Bottom insert geometry that prevented clogging of the reactor
 </div>
@@ -89,7 +89,7 @@ Over the summer of 2017, tests performed during the previous semester were repea
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Adsorption_Langmuir.png?raw=true" height=300, width=400>
+src="https://github.com/AguaClara/fluoride/blob/master/Fall%202018/fluoride%20report/Adsorption_Langmuir.png?raw=true" height=300, width=400>
 
 Figure 4: Langmuir Model Comparison to Experimental Data
 </div>
@@ -101,7 +101,7 @@ Experiments were conducted with a new fluoride probe in the Spring of 2018, whic
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/Results.png?raw=true" height=200 width=220>
+src="https://github.com/AguaClara/fluoride/blob/master/Fall%202018/fluoride%20report/Results.png?raw=true" height=200 width=220>
 
 Table 1: A summary of the experimental results using the fluoride probe . Initial fluoride concentrations, as well as PACl concentrations were varied to pinpoint an optimal coagulant concentration for fluoride removal.
 </div>
@@ -161,7 +161,7 @@ W was calculated for the experimental data from the Summer 2018 and Fall 2017 te
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/langmuir.PNG?raw=true" height=300, width=400>
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/langmuir.PNG?raw=true" height=300, width=400>
 
 Figure 5. The experimental data, (dots), plotted against the Langmuir isotherm (solid).
 
@@ -287,7 +287,7 @@ The reactor in the system as shown in Figure 8 was developed by the summer 2018 
 <div style = "text-align:center">
 <img
 align = "center"
-<img src= "https://github.com/AguaClara/fluoride/blob/master/fluoride%20report/new%20reactor.JPG?raw=true" height=250 width=320>
+<img src= "https://github.com/AguaClara/fluoride/blob/master/Fall%202018/fluoride%20report/new%20reactor.JPG?raw=true" height=250 width=320>
 
 Figure 6: The sedimentation tube used for removal of the fluoride-containing flocs created during flocculation.
 </div>
