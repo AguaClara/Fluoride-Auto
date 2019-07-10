@@ -43,7 +43,7 @@ Floc blankets develop when vertical flow sedimentation tanks form a fluidized be
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Summer%202018/fluoride%20report/Flocs_in_Reactor.jpg" height=400, width=300>
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/fluoride%20report/Flocs_in_Reactor.jpg?raw=true" height=400, width=300>
 
 Figure 2: Floc blanket forming in the reactor
 
@@ -72,11 +72,11 @@ In the Spring 2018 semester, experiments were conducted with a new fluoride prob
 <div style = "text-align:center">
 <img
 align = "center"
-src="https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202018/fluoride%20report/Results.png>
+src="https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202018/fluoride%20report/Results.png?raw=true">
 
 Figure 3: A summary of the experimental results of final fluoride concentrations based on varied concentrations of initial and PACl concentrations.
 
-<div style = "text-align:left">
+</div>
 
 In Summer 2018, the team ran experiments to measure the effluent concentrations of fluoride for different concentrations of PACl to construct an adsorption model, which could be used to predict the PACl dosage required for a desired effluent fluoride concentration and would generate an adsorption density value for the mass of fluoride adsorbed (W). The WHO standard for fluoride levels is 1.5 $\mathrm{\frac{mg}{L}}$, which is the desired effluent fluoride concentration. Therefore, the model would calculate a range of uptake values that would result in the target effluent concentration. In addition, the model would provide a way to calculate the PACl dosage required to treat an initial fluoride concentration given a range of W values (equation seen below).
 
