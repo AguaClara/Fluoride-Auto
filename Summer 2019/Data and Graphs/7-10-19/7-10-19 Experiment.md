@@ -1,4 +1,5 @@
 ```python
+import matplotlib.pyplot as plt
 import aguaclara.research.procoda_parser as pp
 import scipy.stats as stats
 import pandas as pd
@@ -16,6 +17,14 @@ fluoride = data.iloc[:,13]
 turbidity = data.iloc[:,7]
 
 #Plot floc blanket height vs. time
-flocdata = ""
+flocdata = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-10-19/Floc%20Blanket.csv"
+floc_raw = pd.read_csv(flocdata)
+time = floc_raw.iloc[:,1]
+height = floc_raw.iloc[:,2]
+plt.plot(time, height)
+plt.title = 'Height of the Floc Blanket over Time'
+plt.xlabel = ('Time (sec)')
+plt.ylabel = ('Height from Bottom of Sedimentation Tube (cm)')
+
 
 ```
