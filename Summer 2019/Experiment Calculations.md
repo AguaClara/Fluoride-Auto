@@ -21,7 +21,7 @@ T_residence= (Vol_reactor/Q_reactor).to(u.minute)
 #Concentration of PACl stock
 C_stock_PACl = 1000*u.mg/u.L
 #Input concentration of PACl that you want in the reactor
-C_reactor_PAC = 10 * u.mg/u.L
+C_reactor_PAC = 40 * u.mg/u.L
 #Coagulant microtubing (orange-yellow)
 oy_tube=0.019*u.mL/u.revolutions
 #Flow rate of PACl in mL/s (put into ProCoDA)
@@ -48,7 +48,7 @@ print('Fluoride pump should be set at: '+str(Q_stock_F_rpm))
 #Concentration of clay stock
 C_stock_clay = 100*u.mg/u.L
 #Input concentration of PACl that you want in the reactor
-C_reactor_clay = 6 * u.mg/u.L
+C_reactor_clay = 0 * u.mg/u.L
 #Coagulant microtubing (orange-yellow)
 oy_tube=0.019*u.mL/u.revolutions
 #Flow rate of PACl in mL/s (put into ProCoDA)
