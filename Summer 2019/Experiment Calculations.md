@@ -65,11 +65,10 @@ water_tube = 0.8*u.mL/u.revolutions
 Q_tap_rpm = (Q_tap/(water_tube))*(60*u.sec/u.minute)
 print('Water in rpm should be: '+str(Q_tap_rpm))
 
-
 #Convert RPM back to mg/L (in case there were calculation errors) - can also use for calculating concentration in gravity system
 #PACL
 #RPM from the pump
-PAC_rpm = 24*u.turn/u.minute
+PAC_rpm = 92*u.turn/u.minute
 stock_PAC = PAC_rpm*oy_tube/(60*u.sec/u.minute)
 stock_PAC=0.0120*u.mL/u.sec
 reactor_PAC = stock_PAC*(C_stock_PACl/Q_reactor)
