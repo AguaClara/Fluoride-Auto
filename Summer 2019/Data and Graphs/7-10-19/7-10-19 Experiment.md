@@ -8,13 +8,15 @@ import scipy as sp
 import scipy.optimize as opt
 from aguaclara.play import *
 
-july10exp = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-10-19/datalog%207-10-2019%20updated.xls"
-data_raw = pd.read_csv(july10exp, delimiter=" ")
+july10exp = "/Users/melissalouie/Fluoride-Auto/Summer 2019/Data and Graphs/7-10-19/datalog 7-10-2019.xls"
+data_raw = pd.read_csv(july10exp, delimiter="\t")
 data = pp.remove_notes(data_raw)
-time = data.iloc[:,0]
-time_number = pd.to_numeric(time)
+time = pd.to_numeric(data.iloc[:,0])
+time = pd.to_numeric(time)
 fluoride = data.iloc[:,3]
 turbidity = data.iloc[:,2]
+plt.plot(time,fluoride)
+plt.plot(time,)
 
 #Plot floc blanket height vs. time
 flocdata = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-10-19/Floc%20Blanket.csv"
