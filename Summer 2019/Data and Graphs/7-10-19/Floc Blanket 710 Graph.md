@@ -9,15 +9,16 @@ import scipy.optimize as opt
 from aguaclara.play import *
 
 #Plot floc blanket height vs. time
-flocdata = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-10-19/Floc%20Blanket.csv"
+flocdata = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-10-19/Floc%20Blanket%20710.csv"
 floc_raw = pd.read_csv(flocdata)
 time = floc_raw.iloc[:,1]
 height = floc_raw.iloc[:,2]
 plt.plot(time, height)
-plt.xlim(0,1000)
-plt.ylim(0,65)
+plt.xlim(0,2500)
+plt.ylim(0,100)
 plt.title("Height of the Floc Blanket over Time")
 plt.xlabel("Time (sec)")
 plt.ylabel("Height from Bottom of Sedimentation Tube (cm)")
+plt.savefig("Floc Blanket Graph 7-10")
 
 ```
