@@ -18,18 +18,18 @@ turbidity = pd.to_numeric(data.iloc[:,3])
 #turbidity_plot, = plt.plot(time, turbidity, "m-")
 
 # ax1 is the axis handle for the first y-axis
-fig, fluoride = plt.subplots()
-fluoride.set_xlabel("Time (minutes)")
-fluoride.set_ylabel("Effluent Fluoride Concentration (mg/L)")
+fig, ax1 = plt.subplots()
+ax1.set_xlabel("Time (minutes)")
+ax1.set_ylabel("Effluent Fluoride Concentration (mg/L)")
 # line1 is the line handle for the effluent_turbidity graph
-fluoride_plot, = fluoride.plot(time, fluoride, color="blue")
+fluoride_plot, = ax1.plot(time, fluoride, color="blue")
+
 
 # ax2 is an axis handle for the second y-axis, with the same x-axis as ax1
-turbidity = fluoride.twinx()
-turbidity.set_ylabel("Effluent Turbidity (NTU)")
-turbidity.set_ylim(0,5)
+ax2 = ax1.twinx()
+ax2.set_ylabel("Effluent Turbidity (NTU)")
+ax2.set_ylim(0,5)
 # line1 is the line handle for the effluent_turbidity graph
-line2, = turbidity.plot(time, turbidity, color="green")
-
+turbidity_plot, = ax2.plot(time, turbidity, color="green")
 
 ```

@@ -7,7 +7,7 @@ from aguaclara.play import*
 #Diameter of reactor tube
 D_reactor = 1 * u.inch
 #Input upflow velocity
-V_up = 1.32 * u.mm/u.s
+V_up = 1.1 * u.mm/u.s
 #Flow rate into reactor
 Q_reactor = (m.pi*((D_reactor/2)**2)*V_up).to(u.mL/u.s)
 #Height of reactor
@@ -64,6 +64,8 @@ print('Water should be set in ProCoDA to: '+str(Q_tap))
 water_tube = 0.8*u.mL/u.revolutions
 Q_tap_rpm = (Q_tap/(water_tube))*(60*u.sec/u.minute)
 print('Water in rpm should be: '+str(Q_tap_rpm))
+
+
 
 #Convert RPM back to mg/L (in case there were calculation errors) - can also use for calculating concentration in gravity system
 #PACL
