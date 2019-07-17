@@ -16,7 +16,7 @@ height = floc_raw.iloc[:,2]
 plt.plot(time, height)
 plt.xlim(0,4000)
 plt.ylim(0,65)
-plt.title("Height of the Floc Blanket over Time")
+plt.title("7-12-19 Height of the Floc Blanket over Time")
 plt.xlabel("Time (sec)")
 plt.ylabel("Height from Bottom of Sedimentation Tube (cm)")
 plt.savefig("Floc Blanket Graph 7-12")
