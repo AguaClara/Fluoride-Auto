@@ -7,7 +7,7 @@ from aguaclara.play import*
 #Diameter of reactor tube
 D_reactor = 1 * u.inch
 #Input upflow velocity
-V_up = 1.1 * u.mm/u.s
+V_up = 1.25 * u.mm/u.s
 #Flow rate into reactor
 Q_reactor = (m.pi*((D_reactor/2)**2)*V_up).to(u.mL/u.s)
 #Height of reactor
@@ -21,7 +21,7 @@ T_residence= (Vol_reactor/Q_reactor).to(u.minute)
 #Concentration of PACl stock
 C_stock_PACl = 1000*u.mg/u.L
 #Input concentration of PACl that you want in the reactor
-C_reactor_PAC = 40 * u.mg/u.L
+C_reactor_PAC = 30 * u.mg/u.L
 #Coagulant microtubing (orange-yellow)
 oy_tube=0.019*u.mL/u.revolutions
 #Flow rate of PACl in mL/s (put into ProCoDA)
@@ -67,7 +67,12 @@ print('Water in rpm should be: '+str(Q_tap_rpm))
 
 
 
-#Convert RPM back to mg/L (in case there were calculation errors) - can also use for calculating concentration in gravity system
+#Convert RPM back to mL/s or mg/L (in case there were calculation errors) - can also use for calculating concentration in gravity system
+#WATER
+Q_tap_rpm = 39 /u.minute
+Q_reactor = Q_tap_rpm*water_tube/(60*u.sec/u.minute)
+print('Water in mL/s is: '+str(Q_reactor))
+
 #PACL
 #RPM from the pump
 PAC_rpm = 92*u.turn/u.minute
