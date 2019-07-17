@@ -19,6 +19,6 @@ plt.ylim(0,65)
 plt.title("Height of the Floc Blanket over Time")
 plt.xlabel("Time (sec)")
 plt.ylabel("Height from Bottom of Sedimentation Tube (cm)")
-plt.savefig("Floc Blanket Graph 7-10")
+plt.savefig("Floc Blanket Graph 7-11")
 
 ```

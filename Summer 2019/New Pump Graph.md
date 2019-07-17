@@ -18,7 +18,6 @@ ax1.set_xlabel("RPM")
 ax1.set_ylabel("Expected Flow Rate (mL/s)")
 # line1 is the line handle for the effluent_turbidity graph
 expected_plot, = ax1.plot(rpm, expected_rate, color="blue")
-linreg
 
 ax2 = ax1.twinx()
 ax2.set_ylabel("Actual Flow Rate (mL/s)")

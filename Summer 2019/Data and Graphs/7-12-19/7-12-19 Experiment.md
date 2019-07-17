@@ -7,8 +7,8 @@ import scipy as sp
 import scipy.optimize as opt
 from aguaclara.play import *
 
-july11exp = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-11-19/datalog%207-11-2019.xls"
-data_raw = pd.read_csv(july11exp, delimiter="\t")
+july12exp = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-12-19/datalog%207-12-2019.xls"
+data_raw = pd.read_csv(july12exp, delimiter="\t")
 data = pp.remove_notes(data_raw)
 time = pd.to_numeric(data.iloc[:,5])/60
 fluoride = data.iloc[:,2]
@@ -28,8 +28,9 @@ ax2.set_ylabel("Effluent Turbidity (NTU)")
 ax2.set_ylim(0,1)
 # line1 is the line handle for the effluent_turbidity graph
 turbidity_plot, = ax2.plot(time, turbidity, color="green")
-plt.title("7-11-19 Effluent Fluoride Concentration and Turbidity")
+plt.title("7-12-19 Effluent Fluoride Concentration and Turbidity")
 plt.legend((fluoride_plot, turbidity_plot),("Fluoride Concentration","Turbidity"))
 
-plt.savefig("7-11-19 Effluent Fluoride Concentration and Turbidity")
+plt.savefig("7-12-19 Effluent Fluoride Concentration and Turbidity")
+
 ```

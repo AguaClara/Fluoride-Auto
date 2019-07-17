@@ -30,5 +30,6 @@ ax2.set_ylim(0,5)
 # line1 is the line handle for the effluent_turbidity graph
 turbidity_plot, = ax2.plot(time, turbidity, color="green")
 plt.title("7-9-19 Effluent Fluoride Concentration and Turbidity")
+plt.legend((fluoride_plot, turbidity_plot),("Fluoride Concentration","Turbidity"))
 
 plt.savefig("7-9-19 Effluent Fluoride Concentration and Turbidity")
