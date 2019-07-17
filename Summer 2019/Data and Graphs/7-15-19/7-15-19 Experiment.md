@@ -7,8 +7,8 @@ import scipy as sp
 import scipy.optimize as opt
 from aguaclara.play import *
 
-july12exp = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-12-19/datalog%207-12-2019.xls"
-data_raw = pd.read_csv(july12exp, delimiter="\t")
+exp1 = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-12-19/datalog%207-12-2019.xls"
+data_raw = pd.read_csv(exp1, delimiter="\t")
 data = pp.remove_notes(data_raw)
 time = pd.to_numeric(data.iloc[:,5])/60
 fluoride = data.iloc[:,2]
