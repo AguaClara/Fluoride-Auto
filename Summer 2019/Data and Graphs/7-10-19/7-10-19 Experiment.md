@@ -8,7 +8,7 @@ import scipy.optimize as opt
 from aguaclara.play import *
 
 #Graph fluoride concentration and turbidity vs. time
-july10exp = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-10-19/datalog%207-10-2019.xls"
+july10exp = "/Users/melissalouie/Fluoride-Auto/Summer 2019/Data and Graphs/7-10-19/datalog 7-10-2019.xls"
 data_raw = pd.read_csv(july10exp, delimiter="\t")
 data = pp.remove_notes(data_raw)
 time = data.iloc[:,4]/60
@@ -40,21 +40,22 @@ plt.savefig("7-10-19 Effluent Fluoride Concentration and Turbidity")
 fig, ax3 = plt.subplots()
 ax3.set_xlabel("Time (minutes)")
 ax3.set_ylabel("Effluent Fluoride Concentration (mg/L)")
-ax3.set_ylim(0,10)
+ax3.set_ylim(0,4)
 # line1 is the line handle for the effluent_turbidity graph
 fluoride_plot, = ax3.plot(time, fluoride, color="blue")
 
 # ax2 is an axis handle for the second y-axis, with the same x-axis as ax1
 ax4 = ax3.twinx()
-ax3.set_ylabel("Floc Blanket Height (cm)")
-ax3.set_ylim(0,5)
+ax4.set_ylabel("Floc Blanket Height (cm)")
+ax4.set_ylim(0,90)
 # line1 is the line handle for the effluent_turbidity graph
-flocblanket_plot, = ax3.plot(time, floc_blanket, color="red")
-plt.title("7-10-19 Effluent Fluoride Concentration and Turbidity")
+flocblanket_plot, = ax4.plot(time, floc_blanket, "ro")
+plt.title("7-10-19 Floc Blanket Height and Fluoride Concentration over Time")
 plt.legend((fluoride_plot, flocblanket_plot),("Fluoride Concentration","Floc Blanket Height"))
 
 
 #Graph turbidity and floc blanket height vs. time
-
+fig, ax5 = plt.subplot()
+ax5.set_xlabel("Time(minutes)")
 
 ```
