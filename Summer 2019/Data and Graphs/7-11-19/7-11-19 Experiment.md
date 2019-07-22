@@ -14,6 +14,7 @@ time = pd.to_numeric(data.iloc[:,5])/60
 fluoride = data.iloc[:,2]
 turbidity = data.iloc[:,4]
 
+
 # ax1 is the axis handle for the first y-axis
 fig, ax1 = plt.subplots()
 ax1.set_xlabel("Time (minutes)")
@@ -32,4 +33,6 @@ plt.title("7-11-19 Effluent Fluoride Concentration and Turbidity")
 plt.legend((fluoride_plot, turbidity_plot),("Fluoride Concentration","Turbidity"))
 
 plt.savefig("7-11-19 Effluent Fluoride Concentration and Turbidity")
+
+
 ```
