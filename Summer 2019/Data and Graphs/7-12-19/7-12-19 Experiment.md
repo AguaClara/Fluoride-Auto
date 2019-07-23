@@ -53,9 +53,9 @@ ax4.set_ylim(0,90)
 # line1 is the line handle for the effluent_turbidity graph
 flocblanket_plot, = ax4.plot(time, floc_blanket, "ro")
 
-plt.title("7-10-19 Floc Blanket Height and Fluoride Concentration over Time")
+plt.title("7-12-19 Floc Blanket Height and Fluoride Concentration over Time")
 plt.legend((fluoride_plot, flocblanket_plot),("Fluoride Concentration (mg/L)","Floc Blanket Height (cm)"))
-plt.savefig("7-10-19 Floc Blanket Height and Fluoride Concentration")
+plt.savefig("7-12-19 Floc Blanket Height and Fluoride Concentration")
 
 
 
@@ -63,13 +63,13 @@ plt.savefig("7-10-19 Floc Blanket Height and Fluoride Concentration")
 fig, ax5 = plt.subplots()
 ax5.set_xlabel("Time (minutes)")
 ax5.set_ylabel("Effluent Turbidity (NTU)")
-ax5.set_ylim(0,4)
+ax5.set_ylim(0,0.3)
 # line1 is the line handle for the effluent_turbidity graph
 turbidity_plot, = ax5.plot(time, turbidity, color="green")
 
 ax6 = ax5.twinx()
 ax6.set_ylabel("Floc Blanket Height (cm)")
-ax6.set_ylim(0,90)
+ax6.set_ylim(0,70)
 # line1 is the line handle for the effluent_turbidity graph
 flocblanket_plot, = ax6.plot(time, floc_blanket, "ro")
 
