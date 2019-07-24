@@ -10,9 +10,9 @@ from aguaclara.play import *
 july11exp = "https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/7-11-19/datalog%207-11-2019.xls"
 data_raw = pd.read_csv(july11exp, delimiter="\t")
 data = pp.remove_notes(data_raw)
-time = pd.to_numeric(data.iloc[:,5])/60
-fluoride = data.iloc[:,2]
-turbidity = data.iloc[:,4]
+time = pd.to_numeric(data.iloc[:,1])/60
+fluoride = data.iloc[:,3]
+turbidity = data.iloc[:,5]
 
 
 # ax1 is the axis handle for the first y-axis
