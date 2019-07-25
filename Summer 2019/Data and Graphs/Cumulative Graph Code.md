@@ -24,9 +24,9 @@ spring19_uptake=spring19.iloc[:,1]
 spring19plot, =plt.plot(spring19_effluent,spring19_uptake,"ys")
 
 # import the summer 2019 data: summer19
-summer19 = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/Summer%202019%20data.csv')
-summer19_effluent=summer19.iloc[:,1]
-summer19_uptake=summer19.iloc[:,4]
+summer19 = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/Summer%202019%20Working%20Data.csv')
+summer19_effluent=summer19.iloc[:,2]
+summer19_uptake=summer19.iloc[:,5]
 summer19plot, =plt.plot(summer19_effluent,summer19_uptake,"ms")
 
 # find the logarithmic line of best fit for the data
