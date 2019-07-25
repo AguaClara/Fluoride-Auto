@@ -25,7 +25,7 @@ spring19plot, =plt.plot(spring19_effluent,spring19_uptake,"ys")
 
 # import the summer 2019 data: summer19
 summer19 = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/Summer%202019%20Working%20Data.csv')
-summer19_effluent=summer19.iloc[:,2]
+summer19_effluent=pd.to_numeric(summer19.iloc[:,2])
 summer19_uptake=summer19.iloc[:,5]
 summer19plot, =plt.plot(summer19_effluent,summer19_uptake,"ms")
 
@@ -61,4 +61,4 @@ plt.ylim(0,400)
 plt.xlabel("Effluent Fluoride Concentration (mg/L)")
 plt.ylabel("Uptake (mg Fluoride/g PaCl)")
 plt.legend((summer18plot, fall18plot, spring19plot, summer19plot, bestfit_plot,theoreticalplot),("Summer 2018", "Fall 2018", "Spring 2019", "Summer 2019", "Line of Best Fit","Theoretical Langmuir Isotherm"))
-plt.savefig("Cumulative Graph")
+#plt.savefig("Cumulative Graph")
