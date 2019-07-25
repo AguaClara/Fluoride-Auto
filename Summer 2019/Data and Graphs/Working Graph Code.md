@@ -15,11 +15,11 @@ summer19autoplot, =plt.plot(summer19_auto_effluent,summer19_auto_uptake,"rs")
 summer19grav = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/Working%20Experiments%20Grav.csv')
 summer19_grav_effluent=summer19grav.iloc[:,2]
 summer19_grav_uptake=summer19grav.iloc[:,5]
-summer19gravplot, =plt.plot(summer19_grav_effluent,summer19_grav_uptake,"cs")
+summer19gravplot, =plt.plot(summer19_grav_effluent, summer19_grav_uptake,"cs")
 
 plt.title("Summer 2019 Uptake vs. Effluent Successful Experiments")
-plt.xlim(0,6)
-plt.ylim(0,175)
+plt.xlim(0,20)
+plt.ylim(0,400)
 plt.xlabel("Effluent Fluoride Concentration (mg/L)")
 plt.ylabel("Uptake (mg Fluoride/g PaCl)")
 plt.legend((summer19autoplot, summer19gravplot), ("Automated System", "Gravity System"))
