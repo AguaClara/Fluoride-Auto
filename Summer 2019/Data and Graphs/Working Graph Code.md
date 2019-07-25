@@ -19,7 +19,7 @@ summer19gravplot, =plt.plot(summer19_grav_effluent, summer19_grav_uptake,"cs")
 
 plt.title("Summer 2019 Uptake vs. Effluent Successful Experiments")
 plt.xlim(0,15)
-plt.ylim(0,10)
+plt.ylim(0,400)
 plt.xlabel("Effluent Fluoride Concentration (mg/L)")
 plt.ylabel("Uptake (mg Fluoride/g PaCl)")
 plt.legend((summer19autoplot, summer19gravplot), ("Automated System", "Gravity System"))
