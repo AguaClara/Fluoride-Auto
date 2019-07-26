@@ -1,4 +1,20 @@
 ```python
+import math as m
+import numpy as np
+from aguaclara.play import*
+
+#Convert flow rate into upflow velocity
+D_reactor = (1*u.inch).to(u.mm)
+A_reactor = m.pi*(D_reactor/2)**2
+Q_reactor = 0.787 * u.mL/u.sec
+V_up = Q_reactor / (A_reactor*0.001*u.mL/u.mm**3)
+print("Upflow velocity is "+str(V_up))
+
+#Convert upflow velocity into flow rate
+v_up = 1.55 * u.mm/u.sec
+q_reactor = v_up * (A_reactor*0.001*u.mL/u.mm**3)
+print("Flow rate is "+str(q_reactor))
+
 #Convert RPM back to mL/s or mg/L (in case there were calculation errors) - can also use for calculating concentration in gravity system
 #WATER
 Q_tap_rpm = 39 /u.minute
