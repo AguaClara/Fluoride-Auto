@@ -23,9 +23,11 @@ print('Water in mL/s is: '+str(Q_reactor))
 
 #PACL
 #RPM from the pump
-PAC_rpm = 92*u.turn/u.minute
-stock_PAC = PAC_rpm*oy_tube/(60*u.sec/u.minute)
-stock_PAC=0.0120*u.mL/u.sec
+C_stock_PACl = 1000 * u.mg/u.L
+Q_reactor = 0.787 * u.mL/u.sec
+#PAC_rpm = 92*u.turn/u.minute
+#stock_PAC = PAC_rpm*oy_tube/(60*u.sec/u.minute)
+stock_PAC=0.02371*u.mL/u.sec
 reactor_PAC = stock_PAC*(C_stock_PACl/Q_reactor)
 print('PACl concentration is: '+str(reactor_PAC))
 
