@@ -19,14 +19,14 @@ floc_blanket = data.iloc[:,6]
 fig, ax1 = plt.subplots()
 ax1.set_xlabel("Time (minutes)")
 ax1.set_ylabel("Effluent Fluoride Concentration (mg/L)")
-ax1.set_ylim(0,2)
+ax1.set_ylim(0,10)
 # line1 is the line handle for the effluent_turbidity graph
 fluoride_plot, = ax1.plot(time, fluoride, color="blue")
 
 # ax2 is an axis handle for the second y-axis, with the same x-axis as ax1
 ax2 = ax1.twinx()
 ax2.set_ylabel("Effluent Turbidity (NTU)")
-ax2.set_ylim(0,1)
+ax2.set_ylim(0,5)
 # line1 is the line handle for the effluent_turbidity graph
 turbidity_plot, = ax2.plot(time, turbidity, color="green")
 plt.title("7-11-19 Effluent Fluoride Concentration and Turbidity")
@@ -60,7 +60,7 @@ plt.savefig("7-11-19 Floc Blanket Height and Fluoride Concentration")
 fig, ax5 = plt.subplots()
 ax5.set_xlabel("Time (minutes)")
 ax5.set_ylabel("Effluent Turbidity (NTU)")
-ax5.set_ylim(0,4)
+ax5.set_ylim(0,5)
 # turbidity_plot is the line handle for the effluent turbidity graph
 turbidity_plot, = ax5.plot(time, turbidity, color="green")
 
