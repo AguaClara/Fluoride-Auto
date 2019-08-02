@@ -34,7 +34,7 @@ print('PACl in rpm is: '+str(Q_stock_PAC_rpm))
 #Concentration of fluoride stock
 C_stock_F = 1000 * u.mg/u.L
 #Input concentration of fluoride that you want in the reactor
-C_reactor_F = 5 * u.mg/u.L
+C_reactor_F = 40 * u.mg/u.L
 #Fluoride microtubing (orange-yellow)
 oy_tube=0.019*u.mL/u.revolutions
 #Flow rate of fluoride in mL/s (check in ProCoDA)

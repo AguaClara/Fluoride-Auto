@@ -11,7 +11,7 @@ import numpy as np
 #Diameter of reactor tube
 D_reactor = 1 * u.inch
 #upflow velocity
-V_up = 1.5 * u.mm/u.s
+V_up = 1.3 * u.mm/u.s
 #Flow rate into reactor
 Q_reactor = (m.pi*((D_reactor/2)**2)*V_up).to(u.mL/u.s)
 #Height of reactor
