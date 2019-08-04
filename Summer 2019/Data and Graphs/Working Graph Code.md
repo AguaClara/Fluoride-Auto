@@ -23,4 +23,5 @@ plt.ylim(0,400)
 plt.xlabel("Effluent Fluoride Concentration (mg/L)")
 plt.ylabel("Uptake (mg Fluoride/g PaCl)")
 plt.legend((summer19autoplot, summer19gravplot), ("Automated System", "Gravity System"))
-#plt.savefig("Working Graphs")
+plt.savefig("Working Graphs")
+```
