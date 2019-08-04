@@ -15,12 +15,12 @@ np.polyfit(np.log(effluent_fluoride),ratio,1)
 
 bestfit_effluent = np.array(np.linspace(0.45,12))
 bestfit_uptake = 1.47516487 * np.log(bestfit_effluent) + 0.10178618
-bestfit_plot, = plt.plot(bestfit_effluent, bestfit_uptake, "g")
+bestfit_plot, = plt.plot(bestfit_effluent, bestfit_uptake, "b")
 
 plt.title("Uptakes of Fluoride Atoms by PACl Molecules")
 plt.xlabel("Effluent Fluoride (mg/L)")
 plt.ylabel("Uptake (Atoms Fluoride/Molecules PACl)")
-plt.legend((bestfit_plot), ("Uptake equals 1.47516487timeslog(effluent) plus 0.10178618"))
+plt.legend((fluoride_plot, bestfit_plot), ("Experimental Ratios", "Line of Best Fit"))
 
 plt.savefig("Uptakes of Fluoride Atoms by PACl Molecules")
 
