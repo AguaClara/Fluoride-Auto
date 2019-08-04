@@ -25,18 +25,33 @@ np.polyfit(np.log(alldata_effluent),alldata_uptake,1)
 
 bestfit_effluent = np.array(np.linspace(0.45,12))
 bestfit_uptake =  132.63782551 * np.log(bestfit_effluent) + 9.16487889
-bestfit_plot, =plt.plot(bestfit_effluent,bestfit_uptake)
+bestfit_plot, =plt.plot(bestfit_effluent,bestfit_uptake, "k")
 
+# find r^2 value for line of best fit
+log_alldata_effluent=np.log(np.array(alldata_effluent))
+linreg = stats.linregress(log_alldata_effluent, alldata_uptake)
+slope, intercept, r_value = linreg[0:3]
+print("R-squared for line of best fit", (r_value ** 2))
+
+#Theoretical Langmuir Isotherm from previous semesters
 theoretical = pd.read_csv('https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Spring%202019/Langmuir%20Isotherm%20Data/theoretical%20data%20points.csv')
 theoretical_effluent=theoretical.iloc[:,0]
 theoretical_uptake=theoretical.iloc[:,1]
 theoreticalplot, =plt.plot(theoretical_effluent,theoretical_uptake,"m")
 
-plt.title("Summer 2019 Uptake vs. Effluent Successful Experiments")
+#Langmuir Isotherm from Summer 2019
+#Q = 555.7, K = 0.12
+theoretical_isotherm = pd.read_csv("https://raw.githubusercontent.com/AguaClara/Fluoride-Auto/master/Summer%202019/Data%20and%20Graphs/Isotherm/Theoretical%20Isotherm.csv", delimiter = "\t")
+effluent = theoretical_isotherm.iloc[:,0]
+uptake = theoretical_isotherm.iloc[:,1]
+#isotherm_plot, = plt.plot(effluent, uptake, "m")
+
+plt.title("Summer 2019 Data with Previous Isotherm")
 plt.xlim(0,15)
 plt.ylim(0,400)
 plt.xlabel("Effluent Fluoride Concentration (mg/L)")
 plt.ylabel("Uptake (mg Fluoride/g PaCl)")
-plt.legend((summer19autoplot, summer19gravplot, bestfit_plot, theoreticalplot), ("Automated System", "Gravity System", "Summer 2019 Line of Best Fit", "Isotherm Used in Previous Semesters"))
-plt.savefig("Working Graphs")
+plt.legend((summer19autoplot, summer19gravplot, bestfit_plot, isotherm_plot), ("Automated System", "Gravity System", "Summer 2019 Line of Best Fit", "Langmuir Isotherm from Previous Semesters"))
+
+plt.savefig("Summer 2019 Data with Previous Isotherm")
 ```
