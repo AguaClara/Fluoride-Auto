@@ -13,9 +13,15 @@ fluoride_plot, = plt.plot(effluent_fluoride, ratio, "mo")
 np.polyfit(np.log(effluent_fluoride),ratio,1)
 # line of best fit for data: uptake = 1.47516487 log(effluent) + 0.10178618
 
-bestfit_effluent = np.array(np.linspace(0.45,12))
+bestfit_effluent = np.array(np.linspace(start = 0, stop = 10, num = 19))
 bestfit_uptake = 1.47516487 * np.log(bestfit_effluent) + 0.10178618
 bestfit_plot, = plt.plot(bestfit_effluent, bestfit_uptake, "b")
+
+
+log_alldata_effluent=np.log(np.array(effluent_fluoride))
+linreg = stats.linregress(log_alldata_effluent, ratio)
+slope, intercept, r_value = linreg[0:3]
+print("R-squared for line of best fit", (r_value ** 2))
 
 plt.title("Uptakes of Fluoride Atoms by PACl Molecules")
 plt.xlabel("Effluent Fluoride (mg/L)")
