@@ -54,3 +54,4 @@ Fluoride contamination of groundwater is a major, well-known health concern, tha
   * Fall 2019
     - [Fall 2019 Report](https://github.com/AguaClara/Fluoride-Auto/blob/master/Fall%202019/Fluoride_Fall_2019_Report.ipynb)
     - [Fall 2019 Symposium](https://docs.google.com/presentation/d/15y69_xGLYDWd-PFd6RaPozXLKfij7zrerIL6WU8g7k8/edit?usp=sharing)
+    - [Fall 2019 Final Presentation](https://www.youtube.com/watch?v=lhzFKmcN2m0&list=PLhsGtpY8ipdbPRIXbSapShc0mjhFR_Nzr&index=6)
